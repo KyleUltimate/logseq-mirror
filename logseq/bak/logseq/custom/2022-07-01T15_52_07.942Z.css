@@ -1,0 +1,8 @@
+:root {
+  --ct-text-size: 18px;
+  --ct-line-height: 1.6;
+  --ls-font-family: "Noto Sans";
+  --ct-page-title-font-family: var(--ls-font-family);
+  --ct-code-font-family: "Noto Sans";
+}
+
