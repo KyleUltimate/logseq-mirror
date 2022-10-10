@@ -151,6 +151,9 @@
  {:block/name "now",
   :block/created-at 1656591754843,
   :block/updated-at 1656591754843}
+ {:block/name "oct 10th, 2022",
+  :block/created-at 1665331200719,
+  :block/updated-at 1665331200719}
  {:block/name "oct 1st, 2022",
   :block/created-at 1664553604264,
   :block/updated-at 1664553604264}
@@ -190,7 +193,7 @@
  {:block/name "公民檢討",
   :block/created-at 1664552706905,
   :block/updated-at 1664552706905}
- {:block/name "北非氣候",
+ {:block/name "北非檢討",
   :block/created-at 1665306323905,
   :block/updated-at 1665310808264}
  {:block/name "原核生物與原生生物",
@@ -235,7 +238,7 @@
  {:block/name "東北亞檢討",
   :block/created-at 1664800607706,
   :block/updated-at 1664803184736}
- {:block/name "東南亞與南亞",
+ {:block/name "東南亞與南亞檢討",
   :block/created-at 1664803299906,
   :block/updated-at 1664803625518}
  {:block/name "歷史檢討",
