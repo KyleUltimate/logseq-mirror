@@ -151,9 +151,9 @@
  {:block/name "nov 11th, 2022",
   :block/created-at 1668172595182,
   :block/updated-at 1668172595182}
- {:block/name "nov 16th, 2022",
-  :block/created-at 1668604829048,
-  :block/updated-at 1668604829048}
+ {:block/name "nov 14th, 2022",
+  :block/created-at 1668428615069,
+  :block/updated-at 1668428615069}
  {:block/name "now",
   :block/created-at 1656591754843,
   :block/updated-at 1656591754843}
@@ -190,9 +190,6 @@
  {:block/name "waiting",
   :block/created-at 1656591754843,
   :block/updated-at 1656591754843}
- {:block/name "三上第二次段考（學習）",
-  :block/created-at 1668605362824,
-  :block/updated-at 1668605447392}
  {:block/name "內營力與外營力",
   :block/created-at 1656898740321,
   :block/updated-at 1656899091155}
@@ -217,9 +214,6 @@
  {:block/name "國文一下",
   :block/created-at 1658151235176,
   :block/updated-at 1659013399093}
- {:block/name "地理",
-  :block/created-at 1668605426764,
-  :block/updated-at 1668605426764}
  {:block/name "地理檢討",
   :block/created-at 1664552659208,
   :block/updated-at 1665306325203}
@@ -258,10 +252,7 @@
   :block/updated-at 1664803625518}
  {:block/name "東南亞與南亞檢討",
   :block/created-at 1668172595553,
-  :block/updated-at 1668604871809}
- {:block/name "歷",
-  :block/created-at 1668605431141,
-  :block/updated-at 1668605431141}
+  :block/updated-at 1668172595553}
  {:block/name "歷史檢討",
   :block/created-at 1664552681628,
   :block/updated-at 1665581114408}
