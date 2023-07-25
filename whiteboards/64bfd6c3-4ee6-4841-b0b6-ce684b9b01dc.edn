@@ -696,7 +696,7 @@
 :nonce 1690295222834
 :isComplete true}}
 :block/updated-at 1690295246547} 
-{:block/created-at 1690295254311
+{:block/created-at 1690295260515
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -708,7 +708,7 @@
 :scaleLevel "xl"
 :fill "red"
 :type "text"
-:size [63 68]
+:size [75 68]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -721,10 +721,10 @@
 :lineHeight 1.2
 :fontSize 48
 :parentId "64bfd6c3-4ee6-4841-b0b6-ce684b9b01dc"
-:nonce 1690295241336
+:nonce 1690295241341
 :italic false
-:text "n="}}
-:block/updated-at 1690295254311})
+:text "n ="}}
+:block/updated-at 1690295260515})
 :pages (
 {:block/uuid #uuid "64bfd6c3-4ee6-4841-b0b6-ce684b9b01dc"
 :block/properties 
@@ -737,7 +737,7 @@
 :nonce 1
 :assets []
 :shapes-index ("892f9d90-2af4-11ee-b581-29832681dedf" "898e5f60-2af4-11ee-b581-29832681dedf" "89c68660-2af4-11ee-b581-29832681dedf" "8a1346d0-2af4-11ee-b581-29832681dedf" "8a55ce10-2af4-11ee-b581-29832681dedf" "8a891310-2af4-11ee-b581-29832681dedf" "8ab29410-2af4-11ee-b581-29832681dedf" "8ae4eeb0-2af4-11ee-b581-29832681dedf" "8b2727d0-2af4-11ee-b581-29832681dedf" "8b7e4880-2af4-11ee-b581-29832681dedf" "a5f863d0-2af4-11ee-b581-29832681dedf" "a6476e30-2af4-11ee-b581-29832681dedf" "a67c39d0-2af4-11ee-b581-29832681dedf" "a6bec110-2af4-11ee-b581-29832681dedf" "a6f47710-2af4-11ee-b581-29832681dedf" "a73a59b0-2af4-11ee-b581-29832681dedf" "a7784d10-2af4-11ee-b581-29832681dedf" "ab180910-2af4-11ee-b581-29832681dedf" "ab64f090-2af4-11ee-b581-29832681dedf" "aba777d0-2af4-11ee-b581-29832681dedf" "3846ceb0-2af6-11ee-bfea-31b76ad79d16" "7b31b280-2af6-11ee-bfea-31b76ad79d16" "7b4bca30-2af6-11ee-bfea-31b76ad79d16" "7b6545a0-2af6-11ee-bfea-31b76ad79d16" "7b6bd550-2af6-11ee-bfea-31b76ad79d16" "7b7f5d50-2af6-11ee-bfea-31b76ad79d16" "7a67d2d0-2af6-11ee-bfea-31b76ad79d16" "794747a0-2af6-11ee-bfea-31b76ad79d16" "7865c140-2af6-11ee-bfea-31b76ad79d16" "79ffe940-2af6-11ee-bfea-31b76ad79d16" "78d83220-2af6-11ee-bfea-31b76ad79d16" "52b36000-2af7-11ee-bfea-31b76ad79d16" "5dbe8600-2af7-11ee-bfea-31b76ad79d16")}}
-:block/updated-at 1690295254311
+:block/updated-at 1690295260515
 :block/created-at 1690293955120
 :block/type "whiteboard"
 :block/name "64bfd6c3-4ee6-4841-b0b6-ce684b9b01dc"
