@@ -38,6 +38,43 @@
 :block/properties 
 {}
 :block/uuid #uuid "64afc94e-7d3b-467d-917b-2dde2b03d149"} 
+{:block/created-at 1689242059056
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 0
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "0534a840-2163-11ee-94c4-993a7b7e5114"
+:fontWeight 700
+:noFill true
+:isLocked false
+:point [6528 -8]
+:fontSize 60
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [160 0]
+:bindingId nil}}
+:decorations 
+{:start nil
+:end "arrow"}
+:parentId "64ae0dc5-cc31-438b-b0e8-21ae14736fcb"
+:nonce 1689241945180
+:italic false}}
+:block/updated-at 1689242059056} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -47,40 +84,62 @@
 :block/properties 
 {}
 :block/uuid #uuid "64afc97a-1b5b-4afe-b731-56db09ce6bfc"} 
-{:block/content ""
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "64afc97a-1b5b-4afe-b731-56db09ce6bfc"}
-:block/parent 
-{:block/uuid #uuid "64ae0dc5-cc31-438b-b0e8-21ae14736fcb"}
-:block/uuid #uuid "64bfd5dc-5349-4833-ab71-86380d6db83e"} 
-{:block/created-at 1690293724418
+{:block/created-at 1689242055651
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
-{:blockType "B"
-:stroke ""
-:collapsed false
-:borderRadius 8
-:index 0
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 2
 :scale [1 1]
-:pageId "64bfd5dc-5349-4833-ab71-86380d6db83e"
+:scaleLevel "lg"
+:fill ""
+:type "box"
+:isFlippedY false
+:size [224 128]
+:strokeType "line"
+:ratio 1
+:strokeWidth 3.2
+:opacity 1
+:label "Quilt\nFabric\nFORGE"
+:sides 3
+:id "1e75a750-2163-11ee-94c4-993a7b7e5114"
+:fontWeight 700
+:noFill false
+:point [6720 -64]
+:fontSize 32
+:parentId "64ae0dc5-cc31-438b-b0e8-21ae14736fcb"
+:nonce 1689242050792
+:italic false}}
+:block/updated-at 1689242055651} 
+{:block/created-at 1689242049863
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 1
+:scale [1 1]
 :scaleLevel "md"
 :fill ""
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [400 40.75825881958008]
+:type "box"
+:size [112 48]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "d4d914c0-2af3-11ee-b210-e3491c439aa0"
+:label "Modloader"
+:id "2b73c3b0-2163-11ee-94c4-993a7b7e5114"
+:fontWeight 400
 :noFill false
-:point [6560 -80]
+:isLocked false
+:point [6392 -24]
+:fontSize 20
 :parentId "64ae0dc5-cc31-438b-b0e8-21ae14736fcb"
-:collapsedHeight 0
-:nonce 1690293723151}}
-:block/updated-at 1690293724418})
+:nonce 1689242009896
+:italic false}}
+:block/updated-at 1689242049863})
 :pages (
 {:block/uuid #uuid "64ae0dc5-cc31-438b-b0e8-21ae14736fcb"
 :block/properties 
@@ -92,8 +151,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("d4d914c0-2af3-11ee-b210-e3491c439aa0")}}
-:block/updated-at 1690293726213
+:shapes-index ("0534a840-2163-11ee-94c4-993a7b7e5114" "2b73c3b0-2163-11ee-94c4-993a7b7e5114" "1e75a750-2163-11ee-94c4-993a7b7e5114")}}
+:block/updated-at 1689242082573
 :block/created-at 1689128389109
 :block/type "whiteboard"
 :block/name "64ae0dc5-cc31-438b-b0e8-21ae14736fcb"
