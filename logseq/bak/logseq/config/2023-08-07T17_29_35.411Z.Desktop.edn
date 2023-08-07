@@ -202,7 +202,7 @@
 
  :favorites ["英文筆記" "英文單子練習" "How to take dummy notes?"]
  :publishing/all-pages-public? true
- :graph/settings {:journal? true, :builtin-pages? false, :orphan-pages? false}
+ :graph/settings {:journal? false, :builtin-pages? false, :orphan-pages? false}
  :preferred-format :markdown
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
