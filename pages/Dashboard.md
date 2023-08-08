@@ -20,8 +20,9 @@
   { :title [:h1 "Words of the day"]
    :query [:find (pull ?child [:block/content])
            :where
-           [?parent :block/title "Words of the day"]
-           [?parent :block/children ?child]
+            [?b :block/path-refs ?br]
+            [?br :block/name "daily_words"]
+            [?b :block/content ?child]
   ]
   :breadcumb-show? false
   :result-transform (fn [result] result)
