@@ -21,9 +21,10 @@
   :title [:h1 "Words of the day"]
    :query [:find (pull ?child [:block/children ?grandchild])
            :where
-           [?parent :block/title "Words of the day"]
+           (page-ref ?parent "daily_words")
            [?parent :block/children ?child]
-           [?child :block/children ?grandchild]]
+           [?child :block/children ?grandchild]
+  ]
    :breadcrumb-show? false
    :result-transform (fn [result] result)
    :collapsed? false
