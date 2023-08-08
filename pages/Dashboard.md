@@ -15,4 +15,12 @@
 		  :collapsed? false
 		  }
 		  #+END_QUERY
+- #+BEGIN_QUERY
+  { :title "Current Members"
+    :query [:find (pull ?b [*])
+            :where
+            (page-ref ?b "daily_words")
+            [?b :block/content ?content]]
+   }
+  #+END_QUERY
 -
