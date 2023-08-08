@@ -1,5 +1,6 @@
 - {{renderer :kanban_lztiuhuc}}
 	- Todo
-		- ttt
-	- In progress
-		- {{query }}
+		- {{query (todo later)}}
+		  query-table:: false
+		- In progress
+			- {{query (todo now)}}
