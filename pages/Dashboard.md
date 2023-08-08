@@ -9,6 +9,4 @@
 		  ]
 		  }
 		  #+END_QUERY
-- :LOGBOOK:
-  CLOCK: [2023-08-08 Tue 10:24:29]
-  :END:
+-
