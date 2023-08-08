@@ -20,4 +20,4 @@
    :query (daily_words)
    :collapsed? false}
   #+END_QUERY
-- {{query }}
+- {{query daily_words}}
