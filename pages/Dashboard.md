@@ -1,7 +1,9 @@
 - {{renderer :kanban_lztiuhuc}}
 	- Todo
 		- Later
-			- {{query (todo later)}}
+			- #+BEGIN_QUERY
+			  
+			  #+END_QUERY
 		- In progress
 			- {{query (todo now)}}
 - NOW FUCK MYSELF
