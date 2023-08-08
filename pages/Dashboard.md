@@ -22,7 +22,7 @@
    :query [:find (pull ?parent [*])
            :where
            (page-ref ?parent "daily_words")
-           ()
+           (?parent :block/content ?child)
   ]
    :breadcrumb-show? false
    :result-transform (fn [result] result)
