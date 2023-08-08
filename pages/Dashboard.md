@@ -5,8 +5,8 @@
 		  :query [:find (pull ?b [*])
 		  :where
 		    [?b :block/marker ?marker]
-		  [(contains? #{"TODO" "DOING" "DONE"} ?marker)]
-		  ]
-		  }
+		    [(missing? $ ?b: block/scheduled)]
+		    [?page :block/original-name ?name]}
 		  #+END_QUERY
+-
 -
