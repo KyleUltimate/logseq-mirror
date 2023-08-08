@@ -19,9 +19,12 @@
 - #+BEGIN_QUERY
   {:title [:h3 "Tasks" ]
   :query [:find (pull ?b [*])
+  :in $ ?tag
   :where
-  
+    [?t :block/name ?tag]
+    [?p :block/tags ?t]
     [?b :block/page ?page]
+    [?p :block/name ?name]
     [?page :block/original-name ?name]]
   :breadcumb-show? false
   :result-transform (fn [result]
