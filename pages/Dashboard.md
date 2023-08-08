@@ -15,7 +15,6 @@
 		  :collapsed? false
 		  }
 		  #+END_QUERY
-- {{query #daily_words}}
 - #+BEGIN_QUERY
   {:title "All pages have a *programming* tag"
    :query [:find ?name
@@ -26,7 +25,7 @@
          [?p :block/name ?name]]
    :inputs ["daily_words"]
    :view (fn [result]
-         [:div.flex.flex-col
-          (for [page result]
-            [:a {:href (str "#/page/" page)} (clojure.string/capitalize page)])])}
+  (sort-by (fn [h]
+  (get h :block/created-at)) result))
+  }
   #+END_QUERY
