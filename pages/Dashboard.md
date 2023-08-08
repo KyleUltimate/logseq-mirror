@@ -14,7 +14,7 @@
 		  :result-transform (fn [result]
 		  (sort-by (fn [h]
 		  (get h :block/created-at)) result))
-		  :collapsed? true
+		  :collapsed? false
 		  }
 		  #+END_QUERY
 -
