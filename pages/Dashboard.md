@@ -21,8 +21,8 @@
     :query [:find (pull ?b [*])
             :where
             [?b :block/path-refs ?br]
-            [?br :block-name "daily_words"]
-            [?br :block/content ?p]
+            [?br :block/name "daily_words"]
+            [?b :block/content ?content]
   ]
   :breadcumb-show? false
   :result-transform (fn [result] result)
