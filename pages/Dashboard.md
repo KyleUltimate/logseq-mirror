@@ -1,0 +1,5 @@
+- {{renderer :kanban_lztiuhuc}}
+	- Todo
+		- ttt
+	- In progress
+		- {{query }}
