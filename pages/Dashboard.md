@@ -16,7 +16,7 @@
 		  }
 		  #+END_QUERY
 - #+BEGIN_QUERY
-  {:title "DOING tasks with priority A"
+  {:title "Daily words"
    :query (and [[daily_words]])
   :breadcumb-show? false
   :result-transform (fn [result] result)
