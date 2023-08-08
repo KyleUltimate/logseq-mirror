@@ -16,11 +16,16 @@
 		  }
 		  #+END_QUERY
 - #+BEGIN_QUERY
-  { :title "Current Members"
+  { :title [:h1 "Words of the day"]
     :query [:find (pull ?b [*])
             :where
             (page-ref ?b "daily_words")
-            [?b :block/content ?content]]
+            [?b :block/content ?result]]
+  :breadcumb-show? false
+  :result-transform (fn [result]
+  (sort-by (fn [h]
+  (get h :block/created-at)) result))
+  :collapsed? false
    }
   #+END_QUERY
 -
