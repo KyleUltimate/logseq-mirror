@@ -2,7 +2,11 @@
 	- Todo
 		- Later
 			- #+BEGIN_QUERY
-			  
+			  {:title [:h3 "Main Tasks:]
+			  :query [:find (pull ?b [*])]
+			  :where
+			  [?b ]
+			  }
 			  #+END_QUERY
 		- In progress
 			- {{query (todo now)}}
