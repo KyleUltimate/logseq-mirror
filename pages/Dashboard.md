@@ -16,7 +16,8 @@
 		  }
 		  #+END_QUERY
 - #+BEGIN_QUERY
-  {:title "All pages have a *programming* tag"
-  :query ([[daily_words]])
-  
+  {:title "DOING tasks with priority A"
+   :query (daily_words)
+   :collapsed? false}
   #+END_QUERY
+- {{query }}
