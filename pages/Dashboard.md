@@ -23,6 +23,7 @@
             [?b :block/path-refs ?br]
             [?br :block/name "daily_words"]
             [?b :block/content ?content]
+            [?content :block/content _]
   ]
   :breadcumb-show? false
   :result-transform (fn [result] result)
