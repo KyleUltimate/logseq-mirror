@@ -6,7 +6,9 @@
 		  :where
 		    [?b :block/marker ?marker]
 		    [(missing? $ ?b: block/scheduled)]
-		    [?page :block/original-name ?name]}
+		    [?b :block/page ?page]
+		    [?page :block/original-name ?name]]
+		  }
 		  #+END_QUERY
 -
 -
