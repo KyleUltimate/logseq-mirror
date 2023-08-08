@@ -19,10 +19,11 @@
   #+BEGIN_QUERY
   {
   :title [:h1 "Words of the day"]
-   :query [:find (pull ?parent [:block/])
+   :query [:find (pull ?parent [*])
            :where
            (page-ref ?parent "daily_words")
-           (?parent :block/content _)
+           [?parent :block/content _]
+  [?parent :block/children ?child]
   ]
    :breadcrumb-show? false
    :result-transform (fn [result] result)
