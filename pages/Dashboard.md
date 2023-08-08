@@ -17,7 +17,7 @@
 		  #+END_QUERY
 - #+BEGIN_QUERY
   {:title "DOING tasks with priority A"
-   :query (daily_words)
+   :query (anddaily_words)
    :collapsed? false}
   #+END_QUERY
-- {{query daily_words}}
+-
