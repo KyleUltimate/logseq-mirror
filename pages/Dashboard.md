@@ -16,10 +16,3 @@
 		  }
 		  #+END_QUERY
 -
--
-- NOW FUCK
-  :LOGBOOK:
-  CLOCK: [2023-08-08 Tue 10:29:44]
-  CLOCK: [2023-08-08 Tue 10:29:44]
-  :END:
--
