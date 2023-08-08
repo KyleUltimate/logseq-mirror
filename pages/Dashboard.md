@@ -15,11 +15,4 @@
 		  :collapsed? false
 		  }
 		  #+END_QUERY
-- #+BEGIN_QUERY
-  {:title "Daily words"
-   :query [:find (pull ?child [*])]
-  :breadcumb-show? false
-  :result-transform (fn [result] result)
-  :collapsed? false
-  }
-  #+END_QUERY
+-
