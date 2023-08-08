@@ -21,7 +21,8 @@
     :query [:find (pull ?b [*])
             :where
             (page-ref ?b "daily_words")
-            [?b :block/content ?result]
+            [?b :block/content ?content]
+            [?content :block/content ?result]
   ]
   :breadcumb-show? false
   :result-transform (fn [result] result)
