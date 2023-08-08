@@ -19,16 +19,18 @@
   #+BEGIN_QUERY
   {
   :title [:h1 "Words of the day"]
-   :query [:find ?content
+   :query [:find (pull ?child [:block/props])
            :where
            (page-ref ?parent "daily_words")
            [?parent :block/children ?child]
-           [?child :block/content ?content]
   ]
    :breadcrumb-show? false
-   :result-transform (fn [result] result)
+   :result-transform (fn [result]
+                       (map #(-> %
+                                 :block/props
+                                 (select-keys [:prop/translations :prop/example]))
+                            result))
    :collapsed? false
   }
   #+END_QUERY
 -
-- {{query #daily_words }}
