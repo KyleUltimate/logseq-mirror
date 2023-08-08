@@ -17,9 +17,10 @@
 		  #+END_QUERY
 - #+BEGIN_QUERY
   {:title "Daily words"
-   :query (and [[daily_words]] [+Words of the day])
+   :query (and [[daily_words]][+Words of the day])
   :breadcumb-show? false
   :result-transform (fn [result] result)
   :collapsed? false
   }
   #+END_QUERY
+-
