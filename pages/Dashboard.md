@@ -1,7 +1,8 @@
 - {{renderer :kanban_encgmikj}}
   template:: Todo List
 	- tasks
-		- #+BEGIN_QUERY
+		- collapsed:: true
+		  #+BEGIN_QUERY
 		  {:title [:h3 "Tasks" ]
 		  :query [:find (pull ?b [*])
 		  :where
@@ -13,7 +14,7 @@
 		  :result-transform (fn [result]
 		  (sort-by (fn [h]
 		  (get h :block/created-at)) result))
-		  :collapsed? false
+		  :collapsed? true
 		  }
 		  #+END_QUERY
 -
