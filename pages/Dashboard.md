@@ -22,8 +22,8 @@
             :where
             [?b :block/path-refs ?br]
             [?br :block/name "daily_words"]
-            [?b :block/content ?content]
-            [?content :block/page ?p]
+    [?b :block/page ?page]
+    [?page :block/original-name ?name]
   ]
   :breadcumb-show? false
   :result-transform (fn [result] result)
