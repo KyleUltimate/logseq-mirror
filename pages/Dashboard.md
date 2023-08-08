@@ -17,15 +17,6 @@
 		  #+END_QUERY
 - #+BEGIN_QUERY
   {:title "All pages have a *programming* tag"
-   :query [:find ?name
-         :in $ ?tag
-         :where
-         [?t :block/name ?tag]
-         [?p :block/tags ?t]
-         [?p :block/name ?name]]
-   :inputs ["daily_words"]
-   :view (fn [result]
-         [:div.flex.flex-col
-          (for [page result]
-            [:a {:href (str "#/page/" page)} (clojure.string/capitalize page)])])}
+  :query ([[daily_words]])
+  
   #+END_QUERY
