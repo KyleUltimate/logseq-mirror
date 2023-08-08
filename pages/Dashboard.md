@@ -19,9 +19,7 @@
   {:title "DOING tasks with priority A"
    :query (and [[daily_words]])
   :breadcumb-show? false
-  :result-transform (fn [result]
-  (sort-by (fn [h]
-  (get h :block/created-at)) result))
+  
   :collapsed? false
   }
   #+END_QUERY
