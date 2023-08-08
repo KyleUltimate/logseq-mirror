@@ -23,4 +23,3 @@
   :collapsed? false
   }
   #+END_QUERY
--
