@@ -12,7 +12,7 @@
 			  :breadcumb-show? false
 			  :result-transform (fn [result]
 			              sort-by (fn [h]
-			               (get h :block/created-at) result))
+			              (get h :block/created-at) result))
 			  :collapsed? false
 			  }
 			  #+END_QUERY
