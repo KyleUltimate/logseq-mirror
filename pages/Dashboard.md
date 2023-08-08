@@ -22,9 +22,7 @@
             (page-ref ?b "daily_words")
             [?b :block/content ?result]]
   :breadcumb-show? false
-  :result-transform (fn [result]
-  (sort-by (fn [h]
-  (get h :block/created-at)) result))
+  :result-transform (fn [result] result)
   :collapsed? false
    }
   #+END_QUERY
