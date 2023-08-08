@@ -18,15 +18,13 @@
 - query-properties:: [:block]
   #+BEGIN_QUERY
   { :title [:h1 "Words of the day"]
-   :query [:find (pull ?b [*])
+   :query [:find (pull ?child [:block/props {:block/children [:block/props {:block/content [:block/props]}]}])
            :where
-            [?b :block/path-refs ?br]
-            [?br :block/name "daily_words"]
-            [?b :block/content ?content]
-  ]
-  :breadcumb-show? false
-  :result-transform (fn [result] result)
-  :collapsed? false
+           [?parent :block/title "Words of the day"]
+           [?parent :block/children ?child]]
+   :breadcrumb-show? false
+   :result-transform (fn [result] result)
+   :collapsed? false
    }
   #+END_QUERY
 -
