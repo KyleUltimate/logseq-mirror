@@ -15,4 +15,9 @@
 		  :collapsed? false
 		  }
 		  #+END_QUERY
+- NOW FUCK YOU
+  :LOGBOOK:
+  CLOCK: [2023-08-08 Tue 10:32:31]
+  CLOCK: [2023-08-08 Tue 10:32:31]
+  :END:
 -
