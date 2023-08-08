@@ -1,5 +1,4 @@
 - {{renderer :kanban_encgmikj}}
-  collapsed:: true
 	- tasks
 		- #+BEGIN_QUERY
 		  {:title [:h3 "Tasks" ]
@@ -16,3 +15,4 @@
 		  :collapsed? false
 		  }
 		  #+END_QUERY
+-
