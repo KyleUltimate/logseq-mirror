@@ -20,7 +20,7 @@
     :query [:find (pull ?b [*])
             :where
             (page-ref ?b "daily_words")
-            [?t :block/name "daily_words"]
+            [?t :block/name ?result]
   ]
   :breadcumb-show? false
   :result-transform (fn [result] result)
