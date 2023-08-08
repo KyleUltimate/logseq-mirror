@@ -20,9 +20,9 @@
   { :title [:h1 "Words of the day"]
     :query [:find (pull ?b [*])
             :where
-            (page-ref ?b "daily_words")
-            [?b :block/content ?p]
-            [?p :block/namespace ?result]
+            [?b :block/path-refs ?br]
+            [?br :block-name "daily_words"]
+            [?br :block/content ?p]
   ]
   :breadcumb-show? false
   :result-transform (fn [result] result)
