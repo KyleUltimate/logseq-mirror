@@ -15,12 +15,13 @@
 		  :collapsed? false
 		  }
 		  #+END_QUERY
-- #+BEGIN_QUERY
+- query-properties:: [:block]
+  #+BEGIN_QUERY
   { :title [:h1 "Words of the day"]
     :query [:find (pull ?b [*])
             :where
             (page-ref ?b "daily_words")
-            [?t :block/name ?result]
+            [?b :block/content ?result]
   ]
   :breadcumb-show? false
   :result-transform (fn [result] result)
