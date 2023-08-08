@@ -21,9 +21,9 @@
             :where
             (page-ref ?b "daily_words")
             [?b :block/content ?result]
-            [?b :block/name ?name]]
+            [?p :block/name ?name]
   :breadcumb-show? false
-  :result-transform (fn [result] result)
+  :result-transform (fn [name] result)
   :collapsed? false
    }
   #+END_QUERY
