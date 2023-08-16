@@ -1,1 +1,2 @@
-- When finding roots, you can set
+- When finding roots, you can try if $x=1$ or $x=-1$ is a solution
+-
