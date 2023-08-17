@@ -1,8 +1,7 @@
-- {{renderer :kanban_encgmikj}}
-  template:: Todo List
+template:: Todo List
+
 	- tasks
-		- collapsed:: true
-		  #+BEGIN_QUERY
+		- #+BEGIN_QUERY
 		  {:title [:h3 "Tasks" ]
 		  :query [:find (pull ?b [*])
 		  :where
