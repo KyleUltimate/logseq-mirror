@@ -11,4 +11,3 @@
 		  \end{align*}
 		  #+END_EXPORT
 -
--
