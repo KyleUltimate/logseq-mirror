@@ -1,7 +1,7 @@
 - 和角公式
 	- $$ sin(\alpha + \beta) = sin(\alpha) \cdot cos(\beta) +  cos(\alpha) \cdot sin(\beta) $$
 	- mnemonics
-		- 撒口 + 口撒
+		- 撒口尬口撒
 	- 衍生（2 倍角公式）
 		- #+BEGIN_EXPORT latex
 		  \begin{align*}
