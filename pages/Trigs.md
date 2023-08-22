@@ -27,9 +27,7 @@
 	- #+BEGIN_EXPORT latex
 	  \begin{align*}
 	  &\boxed{sin = \frac{對邊}{斜邊}} \\
-	  &\rule{60pt}{0.4pt} \\
-	  &\boxed{cos = \frac{鄰邊}{斜邊} \\
-	  &\rule{60pt}{0.4pt} \\
-	  &tan = \frac{對邊}{鄰邊}
+	  &\boxed{cos = \frac{鄰邊}{斜邊}}\\
+	  &\boxed{tan = \frac{對邊}{鄰邊}}
 	  \end{align*}
 	  #+END_EXPORT
