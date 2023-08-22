@@ -1,2 +1,2 @@
 - 和角公式
-	- $$ sin(\theta + \beta) = sin(\theta)cos(\beta) + sin(\beta)cos(\theta)$$
+	- $$ sin(\theta + \beta) = sin(\theta) \cdot cos(\beta) + sin(\beta) \cdot cos(\theta)$$
