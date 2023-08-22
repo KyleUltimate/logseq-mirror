@@ -11,4 +11,9 @@
 		  \end{align*}
 		  #+END_EXPORT
 - 奇變偶不變，正負看象限
-	- $$$ sin(90*1 + 50) = -cos(50) $$$
+	- #+BEGIN_EXPORT latex
+	  \begin{align*}
+	  sin(90*1 + 50) &= -cos(50) \\
+	  sin(90*2 + 20) &= -sin(20) \\
+	  \end{align*}
+	  #+END_EXPORT
