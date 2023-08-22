@@ -41,39 +41,6 @@
 	  \end{align*}
 	  #+END_EXPORT
 - #+BEGIN_EXPORT latex
-  \begin{document}
-  
   \begin{figure}
-  \centering
-  \begin{subfigure}{.5\textwidth}
-    \centering
-    \includegraphics[width=.4\linewidth]{image1}
-    \caption{A subfigure}
-    \label{fig:sub1}
-  \end{subfigure}%
-  \begin{subfigure}{.5\textwidth}
-    \centering
-    \includegraphics[width=.4\linewidth]{image1}
-    \caption{A subfigure}
-    \label{fig:sub2}
-  \end{subfigure}
-  \caption{A figure with two subfigures}
-  \label{fig:test}
-  \end{figure}
-  
-  \begin{figure}
-  \centering
-  \begin{minipage}{.5\textwidth}
-    \centering
-    \includegraphics[width=.4\linewidth]{image1}
-    \captionof{figure}{A figure}
-    \label{fig:test1}
-  \end{minipage}%
-  \begin{minipage}{.5\textwidth}
-    \centering
-    \includegraphics[width=.4\linewidth]{image1}
-    \captionof{figure}{Another figure}
-    \label{fig:test2}
-  \end{minipage}
   \end{figure}
   #+END_EXPORT
