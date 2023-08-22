@@ -23,3 +23,9 @@
 	  #+END_EXPORT
 - 餘弦定理
 	- $$ c^2 = a^2 + b^2 -2ab \cdot cos(\theta) $$
+- 基礎定義
+	- #+BEGIN_EXPORT latex
+	  \begin{align*}
+	  sin = \fraction{對邊{斜邊
+	  \end{align*}
+	  #+END_EXPORT
