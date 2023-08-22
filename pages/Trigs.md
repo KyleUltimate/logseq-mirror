@@ -1,5 +1,5 @@
 - 和角公式
-	- $$ sin(\theta + \beta) = sin(\theta) \cdot cos(\beta) +  cos(\theta) \cdot sin(\beta) $$
+	- $$ sin(\alpha + \beta) = sin(\alpha) \cdot cos(\beta) +  cos(\alpha) \cdot sin(\beta) $$
 	- mnemonics
 		- 撒口 + 口撒
 	- 衍生（2 倍角公式）
