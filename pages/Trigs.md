@@ -27,7 +27,9 @@
 	- #+BEGIN_EXPORT latex
 	  \begin{align*}
 	  sin &= \frac{對邊}{斜邊} \\
+	  \vspace{3} \\
 	  cos &= \frac{鄰邊}{斜邊} \\
+	  \vspace{3} \\
 	  tan &= \frac{對邊}{鄰邊}
 	  \end{align*}
 	  #+END_EXPORT
