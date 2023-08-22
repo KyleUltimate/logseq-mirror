@@ -8,6 +8,7 @@
 		  sin(2\theta) &= sin(\theta + \theta) \\
 		  sin(\theta + \theta) &= sin(\theta) \cdot cos(\theta) + cos(\theta)\cdot sin(\theta)   \\
 		  sin(\theta + \theta) &= 2(sin(\theta) \cdot cos(\theta)) \\
+		  
 		  \end{align*}
 		  #+END_EXPORT
 -
