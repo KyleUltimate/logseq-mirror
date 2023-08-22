@@ -10,4 +10,5 @@
 		  sin(\theta + \theta) &= 2(sin(\theta) \cdot cos(\theta)) \\
 		  \end{align*}
 		  #+END_EXPORT
--
+- 奇變偶不變，正負看象限
+	- $$$ sin(90*1 + 50) = -cos(50) $$$
