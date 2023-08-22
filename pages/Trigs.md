@@ -1,5 +1,7 @@
 - 和角公式
-	- $$ sin(\theta + \beta) = sin(\theta) \cdot cos(\beta) + sin(\beta) \cdot cos(\theta)$$
+	- $$ sin(\theta + \beta) = sin(\theta) \cdot cos(\beta) +  cos(\theta) \cdot sin(\beta) $$
+	- mnemonics
+		-
 	- 衍生（2 倍角公式）
 		- #+BEGIN_EXPORT latex
 		  \begin{align*}
