@@ -26,9 +26,9 @@
 - 基礎定義
 	- #+BEGIN_EXPORT latex
 	  \begin{align*}
-	  &sin = \frac{對邊}{斜邊} \\
+	  &\boxed{sin = \frac{對邊}{斜邊}} \\
 	  &\rule{60pt}{0.4pt} \\
-	  &cos = \frac{鄰邊}{斜邊} \\
+	  &\boxed{cos = \frac{鄰邊}{斜邊} \\
 	  &\rule{60pt}{0.4pt} \\
 	  &tan = \frac{對邊}{鄰邊}
 	  \end{align*}
