@@ -15,7 +15,8 @@
 	  \begin{align*}
 	  &sin(90*1 + 50) = cos(50) \\
 	  &sin(90*2 + 20) = -sin(20) \\
-	  &cos \rightarrow x 座標
-	  &sin \rightarrow y 座標
+	  &cos \rightarrow x 座標 \\
+	  &sin \rightarrow y 座標 \\
+	  &正負轉換看左式
 	  \end{align*}
 	  #+END_EXPORT
