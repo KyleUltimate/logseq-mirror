@@ -13,9 +13,9 @@
 - 奇變偶不變，正負看象限
 	- #+BEGIN_EXPORT latex
 	  \begin{align*}
-	  &\sin(90*1 + 50) = \cos(50) \\
-	  &\sin(90*2 + 20) = -\sin(20) \\
-	  &\sin(90*3 + 30) = -\cos(30) \\
+	  &\sin(90*1 + 50) = &\cos(50) \\
+	  &\sin(90*2 + 20) = &-\sin(20) \\
+	  &\sin(90*3 + 30) = &-\cos(30) \\
 	  &cos \rightarrow x 座標 \\
 	  &sin \rightarrow y 座標 \\
 	  &正負轉換看左式
