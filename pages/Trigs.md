@@ -26,6 +26,8 @@
 - 基礎定義
 	- #+BEGIN_EXPORT latex
 	  \begin{align*}
-	  sin = \fraction{對邊{斜邊
+	  sin &= \frac{對邊}{斜邊} \\
+	  cos &= \frac{鄰邊}{斜邊} \\
+	  tan &= \frac{對邊}{鄰邊}
 	  \end{align*}
 	  #+END_EXPORT
