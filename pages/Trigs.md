@@ -3,7 +3,7 @@
 	- 衍生
 		- #+BEGIN_EXPORT latex
 		  sin(2\theta) = sin(\theta + \theta) \\
-		  sin(\thetasin(\theta) \cdot cos(\theta) + sin(\theta) \cdot cos(\theta) \\
-		  sin(2\theta) = 2sin(\theta) \cdot cos(\theta) \\
+		  sin(\theta + \theta) = sin(\theta) \cdot cos(\theta) + sin(\theta) \cdot cos(\theta) \\
+		  sin(\theta + \theta) = 2sin(\theta) \cdot cos(\theta) \\
 		  #+END_EXPORT
 -
