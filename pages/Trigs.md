@@ -12,6 +12,10 @@
 		  #+END_EXPORT
 - 奇變偶不變，正負看象限
 	- #+BEGIN_EXPORT latex
+	  \begin{figure}
+	  fuck
+	  \caption{Title for both}
+	  \end{figure}
 	  \begin{align*}
 	  &\sin(90*1 + 50) = &\cos(50) \\
 	  &\sin(90*2 + 20) = &-\sin(20) \\
