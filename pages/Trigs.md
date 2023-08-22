@@ -21,3 +21,5 @@
 	  &正負轉換看左式
 	  \end{align*}
 	  #+END_EXPORT
+- 餘弦定理
+	- $$ c^2 = a^2 + b^2 -2ab*cos(theta) $$
