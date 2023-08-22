@@ -11,7 +11,14 @@
 		  \end{align*}
 		  #+END_EXPORT
 - 奇變偶不變，正負看象限
-	- #+BEGIN_EXPORT latex
+	-
+	- <table border="0">
+	   <tr>
+	      <td><b style="font-size:30px">Title</b></td>
+	      <td><b style="font-size:30px">Title 2</b></td>
+	   </tr>
+	   <tr>
+	      <td>#+BEGIN_EXPORT latex
 	  \begin{align*}
 	  &\sin(90*1 + 50) = &\cos(50) \\
 	  &\sin(90*2 + 20) = &-\sin(20) \\
@@ -20,7 +27,10 @@
 	  &sin \rightarrow y 座標 \\
 	  &正負轉換看左式
 	  \end{align*}
-	  #+END_EXPORT
+	  #+END_EXPORT</td>
+	      <td>Lorem ipsum ...</td>
+	   </tr>
+	  </table>
 - 餘弦定理
 	- $$ c^2 = a^2 + b^2 -2ab \cdot \cos{\theta} $$
 - 基礎定義
@@ -31,4 +41,3 @@
 	  &\boxed{tan = \frac{對邊}{鄰邊}}
 	  \end{align*}
 	  #+END_EXPORT
-- @@html: @@
