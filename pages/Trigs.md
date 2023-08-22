@@ -31,10 +31,3 @@
 	  &\boxed{tan = \frac{對邊}{鄰邊}}
 	  \end{align*}
 	  #+END_EXPORT
-- <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-  });
-  </script>
-  <script type="text/javascript" src="path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
--
