@@ -21,7 +21,8 @@
 	  &正負轉換看左式
 	  \end{align*}
 	  #+END_EXPORT
-		- \begin{align*}
+		- #+BEGIN_EXPORT latex
+		  \begin{align*}
 		  &\sin(90*1 + 50) = &\cos(50) \\
 		  &\sin(90*2 + 20) = &-\sin(20) \\
 		  &\sin(90*3 + 30) = &-\cos(30) \\
@@ -40,7 +41,3 @@
 	  &\boxed{tan = \frac{對邊}{鄰邊}}
 	  \end{align*}
 	  #+END_EXPORT
-- #+BEGIN_EXPORT latex
-  \begin{figure}
-  \end{figure}
-  #+END_EXPORT
