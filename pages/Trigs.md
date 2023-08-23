@@ -32,10 +32,11 @@
 	  \end{align*}
 	  #+END_EXPORT
 - 單位圓意義
-	- ![image.png](../assets/image_1692788990559_0.png)
+	- ![image.png](../assets/image_1692789145372_0.png)
+	- 單位圓 -> r = 1
 	- #+BEGIN_EXPORT latex
 	  \begin{align*}
 	  \sin{\theta} &= \frac{a}{c} \\
-	  \sin{\theta} * c &= a
+	  \sin{\theta} * r &= a
 	  \end{align*}
 	  #+END_EXPORT
