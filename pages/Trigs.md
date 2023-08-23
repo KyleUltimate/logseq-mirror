@@ -32,9 +32,9 @@
 	  \end{align*}
 	  #+END_EXPORT
 - 單位圓意義
-	- ![image.png](../assets/image_1692789728642_0.png)
+	- ![image.png](../assets/image_1692789728642_0.png){:height 557, :width 612}
 	- 單位圓 -> r = 1
-		- same principle for the x coordinate($$\cos{\theta}$$)
+		- if r = 1,  $$\cos{\theta}$$ would be the x coordinate
 			- #+BEGIN_EXPORT latex
 			  \begin{align*}
 			  \cos{\theta} &= \frac{a}{r} \\
@@ -42,7 +42,7 @@
 			  \cos{\theta} * 1 &= a
 			  \end{align*}
 			  #+END_EXPORT
-		- if r = 1, then $$ \sin{\theta} $$ would be the y coordinate
+		- if r = 1,  $$ \sin{\theta} $$ would be the y coordinate
 			- #+BEGIN_EXPORT latex
 			  \begin{align*}
 			  \sin{\theta} &= \frac{b}{r} \\
@@ -50,3 +50,4 @@
 			  \sin{\theta} * 1 &= b
 			  \end{align*}
 			  #+END_EXPORT
+-
