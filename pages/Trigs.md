@@ -36,7 +36,8 @@
 	- 單位圓 -> r = 1
 	- #+BEGIN_EXPORT latex
 	  \begin{align*}
-	  \sin{\theta} &= \frac{a}{r} \\
-	  \sin{\theta} * 1 &= a
+	  \sin{\theta} &= \frac{b}{r} \\
+	  \sin{\theta} * r &= b
+	  when r \equal one
 	  \end{align*}
 	  #+END_EXPORT
