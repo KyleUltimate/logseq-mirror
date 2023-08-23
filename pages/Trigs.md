@@ -38,7 +38,7 @@
 			- #+BEGIN_EXPORT latex
 			  \begin{align*}
 			  \sin{\theta} &= \frac{b}{r} \\
-			  \sin{\theta} * r &= b \\
+			  r \cdot \sin{\theta} &= b \rightarrow general \\
 			  \sin{\theta} * 1 &= b
 			  \end{align*}
 			  #+END_EXPORT
@@ -46,7 +46,7 @@
 			- #+BEGIN_EXPORT latex
 			  \begin{align*}
 			  \cos{\theta} &= \frac{a}{r} \\
-			  \cos{\theta} * r &= a \\
+			  r \cdot \cos{\theta} &= a \\
 			  \cos{\theta} * 1 &= a
 			  \end{align*}
 			  #+END_EXPORT
