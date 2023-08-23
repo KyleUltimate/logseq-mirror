@@ -37,7 +37,7 @@
 	- #+BEGIN_EXPORT latex
 	  \begin{align*}
 	  \sin{\theta} &= \frac{b}{r} \\
-	  \sin{\theta} * r &= b
-	  when r \equal one
+	  \sin{\theta} * r &= b \\
+	  "if" | r &= 1
 	  \end{align*}
 	  #+END_EXPORT
