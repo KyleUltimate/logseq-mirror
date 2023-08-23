@@ -31,3 +31,8 @@
 	  &\boxed{tan = \frac{對邊}{鄰邊}}
 	  \end{align*}
 	  #+END_EXPORT
+- 單位圓意義
+	- ![image.png](../assets/image_1692788990559_0.png)
+	- #+BEGIN_EXPORT latex
+	  \cos{\theta} = 
+	  #+END_EXPORT
