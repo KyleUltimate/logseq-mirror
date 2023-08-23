@@ -34,10 +34,10 @@
 - 單位圓意義
 	- ![image.png](../assets/image_1692789145372_0.png)
 	- 單位圓 -> r = 1
-	- #+BEGIN_EXPORT latex
-	  \begin{align*}
-	  \sin{\theta} &= \frac{b}{r} \\
-	  \sin{\theta} * r &= b \\
-	  "if" | r &= 1
-	  \end{align*}
-	  #+END_EXPORT
+		- #+BEGIN_EXPORT latex
+		  \begin{align*}
+		  \sin{\theta} &= \frac{b}{r} \\
+		  \sin{\theta} * r &= b \\
+		  \end{align*}
+		  #+END_EXPORT
+		- if r = 1, then sin
