@@ -34,19 +34,19 @@
 - 單位圓意義
 	- ![image.png](../assets/image_1692789728642_0.png)
 	- 單位圓 -> r = 1
+		- same principle for the x coordinate($$\cos{\theta}$$)
+			- #+BEGIN_EXPORT latex
+			  \begin{align*}
+			  \cos{\theta} &= \frac{a}{r} \\
+			  r \cdot \cos{\theta} &= a \rightarrow general \\
+			  \cos{\theta} * 1 &= a
+			  \end{align*}
+			  #+END_EXPORT
 		- if r = 1, then $$ \sin{\theta} $$ would be the y coordinate
 			- #+BEGIN_EXPORT latex
 			  \begin{align*}
 			  \sin{\theta} &= \frac{b}{r} \\
 			  r \cdot \sin{\theta} &= b \rightarrow general \\
 			  \sin{\theta} * 1 &= b
-			  \end{align*}
-			  #+END_EXPORT
-		- same principle for the x coordinate
-			- #+BEGIN_EXPORT latex
-			  \begin{align*}
-			  \cos{\theta} &= \frac{a}{r} \\
-			  r \cdot \cos{\theta} &= a \\
-			  \cos{\theta} * 1 &= a
 			  \end{align*}
 			  #+END_EXPORT
