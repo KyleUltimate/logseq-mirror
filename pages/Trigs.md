@@ -34,6 +34,8 @@
 - 單位圓意義
 	- ![image.png](../assets/image_1692788990559_0.png)
 	- #+BEGIN_EXPORT latex
-	  \sin{\theta} = \frac{a}{c} \\
-	  \sin{\theta} * c = a
+	  \begin{align*}
+	  \sin{\theta} &= \frac{a}{c} \\
+	  \sin{\theta} * c &= a
+	  \end{align*}
 	  #+END_EXPORT
