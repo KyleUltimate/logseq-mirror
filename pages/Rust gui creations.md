@@ -4,3 +4,5 @@
 	- this looks interesting, but is filled with boilerplate
 - https://dioxuslabs.com/
 	- looks very promising, but is essentially web based.
+- https://github.com/marc2332/freya & https://github.com/concoct-rs/concoct
+	- both look very promising as well
