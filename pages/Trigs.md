@@ -1,8 +1,9 @@
 - 和角公式
 	- $$ \sin(\alpha + \beta) = \sin{\alpha} \cdot \cos{\beta} + \cos{\alpha} \cdot \sin{\beta} $$
-	- $$ \cos{}$$
+	- $$ \cos(\alpha + \beta) = \cos{\alpha} \cdot \cos{\beta} + \sin{\alpha} \cdot \cos{\beta}$$
 	- mnemonics
 		- 撒口尬口撒
+		- 口口尬灑
 	- 衍生（2 倍角公式）
 		- #+BEGIN_EXPORT latex
 		  \begin{align*}
