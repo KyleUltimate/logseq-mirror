@@ -16,4 +16,18 @@ template:: Todo List
 		  :collapsed? false
 		  }
 		  #+END_QUERY
--
+- #+BEGIN_QUERY
+  {
+  :title [:h1 "Words of the day"]
+  :query [
+   :find (pull ?b [*])
+         :where
+         (page-ref ?parent "daily_words")
+  [?b :block/parent ?parent]
+         [?parent :block/content _]
+  ]
+  :breadcrumb-show? false
+  :result-transform (fn [result] result)
+  :collapsed? false
+  }
+  #+END_QUERY
