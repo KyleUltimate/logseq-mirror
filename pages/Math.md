@@ -1,2 +1,2 @@
-- {{embed [[Trigs]]}}
+- {{embed [[logarithms]]}}
 - {{embed [[Trigs]]}}
