@@ -1,4 +1,6 @@
-## 對數律
+deck:: Math::Logarithms
+
+- ## 對數律 #card #inc
 	- $\log(a) + \log(b) = \log(ab)$
 	- $\log(a) - \log(b) = \log(\frac{a}{b})$
 	- $\log(a^b) = a\log(b)$
