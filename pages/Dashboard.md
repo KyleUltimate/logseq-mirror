@@ -10,9 +10,6 @@ template:: Todo List
 		    [?b :block/page ?page]
 		    [?page :block/original-name ?name]]
 		  :breadcumb-show? false
-		  :result-transform (fn [result]
-		  (sort-by (fn [h]
-		  (get h :block/created-at)) result))
 		  :collapsed? false
 		  }
 		  #+END_QUERY
