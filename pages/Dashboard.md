@@ -16,14 +16,18 @@ template:: Todo List
 - #+BEGIN_QUERY
   {:title [:h3 "Tasks" ]
   :query [:find (pull ?b [*])
+  :in $ ?yesterday
   :where
     [?b :block/marker ?marker]
     [(contains? #{"NOW" "LATER" "DONE"} ?marker)]
     [?b :block/page ?page]
     [?page :block/original-name ?name]
     [?b :block/marker ?marker]
+           [?b :block/created ?creation-date]
+           [(>= ?creation-date ?yesterday)]
   ]
   :breadcumb-show? false
   :collapsed? false
+  :inputs {:yesterday 1}
   }
   #+END_QUERY
