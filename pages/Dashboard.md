@@ -18,10 +18,11 @@ template:: Todo List
   :query [:find (pull ?b [*])
   :where
     [?b :block/marker ?marker]
+    [(not = ?marker "DONE")]
     [(missing? $ ?b :block/scheduled)]
     [?b :block/page ?page]
     [?page :block/original-name ?name]
-    [?b :block/done true]
+    [?b :block/marker ?marker]
   ]
   :breadcumb-show? false
   :collapsed? false
