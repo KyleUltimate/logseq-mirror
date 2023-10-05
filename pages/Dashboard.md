@@ -18,8 +18,8 @@ template:: Todo List
   :query [:find (pull ?b [*])
   :where
     [?b :block/marker ?marker]
-    [(not = ?marker "DONE")]
-    [(missing? $ ?b :block/scheduled)]
+    [(contains? #{"NOW" "LATER"} ?marker)]
+  
     [?b :block/page ?page]
     [?page :block/original-name ?name]
     [?b :block/marker ?marker]
