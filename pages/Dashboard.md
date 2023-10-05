@@ -18,12 +18,13 @@ template:: Todo List
   :in $ ?start ?next 
   :where
       [?b :block/marker ?m]
-      [(contains? *#{"TODO" "DOING"} ?m)]*
+      [(contains? *#{"TODO" "DOING"} ?m)]
       (**or** [?b :block/scheduled ?d] [?b :block/deadline ?d])
       [(>= ?d ?start)]
         [(<= ?d ?next)]]
   :inputs [:30d-before :today]
-  
+  :result-transform (fn [result]
+      (sort-by (fn [h] (get-**in** h [:block/content])) result))
   :breadcrumb-show? false
   :table-view? false
   }
