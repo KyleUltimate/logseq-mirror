@@ -14,16 +14,18 @@ template:: Todo List
 		  }
 		  #+END_QUERY
 - #+BEGIN_QUERY
-  {:title [:h3 "Tasks" ]
-  :query [:find (pull ?b [*])
+  {:query [:find (pull ?b [*])
+  :in $ ?start ?next 
   :where
-    [?b :block/marker ?marker]
-    [(missing? $ ?b :block/scheduled)]
-    [?b :block/page ?page]
-    [?page :block/original-name ?name]]
-    [?b :block/done true]
-  :breadcumb-show? false
-  :collapsed? false
+      [?b :block/marker ?m]
+      [(contains? *#{"TODO" "DOING"} ?m)]*
+      (**or** [?b :block/scheduled ?d] [?b :block/deadline ?d])
+      [(>= ?d ?start)]
+        [(<= ?d ?next)]]
+  :inputs [:30d-before :today]
+  
+  :breadcrumb-show? false
+  :table-view? false
   }
   #+END_QUERY
 -
