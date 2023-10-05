@@ -18,8 +18,7 @@ template:: Todo List
   :query [:find (pull ?b [*])
   :where
     [?b :block/marker ?marker]
-    [(contains? #{"NOW" "LATER"} ?marker)]
-  
+    [(contains? #{"NOW" "LATER" "DONE"} ?marker)]
     [?b :block/page ?page]
     [?page :block/original-name ?name]
     [?b :block/marker ?marker]
