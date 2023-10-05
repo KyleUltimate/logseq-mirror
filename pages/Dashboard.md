@@ -21,8 +21,9 @@ template:: Todo List
     [(missing? $ ?b :block/scheduled)]
     [?b :block/page ?page]
     [?page :block/original-name ?name]]
-    [?b :block/done true]]
+    [?b :block/done true]
   :breadcumb-show? false
   :collapsed? false
   }
   #+END_QUERY
+-
