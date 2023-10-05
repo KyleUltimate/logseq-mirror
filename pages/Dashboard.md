@@ -18,8 +18,10 @@ template:: Todo List
   :in $ ?start ?next 
   :where
       [?b :block/marker ?m]
-     [(missing? $ ?b :block/scheduled)]
-      (or [?b :block/scheduled ?d] [?b :block/deadline ?d])]
+      [(contains? #{"TODO" "DOING"} ?m)]
+      (or [?b :block/scheduled ?d] [?b :block/deadline ?d])
+      [(>= ?d ?start)]
+        [(<= ?d ?next)]]
   :inputs [:30d-before :today]
   :result-transform (fn [result]
       (sort-by (fn [h] (get-in h [:block/content])) result))
@@ -27,4 +29,3 @@ template:: Todo List
   :table-view? false
   }
   #+END_QUERY
--
