@@ -8,9 +8,7 @@ template:: Todo List
 		    [?b :block/marker ?marker]
 		    [(missing? $ ?b :block/scheduled)]
 		    [?b :block/page ?page]
-		    [?parent :block/content _]
 		    [?page :block/original-name ?name]]
-		  
 		  :breadcumb-show? false
 		  :collapsed? false
 		  }
