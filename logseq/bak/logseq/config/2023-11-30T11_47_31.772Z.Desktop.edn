@@ -207,7 +207,7 @@
  :ui/show-brackets? false
  :editor/logical-outdenting? true
  :editor/preferred-pasting-file? true
- :feature/enable-timetracking? true
+ :feature/enable-timetracking? false
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
