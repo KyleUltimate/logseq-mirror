@@ -13,3 +13,6 @@
 	  3. 第二段分析--技巧
 	  利用豐富的詞彙
 	  列數字, firstly secondly 之類的
+- [[Dec 11th, 2023]] 16:38 #memos
+  memo-id:: 59
+	- Expound
