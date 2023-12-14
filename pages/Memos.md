@@ -28,6 +28,9 @@
 	- Savor 品嚐
 - [[Dec 14th, 2023]] 15:49 #memos
   memo-id:: 60
-	- LATER  國文學習講義 L9
-	- LATER  講義 p8
-	- LATER  英文考卷x3
+	- LATER  國文學習講義 L9 
+	  SCHEDULED: <2023-12-21 Thu>
+	- LATER  講義 p8 
+	  SCHEDULED: <2023-12-21 Thu>
+	- LATER  英文考卷x3 
+	  SCHEDULED: <2023-12-15 Fri>
