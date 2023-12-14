@@ -16,3 +16,18 @@
 - [[Dec 11th, 2023]] 16:38 #memos
   memo-id:: 59
 	- Expound
+- [[Dec 14th, 2023]] 16:29 #memos
+  memo-id:: 63
+	- Prevalent
+- [[Dec 14th, 2023]] 16:25 #memos
+  memo-id:: 62
+	- Bereavement
+	  Maternity
+- [[Dec 14th, 2023]] 16:23 #memos
+  memo-id:: 61
+	- Savor 品嚐
+- [[Dec 14th, 2023]] 15:49 #memos
+  memo-id:: 60
+	- LATER  國文學習講義 L9
+	- LATER  講義 p8
+	- LATER  英文考卷x3
