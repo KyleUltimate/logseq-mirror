@@ -34,3 +34,6 @@
 	  SCHEDULED: <2023-12-21 Thu>
 	- LATER  英文考卷x3 
 	  SCHEDULED: <2023-12-15 Fri>
+- [[Dec 20th, 2023]] 15:18 #memos
+  memo-id:: 64
+	- Faculty, hospice
