@@ -37,3 +37,9 @@
 - [[Dec 20th, 2023]] 15:18 #memos
   memo-id:: 64
 	- Faculty, hospice
+- [[Dec 27th, 2023]] 16:25 #memos
+  memo-id:: 65
+	- LATER  爸 3000
+	- LATER  國注釋
+	- LATER  英單
+	- LATER  地理練習
