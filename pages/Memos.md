@@ -41,5 +41,5 @@
   memo-id:: 65
 	- DONE  爸 3000
 	- LATER  國注釋
-	- DONE  英單
+	- LATER  英單
 	- LATER  地理練習
