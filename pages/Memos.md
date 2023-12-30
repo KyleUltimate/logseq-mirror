@@ -40,9 +40,11 @@
 - [[Dec 27th, 2023]] 16:25 #memos
   memo-id:: 65
 	- DONE  爸 3000
-	- LATER  國注釋
+	- LATER  國注釋 
+	  SCHEDULED: <2023-12-30 Sat>
 	- DONE  英單
-	- LATER  地理練習
+	- LATER  地理練習 
+	  SCHEDULED: <2023-12-31 Sun>
 - [[Dec 28th, 2023]] 16:35 #memos
   memo-id:: 66
 	- in order to = so as to
