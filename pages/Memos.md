@@ -41,7 +41,7 @@
   memo-id:: 65
 	- DONE  爸 3000
 	- LATER  國注釋
-	- LATER  英單
+	- DONE  英單
 	- LATER  地理練習
 - [[Dec 28th, 2023]] 16:35 #memos
   memo-id:: 66
