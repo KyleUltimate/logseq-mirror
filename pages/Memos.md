@@ -48,3 +48,6 @@
 - [[Dec 28th, 2023]] 16:35 #memos
   memo-id:: 66
 	- in order to = so as to
+- [[Dec 31st, 2023]] 14:54 #memos
+  memo-id:: 67
+	- 地理 blurting 讀書方法
