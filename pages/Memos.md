@@ -51,3 +51,12 @@
 - [[Dec 31st, 2023]] 14:54 #memos
   memo-id:: 67
 	- 地理 blurting 讀書方法
+- [[Jan 3rd, 2024]] 18:09 #memos
+  memo-id:: 70
+	- anyhow::bqcktaace
+- [[Jan 3rd, 2024]] 18:07 #memos
+  memo-id:: 69
+	- frb[init]
+- [[Jan 3rd, 2024]] 09:47 #memos
+  memo-id:: 68
+	- LATER  國學習講義
