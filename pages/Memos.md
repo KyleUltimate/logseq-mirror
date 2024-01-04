@@ -60,3 +60,6 @@
 - [[Jan 3rd, 2024]] 09:47 #memos
   memo-id:: 68
 	- LATER  國學習講義
+- [[Jan 4th, 2024]] 16:20 #memos
+  memo-id:: 71
+	- LATER  英文講義
