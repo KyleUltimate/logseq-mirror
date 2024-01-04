@@ -63,3 +63,6 @@
 - [[Jan 4th, 2024]] 16:20 #memos
   memo-id:: 71
 	- LATER  英文講義
+- [[Jan 4th, 2024]] 22:53 #memos
+  memo-id:: 72
+	- regurgitate 照本宣科
