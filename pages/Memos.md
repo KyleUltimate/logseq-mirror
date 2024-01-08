@@ -66,3 +66,12 @@
 - [[Jan 4th, 2024]] 22:53 #memos
   memo-id:: 72
 	- regurgitate 照本宣科
+- [[Jan 8th, 2024]] 17:40 #memos
+  memo-id:: 75
+	- 冰河堆積與 冰磧 出現在 -> 冰河下方
+- [[Jan 8th, 2024]] 17:38 #memos
+  memo-id:: 74
+	- 冰河地形
+- [[Jan 8th, 2024]] 10:03 #memos
+  memo-id:: 73
+	- rote - 死記硬背
