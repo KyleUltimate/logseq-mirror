@@ -75,3 +75,6 @@
 - [[Jan 8th, 2024]] 10:03 #memos
   memo-id:: 73
 	- rote - 死記硬背
+- [[Jan 9th, 2024]] 09:46 #memos
+  memo-id:: 76
+	- 英文片語
