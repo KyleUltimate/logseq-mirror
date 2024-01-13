@@ -81,3 +81,22 @@
 - [[Jan 11th, 2024]] 11:43 #memos
   memo-id:: 77
 	- 冷涼風，沙漠
+- [[Jan 12th, 2024]] 13:42 #memos
+  memo-id:: 83
+	- 寒流 -> 降低溫度
+	  涼流 -> 逆溫 -> 對流不易 -> 造成沙漠
+- [[Jan 12th, 2024]] 11:47 #memos
+  memo-id:: 82
+	- emaciated
+- [[Jan 12th, 2024]] 11:42 #memos
+  memo-id:: 81
+	- Opus
+- [[Jan 12th, 2024]] 11:41 #memos
+  memo-id:: 80
+	- Contemporary
+- [[Jan 12th, 2024]] 11:28 #memos
+  memo-id:: 79
+	- Clan
+- [[Jan 12th, 2024]] 11:28 #memos
+  memo-id:: 78
+	- Reside
