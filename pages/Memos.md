@@ -112,7 +112,7 @@
 	  https://fonts.google.com/specimen/Inconsolata
 - [[Jan 15th, 2024]] 09:42 #memos
   memo-id:: 85
-	- TODO 學習歷程簡報
+	- TODO 學習歷程簡報(iterator)
 	  SCHEDULED: <2024-01-19 Fri>
 	  :LOGBOOK:
 	  
