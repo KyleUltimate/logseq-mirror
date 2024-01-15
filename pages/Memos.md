@@ -100,3 +100,18 @@
 - [[Jan 12th, 2024]] 11:28 #memos
   memo-id:: 78
 	- Reside
+- [[Jan 15th, 2024]] 16:20 #memos
+  memo-id:: 87
+	- # Why error handling in Rust is a godsend
+	  1. You're age-old try catch(cpp JavaScript)
+	  Result<>
+	  goto?
+	  2. Result Type
+	  3. std::expected and Result
+- [[Jan 15th, 2024]] 16:00 #memos
+  memo-id:: 86
+	- Consolas
+	  https://fonts.google.com/specimen/Inconsolata
+- [[Jan 15th, 2024]] 09:42 #memos
+  memo-id:: 85
+	- 學習歷程簡報
