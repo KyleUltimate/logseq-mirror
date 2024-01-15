@@ -120,3 +120,8 @@
 	  :AGENDA:
 	  estimated: 3h
 	  :END:
+- [[Jan 15th, 2024]] 19:39 #memos
+  memo-id:: 88
+	- # 地科複習
+	  島弧 -> 安山岩（壓到地底下）
+	  中洋脊 -> 玄武岩（very fluidity）
