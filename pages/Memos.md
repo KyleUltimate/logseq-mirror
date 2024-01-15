@@ -114,4 +114,8 @@
 	  https://fonts.google.com/specimen/Inconsolata
 - [[Jan 15th, 2024]] 09:42 #memos
   memo-id:: 85
-	- 學習歷程簡報
+	- NOW 學習歷程簡報
+	  :LOGBOOK:
+	  CLOCK: [2024-01-15 Mon 19:23:29]
+	  CLOCK: [2024-01-15 Mon 19:23:30]
+	  :END:
