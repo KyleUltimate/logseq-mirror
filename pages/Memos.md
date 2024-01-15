@@ -59,10 +59,8 @@
 	- frb[init]
 - [[Jan 3rd, 2024]] 09:47 #memos
   memo-id:: 68
-	- LATER  國學習講義
 - [[Jan 4th, 2024]] 16:20 #memos
   memo-id:: 71
-	- LATER  英文講義
 - [[Jan 4th, 2024]] 22:53 #memos
   memo-id:: 72
 	- regurgitate 照本宣科
@@ -115,6 +113,7 @@
 - [[Jan 15th, 2024]] 09:42 #memos
   memo-id:: 85
 	- NOW 學習歷程簡報
+	  SCHEDULED: <2024-01-23 Tue>
 	  :LOGBOOK:
 	  CLOCK: [2024-01-15 Mon 19:23:29]
 	  CLOCK: [2024-01-15 Mon 19:23:30]
