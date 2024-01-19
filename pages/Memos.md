@@ -125,3 +125,10 @@
 	- # 地科複習
 	  島弧 -> 安山岩（壓到地底下）
 	  中洋脊 -> 玄武岩（very fluidity）
+- [[Jan 19th, 2024]] 07:46 #memos
+  memo-id:: 90
+	- Result mod management refactoring
+- [[Jan 16th, 2024]] 10:52 #memos
+  memo-id:: 89
+	- https://config.office.com/deploymentsettings
+	  https://www.microsoft.com/en-us/download/details.aspx?id=49117
