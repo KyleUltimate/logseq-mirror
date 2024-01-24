@@ -1,6 +1,6 @@
 deck:: 英文::單子練習
 
-- {{c1 have}} a + adj. tenure of office 有著一個  的 {{c2 任期}}
+- {{c1 have}} a + adj. tenure of office 有著一個 怎麼樣 的 {{c2 任期}}
   id:: 65ad0cf2-6bfe-4a6d-b586-770bbad5d5ea
   extra:: She had a long tenure of office.
 - {{cloze during}} sb's tenure 在某人的任期內
