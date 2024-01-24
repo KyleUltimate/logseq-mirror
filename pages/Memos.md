@@ -132,3 +132,6 @@
   memo-id:: 89
 	- https://config.office.com/deploymentsettings
 	  https://www.microsoft.com/en-us/download/details.aspx?id=49117
+- [[Jan 23rd, 2024]] 08:37 #memos
+  memo-id:: 91
+	- https://justkyle-my.sharepoint.com/:p:/g/personal/simplykyle_justkyle_onmicrosoft_com/EUgke6k8qUxAgRnA0yr7iuABMzyuX63OAAINUBLmJ0CjwQ?e=JtUf64
