@@ -21,24 +21,25 @@
 			  logseq.order-list-type:: number
 		- ### Transformed Sentences
 			- The scientist **completed** the experiment, writing a detailed report.
+		- ### Notice any issues?
 		- Notice anything weird? Where has our **tense** gone? Let's add them back.
-		- #### TransformedSentences(Modified)
+		- ### Transformed Sentences(Modified)
 			- **Having completed** the experiment, the scientist wrote a detailed report.
 		- Using **present perfect** tense signifies that the former happens **before** than the latter.
-	- ### Example with different subjects
-		- #### Original Sentences
+	- ## Example with different subjects
+		- ### Original Sentences
 			- The teacher explained the lesson.
 			  logseq.order-list-type:: number
 			- The students understood the concept.
 			  logseq.order-list-type:: number
-		- #### Transformed sentences
+		- ### Transformed sentences
 			- **The teacher** having explained the lesson, **the students** understood the concept.
-		- #### Notice
+		- ### Notice
 			- the subjects are **NOT** omitted, since they are different.
 			- It is often to use the "present prefect tense" technique to emphasize ordering so as to avoid confusion.
-	- ### Example with conditional sentence
-		- #### Original Sentence
+	- ## Example with conditional sentence
+		- ### Original Sentence
 			- If the weather allows it, we’ll go to the picnic.
-		- #### Transformed Sentence
+		- ### Transformed Sentence
 			- **Weather allowing**, we’ll go to the picnic.
 		- This utilizes the technique of merging different subject. Though it may seem weird at first, it is fully valid.
