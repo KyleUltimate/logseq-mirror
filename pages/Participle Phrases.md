@@ -22,7 +22,7 @@
 		- ### Transformed Sentences
 			- The scientist **completed** the experiment, writing a detailed report.
 		- ### Notice any issues?
-		- Notice anything weird? Where has our **tense** gone? Let's add them back.
+			- Where has our **tense** gone? Let's add them back.
 		- ### Transformed Sentences(Modified)
 			- **Having completed** the experiment, the scientist wrote a detailed report.
 		- Using **present perfect** tense signifies that the former happens **before** than the latter.
@@ -42,4 +42,5 @@
 			- If the weather allows it, we’ll go to the picnic.
 		- ### Transformed Sentence
 			- **Weather allowing**, we’ll go to the picnic.
-		- This utilizes the technique of merging different subject. Though it may seem weird at first, it is fully valid.
+		- ### Explanation
+		- This transformation utilizes the technique of merging different subjects. Though it may seem unusual at first, it is a fully valid and effective way to simplify a conditional sentence.
