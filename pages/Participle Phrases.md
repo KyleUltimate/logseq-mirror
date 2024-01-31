@@ -1,4 +1,5 @@
-# What it is
+-
+- # What it is
 	- Allows you to combine two sentences without any prepositions or conjunctions.
 	- For example:
 		- He is a math genius, and he completed the test in less than 10 minutes.
