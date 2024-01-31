@@ -1,8 +1,8 @@
 # What it is
 	- Allows you to combine two sentences without any prepositions or conjunctions.
-	- For example:
+	- For example: #.ul
 		- He is a math genius, and he completed the test in less than 10 minutes.
-	- Gets turned into:
+	- Gets turned into: #.ul
 		- **Being** a math genius, he completed the test in less than 10 minutes.
 - # How to form it
 	- If the two sentences subject are the same, omit one of them.
@@ -34,7 +34,7 @@
 			  logseq.order-list-type:: number
 		- ### Transformed sentences
 			- **The teacher** having explained the lesson, **the students** understood the concept.
-		- ### Notice
+		- ### Notice #.ul
 			- the subjects are **NOT** omitted, since they are different.
 			- It is often to use the "present prefect tense" technique to emphasize ordering so as to avoid confusion.
 	- ## Example with conditional sentence
