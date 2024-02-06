@@ -144,3 +144,25 @@
 - [[Oct 23rd, 2023]] 08:54 #memos
   memo-id:: 37
 	- DONE  國 L5 預習學習單
+- [[Feb 4th, 2024]] 23:40 #memos
+  memo-id:: 94
+	- https://youtu.be/pwkVnjZWLuA
+- [[Feb 2nd, 2024]] 21:31 #memos
+  memo-id:: 93
+	- Omission  bias.
+	  framing effect - how information is presented, such as contrasting.
+	  Outcome bias, don't consider why, only consider result.
+	  Badder-Meinhof phenomenon, frequency illusion: before put attention, we ignore it.
+	  Dunning kruger-effect: Over estimate and under estimate depending on what level of skill you are.
+	  Pygamilon effect: ANGRY
+	  decoy effect: 3 stuff, middle VERY BAD IN VALUE.
+	  anchoring bias: (using first impressions)
+	  confirmation bias: sees everything as confirms to the thing you already know.
+	  hindsight bias: I-knew-it-all-along-bias
+	  apohenia: weird sequence of logic, bad then all bad
+	  availability cascade: repeate something long enough and it will become true.
+	  Bandwagon effect: if every one else do it, I do it
+	  peek end: how it ends and how it starts
+- [[Feb 1st, 2024]] 01:02 #memos
+  memo-id:: 92
+	- Ensue
