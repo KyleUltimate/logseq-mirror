@@ -1,2 +1,1 @@
-- his chin nuzzled into his breast in an effort to escape the vile wind.
 -
