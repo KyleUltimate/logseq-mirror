@@ -166,3 +166,9 @@
 - [[Feb 1st, 2024]] 01:02 #memos
   memo-id:: 92
 	- Ensue
+- [[Feb 7th, 2024]] 10:33 #memos
+  memo-id:: 96
+	- 完成追音輸入法的 Rime 實現
+- [[Feb 6th, 2024]] 19:46 #memos
+  memo-id:: 95
+	- https://line.me/ti/g2/J2SdVR4sKCMizyW5yOi_SDZlu6vBqahbilStvg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default
