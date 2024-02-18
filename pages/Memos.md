@@ -172,3 +172,6 @@
 - [[Feb 6th, 2024]] 19:46 #memos
   memo-id:: 95
 	- https://line.me/ti/g2/J2SdVR4sKCMizyW5yOi_SDZlu6vBqahbilStvg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default
+- [[Feb 18th, 2024]] 17:33 #memos
+  memo-id:: 97
+	- awry
