@@ -7,4 +7,3 @@ deck:: 英文::單字練習
 	- Anything that {{cloze goes awry}} in the office is blamed on Pete.
 	  id:: 65e4147f-5b66-411c-aa78-b3c24f311a4f
 	  extra:: **gone**/**went** awry
--
