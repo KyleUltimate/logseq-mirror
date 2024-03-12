@@ -1,5 +1,5 @@
 {:blocks (
-{:block/content "id:: 65f05327-af67-4569-bf2e-db7f6f88bb48\n"
+{:block/content "秦朝\nid:: 65f05327-af67-4569-bf2e-db7f6f88bb48"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
@@ -8,34 +8,6 @@
 :block/properties 
 {:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
 :block/uuid #uuid "65f05327-af67-4569-bf2e-db7f6f88bb48"} 
-{:block/created-at 1710248900666
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 0
-:scale [1 1]
-:pageId "65f05327-af67-4569-bf2e-db7f6f88bb48"
-:scaleLevel "md"
-:fill ""
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [112 40.8203125]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "3b21a110-e071-11ee-aec0-0dd30f3f6b86"
-:noFill false
-:point [568 432]
-:parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
-:collapsedHeight 0
-:nonce 1710248742779}}
-:block/updated-at 1710248900666} 
 {:block/content "you are {{cloze good}}\nid:: 65f05361-3ed4-4ab4-83bc-fb1cdcc284a0"
 :block/format :markdown
 :block/left 
@@ -61,7 +33,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f05397-07c2-434e-b1d6-fd1b003ad8b5"} 
-{:block/created-at 1710248904698
+{:block/created-at 1710248969838
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -70,7 +42,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 1
+:index 0
 :scale [1 1]
 :pageId "65f05397-07c2-434e-b1d6-fd1b003ad8b5"
 :scaleLevel "xxl"
@@ -88,7 +60,16 @@
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
 :nonce 1710248855053}}
-:block/updated-at 1710248904698})
+:block/updated-at 1710248969838} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05397-07c2-434e-b1d6-fd1b003ad8b5"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{}
+:block/uuid #uuid "65f053e5-a102-42c8-a646-618d9a669222"})
 :pages (
 {:block/properties-text-values 
 {:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
@@ -102,8 +83,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("3b21a110-e071-11ee-aec0-0dd30f3f6b86" "7e28bf70-e071-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710248904698
+:shapes-index ("7e28bf70-e071-11ee-aec0-0dd30f3f6b86")}}
+:block/updated-at 1710248969838
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
