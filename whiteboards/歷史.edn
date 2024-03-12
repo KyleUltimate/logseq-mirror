@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"} 
-{:block/created-at 1710251510579
+{:block/created-at 1710251601916
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -32,11 +32,11 @@
 :opacity 1
 :id "40a613e0-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [872 368]
+:point [856 360]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251329285}}
-:block/updated-at 1710251510579} 
+:nonce 1710251329311}}
+:block/updated-at 1710251601916} 
 {:block/content "arsta\nid:: 65f05d68-608e-4f0e-941d-152b633ca07b\n\n((40a613e0-e077-11ee-bb90-a1823df17749))"
 :block/format :markdown
 :block/left 
@@ -55,14 +55,16 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f05d89-dd1d-4aec-828d-159c9008dcea"} 
-{:block/content "秦朝"
+{:block/content "# [[秦朝]]\n道法儒並行"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05d89-dd1d-4aec-828d-159c9008dcea"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
 :block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"} 
-{:block/created-at 1710251562165
+{:block/created-at 1710251623630
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -80,17 +82,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [60 40.89376449584961]
+:size [128 96.30787658691406]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "bf981810-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [536 608]
+:point [616 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251541768}}
-:block/updated-at 1710251562165})
+:nonce 1710251542232}}
+:block/updated-at 1710251623630})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -103,7 +105,7 @@
 :nonce 1
 :assets []
 :shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710251562165
+:block/updated-at 1710251623630
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
