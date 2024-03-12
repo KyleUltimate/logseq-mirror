@@ -158,28 +158,28 @@
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
-{:blockType "B"
-:stroke ""
+{:blockType nil
+:stroke nil
 :rotation 0
 :collapsed false
 :borderRadius 8
 :index 3
 :scale [1 1]
 :refs []
-:pageId "65f05b9b-f606-4d32-90ce-db52db8484d5"
-:scaleLevel "md"
-:fill ""
+:pageId nil
+:scaleLevel nil
+:fill nil
 :compact true
 :isAutoResizing true
-:type "logseq-portal"
+:type nil
 :size [176 96.30784232013757]
-:strokeType "line"
+:strokeType nil
 :strokeWidth 2
 :opacity 1
-:id "44aaa1a0-e076-11ee-8449-5d7c108d9d4a"
+:id nil
 :noFill false
 :point [520 512]
-:parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
+:parentId nil
 :collapsedHeight 0
 :nonce 1710250906179}}
 :block/updated-at 1710251147227} 
