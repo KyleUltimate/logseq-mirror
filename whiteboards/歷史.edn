@@ -33,7 +33,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f05397-07c2-434e-b1d6-fd1b003ad8b5"} 
-{:block/created-at 1710249143552
+{:block/created-at 1710249178657
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -51,7 +51,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [472 122.46095678632977]
+:size [472 122.46094071851225]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -60,8 +60,8 @@
 :point [744 184]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710248855570}}
-:block/updated-at 1710249143552} 
+:nonce 1710248855575}}
+:block/updated-at 1710249178657} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -71,7 +71,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f053e5-a102-42c8-a646-618d9a669222"} 
-{:block/created-at 1710249143553
+{:block/created-at 1710249211568
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -82,6 +82,7 @@
 :borderRadius 8
 :index 1
 :scale [1 1]
+:refs []
 :pageId "秦朝"
 :scaleLevel "md"
 :fill ""
@@ -96,10 +97,10 @@
 :noFill false
 :point [472 344]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
-:collapsedHeight 158.78906445281888
-:nonce 1710248972084}}
-:block/updated-at 1710249143553} 
-{:block/created-at 1710249149483
+:collapsedHeight 158.78906246710238
+:nonce 1710248972088}}
+:block/updated-at 1710249211568} 
+{:block/created-at 1710249176913
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -115,7 +116,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 40.82031116635816]
+:size [400 40.8202895080448]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -124,8 +125,29 @@
 :point [872 416]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710249120831}}
-:block/updated-at 1710249149483})
+:nonce 1710249120841}}
+:block/updated-at 1710249176913} 
+{:block/created-at 1710249174508
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 3
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "pencil"
+:points [[0 0 0.5]]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3877c150-e072-11ee-aec0-0dd30f3f6b86"
+:noFill true
+:point [1146.5053733535292 467.8579426117413]
+:parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
+:nonce 1710249167335
+:isComplete true}}
+:block/updated-at 1710249174508})
 :pages (
 {:block/properties-text-values 
 {:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
@@ -139,8 +161,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("7e28bf70-e071-11ee-aec0-0dd30f3f6b86" "c3ab3e10-e071-11ee-aec0-0dd30f3f6b86" "1cb79170-e072-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710249150204
+:shapes-index ("7e28bf70-e071-11ee-aec0-0dd30f3f6b86" "c3ab3e10-e071-11ee-aec0-0dd30f3f6b86" "1cb79170-e072-11ee-aec0-0dd30f3f6b86" "3877c150-e072-11ee-aec0-0dd30f3f6b86")}}
+:block/updated-at 1710249211568
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
