@@ -6,7 +6,45 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"} 
-{:block/created-at 1710251331680
+{:block/created-at 1710251386397
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:refs ["65f05d68-608e-4f0e-941d-152b633ca07b"]
+:pageId "65f05d43-842d-42ea-8c5f-87af1d829090"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.89376449584961]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "40a613e0-e077-11ee-bb90-a1823df17749"
+:noFill false
+:point [672 552]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710251328659}}
+:block/updated-at 1710251386397} 
+{:block/content "arsta\nid:: 65f05d68-608e-4f0e-941d-152b633ca07b\n\n((40a613e0-e077-11ee-bb90-a1823df17749))"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:id "65f05d68-608e-4f0e-941d-152b633ca07b"}
+:block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"} 
+{:block/created-at 1710251369734
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -14,25 +52,25 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 0
+:index 1
 :scale [1 1]
-:pageId "65f05d43-842d-42ea-8c5f-87af1d829090"
+:pageId "65f05d68-608e-4f0e-941d-152b633ca07b"
 :scaleLevel "md"
 :fill ""
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 40.87949752807617]
+:size [400 88.87654113769531]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "40a613e0-e077-11ee-bb90-a1823df17749"
+:id "57f8fe90-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [1000 584]
+:point [776 648]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251328544}}
-:block/updated-at 1710251331680})
+:nonce 1710251367677}}
+:block/updated-at 1710251369734})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -44,8 +82,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710251332434
+:shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749" "57f8fe90-e077-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710251386397
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
