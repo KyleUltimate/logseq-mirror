@@ -70,7 +70,7 @@
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
 :block/uuid #uuid "65f0569f-c189-487a-a80a-eac7c49d14c2"} 
-{:block/content "#秦朝"
+{:block/content "((3a652780-e074-11ee-aec0-0dd30f3f6b86)) #秦朝"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f0569f-c189-487a-a80a-eac7c49d14c2"}
@@ -79,12 +79,13 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f057c5-0f25-4499-b8c4-e7100d4c6215"} 
-{:block/created-at 1710250261098
+{:block/created-at 1710250428751
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 1
@@ -105,9 +106,9 @@
 :point [664 496]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710249915651}}
-:block/updated-at 1710250261098} 
-{:block/created-at 1710250351815
+:nonce 1710249915675}}
+:block/updated-at 1710250428751} 
+{:block/created-at 1710250359405
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -118,7 +119,7 @@
 :borderRadius 8
 :index 2
 :scale [1 1]
-:refs ["7e28bf70-e071-11ee-aec0-0dd30f3f6b86"]
+:refs []
 :pageId "65f05397-07c2-434e-b1d6-fd1b003ad8b5"
 :scaleLevel "xxl"
 :fill "blue"
@@ -135,9 +136,9 @@
 :point [1048 296]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710248856847}}
-:block/updated-at 1710250351815} 
-{:block/created-at 1710250351009
+:nonce 1710248856848}}
+:block/updated-at 1710250359405} 
+{:block/created-at 1710250428755
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -172,9 +173,9 @@
 {:start nil
 :end "arrow"}
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
-:nonce 1710250052368
+:nonce 1710250052373
 :italic false}}
-:block/updated-at 1710250351009})
+:block/updated-at 1710250428755})
 :pages (
 {:block/properties-text-values 
 {:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
@@ -204,7 +205,7 @@
 :nonce 1
 :assets []
 :shapes-index ("3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86" "3a652780-e074-11ee-aec0-0dd30f3f6b86" "47d873e2-e074-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710250351823
+:block/updated-at 1710250428759
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
