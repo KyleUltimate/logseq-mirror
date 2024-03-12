@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"} 
-{:block/created-at 1710251601916
+{:block/created-at 1710251681348
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -32,11 +32,11 @@
 :opacity 1
 :id "40a613e0-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [856 360]
+:point [920 352]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251329311}}
-:block/updated-at 1710251601916} 
+:nonce 1710251329425}}
+:block/updated-at 1710251681348} 
 {:block/content "arsta\nid:: 65f05d68-608e-4f0e-941d-152b633ca07b\n\n((40a613e0-e077-11ee-bb90-a1823df17749))"
 :block/format :markdown
 :block/left 
@@ -64,7 +64,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"} 
-{:block/created-at 1710251623630
+{:block/created-at 1710251684509
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -82,17 +82,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [128 96.30787658691406]
+:size [128 96.30789030145061]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "bf981810-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [616 544]
+:point [728 552]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251542232}}
-:block/updated-at 1710251623630})
+:nonce 1710251542610}}
+:block/updated-at 1710251684509})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -105,7 +105,7 @@
 :nonce 1
 :assets []
 :shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710251623630
+:block/updated-at 1710251684509
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
