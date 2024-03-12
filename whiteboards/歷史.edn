@@ -55,7 +55,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f05d89-dd1d-4aec-828d-159c9008dcea"} 
-{:block/content "# [[秦朝]]\n道法儒並行"
+{:block/content "# [[秦朝]]\n讀尊法家"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05d89-dd1d-4aec-828d-159c9008dcea"}
@@ -64,7 +64,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"} 
-{:block/created-at 1710251684509
+{:block/created-at 1710251731927
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -82,7 +82,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [128 96.30789030145061]
+:size [128 96.30782318115234]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -91,8 +91,45 @@
 :point [728 552]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251542610}}
-:block/updated-at 1710251684509})
+:nonce 1710251542614}}
+:block/updated-at 1710251731927} 
+{:block/content "# 春秋戰國 #商周\n道法儒並行"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"} 
+{:block/created-at 1710251733552
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [248 96.30787658691406]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "1bf85160-e078-11ee-bb90-a1823df17749"
+:noFill false
+:point [448 544]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710251696785}}
+:block/updated-at 1710251733552})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -104,8 +141,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710251684509
+:shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710251735584
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
