@@ -1,12 +1,14 @@
 {:blocks (
-{:block/content "test"
+{:block/content "# 教育制度"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
 :block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"} 
-{:block/created-at 1710251386397
+{:block/created-at 1710251442898
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -24,17 +26,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 40.89376449584961]
+:size [176 72.3022232055664]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "40a613e0-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [672 552]
+:point [736 560]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251328659}}
-:block/updated-at 1710251386397} 
+:nonce 1710251328799}}
+:block/updated-at 1710251442898} 
 {:block/content "arsta\nid:: 65f05d68-608e-4f0e-941d-152b633ca07b\n\n((40a613e0-e077-11ee-bb90-a1823df17749))"
 :block/format :markdown
 :block/left 
@@ -44,33 +46,15 @@
 :block/properties 
 {:id "65f05d68-608e-4f0e-941d-152b633ca07b"}
 :block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"} 
-{:block/created-at 1710251369734
+{:block/content "zxcv\n((40a613e0-e077-11ee-bb90-a1823df17749))"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
-:stroke ""
-:collapsed false
-:borderRadius 8
-:index 1
-:scale [1 1]
-:pageId "65f05d68-608e-4f0e-941d-152b633ca07b"
-:scaleLevel "md"
-:fill ""
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [400 88.87654113769531]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "57f8fe90-e077-11ee-bb90-a1823df17749"
-:noFill false
-:point [776 648]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710251367677}}
-:block/updated-at 1710251369734})
+{}
+:block/uuid #uuid "65f05d89-dd1d-4aec-828d-159c9008dcea"})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -82,8 +66,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749" "57f8fe90-e077-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710251386397
+:shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710251442898
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
