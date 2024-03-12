@@ -1,138 +1,34 @@
 {:blocks (
-{:block/content "教育制度\nid:: 65f05d43-842d-42ea-8c5f-87af1d829090"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/properties 
-{:id "65f05d43-842d-42ea-8c5f-87af1d829090"}
-:block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"} 
-{:block/created-at 1710252544010
+{:block/created-at 1710254825351
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
-:stroke "blue"
+:stroke ""
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 5
+:index 6
 :scale [1 1]
 :refs []
-:pageId "65f05d43-842d-42ea-8c5f-87af1d829090"
-:scaleLevel "xxl"
-:fill "blue"
+:pageId "65f06065-f282-4589-84d3-3bcd99a9423c"
+:scaleLevel "md"
+:fill ""
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [272 122.68128967285156]
+:size [376 96.30788724264966]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "40a613e0-e077-11ee-bb90-a1823df17749"
+:id "1f043c60-e079-11ee-bb90-a1823df17749"
 :noFill false
-:point [1216 328]
+:point [1320 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251330261}}
-:block/updated-at 1710252544010} 
-{:block/content "arsta\nid:: 65f05d68-608e-4f0e-941d-152b633ca07b\n\n((40a613e0-e077-11ee-bb90-a1823df17749))"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/properties 
-{:id "65f05d68-608e-4f0e-941d-152b633ca07b"}
-:block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"} 
-{:block/content "zxcv\n((40a613e0-e077-11ee-bb90-a1823df17749))"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/properties 
-{}
-:block/uuid #uuid "65f05d89-dd1d-4aec-828d-159c9008dcea"} 
-{:block/content "# [[秦朝]]\n讀尊法家"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f05d89-dd1d-4aec-828d-159c9008dcea"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/properties 
-{:heading 1}
-:block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"} 
-{:block/created-at 1710252375506
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
-:stroke "gray"
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 0
-:scale [1 1]
-:refs []
-:pageId "65f05e16-6123-442e-8461-9921f7beca87"
-:scaleLevel "md"
-:fill "gray"
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [128 96.30786034727947]
-:strokeType "line"
-:strokeWidth 2
-:opacity 0.5
-:id "bf981810-e077-11ee-bb90-a1823df17749"
-:noFill false
-:point [752 544]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710251542751}}
-:block/updated-at 1710252375506} 
-{:block/content "# [春秋戰國]([[商周]])\nid:: 65f05eb5-d06e-4390-a6bf-0eec7f98a02c\n道法儒並行"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/properties 
-{:heading 1
-:id "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"}
-:block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"} 
-{:block/created-at 1710252413044
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
-:stroke "gray"
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 1
-:scale [1 1]
-:refs []
-:pageId "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"
-:scaleLevel "md"
-:fill "gray"
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [248 96.30786034727947]
-:strokeType "line"
-:strokeWidth 2
-:opacity 0.5
-:id "1bf85160-e078-11ee-bb90-a1823df17749"
-:noFill false
-:point [448 544]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710251696835}}
-:block/updated-at 1710252413044} 
-{:block/created-at 1710252375521
+:nonce 1710252131808}}
+:block/updated-at 1710254825351} 
+{:block/created-at 1710254459650
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -165,48 +61,64 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710251848114
+:nonce 1710251848116
 :italic false}}
-:block/updated-at 1710252375521} 
-{:block/content "# [[漢朝]]\n讀尊儒家，形成初期世族"
+:block/updated-at 1710254459650} 
+{:block/content "# 唐朝"
 :block/format :markdown
 :block/left 
-{:block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"}
+{:block/uuid #uuid "65f0606f-b983-428f-b721-9ad3682628bc"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/properties 
 {:heading 1}
-:block/uuid #uuid "65f05f4c-ed04-4378-9c10-d231355204f9"} 
-{:block/created-at 1710252379015
+:block/uuid #uuid "65f060d2-787e-4878-891f-a0c2d99a6108"} 
+{:block/created-at 1710254459644
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
-:stroke ""
+:stroke "gray"
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 3
+:index 0
 :scale [1 1]
 :refs []
-:pageId "65f05f4c-ed04-4378-9c10-d231355204f9"
+:pageId "65f05e16-6123-442e-8461-9921f7beca87"
 :scaleLevel "md"
-:fill ""
+:fill "gray"
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [208 96.30786034727947]
+:size [128 96.30787350709306]
 :strokeType "line"
 :strokeWidth 2
-:opacity 1
-:id "780142f0-e078-11ee-bb90-a1823df17749"
+:opacity 0.5
+:id "bf981810-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [936 544]
+:point [752 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251851169}}
-:block/updated-at 1710252379015} 
-{:block/created-at 1710252379021
+:nonce 1710251542753}}
+:block/updated-at 1710254459644} 
+{:block/content "# [[秦朝]]\n讀尊法家"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05d89-dd1d-4aec-828d-159c9008dcea"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"} 
+{:block/content "隋朝"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f06065-f282-4589-84d3-3bcd99a9423c"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f0606f-b983-428f-b721-9ad3682628bc"} 
+{:block/created-at 1710254817890
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -239,9 +151,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710251918663
+:nonce 1710251918676
 :italic false}}
-:block/updated-at 1710252379021} 
+:block/updated-at 1710254817890} 
 {:block/content "# [[隋朝]]/[[唐朝]]/[[宋朝]]\n實施科舉制度（運作良善）"
 :block/format :markdown
 :block/left 
@@ -251,7 +163,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f06065-f282-4589-84d3-3bcd99a9423c"} 
-{:block/created-at 1710252468565
+{:block/created-at 1710254817883
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -260,42 +172,173 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 6
+:index 3
 :scale [1 1]
 :refs []
-:pageId "65f06065-f282-4589-84d3-3bcd99a9423c"
+:pageId "65f05f4c-ed04-4378-9c10-d231355204f9"
 :scaleLevel "md"
 :fill ""
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [376 96.30787764377533]
+:size [208 96.30788724264966]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "1f043c60-e079-11ee-bb90-a1823df17749"
+:id "780142f0-e078-11ee-bb90-a1823df17749"
 :noFill false
-:point [1320 544]
+:point [936 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710252131806}}
-:block/updated-at 1710252468565} 
-{:block/content "隋朝"
+:nonce 1710251851185}}
+:block/updated-at 1710254817883} 
+{:block/content "arsta\nid:: 65f05d68-608e-4f0e-941d-152b633ca07b\n\n((40a613e0-e077-11ee-bb90-a1823df17749))"
 :block/format :markdown
 :block/left 
-{:block/uuid #uuid "65f06065-f282-4589-84d3-3bcd99a9423c"}
+{:block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/uuid #uuid "65f0606f-b983-428f-b721-9ad3682628bc"} 
-{:block/content "# 唐朝"
+:block/properties 
+{:id "65f05d68-608e-4f0e-941d-152b633ca07b"}
+:block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"} 
+{:block/created-at 1710252544010
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke "blue"
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:refs []
+:pageId "65f05d43-842d-42ea-8c5f-87af1d829090"
+:scaleLevel "xxl"
+:fill "blue"
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [272 122.68128967285156]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "40a613e0-e077-11ee-bb90-a1823df17749"
+:noFill false
+:point [1216 328]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710251330261}}
+:block/updated-at 1710252544010} 
+{:block/created-at 1710252413044
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke "gray"
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:refs []
+:pageId "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"
+:scaleLevel "md"
+:fill "gray"
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [248 96.30786034727947]
+:strokeType "line"
+:strokeWidth 2
+:opacity 0.5
+:id "1bf85160-e078-11ee-bb90-a1823df17749"
+:noFill false
+:point [448 544]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710251696835}}
+:block/updated-at 1710252413044} 
+{:block/content "# [[漢朝]]\n讀尊儒家，形成初期世族"
 :block/format :markdown
 :block/left 
-{:block/uuid #uuid "65f0606f-b983-428f-b721-9ad3682628bc"}
+{:block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/properties 
 {:heading 1}
-:block/uuid #uuid "65f060d2-787e-4878-891f-a0c2d99a6108"})
+:block/uuid #uuid "65f05f4c-ed04-4378-9c10-d231355204f9"} 
+{:block/content "教育制度\nid:: 65f05d43-842d-42ea-8c5f-87af1d829090"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:id "65f05d43-842d-42ea-8c5f-87af1d829090"}
+:block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"} 
+{:block/content "zxcv\n((40a613e0-e077-11ee-bb90-a1823df17749))"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{}
+:block/uuid #uuid "65f05d89-dd1d-4aec-828d-159c9008dcea"} 
+{:block/content "# [春秋戰國]([[商周]])\nid:: 65f05eb5-d06e-4390-a6bf-0eec7f98a02c\n道法儒並行"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1
+:id "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"}
+:block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f060d2-787e-4878-891f-a0c2d99a6108"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f06ad6-1c14-47d6-b478-94c2e6d678a0"} 
+{:block/content "# [[清朝]]\n科舉制度僵化，後期廢除，改採新式教育"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f06ad6-1c14-47d6-b478-94c2e6d678a0"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f06af2-aad7-41b3-b4c3-b357dedf1054"} 
+{:block/created-at 1710254863038
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "65f06af2-aad7-41b3-b4c3-b357dedf1054"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 96.30788724264966]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "655bd690-e07f-11ee-bb90-a1823df17749"
+:noFill false
+:point [1824 544]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710254826235}}
+:block/updated-at 1710254863038})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -338,8 +381,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710252544010
+:shapes-index ("bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749" "655bd690-e07f-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710254863038
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
