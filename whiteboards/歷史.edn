@@ -1,19 +1,19 @@
 {:blocks (
-{:block/content "# 教育制度"
+{:block/content "教育制度"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/properties 
-{:heading 1}
+{}
 :block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"} 
-{:block/created-at 1710251442898
+{:block/created-at 1710251510579
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
-:stroke ""
+:stroke "blue"
 :rotation 0
 :collapsed false
 :borderRadius 8
@@ -21,22 +21,22 @@
 :scale [1 1]
 :refs ["65f05d68-608e-4f0e-941d-152b633ca07b"]
 :pageId "65f05d43-842d-42ea-8c5f-87af1d829090"
-:scaleLevel "md"
-:fill ""
+:scaleLevel "xxl"
+:fill "blue"
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [176 72.3022232055664]
+:size [272 122.68128967285156]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "40a613e0-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [736 560]
+:point [872 368]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251328799}}
-:block/updated-at 1710251442898} 
+:nonce 1710251329285}}
+:block/updated-at 1710251510579} 
 {:block/content "arsta\nid:: 65f05d68-608e-4f0e-941d-152b633ca07b\n\n((40a613e0-e077-11ee-bb90-a1823df17749))"
 :block/format :markdown
 :block/left 
@@ -67,7 +67,7 @@
 :nonce 1
 :assets []
 :shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710251442898
+:block/updated-at 1710251511825
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
