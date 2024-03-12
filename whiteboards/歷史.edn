@@ -28,7 +28,7 @@
 :collapsedHeight 0
 :nonce 1710252131820}}
 :block/updated-at 1710255102347} 
-{:block/created-at 1710255116163
+{:block/created-at 1710255285420
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -61,9 +61,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710251848124
+:nonce 1710251848126
 :italic false}}
-:block/updated-at 1710255116163} 
+:block/updated-at 1710255285420} 
 {:block/content "# 唐朝"
 :block/format :markdown
 :block/left 
@@ -201,7 +201,7 @@
 :block/properties 
 {:id "65f05d68-608e-4f0e-941d-152b633ca07b"}
 :block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"} 
-{:block/created-at 1710255185547
+{:block/created-at 1710255267040
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -225,12 +225,12 @@
 :opacity 1
 :id "40a613e0-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [1248 232]
+:point [1256 200]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251331001}}
-:block/updated-at 1710255185547} 
-{:block/created-at 1710255089431
+:nonce 1710251331099}}
+:block/updated-at 1710255267040} 
+{:block/created-at 1710255285402
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -257,8 +257,8 @@
 :point [456 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251696853}}
-:block/updated-at 1710255089431} 
+:nonce 1710251696857}}
+:block/updated-at 1710255285402} 
 {:block/content "# [[漢朝]]\n讀尊儒家，形成初期世族"
 :block/format :markdown
 :block/left 
@@ -313,7 +313,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f06af2-aad7-41b3-b4c3-b357dedf1054"} 
-{:block/created-at 1710255054444
+{:block/created-at 1710255285404
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -338,8 +338,8 @@
 :point [2112 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710254826677}}
-:block/updated-at 1710255054444} 
+:nonce 1710254826681}}
+:block/updated-at 1710255285404} 
 {:block/content "# [[明朝]]\n科舉制度（神奇）"
 :block/format :markdown
 :block/left 
@@ -413,7 +413,7 @@
 :nonce 1710254937280
 :italic false}}
 :block/updated-at 1710255102347} 
-{:block/created-at 1710255054444
+{:block/created-at 1710255285421
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -446,10 +446,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710254942930
+:nonce 1710254942932
 :italic false}}
-:block/updated-at 1710255054444} 
-{:block/created-at 1710255135670
+:block/updated-at 1710255285421} 
+{:block/created-at 1710255276822
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -472,12 +472,12 @@
 :id "cb79ce50-e07f-11ee-bb90-a1823df17749"
 :fontWeight 700
 :noFill false
-:point [376 152]
+:point [384 128]
 :fontSize 20
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710255049585
+:nonce 1710255049871
 :italic false}}
-:block/updated-at 1710255135670})
+:block/updated-at 1710255276822})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -553,7 +553,7 @@
 :nonce 1
 :assets []
 :shapes-index ("cb79ce50-e07f-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749" "655bd690-e07f-11ee-bb90-a1823df17749" "8a24a5b0-e07f-11ee-bb90-a1823df17749" "a7943342-e07f-11ee-bb90-a1823df17749" "aaf2a082-e07f-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710255185547
+:block/updated-at 1710255285428
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
