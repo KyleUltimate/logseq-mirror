@@ -93,14 +93,15 @@
 :collapsedHeight 0
 :nonce 1710251542751}}
 :block/updated-at 1710252375506} 
-{:block/content "# [春秋戰國]([[商周]])\n道法儒並行"
+{:block/content "# [春秋戰國]([[商周]])\nid:: 65f05eb5-d06e-4390-a6bf-0eec7f98a02c\n道法儒並行"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/properties 
-{:heading 1}
+{:heading 1
+:id "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"}
 :block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"} 
 {:block/created-at 1710252413044
 :block/properties 
@@ -250,7 +251,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f06065-f282-4589-84d3-3bcd99a9423c"} 
-{:block/created-at 1710252429247
+{:block/created-at 1710252468565
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -268,7 +269,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [376 96.30787350709306]
+:size [376 96.30787764377533]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -277,8 +278,8 @@
 :point [1320 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710252131804}}
-:block/updated-at 1710252429247} 
+:nonce 1710252131806}}
+:block/updated-at 1710252468565} 
 {:block/content "隋朝"
 :block/format :markdown
 :block/left 
@@ -338,7 +339,7 @@
 :nonce 1
 :assets []
 :shapes-index ("bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710252429247
+:block/updated-at 1710252468565
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
