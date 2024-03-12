@@ -1,0 +1,57 @@
+{:blocks (
+{:block/content "id:: 65f05327-af67-4569-bf2e-db7f6f88bb48\n"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
+:block/uuid #uuid "65f05327-af67-4569-bf2e-db7f6f88bb48"} 
+{:block/created-at 1710248790064
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "65f05327-af67-4569-bf2e-db7f6f88bb48"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [128 40.8203125]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3b21a110-e071-11ee-aec0-0dd30f3f6b86"
+:noFill false
+:point [816 432]
+:parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
+:collapsedHeight 0
+:nonce 1710248742397}}
+:block/updated-at 1710248790064})
+:pages (
+{:block/properties-text-values 
+{:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
+:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
+:name "歷史"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("3b21a110-e071-11ee-aec0-0dd30f3f6b86")}}
+:block/updated-at 1710248790064
+:block/created-at 1710248733879
+:block/type "whiteboard"
+:block/name "歷史"
+:block/original-name "歷史"})}
