@@ -70,16 +70,16 @@
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
 :block/uuid #uuid "65f0569f-c189-487a-a80a-eac7c49d14c2"} 
-{:block/content "# ((3a652780-e074-11ee-aec0-0dd30f3f6b86)) #秦朝\n\n中央集權，"
+{:block/content "[[秦朝]]\n\n中央集權，地方首領權力低迷"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f0569f-c189-487a-a80a-eac7c49d14c2"}
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
 :block/properties 
-{:heading 1}
+{}
 :block/uuid #uuid "65f057c5-0f25-4499-b8c4-e7100d4c6215"} 
-{:block/created-at 1710250587765
+{:block/created-at 1710250654243
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -97,17 +97,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 88.81510162353516]
+:size [584 88.81510725192044]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "f6704dc0-e073-11ee-aec0-0dd30f3f6b86"
 :noFill false
-:point [664 504]
+:point [608 520]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710249915698}}
-:block/updated-at 1710250587765} 
+:nonce 1710249915783}}
+:block/updated-at 1710250654243} 
 {:block/created-at 1710250479669
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -159,7 +159,7 @@
 :nonce 1
 :assets []
 :shapes-index ("3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86" "3a652780-e074-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710250612782
+:block/updated-at 1710250670079
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
