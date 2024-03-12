@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"} 
-{:block/created-at 1710251983823
+{:block/created-at 1710251998536
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -19,7 +19,7 @@
 :borderRadius 8
 :index 0
 :scale [1 1]
-:refs ["65f05d68-608e-4f0e-941d-152b633ca07b"]
+:refs []
 :pageId "65f05d43-842d-42ea-8c5f-87af1d829090"
 :scaleLevel "xxl"
 :fill "blue"
@@ -35,8 +35,8 @@
 :point [1136 264]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251329613}}
-:block/updated-at 1710251983823} 
+:nonce 1710251329614}}
+:block/updated-at 1710251998536} 
 {:block/content "arsta\nid:: 65f05d68-608e-4f0e-941d-152b633ca07b\n\n((40a613e0-e077-11ee-bb90-a1823df17749))"
 :block/format :markdown
 :block/left 
@@ -93,7 +93,7 @@
 :collapsedHeight 0
 :nonce 1710251542745}}
 :block/updated-at 1710251929694} 
-{:block/content "# [春秋戰國]([[商周])\n道法儒並行"
+{:block/content "# [春秋戰國]([[商周]])\n道法儒並行"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"}
@@ -102,7 +102,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"} 
-{:block/created-at 1710251929694
+{:block/created-at 1710252048791
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -119,7 +119,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [248 96.30789030145061]
+:size [248 96.30786360494027]
 :strokeType "line"
 :strokeWidth 2
 :opacity 0.5
@@ -128,9 +128,9 @@
 :point [448 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251696818}}
-:block/updated-at 1710251929694} 
-{:block/created-at 1710251929694
+:nonce 1710251696824}}
+:block/updated-at 1710252048791} 
+{:block/created-at 1710252048798
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -163,9 +163,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710251848097
+:nonce 1710251848103
 :italic false}}
-:block/updated-at 1710251929694} 
+:block/updated-at 1710252048798} 
 {:block/content "# [[漢朝]]\n讀尊儒家，形成初期世族"
 :block/format :markdown
 :block/left 
@@ -282,7 +282,7 @@
 :nonce 1
 :assets []
 :shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710251983823
+:block/updated-at 1710252051739
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
