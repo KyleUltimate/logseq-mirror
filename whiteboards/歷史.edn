@@ -24,21 +24,21 @@
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
 :block/uuid #uuid "65f05383-b61b-4f1a-8c3f-9d79a34a581b"} 
-{:block/content "地方諸侯權力演變"
+{:block/content "地方諸侯權力演變\nid:: 65f05397-07c2-434e-b1d6-fd1b003ad8b5"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05383-b61b-4f1a-8c3f-9d79a34a581b"}
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
 :block/properties 
-{}
+{:id "65f05397-07c2-434e-b1d6-fd1b003ad8b5"}
 :block/uuid #uuid "65f05397-07c2-434e-b1d6-fd1b003ad8b5"} 
-{:block/created-at 1710249178657
+{:block/created-at 1710249264580
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
-:stroke ""
+:stroke "blue"
 :rotation 0
 :collapsed false
 :borderRadius 8
@@ -47,7 +47,7 @@
 :refs ["秦朝"]
 :pageId "65f05397-07c2-434e-b1d6-fd1b003ad8b5"
 :scaleLevel "xxl"
-:fill ""
+:fill "blue"
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
@@ -57,11 +57,11 @@
 :opacity 1
 :id "7e28bf70-e071-11ee-aec0-0dd30f3f6b86"
 :noFill false
-:point [744 184]
+:point [680 184]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710248855575}}
-:block/updated-at 1710249178657} 
+:nonce 1710248855621}}
+:block/updated-at 1710249264580} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -71,7 +71,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f053e5-a102-42c8-a646-618d9a669222"} 
-{:block/created-at 1710249211568
+{:block/created-at 1710249266351
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -95,11 +95,11 @@
 :opacity 1
 :id "c3ab3e10-e071-11ee-aec0-0dd30f3f6b86"
 :noFill false
-:point [472 344]
+:point [496 344]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 158.78906246710238
-:nonce 1710248972088}}
-:block/updated-at 1710249211568} 
+:nonce 1710248972120}}
+:block/updated-at 1710249266351} 
 {:block/created-at 1710249176913
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -162,7 +162,7 @@
 :nonce 1
 :assets []
 :shapes-index ("7e28bf70-e071-11ee-aec0-0dd30f3f6b86" "c3ab3e10-e071-11ee-aec0-0dd30f3f6b86" "1cb79170-e072-11ee-aec0-0dd30f3f6b86" "3877c150-e072-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710249211568
+:block/updated-at 1710249266351
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
