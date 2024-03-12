@@ -312,7 +312,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f06af2-aad7-41b3-b4c3-b357dedf1054"} 
-{:block/created-at 1710254863038
+{:block/created-at 1710254928819
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -328,17 +328,54 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 96.30788724264966]
+:size [400 96.30785673246862]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "655bd690-e07f-11ee-bb90-a1823df17749"
 :noFill false
-:point [1824 544]
+:point [2112 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710254826235}}
-:block/updated-at 1710254863038})
+:nonce 1710254826677}}
+:block/updated-at 1710254928819} 
+{:block/content "# [[明朝]]\n科舉制度（神奇）"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f06af2-aad7-41b3-b4c3-b357dedf1054"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f06b35-07f1-41b4-9faf-8e3f231255a1"} 
+{:block/created-at 1710254926066
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 8
+:scale [1 1]
+:pageId "65f06b35-07f1-41b4-9faf-8e3f231255a1"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [280 96.3079174061241]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8a24a5b0-e07f-11ee-bb90-a1823df17749"
+:noFill false
+:point [1776 544]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710254887897}}
+:block/updated-at 1710254926066})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -381,8 +418,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749" "655bd690-e07f-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710254863038
+:shapes-index ("bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749" "655bd690-e07f-11ee-bb90-a1823df17749" "8a24a5b0-e07f-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710254928819
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
