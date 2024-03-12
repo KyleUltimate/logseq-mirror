@@ -64,7 +64,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05e16-6123-442e-8461-9921f7beca87"} 
-{:block/created-at 1710251842723
+{:block/created-at 1710251929694
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -88,11 +88,11 @@
 :opacity 0.5
 :id "bf981810-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [728 544]
+:point [752 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251542673}}
-:block/updated-at 1710251842723} 
+:nonce 1710251542745}}
+:block/updated-at 1710251929694} 
 {:block/content "# [春秋戰國]([[商周])\n道法儒並行"
 :block/format :markdown
 :block/left 
@@ -102,7 +102,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"} 
-{:block/created-at 1710251842724
+{:block/created-at 1710251929694
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -128,9 +128,9 @@
 :point [448 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251696812}}
-:block/updated-at 1710251842724} 
-{:block/created-at 1710251852057
+:nonce 1710251696818}}
+:block/updated-at 1710251929694} 
+{:block/created-at 1710251929694
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -158,15 +158,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [27 0]
+:point [51 0]
 :bindingId "764b5591-e078-11ee-bb90-a1823df17749"}}
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710251848088
+:nonce 1710251848097
 :italic false}}
-:block/updated-at 1710251852057} 
-{:block/content "# [[漢朝]]\n讀尊"
+:block/updated-at 1710251929694} 
+{:block/content "# [[漢朝]]\n讀尊儒家，形成初期世族"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"}
@@ -175,12 +175,13 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05f4c-ed04-4378-9c10-d231355204f9"} 
-{:block/created-at 1710251872124
+{:block/created-at 1710251929694
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 4
@@ -191,17 +192,53 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 106.87722116155592]
+:size [208 96.30789788747636]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "780142f0-e078-11ee-bb90-a1823df17749"
 :noFill false
-:point [904 560]
+:point [936 544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251850916}}
-:block/updated-at 1710251872124})
+:nonce 1710251851119}}
+:block/updated-at 1710251929694} 
+{:block/created-at 1710251929694
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "a055d0e2-e078-11ee-bb90-a1823df17749"
+:fontWeight 400
+:noFill true
+:point [881 592.15]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "a055d0e0-e078-11ee-bb90-a1823df17749"}
+:end 
+{:id "end"
+:canBind true
+:point [51 0]
+:bindingId "a055d0e1-e078-11ee-bb90-a1823df17749"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710251918637
+:italic false}}
+:block/updated-at 1710251929694})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -225,11 +262,27 @@
 :toId "bf981810-e077-11ee-bb90-a1823df17749"
 :handleId "end"
 :point [0.5 0.5]
+:distance 4}
+:a055d0e0-e078-11ee-bb90-a1823df17749 
+{:id "a055d0e0-e078-11ee-bb90-a1823df17749"
+:type "line"
+:fromId "a055d0e2-e078-11ee-bb90-a1823df17749"
+:toId "bf981810-e077-11ee-bb90-a1823df17749"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:a055d0e1-e078-11ee-bb90-a1823df17749 
+{:id "a055d0e1-e078-11ee-bb90-a1823df17749"
+:type "line"
+:fromId "a055d0e2-e078-11ee-bb90-a1823df17749"
+:toId "780142f0-e078-11ee-bb90-a1823df17749"
+:handleId "end"
+:point [0.5 0.5]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710251876430
+:shapes-index ("40a613e0-e077-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710251929707
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
