@@ -70,7 +70,7 @@
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
 :block/uuid #uuid "65f0569f-c189-487a-a80a-eac7c49d14c2"} 
-{:block/content "# [[秦朝]]\n中央集權，地方首領權力(低迷](https://arst.com)\n((3a652780-e074-11ee-aec0-0dd30f3f6b86))"
+{:block/content "# [秦朝]( ((3a652780-e074-11ee-aec0-0dd30f3f6b86)) )\n中央集權，地方首領權力低迷"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f0569f-c189-487a-a80a-eac7c49d14c2"}
@@ -79,7 +79,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f057c5-0f25-4499-b8c4-e7100d4c6215"} 
-{:block/created-at 1710250783949
+{:block/created-at 1710250847126
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -90,14 +90,14 @@
 :borderRadius 8
 :index 1
 :scale [1 1]
-:refs ["65f05397-07c2-434e-b1d6-fd1b003ad8b5"]
+:refs []
 :pageId "65f057c5-0f25-4499-b8c4-e7100d4c6215"
 :scaleLevel "md"
 :fill ""
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [240 136.82290924066533]
+:size [240 96.30789098531584]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -106,8 +106,8 @@
 :point [736 488]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710249916418}}
-:block/updated-at 1710250783949} 
+:nonce 1710249916570}}
+:block/updated-at 1710250847126} 
 {:block/created-at 1710250686114
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -159,7 +159,7 @@
 :nonce 1
 :assets []
 :shapes-index ("3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86" "3a652780-e074-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710250793536
+:block/updated-at 1710250847126
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
