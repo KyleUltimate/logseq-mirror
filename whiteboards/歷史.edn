@@ -154,7 +154,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05b9b-f606-4d32-90ce-db52db8484d5"} 
-{:block/created-at 1710251082392
+{:block/created-at 1710251147227
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -165,7 +165,7 @@
 :borderRadius 8
 :index 3
 :scale [1 1]
-:refs ["商舟"]
+:refs []
 :pageId "65f05b9b-f606-4d32-90ce-db52db8484d5"
 :scaleLevel "md"
 :fill ""
@@ -181,9 +181,9 @@
 :point [520 512]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710250906176}}
-:block/updated-at 1710251082392} 
-{:block/created-at 1710251082401
+:nonce 1710250906179}}
+:block/updated-at 1710251147227} 
+{:block/created-at 1710251090439
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -216,9 +216,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
-:nonce 1710250992986
+:nonce 1710250992988
 :italic false}}
-:block/updated-at 1710251082401} 
+:block/updated-at 1710251090439} 
 {:block/content "教育"
 :block/format :markdown
 :block/left 
@@ -256,14 +256,16 @@
 :collapsedHeight 0
 :nonce 1710251034653}}
 :block/updated-at 1710251056270} 
-{:block/content "ars"
+{:block/content "# [春秋戰國](((3a652780-e074-11ee-aec0-0dd30f3f6b86)))\n百家爭鳴，道儒法並行"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05c1b-4eef-489c-92fb-36ad6b8bfe18"}
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{:heading 1}
 :block/uuid #uuid "65f05c3e-67b0-41a1-90d8-bfc59b547712"} 
-{:block/created-at 1710251070560
+{:block/created-at 1710251131680
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -279,17 +281,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 40.87948534305658]
+:size [400 96.30779558310302]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "a6418aa0-e076-11ee-8449-5d7c108d9d4a"
 :noFill false
-:point [1328 944]
+:point [512 840]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710251069516}}
-:block/updated-at 1710251070560} 
+:nonce 1710251069773}}
+:block/updated-at 1710251131680} 
 {:block/content "# [春秋戰國](((f6704dc0-e073-11ee-aec0-0dd30f3f6b86)))\n地方勢力崛起"
 :block/format :markdown
 :block/left 
@@ -320,12 +322,30 @@
 {:block/content "# [春秋戰國](((f6704dc0-e073-11ee-aec0-0dd30f3f6b86)))\n地方勢力崛起"
 :block/format :markdown
 :block/left 
+{:block/uuid #uuid "65f05c55-aaab-47c3-8b1a-cd64f7689a6e"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f05c4c-cb5d-485b-91e2-79cf4ab6a52e"} 
+{:block/content "# [春秋戰國](((f6704dc0-e073-11ee-aec0-0dd30f3f6b86)))\n地方勢力崛起"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05c57-27d9-4a2f-aa2b-45f91216198c"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f05c55-aaab-47c3-8b1a-cd64f7689a6e"} 
+{:block/content "# [春秋戰國](((f6704dc0-e073-11ee-aec0-0dd30f3f6b86)))\n地方勢力崛起"
+:block/format :markdown
+:block/left 
 {:block/uuid #uuid "65f05c3e-67b0-41a1-90d8-bfc59b547712"}
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
 :block/properties 
 {:heading 1}
-:block/uuid #uuid "65f05c4c-cb5d-485b-91e2-79cf4ab6a52e"})
+:block/uuid #uuid "65f05c57-27d9-4a2f-aa2b-45f91216198c"})
 :pages (
 {:block/properties-text-values 
 {:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
@@ -355,7 +375,7 @@
 :nonce 1
 :assets []
 :shapes-index ("3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86" "3a652780-e074-11ee-aec0-0dd30f3f6b86" "44aaa1a0-e076-11ee-8449-5d7c108d9d4a" "78955780-e076-11ee-8449-5d7c108d9d4a" "912ef300-e076-11ee-8449-5d7c108d9d4a" "a6418aa0-e076-11ee-8449-5d7c108d9d4a")}}
-:block/updated-at 1710251082404
+:block/updated-at 1710251147234
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
