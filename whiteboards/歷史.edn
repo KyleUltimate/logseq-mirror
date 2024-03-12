@@ -1,5 +1,5 @@
 {:blocks (
-{:block/content "咱們在幹嘛\nid:: 65f05327-af67-4569-bf2e-db7f6f88bb48"
+{:block/content "咱們在幹\nid:: 65f05327-af67-4569-bf2e-db7f6f88bb48"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
@@ -33,7 +33,7 @@
 :block/properties 
 {:id "65f05397-07c2-434e-b1d6-fd1b003ad8b5"}
 :block/uuid #uuid "65f05397-07c2-434e-b1d6-fd1b003ad8b5"} 
-{:block/created-at 1710249570898
+{:block/created-at 1710249779526
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -51,7 +51,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [472 122.46094071851225]
+:size [472 122.11808521886702]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -60,8 +60,8 @@
 :point [736 176]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710248856107}}
-:block/updated-at 1710249570898} 
+:nonce 1710248856113}}
+:block/updated-at 1710249779526} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -71,7 +71,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f053e5-a102-42c8-a646-618d9a669222"} 
-{:block/created-at 1710249657312
+{:block/created-at 1710249811259
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -89,7 +89,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [112 40.8203125]
+:size [112 40.82029665698727]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -98,8 +98,8 @@
 :point [608 432]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710249121356}}
-:block/updated-at 1710249657312} 
+:nonce 1710249121366}}
+:block/updated-at 1710249811259} 
 {:block/created-at 1710249390392
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -142,7 +142,7 @@
 :nonce 1
 :assets []
 :shapes-index ("7e28bf70-e071-11ee-aec0-0dd30f3f6b86" "1cb79170-e072-11ee-aec0-0dd30f3f6b86" "3877c150-e072-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710249657312
+:block/updated-at 1710249811259
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
