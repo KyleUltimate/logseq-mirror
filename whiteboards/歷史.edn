@@ -201,7 +201,7 @@
 :block/properties 
 {:id "65f05d68-608e-4f0e-941d-152b633ca07b"}
 :block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"} 
-{:block/created-at 1710255140091
+{:block/created-at 1710255185547
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -219,17 +219,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [272 122.68132085076803]
+:size [512 216.90666529258192]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "40a613e0-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [1336 256]
+:point [1248 232]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251330465}}
-:block/updated-at 1710255140091} 
+:nonce 1710251331001}}
+:block/updated-at 1710255185547} 
 {:block/created-at 1710255089431
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -268,14 +268,15 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05f4c-ed04-4378-9c10-d231355204f9"} 
-{:block/content "教育制度\nid:: 65f05d43-842d-42ea-8c5f-87af1d829090"
+{:block/content "# 教育制度\nid:: 65f05d43-842d-42ea-8c5f-87af1d829090"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/properties 
-{:id "65f05d43-842d-42ea-8c5f-87af1d829090"}
+{:id "65f05d43-842d-42ea-8c5f-87af1d829090"
+:heading 1}
 :block/uuid #uuid "65f05d43-842d-42ea-8c5f-87af1d829090"} 
 {:block/content "zxcv\n((40a613e0-e077-11ee-bb90-a1823df17749))"
 :block/format :markdown
@@ -552,7 +553,7 @@
 :nonce 1
 :assets []
 :shapes-index ("cb79ce50-e07f-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749" "655bd690-e07f-11ee-bb90-a1823df17749" "8a24a5b0-e07f-11ee-bb90-a1823df17749" "a7943342-e07f-11ee-bb90-a1823df17749" "aaf2a082-e07f-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710255157282
+:block/updated-at 1710255185547
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
