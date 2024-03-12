@@ -1,5 +1,5 @@
 {:blocks (
-{:block/created-at 1710255526510
+{:block/created-at 1710255576914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -23,12 +23,12 @@
 :opacity 1
 :id "1f043c60-e079-11ee-bb90-a1823df17749"
 :noFill false
-:point [1320 544]
+:point [1120 840]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710252131912}}
-:block/updated-at 1710255526510} 
-{:block/created-at 1710255526510
+:nonce 1710252132500}}
+:block/updated-at 1710255576914} 
+{:block/created-at 1710255576914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -45,7 +45,7 @@
 :id "764b5592-e078-11ee-bb90-a1823df17749"
 :fontWeight 400
 :noFill true
-:point [577 616.23]
+:point [1377 624.23]
 :fontSize 32
 :handles 
 {:start 
@@ -61,9 +61,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710251848194
+:nonce 1710251848338
 :italic false}}
-:block/updated-at 1710255526510} 
+:block/updated-at 1710255576914} 
 {:block/content "# 唐朝"
 :block/format :markdown
 :block/left 
@@ -73,7 +73,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f060d2-787e-4878-891f-a0c2d99a6108"} 
-{:block/created-at 1710255526509
+{:block/created-at 1710255576914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -97,11 +97,11 @@
 :opacity 1
 :id "bf981810-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [656 544]
+:point [1456 552]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251542904}}
-:block/updated-at 1710255526509} 
+:nonce 1710251543048}}
+:block/updated-at 1710255576914} 
 {:block/content "# [[秦朝]]\n讀尊法家"
 :block/format :markdown
 :block/left 
@@ -118,7 +118,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f0606f-b983-428f-b721-9ad3682628bc"} 
-{:block/created-at 1710255526510
+{:block/created-at 1710255576914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -135,7 +135,7 @@
 :id "a055d0e2-e078-11ee-bb90-a1823df17749"
 :fontWeight 400
 :noFill true
-:point [849 616.23]
+:point [1649 624.23]
 :fontSize 32
 :handles 
 {:start 
@@ -151,9 +151,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710251918729
+:nonce 1710251918873
 :italic false}}
-:block/updated-at 1710255526510} 
+:block/updated-at 1710255576914} 
 {:block/content "# [[隋朝]]/[[唐朝]]/[[宋朝]]\n實施科舉制度（運作良善）"
 :block/format :markdown
 :block/left 
@@ -163,7 +163,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f06065-f282-4589-84d3-3bcd99a9423c"} 
-{:block/created-at 1710255526510
+{:block/created-at 1710255576914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -187,11 +187,11 @@
 :opacity 1
 :id "780142f0-e078-11ee-bb90-a1823df17749"
 :noFill false
-:point [928 544]
+:point [1728 552]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251851290}}
-:block/updated-at 1710255526510} 
+:nonce 1710251851434}}
+:block/updated-at 1710255576914} 
 {:block/content "arsta\nid:: 65f05d68-608e-4f0e-941d-152b633ca07b\n\n((40a613e0-e077-11ee-bb90-a1823df17749))"
 :block/format :markdown
 :block/left 
@@ -201,7 +201,7 @@
 :block/properties 
 {:id "65f05d68-608e-4f0e-941d-152b633ca07b"}
 :block/uuid #uuid "65f05d68-608e-4f0e-941d-152b633ca07b"} 
-{:block/created-at 1710255481069
+{:block/created-at 1710255533650
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -225,12 +225,12 @@
 :opacity 1
 :id "40a613e0-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [1440 240]
+:point [1328 208]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251331525}}
-:block/updated-at 1710255481069} 
-{:block/created-at 1710255526510
+:nonce 1710251331737}}
+:block/updated-at 1710255533650} 
+{:block/created-at 1710255576914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -254,11 +254,11 @@
 :opacity 1
 :id "1bf85160-e078-11ee-bb90-a1823df17749"
 :noFill false
-:point [328 544]
+:point [1128 552]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251697054}}
-:block/updated-at 1710255526510} 
+:nonce 1710251697198}}
+:block/updated-at 1710255576914} 
 {:block/content "# [[漢朝]]\n讀尊儒家，形成初期世族"
 :block/format :markdown
 :block/left 
@@ -313,7 +313,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f06af2-aad7-41b3-b4c3-b357dedf1054"} 
-{:block/created-at 1710255526510
+{:block/created-at 1710255576914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -336,11 +336,11 @@
 :opacity 1
 :id "655bd690-e07f-11ee-bb90-a1823df17749"
 :noFill false
-:point [2112 544]
+:point [1912 840]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710254826773}}
-:block/updated-at 1710255526510} 
+:nonce 1710254827361}}
+:block/updated-at 1710255576914} 
 {:block/content "# [[明朝]]\n科舉制度（神奇）"
 :block/format :markdown
 :block/left 
@@ -350,7 +350,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f06b35-07f1-41b4-9faf-8e3f231255a1"} 
-{:block/created-at 1710255526510
+{:block/created-at 1710255576914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -373,12 +373,12 @@
 :opacity 1
 :id "8a24a5b0-e07f-11ee-bb90-a1823df17749"
 :noFill false
-:point [1776 544]
+:point [1576 840]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710254888058}}
-:block/updated-at 1710255526510} 
-{:block/created-at 1710255526510
+:nonce 1710254888646}}
+:block/updated-at 1710255576914} 
+{:block/created-at 1710255576913
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -395,7 +395,7 @@
 :id "a7943342-e07f-11ee-bb90-a1823df17749"
 :fontWeight 400
 :noFill true
-:point [1713 616.23]
+:point [1513 912.23]
 :fontSize 32
 :handles 
 {:start 
@@ -411,10 +411,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710254937319
+:nonce 1710254937907
 :italic false}}
-:block/updated-at 1710255526510} 
-{:block/created-at 1710255526510
+:block/updated-at 1710255576913} 
+{:block/created-at 1710255576914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -431,7 +431,7 @@
 :id "aaf2a082-e07f-11ee-bb90-a1823df17749"
 :fontWeight 400
 :noFill true
-:point [2049 616.23]
+:point [1849 912.23]
 :fontSize 32
 :handles 
 {:start 
@@ -447,16 +447,61 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710254942975
+:nonce 1710254943563
 :italic false}}
-:block/updated-at 1710255526510} 
+:block/updated-at 1710255576914} 
 {:block/content "教育制度"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f06b35-07f1-41b4-9faf-8e3f231255a1"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/uuid #uuid "65f06d2e-ed4e-4bbe-9e20-0212b45138fb"})
+:block/uuid #uuid "65f06d2e-ed4e-4bbe-9e20-0212b45138fb"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f06d2e-ed4e-4bbe-9e20-0212b45138fb"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{}
+:block/uuid #uuid "65f06db3-84f6-46e8-9e64-8c55c51664de"} 
+{:block/created-at 1710255592554
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 11
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "262ab482-e081-11ee-bb90-a1823df17749"
+:fontWeight 400
+:noFill true
+:point [1403.28 697.46]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [482.94 0]
+:bindingId "2b84a3a1-e081-11ee-bb90-a1823df17749"}
+:end 
+{:id "end"
+:canBind true
+:point [0 138.54]
+:bindingId "262ab481-e081-11ee-bb90-a1823df17749"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710255580495
+:italic false}}
+:block/updated-at 1710255592554})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -473,12 +518,28 @@
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
+:2b84a3a1-e081-11ee-bb90-a1823df17749 
+{:id "2b84a3a1-e081-11ee-bb90-a1823df17749"
+:type "line"
+:fromId "262ab482-e081-11ee-bb90-a1823df17749"
+:toId "780142f0-e078-11ee-bb90-a1823df17749"
+:handleId "start"
+:point [0.74 0.84]
+:distance 4}
 :a7943341-e07f-11ee-bb90-a1823df17749 
 {:id "a7943341-e07f-11ee-bb90-a1823df17749"
 :type "line"
 :fromId "a7943342-e07f-11ee-bb90-a1823df17749"
 :toId "8a24a5b0-e07f-11ee-bb90-a1823df17749"
 :handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:262ab480-e081-11ee-bb90-a1823df17749 
+{:id "262ab480-e081-11ee-bb90-a1823df17749"
+:type "line"
+:fromId "262ab482-e081-11ee-bb90-a1823df17749"
+:toId "780142f0-e078-11ee-bb90-a1823df17749"
+:handleId "start"
 :point [0.5 0.5]
 :distance 4}
 :a055d0e0-e078-11ee-bb90-a1823df17749 
@@ -497,6 +558,14 @@
 :handleId "end"
 :point [0.5 0.5]
 :distance 4}
+:28880571-e081-11ee-bb90-a1823df17749 
+{:id "28880571-e081-11ee-bb90-a1823df17749"
+:type "line"
+:fromId "262ab482-e081-11ee-bb90-a1823df17749"
+:toId "780142f0-e078-11ee-bb90-a1823df17749"
+:handleId "start"
+:point [0.68 0.01]
+:distance 4}
 :764b5590-e078-11ee-bb90-a1823df17749 
 {:id "764b5590-e078-11ee-bb90-a1823df17749"
 :type "line"
@@ -512,6 +581,14 @@
 :toId "bf981810-e077-11ee-bb90-a1823df17749"
 :handleId "end"
 :point [0.5 0.5]
+:distance 4}
+:262ab481-e081-11ee-bb90-a1823df17749 
+{:id "262ab481-e081-11ee-bb90-a1823df17749"
+:type "line"
+:fromId "262ab482-e081-11ee-bb90-a1823df17749"
+:toId "1f043c60-e079-11ee-bb90-a1823df17749"
+:handleId "end"
+:point [0.2 0.39]
 :distance 4}
 :a7943340-e07f-11ee-bb90-a1823df17749 
 {:id "a7943340-e07f-11ee-bb90-a1823df17749"
@@ -531,8 +608,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749" "655bd690-e07f-11ee-bb90-a1823df17749" "8a24a5b0-e07f-11ee-bb90-a1823df17749" "a7943342-e07f-11ee-bb90-a1823df17749" "aaf2a082-e07f-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710255526526
+:shapes-index ("bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749" "655bd690-e07f-11ee-bb90-a1823df17749" "8a24a5b0-e07f-11ee-bb90-a1823df17749" "a7943342-e07f-11ee-bb90-a1823df17749" "aaf2a082-e07f-11ee-bb90-a1823df17749" "262ab482-e081-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710255592569
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
