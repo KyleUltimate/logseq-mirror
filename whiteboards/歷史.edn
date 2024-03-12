@@ -33,7 +33,7 @@
 :block/properties 
 {:id "65f05397-07c2-434e-b1d6-fd1b003ad8b5"}
 :block/uuid #uuid "65f05397-07c2-434e-b1d6-fd1b003ad8b5"} 
-{:block/created-at 1710249839945
+{:block/created-at 1710249929264
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -51,17 +51,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [472 122.11808521886702]
+:size [472 122.46096502407292]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "7e28bf70-e071-11ee-aec0-0dd30f3f6b86"
 :noFill false
-:point [736 176]
+:point [984 272]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710248856114}}
-:block/updated-at 1710249839945} 
+:nonce 1710248856437}}
+:block/updated-at 1710249929264} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -98,7 +98,41 @@
 {:block/uuid #uuid "65f053e5-a102-42c8-a646-618d9a669222"}
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
-:block/uuid #uuid "65f0569f-c189-487a-a80a-eac7c49d14c2"})
+:block/uuid #uuid "65f0569f-c189-487a-a80a-eac7c49d14c2"} 
+{:block/content "秦朝"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f0569f-c189-487a-a80a-eac7c49d14c2"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/uuid #uuid "65f057c5-0f25-4499-b8c4-e7100d4c6215"} 
+{:block/created-at 1710249930780
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "65f057c5-0f25-4499-b8c4-e7100d4c6215"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.8203125]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f6704dc0-e073-11ee-aec0-0dd30f3f6b86"
+:noFill false
+:point [632 480]
+:parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
+:collapsedHeight 0
+:nonce 1710249915592}}
+:block/updated-at 1710249930780})
 :pages (
 {:block/properties-text-values 
 {:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
@@ -112,8 +146,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("7e28bf70-e071-11ee-aec0-0dd30f3f6b86" "3877c150-e072-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710249864215
+:shapes-index ("7e28bf70-e071-11ee-aec0-0dd30f3f6b86" "3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86")}}
+:block/updated-at 1710249930780
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
