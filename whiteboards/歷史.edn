@@ -145,14 +145,16 @@
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
 :block/uuid #uuid "65f059f3-0316-42f9-a866-5e33e62f4385"} 
-{:block/content ""
+{:block/content "# [](((f6704dc0-e073-11ee-aec0-0dd30f3f6b86)))\n地方勢力崛起"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f059f3-0316-42f9-a866-5e33e62f4385"}
 :block/parent 
 {:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{:heading 1}
 :block/uuid #uuid "65f05b9b-f606-4d32-90ce-db52db8484d5"} 
-{:block/created-at 1710250907217
+{:block/created-at 1710250966699
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -168,17 +170,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 40.879535418450736]
+:size [400 64.8851385618151]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "44aaa1a0-e076-11ee-8449-5d7c108d9d4a"
 :noFill false
-:point [976 536]
+:point [944 520]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710250905788}}
-:block/updated-at 1710250907217})
+:nonce 1710250905896}}
+:block/updated-at 1710250966699})
 :pages (
 {:block/properties-text-values 
 {:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
@@ -193,7 +195,7 @@
 :nonce 1
 :assets []
 :shapes-index ("3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86" "3a652780-e074-11ee-aec0-0dd30f3f6b86" "44aaa1a0-e076-11ee-8449-5d7c108d9d4a")}}
-:block/updated-at 1710250907217
+:block/updated-at 1710250967395
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
