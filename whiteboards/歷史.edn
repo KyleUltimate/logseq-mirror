@@ -108,7 +108,7 @@
 :collapsedHeight 0
 :nonce 1710249915675}}
 :block/updated-at 1710250428751} 
-{:block/created-at 1710250359405
+{:block/created-at 1710250479669
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -126,7 +126,7 @@
 :compact true
 :isAutoResizing false
 :type "logseq-portal"
-:size [472 122.46094736451737]
+:size [504 120]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -136,9 +136,9 @@
 :point [1048 296]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710248856848}}
-:block/updated-at 1710250359405} 
-{:block/created-at 1710250428755
+:nonce 1710248856862}}
+:block/updated-at 1710250479669} 
+{:block/created-at 1710250479669
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -156,26 +156,61 @@
 :id "47d873e2-e074-11ee-aec0-0dd30f3f6b86"
 :fontWeight 400
 :noFill true
-:point [854.4 422.46]
+:point [856.6 420]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [221.67 0]
+:point [234.74 0]
 :bindingId "47d873e0-e074-11ee-aec0-0dd30f3f6b86"}
 :end 
 {:id "end"
 :canBind true
-:point [0 69.54]
+:point [0 72]
 :bindingId "47d873e1-e074-11ee-aec0-0dd30f3f6b86"}}
 :decorations 
 {:start nil
 :end "arrow"}
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
-:nonce 1710250052373
+:nonce 1710250052377
 :italic false}}
-:block/updated-at 1710250428755})
+:block/updated-at 1710250479669} 
+{:block/content "演變"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f057c5-0f25-4499-b8c4-e7100d4c6215"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/uuid #uuid "65f059f3-0316-42f9-a866-5e33e62f4385"} 
+{:block/created-at 1710250484029
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 4
+:scale [1 1]
+:pageId "65f059f3-0316-42f9-a866-5e33e62f4385"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.82029665698727]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "49435910-e075-11ee-b433-5fa28d50c694"
+:noFill false
+:isLocked false
+:point [1644.8991186115823 86.35142662719542]
+:parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
+:collapsedHeight 0
+:nonce 1710250484002}}
+:block/updated-at 1710250484029})
 :pages (
 {:block/properties-text-values 
 {:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
@@ -204,8 +239,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86" "3a652780-e074-11ee-aec0-0dd30f3f6b86" "47d873e2-e074-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710250428759
+:shapes-index ("3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86" "3a652780-e074-11ee-aec0-0dd30f3f6b86" "47d873e2-e074-11ee-aec0-0dd30f3f6b86" "49435910-e075-11ee-b433-5fa28d50c694")}}
+:block/updated-at 1710250484029
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
