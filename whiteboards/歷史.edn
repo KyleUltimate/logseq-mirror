@@ -154,7 +154,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05b9b-f606-4d32-90ce-db52db8484d5"} 
-{:block/created-at 1710250996025
+{:block/created-at 1710251082392
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -172,7 +172,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [176 96.30789573389133]
+:size [176 96.30784232013757]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -181,9 +181,9 @@
 :point [520 512]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710250906168}}
-:block/updated-at 1710250996025} 
-{:block/created-at 1710250996026
+:nonce 1710250906176}}
+:block/updated-at 1710251082392} 
+{:block/created-at 1710251082401
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -216,9 +216,116 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
-:nonce 1710250992978
+:nonce 1710250992986
 :italic false}}
-:block/updated-at 1710250996026})
+:block/updated-at 1710251082401} 
+{:block/content "教育"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05b9b-f606-4d32-90ce-db52db8484d5"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{}
+:block/uuid #uuid "65f05c1b-4eef-489c-92fb-36ad6b8bfe18"} 
+{:block/created-at 1710251056270
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke "blue"
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "65f05c1b-4eef-489c-92fb-36ad6b8bfe18"
+:scaleLevel "xxl"
+:fill "blue"
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [560 122.68127049117174]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "912ef300-e076-11ee-8449-5d7c108d9d4a"
+:noFill false
+:point [1016 688]
+:parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
+:collapsedHeight 0
+:nonce 1710251034653}}
+:block/updated-at 1710251056270} 
+{:block/content "ars"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05c1b-4eef-489c-92fb-36ad6b8bfe18"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/uuid #uuid "65f05c3e-67b0-41a1-90d8-bfc59b547712"} 
+{:block/created-at 1710251070560
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "65f05c3e-67b0-41a1-90d8-bfc59b547712"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.87948534305658]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "a6418aa0-e076-11ee-8449-5d7c108d9d4a"
+:noFill false
+:point [1328 944]
+:parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
+:collapsedHeight 0
+:nonce 1710251069516}}
+:block/updated-at 1710251070560} 
+{:block/content "# [春秋戰國](((f6704dc0-e073-11ee-aec0-0dd30f3f6b86)))\n地方勢力崛起"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05c43-9e1d-45b1-a978-39b16b563270"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f05c3f-df9b-461b-9a37-760f6d697f76"} 
+{:block/content "# [春秋戰國](((f6704dc0-e073-11ee-aec0-0dd30f3f6b86)))\n地方勢力崛起"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05c46-d4f2-45d5-9d42-f60500dd0f97"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f05c43-9e1d-45b1-a978-39b16b563270"} 
+{:block/content "# [春秋戰國](((f6704dc0-e073-11ee-aec0-0dd30f3f6b86)))\n地方勢力崛起"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05c4c-cb5d-485b-91e2-79cf4ab6a52e"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f05c46-d4f2-45d5-9d42-f60500dd0f97"} 
+{:block/content "# [春秋戰國](((f6704dc0-e073-11ee-aec0-0dd30f3f6b86)))\n地方勢力崛起"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f05c3e-67b0-41a1-90d8-bfc59b547712"}
+:block/parent 
+{:block/uuid #uuid "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f05c4c-cb5d-485b-91e2-79cf4ab6a52e"})
 :pages (
 {:block/properties-text-values 
 {:id "65f05327-af67-4569-bf2e-db7f6f88bb48"}
@@ -247,8 +354,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86" "3a652780-e074-11ee-aec0-0dd30f3f6b86" "44aaa1a0-e076-11ee-8449-5d7c108d9d4a" "78955780-e076-11ee-8449-5d7c108d9d4a")}}
-:block/updated-at 1710250996025
+:shapes-index ("3877c150-e072-11ee-aec0-0dd30f3f6b86" "f6704dc0-e073-11ee-aec0-0dd30f3f6b86" "3a652780-e074-11ee-aec0-0dd30f3f6b86" "44aaa1a0-e076-11ee-8449-5d7c108d9d4a" "78955780-e076-11ee-8449-5d7c108d9d4a" "912ef300-e076-11ee-8449-5d7c108d9d4a" "a6418aa0-e076-11ee-8449-5d7c108d9d4a")}}
+:block/updated-at 1710251082404
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
