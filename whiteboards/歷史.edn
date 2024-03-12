@@ -71,33 +71,35 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f053e5-a102-42c8-a646-618d9a669222"} 
-{:block/created-at 1710249390392
+{:block/created-at 1710249446217
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 1
 :scale [1 1]
+:refs ["秦朝"]
 :pageId "65f05327-af67-4569-bf2e-db7f6f88bb48"
 :scaleLevel "md"
 :fill ""
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 40.65446612190172]
+:size [112 40.82029665698727]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "1cb79170-e072-11ee-aec0-0dd30f3f6b86"
 :noFill false
-:point [840 360]
+:point [584 352]
 :parentId "65f0531d-90a6-4ae1-8ec1-6ebbb603834d"
 :collapsedHeight 0
-:nonce 1710249120903}}
-:block/updated-at 1710249390392} 
+:nonce 1710249121218}}
+:block/updated-at 1710249446217} 
 {:block/created-at 1710249390392
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -133,7 +135,7 @@
 :nonce 1
 :assets []
 :shapes-index ("7e28bf70-e071-11ee-aec0-0dd30f3f6b86" "1cb79170-e072-11ee-aec0-0dd30f3f6b86" "3877c150-e072-11ee-aec0-0dd30f3f6b86")}}
-:block/updated-at 1710249390391
+:block/updated-at 1710249446217
 :block/created-at 1710248733879
 :block/type "whiteboard"
 :block/name "歷史"
