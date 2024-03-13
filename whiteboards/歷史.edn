@@ -28,7 +28,7 @@
 :collapsedHeight 0
 :nonce 1710252132538}}
 :block/updated-at 1710255725180} 
-{:block/created-at 1710255756733
+{:block/created-at 1710343738489
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -56,14 +56,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [75 0]
+:point [91 0]
 :bindingId "764b5591-e078-11ee-bb90-a1823df17749"}}
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710251848580
+:nonce 1710251848594
 :italic false}}
-:block/updated-at 1710255756733} 
+:block/updated-at 1710343738489} 
 {:block/content "# 唐朝"
 :block/format :markdown
 :block/left 
@@ -73,7 +73,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f060d2-787e-4878-891f-a0c2d99a6108"} 
-{:block/created-at 1710255725180
+{:block/created-at 1710343738490
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -91,17 +91,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [232 144.4618279283164]
+:size [232 144.4618054797706]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "bf981810-e077-11ee-bb90-a1823df17749"
 :noFill false
-:point [1576 504]
+:point [1592 504]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251543423}}
-:block/updated-at 1710255725180} 
+:nonce 1710251543525}}
+:block/updated-at 1710343738490} 
 {:block/content "# [[秦朝]]\n獨尊法家"
 :block/format :markdown
 :block/left 
@@ -118,7 +118,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f0606f-b983-428f-b721-9ad3682628bc"} 
-{:block/created-at 1710255725180
+{:block/created-at 1710343738490
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -135,7 +135,7 @@
 :id "a055d0e2-e078-11ee-bb90-a1823df17749"
 :fontWeight 400
 :noFill true
-:point [1809 576.23]
+:point [1825 576.23]
 :fontSize 32
 :handles 
 {:start 
@@ -146,14 +146,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [107 0]
+:point [91 0]
 :bindingId "a055d0e1-e078-11ee-bb90-a1823df17749"}}
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710251919133
+:nonce 1710251919145
 :italic false}}
-:block/updated-at 1710255725180} 
+:block/updated-at 1710343738490} 
 {:block/content "# [[隋朝]]/[[唐朝]]/[[宋朝]]\n實施科舉制度（運作良善）"
 :block/format :markdown
 :block/left 
@@ -230,7 +230,7 @@
 :collapsedHeight 0
 :nonce 1710251331835}}
 :block/updated-at 1710255725180} 
-{:block/created-at 1710255756726
+{:block/created-at 1710343724989
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -248,7 +248,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [376 144.46184461912216]
+:size [376 144.4618054797706]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -257,8 +257,8 @@
 :point [1120 504]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710251697468}}
-:block/updated-at 1710255756726} 
+:nonce 1710251697470}}
+:block/updated-at 1710343724989} 
 {:block/content "# [[漢朝]]\n讀尊儒家，形成初期世族"
 :block/format :markdown
 :block/left 
@@ -268,7 +268,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f05f4c-ed04-4378-9c10-d231355204f9"} 
-{:block/content "# 教育制度\nid:: 65f05d43-842d-42ea-8c5f-87af1d829090"
+{:block/content "# 選材制度\nid:: 65f05d43-842d-42ea-8c5f-87af1d829090"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
@@ -350,7 +350,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f06b35-07f1-41b4-9faf-8e3f231255a1"} 
-{:block/created-at 1710255725180
+{:block/created-at 1710343740710
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -373,12 +373,12 @@
 :opacity 1
 :id "8a24a5b0-e07f-11ee-bb90-a1823df17749"
 :noFill false
-:point [1576 840]
+:point [1592 840]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710254888705}}
-:block/updated-at 1710255725180} 
-{:block/created-at 1710255725180
+:nonce 1710254888737}}
+:block/updated-at 1710343740710} 
+{:block/created-at 1710343740710
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -406,15 +406,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [75 0]
+:point [91 0]
 :bindingId "a7943341-e07f-11ee-bb90-a1823df17749"}}
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710254937918
+:nonce 1710254937920
 :italic false}}
-:block/updated-at 1710255725180} 
-{:block/created-at 1710255725180
+:block/updated-at 1710343740710} 
+{:block/created-at 1710343740710
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -431,7 +431,7 @@
 :id "aaf2a082-e07f-11ee-bb90-a1823df17749"
 :fontWeight 400
 :noFill true
-:point [1809 912.23]
+:point [1825 912.23]
 :fontSize 32
 :handles 
 {:start 
@@ -442,14 +442,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [99 0]
+:point [83 0]
 :bindingId "aaf2a081-e07f-11ee-bb90-a1823df17749"}}
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710254943574
+:nonce 1710254943576
 :italic false}}
-:block/updated-at 1710255725180} 
+:block/updated-at 1710343740710} 
 {:block/content "教育制度"
 :block/format :markdown
 :block/left 
@@ -664,7 +664,7 @@
 :nonce 1
 :assets []
 :shapes-index ("6ead7ad0-e081-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749" "655bd690-e07f-11ee-bb90-a1823df17749" "8a24a5b0-e07f-11ee-bb90-a1823df17749" "a7943342-e07f-11ee-bb90-a1823df17749" "aaf2a082-e07f-11ee-bb90-a1823df17749" "52ee8372-e081-11ee-bb90-a1823df17749" "baef6c00-e081-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710255844723
+:block/updated-at 1710343740709
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
