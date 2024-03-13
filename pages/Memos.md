@@ -140,7 +140,6 @@
 	- rust scan
 - [[Oct 31st, 2023]] 08:25 #memos
   memo-id:: 48
-	- LATER  parade demonstration
 - [[Oct 23rd, 2023]] 08:54 #memos
   memo-id:: 37
 	- DONE  國 L5 預習學習單
