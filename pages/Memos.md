@@ -178,4 +178,5 @@
   memo-id:: 98
 	- LATER  英文實力講義
 	- LATER  歷史學習
-	- LATER  生物複習
+	- LATER  生物複習 
+	  SCHEDULED: <2024-03-13 Wed>
