@@ -208,7 +208,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2d9b7-995f-40dd-b466-cb270e2a3c3b"} 
-{:block/created-at 1710414664236
+{:block/created-at 1710416026716
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -231,11 +231,11 @@
 :opacity 1
 :id "ad887300-e1f2-11ee-bb90-a1823df17749"
 :noFill false
-:point [3152 384]
+:point [3016 400]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414290677}}
-:block/updated-at 1710414664236} 
+:nonce 1710414290759}}
+:block/updated-at 1710416026716} 
 {:block/content "封建制度，"
 :block/format :markdown
 :block/left 
@@ -285,7 +285,7 @@
 :collapsedHeight 0
 :nonce 1710414493026}}
 :block/updated-at 1710414671171} 
-{:block/created-at 1710415125034
+{:block/created-at 1710416011353
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -308,11 +308,11 @@
 :opacity 1
 :id "6b96c6d0-e1f3-11ee-bb90-a1823df17749"
 :noFill false
-:point [3560 184]
+:point [3400 176]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 253.75923665364581
-:nonce 1710414609956}}
-:block/updated-at 1710415125034})
+:nonce 1710414610188}}
+:block/updated-at 1710416011353})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -325,7 +325,7 @@
 :nonce 1
 :assets []
 :shapes-index ("ad887300-e1f2-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "6b96c6d0-e1f3-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710415125034
+:block/updated-at 1710416026716
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
