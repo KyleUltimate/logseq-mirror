@@ -176,7 +176,6 @@
 	- awry
 - [[Mar 13th, 2024]] 20:09 #memos
   memo-id:: 98
-	- LATER  英文實力講義
 	- LATER  歷史學習 
 	  SCHEDULED: <2024-03-16 Sat>
 	- LATER  生物複習
@@ -184,6 +183,7 @@
 - [[Mar 14th, 2024]] 11:17 #memos
   memo-id:: 100
 	- LATER  禮拜四考化學
+	  SCHEDULED: <2024-03-21 Thu>
 - [[Mar 14th, 2024]] 08:49 #memos
   memo-id:: 99
 	- https://tailwindcss.com/blog/tailwindcss-v3-4#style-children-with-the-variant
