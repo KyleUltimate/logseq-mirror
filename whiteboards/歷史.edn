@@ -564,16 +564,16 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2d90d-dbe1-4bd6-a3fe-8bf315c0690a"} 
-{:block/content "# 地方權力大小"
+{:block/content "地方權力大小"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f2d90d-dbe1-4bd6-a3fe-8bf315c0690a"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/properties 
-{:heading 1}
+{}
 :block/uuid #uuid "65f2d91b-245a-41b9-b0c3-1c9643b1f97a"} 
-{:block/created-at 1710414133876
+{:block/created-at 1710414345029
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -590,7 +590,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [672 216.90667724609375]
+:size [376 122.68128409398615]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -599,8 +599,8 @@
 :point [3392 224]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414104481}}
-:block/updated-at 1710414133876} 
+:nonce 1710414104554}}
+:block/updated-at 1710414345029} 
 {:block/content "# [[商周]]\n西周 -> 封建制度"
 :block/format :markdown
 :block/left 
@@ -672,7 +672,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2d9b7-995f-40dd-b466-cb270e2a3c3b"} 
-{:block/created-at 1710414317717
+{:block/created-at 1710414346053
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -688,17 +688,24 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 158.87298845199024]
+:size [400 219.19376424987436]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "ad887300-e1f2-11ee-bb90-a1823df17749"
 :noFill false
-:point [3168 520]
+:point [3152 384]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414290583}}
-:block/updated-at 1710414317717})
+:nonce 1710414290663}}
+:block/updated-at 1710414346053} 
+{:block/content "封建制度，"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f2d9b7-995f-40dd-b466-cb270e2a3c3b"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f2da03-131b-4427-998c-d330243a5857"})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -806,7 +813,7 @@
 :nonce 1
 :assets []
 :shapes-index ("6ead7ad0-e081-11ee-bb90-a1823df17749" "bf981810-e077-11ee-bb90-a1823df17749" "1bf85160-e078-11ee-bb90-a1823df17749" "764b5592-e078-11ee-bb90-a1823df17749" "780142f0-e078-11ee-bb90-a1823df17749" "a055d0e2-e078-11ee-bb90-a1823df17749" "40a613e0-e077-11ee-bb90-a1823df17749" "1f043c60-e079-11ee-bb90-a1823df17749" "655bd690-e07f-11ee-bb90-a1823df17749" "8a24a5b0-e07f-11ee-bb90-a1823df17749" "a7943342-e07f-11ee-bb90-a1823df17749" "aaf2a082-e07f-11ee-bb90-a1823df17749" "52ee8372-e081-11ee-bb90-a1823df17749" "baef6c00-e081-11ee-bb90-a1823df17749" "3e6d74c0-e1f2-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710414317717
+:block/updated-at 1710414346053
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
