@@ -208,7 +208,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2d9b7-995f-40dd-b466-cb270e2a3c3b"} 
-{:block/created-at 1710416043737
+{:block/created-at 1710416608118
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -231,11 +231,11 @@
 :opacity 1
 :id "ad887300-e1f2-11ee-bb90-a1823df17749"
 :noFill false
-:point [3016 400]
+:point [2896 392]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414290761}}
-:block/updated-at 1710416043737} 
+:nonce 1710414290851}}
+:block/updated-at 1710416608118} 
 {:block/content "封建制度，"
 :block/format :markdown
 :block/left 
@@ -257,7 +257,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2da90-aaff-4836-a430-fc1087863f68"} 
-{:block/created-at 1710416554494
+{:block/created-at 1710416611072
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -280,12 +280,12 @@
 :opacity 1
 :id "2620a440-e1f3-11ee-bb90-a1823df17749"
 :noFill false
-:point [3552 448]
+:point [3536 408]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414493094}}
-:block/updated-at 1710416554494} 
-{:block/created-at 1710416551665
+:nonce 1710414493250}}
+:block/updated-at 1710416611072} 
+{:block/created-at 1710416612487
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -308,11 +308,11 @@
 :opacity 1
 :id "6b96c6d0-e1f3-11ee-bb90-a1823df17749"
 :noFill false
-:point [3272 176]
+:point [3232 168]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 1707.5396097323237
-:nonce 1710414611066}}
-:block/updated-at 1710416551665})
+:nonce 1710414611212}}
+:block/updated-at 1710416612487})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -325,7 +325,7 @@
 :nonce 1
 :assets []
 :shapes-index ("ad887300-e1f2-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "6b96c6d0-e1f3-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710416554494
+:block/updated-at 1710416612487
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
