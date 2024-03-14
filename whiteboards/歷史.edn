@@ -137,34 +137,6 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f2d91b-245a-41b9-b0c3-1c9643b1f97a"} 
-{:block/created-at 1710414558702
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
-:stroke "blue"
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 0
-:scale [1 1]
-:pageId "65f2d91b-245a-41b9-b0c3-1c9643b1f97a"
-:scaleLevel "xxl"
-:fill "blue"
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [376 122.68128409398615]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "3e6d74c0-e1f2-11ee-bb90-a1823df17749"
-:noFill false
-:point [3568 216]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710414104702}}
-:block/updated-at 1710414558702} 
 {:block/content "# [[商周]]\n西周 -> 封建制度"
 :block/format :markdown
 :block/left 
@@ -236,7 +208,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2d9b7-995f-40dd-b466-cb270e2a3c3b"} 
-{:block/created-at 1710414558703
+{:block/created-at 1710414664236
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -244,8 +216,9 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 1
+:index 0
 :scale [1 1]
+:refs ["地方權力大小"]
 :pageId "商周/地方權力大小"
 :scaleLevel "md"
 :fill ""
@@ -261,8 +234,8 @@
 :point [3152 384]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414290676}}
-:block/updated-at 1710414558703} 
+:nonce 1710414290677}}
+:block/updated-at 1710414664236} 
 {:block/content "封建制度，"
 :block/format :markdown
 :block/left 
@@ -284,7 +257,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2da90-aaff-4836-a430-fc1087863f68"} 
-{:block/created-at 1710414558703
+{:block/created-at 1710414671171
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -292,8 +265,9 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 2
+:index 1
 :scale [1 1]
+:refs ["地方權力大小"]
 :pageId "秦朝/地方權力大小"
 :scaleLevel "md"
 :fill ""
@@ -306,38 +280,39 @@
 :opacity 1
 :id "2620a440-e1f3-11ee-bb90-a1823df17749"
 :noFill false
-:point [3672 384]
+:point [3632 384]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414492989}}
-:block/updated-at 1710414558703} 
-{:block/created-at 1710414614399
+:nonce 1710414493026}}
+:block/updated-at 1710414671171} 
+{:block/created-at 1710414653661
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
-:collapsed false
+:rotation 0
+:collapsed true
 :borderRadius 8
-:index 3
+:index 2
 :scale [1 1]
 :pageId "地方權力大小"
-:scaleLevel "md"
+:scaleLevel "xxl"
 :fill ""
 :compact false
-:isAutoResizing true
+:isAutoResizing false
 :type "logseq-portal"
-:size [400 126.87963104248047]
+:size [376 120]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "6b96c6d0-e1f3-11ee-bb90-a1823df17749"
 :noFill false
-:point [4208 72]
+:point [3560 184]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710414609343}}
-:block/updated-at 1710414614399})
+:collapsedHeight 253.75923665364581
+:nonce 1710414609953}}
+:block/updated-at 1710414653661})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -349,8 +324,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("3e6d74c0-e1f2-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "6b96c6d0-e1f3-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710414614399
+:shapes-index ("ad887300-e1f2-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "6b96c6d0-e1f3-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710414671171
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
