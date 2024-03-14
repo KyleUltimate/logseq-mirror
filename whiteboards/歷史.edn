@@ -208,7 +208,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2d9b7-995f-40dd-b466-cb270e2a3c3b"} 
-{:block/created-at 1710416026716
+{:block/created-at 1710416043737
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -225,7 +225,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 383.0968186228527]
+:size [400 383.0968555501561]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -234,8 +234,8 @@
 :point [3016 400]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414290759}}
-:block/updated-at 1710416026716} 
+:nonce 1710414290761}}
+:block/updated-at 1710416043737} 
 {:block/content "封建制度，"
 :block/format :markdown
 :block/left 
@@ -257,7 +257,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2da90-aaff-4836-a430-fc1087863f68"} 
-{:block/created-at 1710414671171
+{:block/created-at 1710416139422
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -274,7 +274,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 187.2004852294922]
+:size [400 187.21467727222344]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -283,16 +283,16 @@
 :point [3632 384]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414493026}}
-:block/updated-at 1710414671171} 
-{:block/created-at 1710416011353
+:nonce 1710414493030}}
+:block/updated-at 1710416139422} 
+{:block/created-at 1710416528543
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
 :rotation 0
-:collapsed true
+:collapsed false
 :borderRadius 8
 :index 2
 :scale [1 1]
@@ -300,19 +300,19 @@
 :scaleLevel "xxl"
 :fill ""
 :compact false
-:isAutoResizing false
+:isAutoResizing true
 :type "logseq-portal"
-:size [376 253.75923665364581]
+:size [552 91892702.17894323]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "6b96c6d0-e1f3-11ee-bb90-a1823df17749"
 :noFill false
-:point [3400 176]
+:point [3344 64]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 253.75923665364581
-:nonce 1710414610188}}
-:block/updated-at 1710416011353})
+:nonce 1710414610287}}
+:block/updated-at 1710416528543})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -325,7 +325,7 @@
 :nonce 1
 :assets []
 :shapes-index ("ad887300-e1f2-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "6b96c6d0-e1f3-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710416026716
+:block/updated-at 1710416528543
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
