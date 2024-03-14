@@ -285,34 +285,44 @@
 :collapsedHeight 0
 :nonce 1710414493250}}
 :block/updated-at 1710416611072} 
-{:block/created-at 1710416682442
+{:block/content "[[地方權力大小]]"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f2da90-aaff-4836-a430-fc1087863f68"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{}
+:block/uuid #uuid "65f2e39b-0a7a-466b-88aa-9d843db0f7de"} 
+{:block/created-at 1710416835547
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
-{:blockType "P"
+{:blockType "B"
 :stroke ""
 :rotation 0
-:collapsed true
+:collapsed false
 :borderRadius 8
 :index 2
 :scale [1 1]
-:pageId "地方權力大小"
+:refs []
+:pageId "65f2e39b-0a7a-466b-88aa-9d843db0f7de"
 :scaleLevel "xxl"
 :fill ""
-:compact false
-:isAutoResizing false
+:compact true
+:isAutoResizing true
 :type "logseq-portal"
-:size [400 1707.5396097323237]
+:size [392 122.68129078769181]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "6b96c6d0-e1f3-11ee-bb90-a1823df17749"
+:id "7c1453b0-e1f8-11ee-bb90-a1823df17749"
 :noFill false
-:point [3232 168]
+:point [3216 200]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 1707.5396097323237
-:nonce 1710414611213}}
-:block/updated-at 1710416682442})
+:collapsedHeight 0
+:nonce 1710416784840}}
+:block/updated-at 1710416835547})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -324,8 +334,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("ad887300-e1f2-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "6b96c6d0-e1f3-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710416682442
+:shapes-index ("ad887300-e1f2-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710416835547
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
