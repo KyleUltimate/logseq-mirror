@@ -181,3 +181,12 @@
 	  SCHEDULED: <2024-03-16 Sat>
 	- LATER  生物複習
 	  SCHEDULED: <2024-03-16 Sat>
+- [[Mar 14th, 2024]] 11:17 #memos
+  memo-id:: 100
+	- LATER  禮拜四考化學
+- [[Mar 14th, 2024]] 08:49 #memos
+  memo-id:: 99
+	- https://tailwindcss.com/blog/tailwindcss-v3-4#style-children-with-the-variant
+	  id:: 0a061f7f-77e7-44aa-bc3b-002eb40ae4a0
+	  https://tailwindcss.com/blog/tailwindcss-v3-1#arbitrary-values-but-for-variants
+	  `&` 類似 self
