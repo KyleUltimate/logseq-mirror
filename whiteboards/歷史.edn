@@ -285,7 +285,7 @@
 :collapsedHeight 0
 :nonce 1710414493250}}
 :block/updated-at 1710416611072} 
-{:block/created-at 1710416612487
+{:block/created-at 1710416682442
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -302,7 +302,7 @@
 :compact false
 :isAutoResizing false
 :type "logseq-portal"
-:size [400 120]
+:size [400 1707.5396097323237]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -311,8 +311,8 @@
 :point [3232 168]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 1707.5396097323237
-:nonce 1710414611212}}
-:block/updated-at 1710416612487})
+:nonce 1710414611213}}
+:block/updated-at 1710416682442})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -325,7 +325,7 @@
 :nonce 1
 :assets []
 :shapes-index ("ad887300-e1f2-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "6b96c6d0-e1f3-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710416612487
+:block/updated-at 1710416682442
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
