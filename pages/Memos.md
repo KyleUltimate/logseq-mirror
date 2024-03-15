@@ -190,3 +190,10 @@
 	  id:: 0a061f7f-77e7-44aa-bc3b-002eb40ae4a0
 	  https://tailwindcss.com/blog/tailwindcss-v3-1#arbitrary-values-but-for-variants
 	  `&` 類似 self
+- [[Mar 15th, 2024]] 13:47 #memos
+  memo-id:: 102
+	- LATER  地理講義 1、2
+- [[Mar 15th, 2024]] 13:41 #memos
+  memo-id:: 101
+	- LATER   歷史考卷
+	- LATER  地理考卷
