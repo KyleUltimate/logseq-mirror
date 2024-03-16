@@ -424,7 +424,7 @@
 :nonce 1710565071173
 :italic false}}
 :block/updated-at 1710571893579} 
-{:block/created-at 1710571893572
+{:block/created-at 1710572097475
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -440,7 +440,7 @@
 :size [1928 784]
 :strokeType "line"
 :strokeWidth 2
-:opacity 0.2
+:opacity 0.5
 :label ""
 :id "21aa81f0-e352-11ee-bb90-a1823df17749"
 :fontWeight 400
@@ -448,9 +448,9 @@
 :point [2904 112]
 :fontSize 20
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710565239447
+:nonce 1710565239448
 :italic false}}
-:block/updated-at 1710571893572} 
+:block/updated-at 1710572097475} 
 {:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
 :block/format :markdown
 :block/left 
@@ -578,7 +578,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f52c22-7498-48a0-87a3-e1b1c2724e81"} 
-{:block/created-at 1710572047703
+{:block/created-at 1710572085296
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -601,12 +601,12 @@
 :opacity 1
 :id "ec3a3620-e354-11ee-bb90-a1823df17749"
 :noFill false
-:point [4248 1200]
+:point [4248 1184]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710566438968}}
-:block/updated-at 1710572047703} 
-{:block/created-at 1710572066552
+:nonce 1710566439004}}
+:block/updated-at 1710572085296} 
+{:block/created-at 1710572083919
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -628,11 +628,11 @@
 :opacity 1
 :id "b852e630-e355-11ee-bb90-a1823df17749"
 :noFill false
-:point [3760 1192]
+:point [3760 1184]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710566781056}}
-:block/updated-at 1710572066552} 
+:nonce 1710566781102}}
+:block/updated-at 1710572083919} 
 {:block/created-at 1710572027461
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -725,7 +725,7 @@
 :collapsedHeight 0
 :nonce 1710571722021}}
 :block/updated-at 1710572043186} 
-{:block/created-at 1710572066552
+{:block/created-at 1710572085289
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -742,13 +742,13 @@
 :id "8a21ae22-e361-11ee-bb90-a1823df17749"
 :fontWeight 400
 :noFill true
-:point [4164 1406.42]
+:point [4164 1395.23]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [83 1.73]
+:point [83 0.52]
 :bindingId "8a21ae20-e361-11ee-bb90-a1823df17749"}
 :end 
 {:id "end"
@@ -758,9 +758,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710571856662
+:nonce 1710571856667
 :italic false}}
-:block/updated-at 1710572066552} 
+:block/updated-at 1710572085289} 
 {:block/created-at 1710572041220
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -833,7 +833,7 @@
 :nonce 1710571875287
 :italic false}}
 :block/updated-at 1710572043193} 
-{:block/created-at 1710572074905
+{:block/created-at 1710572080400
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -849,7 +849,7 @@
 :size [1928 1160]
 :strokeType "line"
 :strokeWidth 2
-:opacity 0.2
+:opacity 0.5
 :label ""
 :id "97e4a120-e361-11ee-bb90-a1823df17749"
 :fontWeight 400
@@ -858,10 +858,10 @@
 :point [2920 992]
 :fontSize 20
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710565240342
+:nonce 1710565240343
 :italic false}}
-:block/updated-at 1710572074905} 
-{:block/created-at 1710572072937
+:block/updated-at 1710572080400} 
+{:block/created-at 1710572097466
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -875,28 +875,27 @@
 :strokeWidth 1
 :opacity 1
 :label ""
-:id "cc1c1772-e361-11ee-bb90-a1823df17749"
+:id "147d7312-e362-11ee-bb90-a1823df17749"
 :fontWeight 400
 :noFill true
-:point [3692 1377.74]
+:point [3692 1376]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [67 0]
-:bindingId "cc1c1770-e361-11ee-bb90-a1823df17749"}
+:point [68 0]}
 :end 
 {:id "end"
 :canBind true
-:point [0 1.79]
-:bindingId "0a027f21-e362-11ee-bb90-a1823df17749"}}
+:point [0 0.54]
+:bindingId "147d7311-e362-11ee-bb90-a1823df17749"}}
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710571967246
+:nonce 1710572088678
 :italic false}}
-:block/updated-at 1710572072937})
+:block/updated-at 1710572097466})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -913,14 +912,6 @@
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
-:cc1c1771-e361-11ee-bb90-a1823df17749 
-{:id "cc1c1771-e361-11ee-bb90-a1823df17749"
-:type "line"
-:fromId "cc1c1772-e361-11ee-bb90-a1823df17749"
-:toId "8196cb60-e356-11ee-bb90-a1823df17749"
-:handleId "end"
-:point [0.48 0.26]
-:distance 4}
 :95536ef1-e361-11ee-bb90-a1823df17749 
 {:id "95536ef1-e361-11ee-bb90-a1823df17749"
 :type "line"
@@ -928,14 +919,6 @@
 :toId "399a7220-e361-11ee-bb90-a1823df17749"
 :handleId "end"
 :point [0.64 0.56]
-:distance 4}
-:cc1c1770-e361-11ee-bb90-a1823df17749 
-{:id "cc1c1770-e361-11ee-bb90-a1823df17749"
-:type "line"
-:fromId "cc1c1772-e361-11ee-bb90-a1823df17749"
-:toId "b852e630-e355-11ee-bb90-a1823df17749"
-:handleId "start"
-:point [0.5 0.5]
 :distance 4}
 :95536ef0-e361-11ee-bb90-a1823df17749 
 {:id "95536ef0-e361-11ee-bb90-a1823df17749"
@@ -977,18 +960,18 @@
 :handleId "end"
 :point [0.46 0.58]
 :distance 4}
-:0a027f21-e362-11ee-bb90-a1823df17749 
-{:id "0a027f21-e362-11ee-bb90-a1823df17749"
+:147d7311-e362-11ee-bb90-a1823df17749 
+{:id "147d7311-e362-11ee-bb90-a1823df17749"
 :type "line"
-:fromId "cc1c1772-e361-11ee-bb90-a1823df17749"
+:fromId "147d7312-e362-11ee-bb90-a1823df17749"
 :toId "8196cb60-e356-11ee-bb90-a1823df17749"
 :handleId "end"
-:point [0.5 0.23]
+:point [0.43 0.22]
 :distance 4}}
 :nonce 0
 :assets []
-:shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "cc1c1772-e361-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710572074905
+:shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710572097466
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
