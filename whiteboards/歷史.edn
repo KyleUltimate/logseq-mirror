@@ -661,7 +661,7 @@
 :collapsedHeight 0
 :nonce 1710567118633}}
 :block/updated-at 1710571692593} 
-{:block/created-at 1710571695891
+{:block/created-at 1710571828412
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -683,11 +683,11 @@
 :opacity 1
 :id "2a76ac10-e360-11ee-bb90-a1823df17749"
 :noFill false
-:point [3904 1656]
+:point [3864 1656]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710571266627}}
-:block/updated-at 1710571695891} 
+:nonce 1710571266691}}
+:block/updated-at 1710571828412} 
 {:block/content "public:: true"
 :block/format :markdown
 :block/left 
@@ -697,12 +697,13 @@
 :block/properties 
 {:public true}
 :block/uuid #uuid "afbf1cee-b44b-47af-a4c5-17cfe8b95536"} 
-{:block/created-at 1710571734245
+{:block/created-at 1710571833115
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 14
@@ -713,17 +714,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 154.7078687680393]
+:size [512 240.1184503418399]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "399a7220-e361-11ee-bb90-a1823df17749"
 :noFill false
-:point [4544 1672]
+:point [4368 1656]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710571721286}}
-:block/updated-at 1710571734245})
+:nonce 1710571721621}}
+:block/updated-at 1710571833115})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -736,7 +737,7 @@
 :nonce 0
 :assets []
 :shapes-index ("21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710571734245
+:block/updated-at 1710571833115
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
