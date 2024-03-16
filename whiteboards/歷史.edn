@@ -87,7 +87,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f2d96f-959e-4545-8183-a475d1d7f411"} 
-{:block/created-at 1710565248611
+{:block/created-at 1710565474007
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -111,11 +111,11 @@
 :opacity 1
 :id "7c1453b0-e1f8-11ee-bb90-a1823df17749"
 :noFill false
-:point [3424 192]
+:point [3696 224]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710416785351}}
-:block/updated-at 1710565248611} 
+:nonce 1710416785573}}
+:block/updated-at 1710565474007} 
 {:block/content "# [[隋朝]]/[[唐朝]]/[[宋朝]]\n實施科舉制度（運作良善）"
 :block/format :markdown
 :block/left 
@@ -450,7 +450,7 @@
 :nonce 1710565239257
 :italic false}}
 :block/updated-at 1710565279915} 
-{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]與[[明朝]]之外"
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f2e39b-0a7a-466b-88aa-9d843db0f7de"}
@@ -459,7 +459,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f527c2-425a-465c-a062-fcde8c5c62cd"} 
-{:block/created-at 1710565389688
+{:block/created-at 1710565458731
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -481,11 +481,11 @@
 :opacity 1
 :id "4d907400-e352-11ee-bb90-a1823df17749"
 :noFill false
-:point [4384 592]
+:point [4384 584]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710565312563}}
-:block/updated-at 1710565389688} 
+:nonce 1710565312595}}
+:block/updated-at 1710565458731} 
 {:block/content "# 漢朝後\n以郡縣制為主流"
 :block/format :markdown
 :block/left 
@@ -495,7 +495,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f527c5-06f4-4fcc-8464-e5e3f8555efa"} 
-{:block/created-at 1710565389708
+{:block/created-at 1710565458736
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -522,14 +522,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [68 3.31]
+:point [68 1.47]
 :bindingId "65128501-e352-11ee-bb90-a1823df17749"}}
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710565351812
+:nonce 1710565351817
 :italic false}}
-:block/updated-at 1710565389708})
+:block/updated-at 1710565458736})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -597,7 +597,7 @@
 :nonce 1
 :assets []
 :shapes-index ("21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710565389732
+:block/updated-at 1710565474007
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
