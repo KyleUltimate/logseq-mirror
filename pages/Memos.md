@@ -176,9 +176,13 @@
 	- awry
 - [[Mar 13th, 2024]] 20:09 #memos
   memo-id:: 98
-	- LATER  歷史學習 
+	- DOING  歷史學習 
 	  SCHEDULED: <2024-03-16 Sat>
-	- LATER  生物複習
+	  :LOGBOOK:
+	  CLOCK: [2024-03-16 Sat 15:19:52]--[2024-03-16 Sat 15:19:53] =>  00:00:01
+	  CLOCK: [2024-03-16 Sat 15:19:53]
+	  :END:
+	- TODO  生物複習
 	  SCHEDULED: <2024-03-16 Sat>
 - [[Mar 14th, 2024]] 11:17 #memos
   memo-id:: 100
