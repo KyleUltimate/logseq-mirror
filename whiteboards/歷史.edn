@@ -309,14 +309,14 @@
 {:heading 1
 :id "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"}
 :block/uuid #uuid "65f05eb5-d06e-4390-a6bf-0eec7f98a02c"} 
-{:block/content "地方權力大小"
+{:block/content "地方權力大小\nid:: 65f2d91b-245a-41b9-b0c3-1c9643b1f97a"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f2d90d-dbe1-4bd6-a3fe-8bf315c0690a"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/properties 
-{}
+{:id "65f2d91b-245a-41b9-b0c3-1c9643b1f97a"}
 :block/uuid #uuid "65f2d91b-245a-41b9-b0c3-1c9643b1f97a"} 
 {:block/content "封建制度，"
 :block/format :markdown
@@ -460,7 +460,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f527c2-425a-465c-a062-fcde8c5c62cd"} 
-{:block/created-at 1710565458731
+{:block/created-at 1710565555751
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -470,6 +470,7 @@
 :borderRadius 8
 :index 7
 :scale [1 1]
+:refs ["65f2d91b-245a-41b9-b0c3-1c9643b1f97a"]
 :pageId "65f527c2-425a-465c-a062-fcde8c5c62cd"
 :scaleLevel "md"
 :fill ""
@@ -485,8 +486,8 @@
 :point [4384 584]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710565312595}}
-:block/updated-at 1710565458731} 
+:nonce 1710565312596}}
+:block/updated-at 1710565555751} 
 {:block/content "# 漢朝後\n以郡縣制為主流"
 :block/format :markdown
 :block/left 
@@ -598,7 +599,7 @@
 :nonce 1
 :assets []
 :shapes-index ("21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710565491374
+:block/updated-at 1710565555766
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
