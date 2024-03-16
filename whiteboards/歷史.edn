@@ -15,7 +15,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f060d2-787e-4878-891f-a0c2d99a6108"} 
-{:block/created-at 1710419955233
+{:block/created-at 1710565046073
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -39,11 +39,11 @@
 :opacity 1
 :id "ad887300-e1f2-11ee-bb90-a1823df17749"
 :noFill false
-:point [3008 392]
+:point [2984 392]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414291755}}
-:block/updated-at 1710419955233} 
+:nonce 1710414291855}}
+:block/updated-at 1710565046073} 
 {:block/content "# [春秋戰國]([[商周]])\n道法儒並行"
 :block/format :markdown
 :block/left 
@@ -325,7 +325,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2da03-131b-4427-998c-d330243a5857"} 
-{:block/created-at 1710564936072
+{:block/created-at 1710565044571
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -341,17 +341,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 126.87961536331305]
+:size [400 305.3458759858004]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "399b4fc0-e351-11ee-bb90-a1823df17749"
 :noFill false
-:point [3936 408]
+:point [3864 384]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710564849345}}
-:block/updated-at 1710564936072})
+:nonce 1710564849859}}
+:block/updated-at 1710565044571})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -364,7 +364,7 @@
 :nonce 1
 :assets []
 :shapes-index ("ad887300-e1f2-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710564936072
+:block/updated-at 1710565046073
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
