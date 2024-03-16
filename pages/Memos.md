@@ -192,8 +192,11 @@
 	  `&` 類似 self
 - [[Mar 15th, 2024]] 13:47 #memos
   memo-id:: 102
-	- LATER  地理講義 1、2
+	- LATER  地理講義 1、2 
+	  SCHEDULED: <2024-03-17 Sun>
 - [[Mar 15th, 2024]] 13:41 #memos
   memo-id:: 101
-	- LATER   歷史考卷
-	- LATER  地理考卷
+	- LATER   歷史考卷 
+	  SCHEDULED: <2024-03-17 Sun>
+	- LATER  地理考卷 
+	  SCHEDULED: <2024-03-17 Sun>
