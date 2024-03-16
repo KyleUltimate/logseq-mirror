@@ -4,6 +4,7 @@
 	- mnemonics
 		- 撒口尬口撒
 		- 口口幹撒撒
+		  id:: 65f2f210-7d99-483b-8cab-e7960ef46e69
 	- 衍生（2 倍角公式）
 		- #+BEGIN_EXPORT latex
 		  \begin{align*}
