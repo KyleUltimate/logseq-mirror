@@ -87,7 +87,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f2d96f-959e-4545-8183-a475d1d7f411"} 
-{:block/created-at 1710566410132
+{:block/created-at 1710566441770
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -105,7 +105,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [392 122.68128367124172]
+:size [392 122.68126806944458]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -114,8 +114,8 @@
 :point [3656 216]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710416785627}}
-:block/updated-at 1710566410132} 
+:nonce 1710416785629}}
+:block/updated-at 1710566441770} 
 {:block/content "# [[隋朝]]/[[唐朝]]/[[宋朝]]\n實施科舉制度（運作良善）"
 :block/format :markdown
 :block/left 
@@ -568,7 +568,43 @@
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
 :nonce 1710566399960}}
-:block/updated-at 1710566419204})
+:block/updated-at 1710566419204} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f52c00-4af0-41f2-8360-c786e97c0de4"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{}
+:block/uuid #uuid "65f52c22-7498-48a0-87a3-e1b1c2724e81"} 
+{:block/created-at 1710566441265
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 10
+:scale [1 1]
+:pageId "漢朝/中央政體官制"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 106.89622336558536]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "ec3a3620-e354-11ee-bb90-a1823df17749"
+:noFill false
+:point [3312 1128]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710566437508}}
+:block/updated-at 1710566441265})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -635,8 +671,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710566419204
+:shapes-index ("21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710566441770
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
