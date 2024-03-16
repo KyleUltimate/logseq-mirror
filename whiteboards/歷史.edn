@@ -947,7 +947,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f542b8-3ef1-4cfd-8679-779d4304c57d"} 
-{:block/created-at 1710572223640
+{:block/created-at 1710572257534
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -963,17 +963,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 106.89625369977408]
+:size [400 187.2004161110713]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "61e9b370-e362-11ee-bb90-a1823df17749"
 :noFill false
-:point [5832 736]
+:point [5592 712]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710572218409}}
-:block/updated-at 1710572223640})
+:nonce 1710572218552}}
+:block/updated-at 1710572257534})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -1049,7 +1049,7 @@
 :nonce 0
 :assets []
 :shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710572223640
+:block/updated-at 1710572257534
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
