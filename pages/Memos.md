@@ -176,11 +176,11 @@
 	- awry
 - [[Mar 13th, 2024]] 20:09 #memos
   memo-id:: 98
-	- DOING  歷史學習 
+	- DONE  歷史學習 
 	  SCHEDULED: <2024-03-16 Sat>
 	  :LOGBOOK:
 	  CLOCK: [2024-03-16 Sat 15:19:52]--[2024-03-16 Sat 15:19:53] =>  00:00:01
-	  CLOCK: [2024-03-16 Sat 15:19:53]
+	  CLOCK: [2024-03-16 Sat 15:19:53]--[2024-03-16 Sat 23:02:39] =>  07:42:46
 	  :END:
 	- TODO  生物複習
 	  SCHEDULED: <2024-03-16 Sat>
@@ -196,7 +196,7 @@
 	  `&` 類似 self
 - [[Mar 15th, 2024]] 13:47 #memos
   memo-id:: 102
-	- LATER  地理講義 1、2 
+	- TODO  地理講義 1、2 
 	  SCHEDULED: <2024-03-17 Sun>
 - [[Mar 15th, 2024]] 13:41 #memos
   memo-id:: 101
