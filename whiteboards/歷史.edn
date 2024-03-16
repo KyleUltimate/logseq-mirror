@@ -450,7 +450,7 @@
 :nonce 1710565239257
 :italic false}}
 :block/updated-at 1710565279915} 
-{:block/content "# 漢朝後\n以郡縣制為主"
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]與[[明朝]]之外"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f2e39b-0a7a-466b-88aa-9d843db0f7de"}
@@ -459,7 +459,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f527c2-425a-465c-a062-fcde8c5c62cd"} 
-{:block/created-at 1710565350473
+{:block/created-at 1710565389688
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -475,7 +475,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 96.30787658691406]
+:size [400 120.31352996826172]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -484,8 +484,8 @@
 :point [4384 592]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710565312559}}
-:block/updated-at 1710565350473} 
+:nonce 1710565312563}}
+:block/updated-at 1710565389688} 
 {:block/content "# 漢朝後\n以郡縣制為主流"
 :block/format :markdown
 :block/left 
@@ -495,7 +495,8 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f527c5-06f4-4fcc-8464-e5e3f8555efa"} 
-{:block/properties 
+{:block/created-at 1710565389708
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
@@ -521,14 +522,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [68 0.11]
+:point [68 3.31]
 :bindingId "65128501-e352-11ee-bb90-a1823df17749"}}
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710565351808
+:nonce 1710565351812
 :italic false}}
-:block/updated-at 1710565352611})
+:block/updated-at 1710565389708})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -596,7 +597,7 @@
 :nonce 1
 :assets []
 :shapes-index ("21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710565352611
+:block/updated-at 1710565389732
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
