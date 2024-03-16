@@ -896,40 +896,84 @@
 :nonce 1710572088678
 :italic false}}
 :block/updated-at 1710572097466} 
-{:block/content "選材制度"
+{:block/content "[[選材制度]]"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f52c22-7498-48a0-87a3-e1b1c2724e81"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{}
 :block/uuid #uuid "65f5429b-1d42-455d-8c76-514f720356b4"} 
-{:block/created-at 1710572188070
+{:block/created-at 1710572196928
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 20
 :scale [1 1]
 :pageId "65f5429b-1d42-455d-8c76-514f720356b4"
-:scaleLevel "md"
+:scaleLevel "xxl"
 :fill ""
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 40.87949642494265]
+:size [272 122.68128941794548]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "4cabed20-e362-11ee-bb90-a1823df17749"
 :noFill false
-:point [5664 432]
+:point [5976 488]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710572182772}}
-:block/updated-at 1710572188070})
+:nonce 1710572182883}}
+:block/updated-at 1710572196928} 
+{:block/content "為中國史上最為專制的時期"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f5429b-1d42-455d-8c76-514f720356b4"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f542a8-69fb-4f42-9473-030f8be79fb2"} 
+{:block/content "漢朝/選材制度"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f542a8-69fb-4f42-9473-030f8be79fb2"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f542b8-3ef1-4cfd-8679-779d4304c57d"} 
+{:block/created-at 1710572223640
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 21
+:scale [1 1]
+:pageId "漢朝/選材制度"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 106.89625369977408]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "61e9b370-e362-11ee-bb90-a1823df17749"
+:noFill false
+:point [5832 736]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710572218409}}
+:block/updated-at 1710572223640})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -1004,8 +1048,8 @@
 :distance 4}}
 :nonce 0
 :assets []
-:shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710572188070
+:shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749")}}
+:block/updated-at 1710572223640
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
