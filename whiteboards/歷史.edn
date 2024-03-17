@@ -87,7 +87,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f2d96f-959e-4545-8183-a475d1d7f411"} 
-{:block/created-at 1710571944419
+{:block/created-at 1710677474247
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -111,11 +111,11 @@
 :opacity 1
 :id "7c1453b0-e1f8-11ee-bb90-a1823df17749"
 :noFill false
-:point [3704 216]
+:point [3696 216]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710416785702}}
-:block/updated-at 1710571944419} 
+:nonce 1710416785704}}
+:block/updated-at 1710677474247} 
 {:block/content "# [[隋朝]]/[[唐朝]]/[[宋朝]]\n實施科舉制度（運作良善）"
 :block/format :markdown
 :block/left 
@@ -1064,7 +1064,7 @@
 :nonce 0
 :assets []
 :shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710573527428
+:block/updated-at 1710677476315
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
