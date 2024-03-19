@@ -1033,7 +1033,34 @@
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
 :nonce 1710677582133}}
-:block/updated-at 1710677639072})
+:block/updated-at 1710677639072} 
+{:block/created-at 1710850580192
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 23
+:scale [1 1]
+:pageId "魏晉南北/選材制度"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 126.87963104248047]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "64c5b2d0-e5ea-11ee-8c7b-293a5a840532"
+:noFill false
+:point [6240 712]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710850537198}}
+:block/updated-at 1710850580192})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -1108,8 +1135,8 @@
 :distance 4}}
 :nonce 0
 :assets []
-:shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749")}}
-:block/updated-at 1710850516972
+:shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749" "64c5b2d0-e5ea-11ee-8c7b-293a5a840532")}}
+:block/updated-at 1710850580192
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
