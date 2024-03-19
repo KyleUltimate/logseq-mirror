@@ -460,7 +460,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f527c2-425a-465c-a062-fcde8c5c62cd"} 
-{:block/created-at 1710571893579
+{:block/created-at 1710850654662
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -477,7 +477,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 120.31352996826172]
+:size [400 120.31351545627054]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -486,8 +486,8 @@
 :point [4384 584]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710565312597}}
-:block/updated-at 1710571893579} 
+:nonce 1710565312599}}
+:block/updated-at 1710850654662} 
 {:block/content "# 漢朝後\n以郡縣制為主流"
 :block/format :markdown
 :block/left 
@@ -1034,7 +1034,7 @@
 :collapsedHeight 0
 :nonce 1710677582133}}
 :block/updated-at 1710677639072} 
-{:block/created-at 1710850580192
+{:block/created-at 1710850647069
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1050,17 +1050,104 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 126.87963104248047]
+:size [400 216.11276245117188]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "64c5b2d0-e5ea-11ee-8c7b-293a5a840532"
 :noFill false
-:point [6240 712]
+:point [6192 712]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710850537198}}
-:block/updated-at 1710850580192})
+:nonce 1710850537241}}
+:block/updated-at 1710850647069} 
+{:block/content "#宋代後]] \n皆為科舉"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
+:block/parent 
+{:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
+:block/properties 
+{}
+:block/uuid #uuid "65f98261-f2c5-414b-84f7-372ebaa33cc1"} 
+{:block/created-at 1710850707692
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 24
+:scale [1 1]
+:pageId "65f98261-f2c5-414b-84f7-372ebaa33cc1"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 64.88522969424922]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "ab845af0-e5ea-11ee-8c7b-293a5a840532"
+:noFill false
+:point [6376 992]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710850655881}}
+:block/updated-at 1710850707692} 
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98263-4be3-4024-81aa-8734a544221f"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f98262-670e-4c78-94a0-2c1793280a71"} 
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98264-7173-4ed8-b6e7-5f41af212028"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f98263-4be3-4024-81aa-8734a544221f"} 
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98266-7570-488c-b75e-3224a483f0f1"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f98264-7173-4ed8-b6e7-5f41af212028"} 
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f98266-7570-488c-b75e-3224a483f0f1"} 
+{:block/content "arst"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98262-670e-4c78-94a0-2c1793280a71"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f98282-8355-49e2-ad1b-b24732386c66"} 
+{:block/content "科舉"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98282-8355-49e2-ad1b-b24732386c66"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f98295-9072-43ed-9db8-9e4651bd95da"})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -1135,8 +1222,8 @@
 :distance 4}}
 :nonce 0
 :assets []
-:shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749" "64c5b2d0-e5ea-11ee-8c7b-293a5a840532")}}
-:block/updated-at 1710850580192
+:shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749" "64c5b2d0-e5ea-11ee-8c7b-293a5a840532" "ab845af0-e5ea-11ee-8c7b-293a5a840532")}}
+:block/updated-at 1710850716467
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
