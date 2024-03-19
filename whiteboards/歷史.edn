@@ -460,7 +460,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f527c2-425a-465c-a062-fcde8c5c62cd"} 
-{:block/created-at 1710850654662
+{:block/created-at 1710850749957
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -470,7 +470,7 @@
 :borderRadius 8
 :index 8
 :scale [1 1]
-:refs ["65f2d91b-245a-41b9-b0c3-1c9643b1f97a"]
+:refs ["地方權力大小"]
 :pageId "65f527c2-425a-465c-a062-fcde8c5c62cd"
 :scaleLevel "md"
 :fill ""
@@ -486,8 +486,8 @@
 :point [4384 584]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710565312599}}
-:block/updated-at 1710850654662} 
+:nonce 1710565312601}}
+:block/updated-at 1710850749957} 
 {:block/content "# 漢朝後\n以郡縣制為主流"
 :block/format :markdown
 :block/left 
@@ -834,7 +834,7 @@
 :nonce 1710571875298
 :italic false}}
 :block/updated-at 1710677526432} 
-{:block/created-at 1710573527428
+{:block/created-at 1710850735378
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -856,12 +856,12 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [2904 992]
+:point [2912 992]
 :fontSize 20
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710565240351
+:nonce 1710565240353
 :italic false}}
-:block/updated-at 1710573527428} 
+:block/updated-at 1710850735378} 
 {:block/created-at 1710572786911
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -906,7 +906,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f5429b-1d42-455d-8c76-514f720356b4"} 
-{:block/created-at 1710572196928
+{:block/created-at 1710850758872
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -929,11 +929,11 @@
 :opacity 1
 :id "4cabed20-e362-11ee-bb90-a1823df17749"
 :noFill false
-:point [5976 488]
+:point [6208 432]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710572182883}}
-:block/updated-at 1710572196928} 
+:nonce 1710572182993}}
+:block/updated-at 1710850758872} 
 {:block/content "為中國史上最為專制的時期"
 :block/format :markdown
 :block/left 
@@ -1061,16 +1061,16 @@
 :collapsedHeight 0
 :nonce 1710850537241}}
 :block/updated-at 1710850647069} 
-{:block/content "#宋代後]] \n皆為科舉"
+{:block/content "# 宋代後\n皆為科舉"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
 :block/parent 
 {:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
 :block/properties 
-{}
+{:heading 1}
 :block/uuid #uuid "65f98261-f2c5-414b-84f7-372ebaa33cc1"} 
-{:block/created-at 1710850707692
+{:block/created-at 1710850722060
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1087,17 +1087,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 64.88522969424922]
+:size [400 96.30794498461347]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "ab845af0-e5ea-11ee-8c7b-293a5a840532"
 :noFill false
-:point [6376 992]
+:point [6640 712]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710850655881}}
-:block/updated-at 1710850707692} 
+:nonce 1710850656130}}
+:block/updated-at 1710850722060} 
 {:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
 :block/format :markdown
 :block/left 
@@ -1223,7 +1223,7 @@
 :nonce 0
 :assets []
 :shapes-index ("97e4a120-e361-11ee-bb90-a1823df17749" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749" "64c5b2d0-e5ea-11ee-8c7b-293a5a840532" "ab845af0-e5ea-11ee-8c7b-293a5a840532")}}
-:block/updated-at 1710850716467
+:block/updated-at 1710850758872
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
