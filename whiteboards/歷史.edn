@@ -15,7 +15,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f060d2-787e-4878-891f-a0c2d99a6108"} 
-{:block/created-at 1710853861655
+{:block/created-at 1710861457869
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -42,8 +42,8 @@
 :point [800 1544]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710414292248}}
-:block/updated-at 1710853861655} 
+:nonce 1710414292253}}
+:block/updated-at 1710861457869} 
 {:block/content "# [春秋戰國]([[商周]])\n道法儒並行"
 :block/format :markdown
 :block/left 
@@ -132,7 +132,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2d90d-dbe1-4bd6-a3fe-8bf315c0690a"} 
-{:block/created-at 1710861273807
+{:block/created-at 1710861457873
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -156,11 +156,11 @@
 :opacity 1
 :id "2620a440-e1f3-11ee-bb90-a1823df17749"
 :noFill false
-:point [1200 1656]
+:point [1248 1641.948185275676]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 176
-:nonce 1710414496156}}
-:block/updated-at 1710861273807} 
+:nonce 1710414496161}}
+:block/updated-at 1710861457873} 
 {:block/content "[[地方權力大小]]"
 :block/format :markdown
 :block/left 
@@ -325,7 +325,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f2da03-131b-4427-998c-d330243a5857"} 
-{:block/created-at 1710853857266
+{:block/created-at 1710861457873
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -347,83 +347,11 @@
 :opacity 1
 :id "399b4fc0-e351-11ee-bb90-a1823df17749"
 :noFill false
-:point [1760 1608]
+:point [1736 1582.8754620851203]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710564851519}}
-:block/updated-at 1710853857266} 
-{:block/created-at 1710853857266
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 9
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "b1add642-e351-11ee-bb90-a1823df17749"
-:fontWeight 400
-:noFill true
-:point [1160 1736]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]
-:bindingId "b1add640-e351-11ee-bb90-a1823df17749"}
-:end 
-{:id "end"
-:canBind true
-:point [75 1.03]
-:bindingId "b74320b1-e351-11ee-bb90-a1823df17749"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710565051851
-:italic false}}
-:block/updated-at 1710853857266} 
-{:block/created-at 1710861272408
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 10
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "bd868572-e351-11ee-bb90-a1823df17749"
-:fontWeight 400
-:noFill true
-:point [1640 1752]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]
-:bindingId "bd868570-e351-11ee-bb90-a1823df17749"}
-:end 
-{:id "end"
-:canBind true
-:point [115 0.68]
-:bindingId "bd868571-e351-11ee-bb90-a1823df17749"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710565071548
-:italic false}}
-:block/updated-at 1710861272408} 
+:nonce 1710564851524}}
+:block/updated-at 1710861457873} 
 {:block/created-at 1710861268241
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -460,7 +388,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f527c2-425a-465c-a062-fcde8c5c62cd"} 
-{:block/created-at 1710853857266
+{:block/created-at 1710861457873
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -468,7 +396,7 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 11
+:index 9
 :scale [1 1]
 :refs ["地方權力大小"]
 :pageId "65f527c2-425a-465c-a062-fcde8c5c62cd"
@@ -483,11 +411,11 @@
 :opacity 1
 :id "4d907400-e352-11ee-bb90-a1823df17749"
 :noFill false
-:point [2224 1704]
+:point [2224 1675.3987876484375]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710565312945}}
-:block/updated-at 1710853857266} 
+:nonce 1710565312951}}
+:block/updated-at 1710861457873} 
 {:block/content "# 漢朝後\n以郡縣制為主流"
 :block/format :markdown
 :block/left 
@@ -497,41 +425,6 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f527c5-06f4-4fcc-8464-e5e3f8555efa"} 
-{:block/created-at 1710853857266
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 12
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "65128502-e352-11ee-bb90-a1823df17749"
-:fontWeight 400
-:noFill true
-:point [2152 1768]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]}
-:end 
-{:id "end"
-:canBind true
-:point [68 1.47]
-:bindingId "65128501-e352-11ee-bb90-a1823df17749"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710565352162
-:italic false}}
-:block/updated-at 1710853857266} 
 {:block/content "[[中央政體官制]]"
 :block/format :markdown
 :block/left 
@@ -541,7 +434,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f52c00-4af0-41f2-8360-c786e97c0de4"} 
-{:block/created-at 1710853850448
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -550,7 +443,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 13
+:index 10
 :scale [1 1]
 :pageId "65f52c00-4af0-41f2-8360-c786e97c0de4"
 :scaleLevel "xxl"
@@ -567,8 +460,8 @@
 :point [3720 1024]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710566400490}}
-:block/updated-at 1710853850448} 
+:nonce 1710566400491}}
+:block/updated-at 1710861429335} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -578,7 +471,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f52c22-7498-48a0-87a3-e1b1c2724e81"} 
-{:block/created-at 1710861386708
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -587,7 +480,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 14
+:index 11
 :scale [1 1]
 :pageId "漢朝/中央政體官制"
 :scaleLevel "md"
@@ -604,9 +497,9 @@
 :point [4248 1176]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710566439047}}
-:block/updated-at 1710861386708} 
-{:block/created-at 1710861386708
+:nonce 1710566439048}}
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -614,7 +507,7 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 15
+:index 12
 :scale [1 1]
 :pageId "唐朝/中央政體官制"
 :scaleLevel "md"
@@ -631,9 +524,9 @@
 :point [3760 1176]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710566781321}}
-:block/updated-at 1710861386708} 
-{:block/created-at 1710861395758
+:nonce 1710566781322}}
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -642,7 +535,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 16
+:index 13
 :scale [1 1]
 :pageId "宋朝/中央政體官制"
 :scaleLevel "md"
@@ -659,9 +552,9 @@
 :point [2968 1176]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710567118759}}
-:block/updated-at 1710861395758} 
-{:block/created-at 1710861395755
+:nonce 1710567118760}}
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -669,7 +562,7 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 17
+:index 14
 :scale [1 1]
 :pageId "明朝/中央政體官制"
 :scaleLevel "md"
@@ -686,8 +579,8 @@
 :point [3776 1720]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710571267124}}
-:block/updated-at 1710861395755} 
+:nonce 1710571267125}}
+:block/updated-at 1710861429335} 
 {:block/content "public:: true"
 :block/format :markdown
 :block/left 
@@ -697,7 +590,7 @@
 :block/properties 
 {:public true}
 :block/uuid #uuid "afbf1cee-b44b-47af-a4c5-17cfe8b95536"} 
-{:block/created-at 1710861395758
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -706,7 +599,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 18
+:index 15
 :scale [1 1]
 :pageId "清朝/中央政體官制"
 :scaleLevel "md"
@@ -723,14 +616,14 @@
 :point [4264 1760]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710571722072}}
-:block/updated-at 1710861395758} 
-{:block/created-at 1710861386733
+:nonce 1710571722073}}
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 19
+:index 16
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -759,15 +652,15 @@
 {:start nil
 :end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710571856742
+:nonce 1710571856743
 :italic false}}
-:block/updated-at 1710861386733} 
-{:block/created-at 1710861395769
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 20
+:index 17
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -795,15 +688,15 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710571862482
+:nonce 1710571862483
 :italic false}}
-:block/updated-at 1710861395769} 
-{:block/created-at 1710861395772
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 21
+:index 18
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -831,15 +724,15 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710571875342
+:nonce 1710571875343
 :italic false}}
-:block/updated-at 1710861395772} 
-{:block/created-at 1710853850448
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 22
+:index 19
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -866,9 +759,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710572088734
+:nonce 1710572088735
 :italic false}}
-:block/updated-at 1710853850448} 
+:block/updated-at 1710861429335} 
 {:block/content "[[選材制度]]"
 :block/format :markdown
 :block/left 
@@ -920,7 +813,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f542b8-3ef1-4cfd-8679-779d4304c57d"} 
-{:block/created-at 1710853865897
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -929,7 +822,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 24
+:index 21
 :scale [1 1]
 :pageId "漢朝/選材制度"
 :scaleLevel "md"
@@ -946,8 +839,8 @@
 :point [5264 1408]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710572218922}}
-:block/updated-at 1710853865897} 
+:nonce 1710572218923}}
+:block/updated-at 1710861429335} 
 {:block/content "中心思想\n漢初\n黃老之術，即法家統治\n原因：\n藉由制度的推行，達到恢復生產，安定社會\n漢武帝"
 :block/format :markdown
 :block/left 
@@ -978,7 +871,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"} 
-{:block/created-at 1710853861655
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -987,7 +880,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 23
+:index 20
 :scale [1 1]
 :pageId "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"
 :scaleLevel "xxl"
@@ -1004,9 +897,9 @@
 :point [5856 2384]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710677582744}}
-:block/updated-at 1710853861655} 
-{:block/created-at 1710853865894
+:nonce 1710677582745}}
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1014,7 +907,7 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 26
+:index 23
 :scale [1 1]
 :pageId "魏晉南北朝/選材制度"
 :scaleLevel "md"
@@ -1031,8 +924,8 @@
 :point [5864 1584]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710850537576}}
-:block/updated-at 1710853865894} 
+:nonce 1710850537577}}
+:block/updated-at 1710861429335} 
 {:block/content "# 宋代後\n皆為科舉"
 :block/format :markdown
 :block/left 
@@ -1042,7 +935,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "65f98261-f2c5-414b-84f7-372ebaa33cc1"} 
-{:block/created-at 1710853865897
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1051,7 +944,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 27
+:index 24
 :scale [1 1]
 :pageId "65f98261-f2c5-414b-84f7-372ebaa33cc1"
 :scaleLevel "md"
@@ -1068,8 +961,8 @@
 :point [6320 1648]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710850656463}}
-:block/updated-at 1710853865897} 
+:nonce 1710850656464}}
+:block/updated-at 1710861429335} 
 {:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
 :block/format :markdown
 :block/left 
@@ -1147,12 +1040,12 @@
 :nonce 1710850809693
 :italic false}}
 :block/updated-at 1710853861652} 
-{:block/created-at 1710861268239
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 25
+:index 22
 :scale [1 1]
 :fill ""
 :type "line"
@@ -1179,15 +1072,15 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850809327
+:nonce 1710850809328
 :italic false}}
-:block/updated-at 1710861268239} 
-{:block/created-at 1710853865897
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 28
+:index 25
 :scale [1 1]
 :fill ""
 :type "line"
@@ -1214,9 +1107,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850834484
+:nonce 1710850834485
 :italic false}}
-:block/updated-at 1710853865897} 
+:block/updated-at 1710861429335} 
 {:block/created-at 1710853865897
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -1244,12 +1137,12 @@
 :nonce 1710850834954
 :italic false}}
 :block/updated-at 1710853865897} 
-{:block/created-at 1710853865897
+{:block/created-at 1710861429332
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 30
+:index 27
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -1276,15 +1169,15 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850901046
+:nonce 1710850901047
 :italic false}}
-:block/updated-at 1710853865897} 
-{:block/created-at 1710853865897
+:block/updated-at 1710861429332} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 31
+:index 28
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -1312,10 +1205,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850904388
+:nonce 1710850904389
 :italic false}}
-:block/updated-at 1710853865897} 
-{:block/created-at 1710861376129
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1323,7 +1216,7 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 29
+:index 26
 :scale [1 1]
 :pageId "商周/稅制與土地制度"
 :scaleLevel "md"
@@ -1340,8 +1233,8 @@
 :point [5264 2560]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710851023241}}
-:block/updated-at 1710861376129} 
+:nonce 1710851023242}}
+:block/updated-at 1710861429335} 
 {:block/content "#+BEGIN_QUERY\n{\n:title [:b \"\"]\n:query [\n :find (pull ?b [*])\n       :in $ ?current-page\n       :where\n       [(str \"/\" ?current-page) ?current-page]\n       (?b :block/page ?p)\n       [?p :block/name ?name]\n       [(clojure.string/ends-with? ?name ?current-page)]\n]\n:inputs [:current-page]}\n:breadcrumb-show? false\n}\n#+END_QUERY"
 :block/format :markdown
 :block/left 
@@ -1349,7 +1242,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f98415-51fc-482e-948f-de67ff48003a"} 
-{:block/created-at 1710861376125
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1358,7 +1251,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 32
+:index 29
 :scale [1 1]
 :pageId "漢朝/稅制與土地制度"
 :scaleLevel "md"
@@ -1375,8 +1268,8 @@
 :point [5776 2560]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710851547271}}
-:block/updated-at 1710861376125} 
+:nonce 1710851547272}}
+:block/updated-at 1710861429335} 
 {:block/content "中心思想"
 :block/format :markdown
 :block/left 
@@ -1391,7 +1284,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f985f4-664f-48b3-9b96-763def37669d"} 
-{:block/created-at 1710861376129
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1400,7 +1293,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 33
+:index 30
 :scale [1 1]
 :pageId "魏晉南北朝/稅制與土地制度"
 :scaleLevel "md"
@@ -1417,8 +1310,8 @@
 :point [6336 2560]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710851890028}}
-:block/updated-at 1710861376129} 
+:nonce 1710851890029}}
+:block/updated-at 1710861429335} 
 {:block/content "北魏實施均田"
 :block/format :markdown
 :block/left 
@@ -1453,12 +1346,12 @@
 :nonce 1710853756278
 :italic false}}
 :block/updated-at 1710861344014} 
-{:block/created-at 1710861344009
+{:block/created-at 1710861429335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 34
+:index 31
 :scale [1 1]
 :fill ""
 :type "line"
@@ -1485,9 +1378,114 @@
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710853755802
+:nonce 1710853755803
 :italic false}}
-:block/updated-at 1710861344009})
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861439075
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 32
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c30b4492-e603-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [1160 1735.91]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0.09]}
+:end 
+{:id "end"
+:canBind true
+:point [84 0]
+:bindingId "c30b4491-e603-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710861432752
+:italic false}}
+:block/updated-at 1710861439075} 
+{:block/created-at 1710861442628
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 33
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c5d86e52-e603-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [1648 1744]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [84 0.2]
+:bindingId "c5d86e51-e603-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710861437486
+:italic false}}
+:block/updated-at 1710861442628} 
+{:block/created-at 1710861457873
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 34
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c873b2a2-e603-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [2136 1744]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [84 0.11]
+:bindingId "c873b2a1-e603-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710861441805
+:italic false}}
+:block/updated-at 1710861457873})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -1511,14 +1509,6 @@
 :toId "ab845af0-e5ea-11ee-8c7b-293a5a840532"
 :handleId "end"
 :point [0.94 0.73]
-:distance 4}
-:6328e961-e603-11ee-8c7b-293a5a840532 
-{:id "6328e961-e603-11ee-8c7b-293a5a840532"
-:type "line"
-:fromId "bd868572-e351-11ee-bb90-a1823df17749"
-:toId "399b4fc0-e351-11ee-bb90-a1823df17749"
-:handleId "end"
-:point [0.41 0.17]
 :distance 4}
 :95536ef1-e361-11ee-bb90-a1823df17749 
 {:id "95536ef1-e361-11ee-bb90-a1823df17749"
@@ -1568,6 +1558,14 @@
 :handleId "end"
 :point [0.5 0.5]
 :distance 4}
+:c5d86e51-e603-11ee-8c7b-293a5a840532 
+{:id "c5d86e51-e603-11ee-8c7b-293a5a840532"
+:type "line"
+:fromId "c5d86e52-e603-11ee-8c7b-293a5a840532"
+:toId "399b4fc0-e351-11ee-bb90-a1823df17749"
+:handleId "end"
+:point [0.77 0.53]
+:distance 4}
 :e31c8442-e5f1-11ee-8c7b-293a5a840532 
 {:id "e31c8442-e5f1-11ee-8c7b-293a5a840532"
 :type "line"
@@ -1600,6 +1598,14 @@
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
+:c30b4491-e603-11ee-8c7b-293a5a840532 
+{:id "c30b4491-e603-11ee-8c7b-293a5a840532"
+:type "line"
+:fromId "c30b4492-e603-11ee-8c7b-293a5a840532"
+:toId "2620a440-e1f3-11ee-bb90-a1823df17749"
+:handleId "end"
+:point [0.76 0.5]
+:distance 4}
 :15eb9522-e5eb-11ee-8c7b-293a5a840532 
 {:id "15eb9522-e5eb-11ee-8c7b-293a5a840532"
 :type "line"
@@ -1615,6 +1621,14 @@
 :toId "2a76ac10-e360-11ee-bb90-a1823df17749"
 :handleId "end"
 :point [0.6 0.45]
+:distance 4}
+:c873b2a1-e603-11ee-8c7b-293a5a840532 
+{:id "c873b2a1-e603-11ee-8c7b-293a5a840532"
+:type "line"
+:fromId "c873b2a2-e603-11ee-8c7b-293a5a840532"
+:toId "4d907400-e352-11ee-bb90-a1823df17749"
+:handleId "end"
+:point [0.76 0.57]
 :distance 4}
 :147d7311-e362-11ee-bb90-a1823df17749 
 {:id "147d7311-e362-11ee-bb90-a1823df17749"
@@ -1650,8 +1664,8 @@
 :distance 4}}
 :nonce 0
 :assets []
-:shapes-index ("e31c8440-e5f1-11ee-8c7b-293a5a840532" "06ef5ed0-e5eb-11ee-8c7b-293a5a840532" "15eb6e10-e5eb-11ee-8c7b-293a5a840532" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "06ef85e0-e5eb-11ee-8c7b-293a5a840532" "64c5b2d0-e5ea-11ee-8c7b-293a5a840532" "ab845af0-e5ea-11ee-8c7b-293a5a840532" "15eb9520-e5eb-11ee-8c7b-293a5a840532" "8669cce0-e5eb-11ee-8c7b-293a5a840532" "3d9ae262-e5eb-11ee-8c7b-293a5a840532" "3f94dda2-e5eb-11ee-8c7b-293a5a840532" "beb91ff0-e5ec-11ee-8c7b-293a5a840532" "8b09cff0-e5ed-11ee-8c7b-293a5a840532" "e31c8441-e5f1-11ee-8c7b-293a5a840532")}}
-:block/updated-at 1710861395785
+:shapes-index ("e31c8440-e5f1-11ee-8c7b-293a5a840532" "06ef5ed0-e5eb-11ee-8c7b-293a5a840532" "15eb6e10-e5eb-11ee-8c7b-293a5a840532" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "06ef85e0-e5eb-11ee-8c7b-293a5a840532" "64c5b2d0-e5ea-11ee-8c7b-293a5a840532" "ab845af0-e5ea-11ee-8c7b-293a5a840532" "15eb9520-e5eb-11ee-8c7b-293a5a840532" "8669cce0-e5eb-11ee-8c7b-293a5a840532" "3d9ae262-e5eb-11ee-8c7b-293a5a840532" "3f94dda2-e5eb-11ee-8c7b-293a5a840532" "beb91ff0-e5ec-11ee-8c7b-293a5a840532" "8b09cff0-e5ed-11ee-8c7b-293a5a840532" "e31c8441-e5f1-11ee-8c7b-293a5a840532" "c30b4492-e603-11ee-8c7b-293a5a840532" "c5d86e52-e603-11ee-8c7b-293a5a840532" "c873b2a2-e603-11ee-8c7b-293a5a840532")}}
+:block/updated-at 1710861457912
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
