@@ -1349,7 +1349,7 @@
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
 :block/uuid #uuid "65f98415-51fc-482e-948f-de67ff48003a"} 
-{:block/created-at 1710851795208
+{:block/created-at 1710851885399
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1366,17 +1366,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [448 216.11261937568983]
+:size [448 245.02500939710055]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "beb91ff0-e5ec-11ee-8c7b-293a5a840532"
 :noFill false
-:point [5920 2576]
+:point [5920 2560]
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :collapsedHeight 0
-:nonce 1710851547165}}
-:block/updated-at 1710851795208} 
+:nonce 1710851547182}}
+:block/updated-at 1710851885399} 
 {:block/content "中心思想"
 :block/format :markdown
 :block/left 
@@ -1390,7 +1390,34 @@
 {:block/uuid #uuid "65f985f2-c1f8-48a4-b42f-9621bbbb9f97"}
 :block/parent 
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/uuid #uuid "65f985f4-664f-48b3-9b96-763def37669d"})
+:block/uuid #uuid "65f985f4-664f-48b3-9b96-763def37669d"} 
+{:block/created-at 1710851907793
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 32
+:scale [1 1]
+:pageId "魏晉南北/稅制與土地制度"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 106.89611892199918]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8b09cff0-e5ed-11ee-8c7b-293a5a840532"
+:noFill false
+:point [6528 2632]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710851889777}}
+:block/updated-at 1710851907793})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -1529,8 +1556,8 @@
 :distance 4}}
 :nonce 0
 :assets []
-:shapes-index ("15eb6e10-e5eb-11ee-8c7b-293a5a840532" "06ef5ed0-e5eb-11ee-8c7b-293a5a840532" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749" "64c5b2d0-e5ea-11ee-8c7b-293a5a840532" "ab845af0-e5ea-11ee-8c7b-293a5a840532" "06ef85e0-e5eb-11ee-8c7b-293a5a840532" "15eb9520-e5eb-11ee-8c7b-293a5a840532" "3d9ae262-e5eb-11ee-8c7b-293a5a840532" "3f94dda2-e5eb-11ee-8c7b-293a5a840532" "8669cce0-e5eb-11ee-8c7b-293a5a840532" "beb91ff0-e5ec-11ee-8c7b-293a5a840532")}}
-:block/updated-at 1710851795208
+:shapes-index ("15eb6e10-e5eb-11ee-8c7b-293a5a840532" "06ef5ed0-e5eb-11ee-8c7b-293a5a840532" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "b1add642-e351-11ee-bb90-a1823df17749" "bd868572-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "65128502-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749" "64c5b2d0-e5ea-11ee-8c7b-293a5a840532" "ab845af0-e5ea-11ee-8c7b-293a5a840532" "06ef85e0-e5eb-11ee-8c7b-293a5a840532" "15eb9520-e5eb-11ee-8c7b-293a5a840532" "3d9ae262-e5eb-11ee-8c7b-293a5a840532" "3f94dda2-e5eb-11ee-8c7b-293a5a840532" "8669cce0-e5eb-11ee-8c7b-293a5a840532" "beb91ff0-e5ec-11ee-8c7b-293a5a840532" "8b09cff0-e5ed-11ee-8c7b-293a5a840532")}}
+:block/updated-at 1710851907793
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
