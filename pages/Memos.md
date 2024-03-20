@@ -204,3 +204,13 @@
 	  SCHEDULED: <2024-03-17 Sun>
 	- DONE  地理考卷 
 	  SCHEDULED: <2024-03-17 Sun>
+- [[Mar 20th, 2024]] 20:03 #memos
+  memo-id:: 104
+	- # 數學級數項數代換
+	  給定 S_n 求 a_n
+	   利用 a_n = S_n - S_(n-1)
+	  給定 a_n 求和
+	  利用 Sigma 求和好朋友，加減分開，乘除放前面
+- [[Mar 20th, 2024]] 08:08 #memos
+  memo-id:: 103
+	- LATER  國文考卷訂正
