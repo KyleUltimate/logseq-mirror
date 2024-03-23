@@ -28,23 +28,13 @@
 	- Savor 品嚐
 - [[Dec 14th, 2023]] 15:49 #memos
   memo-id:: 60
-	- LATER  國文學習講義 L9 
-	  SCHEDULED: <2023-12-21 Thu>
-	- LATER  講義 p8 
-	  SCHEDULED: <2023-12-21 Thu>
-	- LATER  英文考卷x3 
-	  SCHEDULED: <2023-12-15 Fri>
 - [[Dec 20th, 2023]] 15:18 #memos
   memo-id:: 64
 	- Faculty, hospice
 - [[Dec 27th, 2023]] 16:25 #memos
   memo-id:: 65
 	- DONE  爸 3000
-	- LATER  國注釋 
-	  SCHEDULED: <2023-12-30 Sat>
 	- DONE  英單
-	- LATER  地理練習 
-	  SCHEDULED: <2023-12-31 Sun>
 - [[Dec 28th, 2023]] 16:35 #memos
   memo-id:: 66
 	- in order to = so as to
@@ -112,14 +102,6 @@
 	  https://fonts.google.com/specimen/Inconsolata
 - [[Jan 15th, 2024]] 09:42 #memos
   memo-id:: 85
-	- TODO 學習歷程簡報(iterator)
-	  SCHEDULED: <2024-01-19 Fri>
-	  :LOGBOOK:
-	  
-	  :END:
-	  :AGENDA:
-	  estimated: 3h
-	  :END:
 - [[Jan 15th, 2024]] 19:39 #memos
   memo-id:: 88
 	- # 地科複習
@@ -182,12 +164,10 @@
 	  CLOCK: [2024-03-16 Sat 15:19:52]--[2024-03-16 Sat 15:19:53] =>  00:00:01
 	  CLOCK: [2024-03-16 Sat 15:19:53]--[2024-03-16 Sat 23:02:39] =>  07:42:46
 	  :END:
-	- TODO  生物複習
+	- DONE  生物複習
 	  SCHEDULED: <2024-03-16 Sat>
 - [[Mar 14th, 2024]] 11:17 #memos
   memo-id:: 100
-	- LATER  禮拜四考化學
-	  SCHEDULED: <2024-03-21 Thu>
 - [[Mar 14th, 2024]] 08:49 #memos
   memo-id:: 99
 	- https://tailwindcss.com/blog/tailwindcss-v3-4#style-children-with-the-variant
