@@ -176,8 +176,11 @@
 	  `&` 類似 self
 - [[Mar 15th, 2024]] 13:47 #memos
   memo-id:: 102
-	- TODO  地理講義 1、2 
+	- TODO 地理講義 1、2
 	  SCHEDULED: <2024-03-23 Sat 15:45>
+	  :LOGBOOK:
+	  CLOCK: [2024-03-23 Sat 15:45:00]--[2024-03-23 Sat 16:15:00] =>  00:30:00
+	  :END:
 - [[Mar 15th, 2024]] 13:41 #memos
   memo-id:: 101
 	- DONE   歷史考卷 
