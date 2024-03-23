@@ -177,7 +177,7 @@
 - [[Mar 15th, 2024]] 13:47 #memos
   memo-id:: 102
 	- TODO  地理講義 1、2 
-	  SCHEDULED: <2024-03-23 Sat 15:30>
+	  SCHEDULED: <2024-03-23 Sat 15:45>
 - [[Mar 15th, 2024]] 13:41 #memos
   memo-id:: 101
 	- DONE   歷史考卷 
@@ -194,3 +194,4 @@
 - [[Mar 20th, 2024]] 08:08 #memos
   memo-id:: 103
 	- LATER  國文考卷訂正
+	  SCHEDULED: <2024-03-23 Sat>
