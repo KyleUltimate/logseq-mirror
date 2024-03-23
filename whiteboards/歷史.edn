@@ -899,490 +899,6 @@
 :collapsedHeight 0
 :nonce 1710677582875}}
 :block/updated-at 1710862942172} 
-{:block/created-at 1710861429335
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:collapsed false
-:borderRadius 8
-:index 23
-:scale [1 1]
-:pageId "魏晉南北朝/選材制度"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [400 216.11276245117188]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "64c5b2d0-e5ea-11ee-8c7b-293a5a840532"
-:noFill false
-:point [5864 1584]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710850537577}}
-:block/updated-at 1710861429335} 
-{:block/content "# 宋代後\n皆為科舉"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
-:block/parent 
-{:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
-:block/properties 
-{:heading 1}
-:block/uuid #uuid "65f98261-f2c5-414b-84f7-372ebaa33cc1"} 
-{:block/created-at 1710861429335
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 24
-:scale [1 1]
-:pageId "65f98261-f2c5-414b-84f7-372ebaa33cc1"
-:scaleLevel "md"
-:fill ""
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [400 96.30794498461347]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "ab845af0-e5ea-11ee-8c7b-293a5a840532"
-:noFill false
-:point [6320 1648]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710850656464}}
-:block/updated-at 1710861429335} 
-{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f98263-4be3-4024-81aa-8734a544221f"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/properties 
-{:heading 1}
-:block/uuid #uuid "65f98262-670e-4c78-94a0-2c1793280a71"} 
-{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f98264-7173-4ed8-b6e7-5f41af212028"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/properties 
-{:heading 1}
-:block/uuid #uuid "65f98263-4be3-4024-81aa-8734a544221f"} 
-{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f98266-7570-488c-b75e-3224a483f0f1"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/properties 
-{:heading 1}
-:block/uuid #uuid "65f98264-7173-4ed8-b6e7-5f41af212028"} 
-{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/properties 
-{:heading 1}
-:block/uuid #uuid "65f98266-7570-488c-b75e-3224a483f0f1"} 
-{:block/content "arst"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f98262-670e-4c78-94a0-2c1793280a71"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/uuid #uuid "65f98282-8355-49e2-ad1b-b24732386c66"} 
-{:block/content "科舉"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f98282-8355-49e2-ad1b-b24732386c66"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/uuid #uuid "65f98295-9072-43ed-9db8-9e4651bd95da"} 
-{:block/created-at 1710853861652
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke "green"
-:rotation 0
-:borderRadius 2
-:index 1
-:scale [1 1]
-:refs ["中央政體官制"]
-:scaleLevel "md"
-:fill "green"
-:type "box"
-:size [2296 1216]
-:strokeType "line"
-:strokeWidth 2
-:opacity 0.5
-:label ""
-:id "06ef5ed0-e5eb-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill false
-:point [2768 984]
-:fontSize 20
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850809693
-:italic false}}
-:block/updated-at 1710853861652} 
-{:block/created-at 1710861429335
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 22
-:scale [1 1]
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "06ef85e0-e5eb-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill true
-:point [2657 1592]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]
-:bindingId "06ef85e1-e5eb-11ee-8c7b-293a5a840532"}
-:end 
-{:id "end"
-:canBind true
-:point [107 0]
-:bindingId "06ef85e2-e5eb-11ee-8c7b-293a5a840532"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850809328
-:italic false}}
-:block/updated-at 1710861429335} 
-{:block/created-at 1710861429335
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 25
-:scale [1 1]
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "15eb9520-e5eb-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill true
-:point [5065 1600.8]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]
-:bindingId "15eb9521-e5eb-11ee-8c7b-293a5a840532"}
-:end 
-{:id "end"
-:canBind true
-:point [83 0.64]
-:bindingId "15eb9522-e5eb-11ee-8c7b-293a5a840532"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850834485
-:italic false}}
-:block/updated-at 1710861429335} 
-{:block/created-at 1710853865897
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke "green"
-:rotation 0
-:borderRadius 2
-:index 2
-:scale [1 1]
-:refs ["選材制度"]
-:scaleLevel "md"
-:fill "green"
-:type "box"
-:size [1704 1104]
-:strokeType "line"
-:strokeWidth 2
-:opacity 0.5
-:label ""
-:id "15eb6e10-e5eb-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill false
-:point [5152 1056]
-:fontSize 20
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850834954
-:italic false}}
-:block/updated-at 1710853865897} 
-{:block/created-at 1710863158209
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 27
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "3d9ae262-e5eb-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill true
-:point [5769 1686.18]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]
-:bindingId "c6e8f721-e607-11ee-8c7b-293a5a840532"}
-:end 
-{:id "end"
-:canBind true
-:point [91 0.28]
-:bindingId "3d9ae261-e5eb-11ee-8c7b-293a5a840532"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850901075
-:italic false}}
-:block/updated-at 1710863158209} 
-{:block/created-at 1710861429335
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 28
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "3f94dda2-e5eb-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill true
-:point [6265 1689.1]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]
-:bindingId "40d8cf51-e5eb-11ee-8c7b-293a5a840532"}
-:end 
-{:id "end"
-:canBind true
-:point [51 1.41]
-:bindingId "41dc5ca1-e5eb-11ee-8c7b-293a5a840532"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710850904389
-:italic false}}
-:block/updated-at 1710861429335} 
-{:block/created-at 1710861965631
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 26
-:scale [1 1]
-:pageId "商周/稅制與土地制度"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [392 276.4478816211349]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "8669cce0-e5eb-11ee-8c7b-293a5a840532"
-:noFill false
-:point [5264 2560]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710851023466}}
-:block/updated-at 1710861965631} 
-{:block/content "#+BEGIN_QUERY\n{\n:title [:b \"\"]\n:query [\n :find (pull ?b [*])\n       :in $ ?current-page\n       :where\n       [(str \"/\" ?current-page) ?current-page]\n       (?b :block/page ?p)\n       [?p :block/name ?name]\n       [(clojure.string/ends-with? ?name ?current-page)]\n]\n:inputs [:current-page]}\n:breadcrumb-show? false\n}\n#+END_QUERY"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f98295-9072-43ed-9db8-9e4651bd95da"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/uuid #uuid "65f98415-51fc-482e-948f-de67ff48003a"} 
-{:block/created-at 1710861960613
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 29
-:scale [1 1]
-:pageId "漢朝/稅制與土地制度"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [448 245.02500939710055]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "beb91ff0-e5ec-11ee-8c7b-293a5a840532"
-:noFill false
-:point [5776 2560]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710851547361}}
-:block/updated-at 1710861960613} 
-{:block/content "中心思想"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f98415-51fc-482e-948f-de67ff48003a"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/uuid #uuid "65f985f2-c1f8-48a4-b42f-9621bbbb9f97"} 
-{:block/content "中心思想"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f985f2-c1f8-48a4-b42f-9621bbbb9f97"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/uuid #uuid "65f985f4-664f-48b3-9b96-763def37669d"} 
-{:block/created-at 1710861841415
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 30
-:scale [1 1]
-:pageId "魏晉南北朝/稅制與土地制度"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [448 769.9258260143771]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "8b09cff0-e5ed-11ee-8c7b-293a5a840532"
-:noFill false
-:point [6336 2560]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710851890040}}
-:block/updated-at 1710861841415} 
-{:block/content "北魏實施均田"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "65f985f4-664f-48b3-9b96-763def37669d"}
-:block/parent 
-{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
-:block/uuid #uuid "65f987aa-0f28-4990-bec9-71967bf91121"} 
-{:block/created-at 1710863240026
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke "green"
-:rotation 0
-:borderRadius 2
-:index 0
-:scale [1 1]
-:refs ["稅制與土地制度"]
-:scaleLevel "md"
-:fill "green"
-:type "box"
-:size [1712 1440]
-:strokeType "line"
-:strokeWidth 2
-:opacity 0.5
-:label ""
-:id "e31c8440-e5f1-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill false
-:point [5144 2232]
-:fontSize 20
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710853756458
-:italic false}}
-:block/updated-at 1710863240026} 
-{:block/created-at 1710863240030
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 31
-:scale [1 1]
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "e31c8441-e5f1-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill true
-:point [6002.15 2161]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0.2 0]
-:bindingId "e31c8442-e5f1-11ee-8c7b-293a5a840532"}
-:end 
-{:id "end"
-:canBind true
-:point [0 67]
-:bindingId "e31c8443-e5f1-11ee-8c7b-293a5a840532"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710853755863
-:italic false}}
-:block/updated-at 1710863240030} 
 {:block/created-at 1710861439075
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -1418,139 +934,6 @@
 :nonce 1710861432752
 :italic false}}
 :block/updated-at 1710861439075} 
-{:block/created-at 1710861442628
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 33
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "c5d86e52-e603-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill true
-:point [1648 1744]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]}
-:end 
-{:id "end"
-:canBind true
-:point [84 0.2]
-:bindingId "c5d86e51-e603-11ee-8c7b-293a5a840532"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710861437486
-:italic false}}
-:block/updated-at 1710861442628} 
-{:block/created-at 1710861457873
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 34
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "c873b2a2-e603-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill true
-:point [2136 1744]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]}
-:end 
-{:id "end"
-:canBind true
-:point [84 0.11]
-:bindingId "c873b2a1-e603-11ee-8c7b-293a5a840532"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710861441805
-:italic false}}
-:block/updated-at 1710861457873} 
-{:block/created-at 1710863098541
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 35
-:scale [1 1]
-:pageId "唐朝/稅制與土地制度"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [384 683.7024510860823]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "eb2b2df0-e603-11ee-8c7b-293a5a840532"
-:noFill false
-:point [5824 2856]
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:collapsedHeight 0
-:nonce 1710861501542}}
-:block/updated-at 1710863098541} 
-{:block/created-at 1710861960617
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 36
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "d8e81490-e604-11ee-8c7b-293a5a840532"
-:fontWeight 400
-:noFill true
-:point [5656 2695.79]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0.21]}
-:end 
-{:id "end"
-:canBind true
-:point [116 0]
-:bindingId "d8e7ed81-e604-11ee-8c7b-293a5a840532"}}
-:decorations 
-{:end "arrow"}
-:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710861898954
-:italic false}}
-:block/updated-at 1710861960617} 
 {:block/created-at 1710863151747
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -1587,6 +970,48 @@
 :nonce 1710861903047
 :italic false}}
 :block/updated-at 1710863151747} 
+{:block/created-at 1710861429335
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 25
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "15eb9520-e5eb-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [5065 1600.8]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "15eb9521-e5eb-11ee-8c7b-293a5a840532"}
+:end 
+{:id "end"
+:canBind true
+:point [83 0.64]
+:bindingId "15eb9522-e5eb-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710850834485
+:italic false}}
+:block/updated-at 1710861429335} 
+{:block/content "#+BEGIN_QUERY\n{\n:title [:b \"\"]\n:query [\n :find (pull ?b [*])\n       :in $ ?current-page\n       :where\n       [(str \"/\" ?current-page) ?current-page]\n       (?b :block/page ?p)\n       [?p :block/name ?name]\n       [(clojure.string/ends-with? ?name ?current-page)]\n]\n:inputs [:current-page]}\n:breadcrumb-show? false\n}\n#+END_QUERY"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98295-9072-43ed-9db8-9e4651bd95da"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f98415-51fc-482e-948f-de67ff48003a"} 
 {:block/created-at 1710862896364
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -1614,7 +1039,317 @@
 :collapsedHeight 0
 :nonce 1710862500762}}
 :block/updated-at 1710862896364} 
-{:block/created-at 1710863146394
+{:block/created-at 1710861429335
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 23
+:scale [1 1]
+:pageId "魏晉南北朝/選材制度"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 216.11276245117188]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "64c5b2d0-e5ea-11ee-8c7b-293a5a840532"
+:noFill false
+:point [5864 1584]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710850537577}}
+:block/updated-at 1710861429335} 
+{:block/created-at 1710861429335
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 24
+:scale [1 1]
+:pageId "65f98261-f2c5-414b-84f7-372ebaa33cc1"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 96.30794498461347]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "ab845af0-e5ea-11ee-8c7b-293a5a840532"
+:noFill false
+:point [6320 1648]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710850656464}}
+:block/updated-at 1710861429335} 
+{:block/content "中心思想"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98415-51fc-482e-948f-de67ff48003a"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f985f2-c1f8-48a4-b42f-9621bbbb9f97"} 
+{:block/created-at 1710861841415
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 30
+:scale [1 1]
+:pageId "魏晉南北朝/稅制與土地制度"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [448 769.9258260143771]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8b09cff0-e5ed-11ee-8c7b-293a5a840532"
+:noFill false
+:point [6336 2560]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710851890040}}
+:block/updated-at 1710861841415} 
+{:block/created-at 1710861457873
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 34
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c873b2a2-e603-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [2136 1744]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [84 0.11]
+:bindingId "c873b2a1-e603-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710861441805
+:italic false}}
+:block/updated-at 1710861457873} 
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98263-4be3-4024-81aa-8734a544221f"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f98262-670e-4c78-94a0-2c1793280a71"} 
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98264-7173-4ed8-b6e7-5f41af212028"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f98263-4be3-4024-81aa-8734a544221f"} 
+{:block/content "北魏實施均田"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f985f4-664f-48b3-9b96-763def37669d"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f987aa-0f28-4990-bec9-71967bf91121"} 
+{:block/created-at 1711175907318
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 35
+:scale [1 1]
+:pageId "唐朝/稅制與土地制度"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [384 741.5409315814024]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "eb2b2df0-e603-11ee-8c7b-293a5a840532"
+:noFill false
+:point [5824 2832]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710861501581}}
+:block/updated-at 1711175907318} 
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f98266-7570-488c-b75e-3224a483f0f1"} 
+{:block/created-at 1710863240026
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:rotation 0
+:borderRadius 2
+:index 0
+:scale [1 1]
+:refs ["稅制與土地制度"]
+:scaleLevel "md"
+:fill "green"
+:type "box"
+:size [1712 1440]
+:strokeType "line"
+:strokeWidth 2
+:opacity 0.5
+:label ""
+:id "e31c8440-e5f1-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill false
+:point [5144 2232]
+:fontSize 20
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710853756458
+:italic false}}
+:block/updated-at 1710863240026} 
+{:block/created-at 1710853865897
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:rotation 0
+:borderRadius 2
+:index 2
+:scale [1 1]
+:refs ["選材制度"]
+:scaleLevel "md"
+:fill "green"
+:type "box"
+:size [1704 1104]
+:strokeType "line"
+:strokeWidth 2
+:opacity 0.5
+:label ""
+:id "15eb6e10-e5eb-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill false
+:point [5152 1056]
+:fontSize 20
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710850834954
+:italic false}}
+:block/updated-at 1710853865897} 
+{:block/content "中心思想"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f985f2-c1f8-48a4-b42f-9621bbbb9f97"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f985f4-664f-48b3-9b96-763def37669d"} 
+{:block/created-at 1710861442628
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 33
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c5d86e52-e603-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [1648 1744]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [84 0.2]
+:bindingId "c5d86e51-e603-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710861437486
+:italic false}}
+:block/updated-at 1710861442628} 
+{:block/created-at 1710853861652
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:rotation 0
+:borderRadius 2
+:index 1
+:scale [1 1]
+:refs ["中央政體官制"]
+:scaleLevel "md"
+:fill "green"
+:type "box"
+:size [2296 1216]
+:strokeType "line"
+:strokeWidth 2
+:opacity 0.5
+:label ""
+:id "06ef5ed0-e5eb-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill false
+:point [2768 984]
+:fontSize 20
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710850809693
+:italic false}}
+:block/updated-at 1710853861652} 
+{:block/created-at 1711175907309
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1631,25 +1366,290 @@
 :id "bbf92150-e607-11ee-8c7b-293a5a840532"
 :fontWeight 400
 :noFill true
-:point [6212 3206.79]
+:point [6212 3209.76]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [123 0.93]
+:point [123 0]
 :bindingId "bf2533f1-e607-11ee-8c7b-293a5a840532"}
 :end 
 {:id "end"
 :canBind true
-:point [0 0]
+:point [0 0.16]
 :bindingId "bbf8fa41-e607-11ee-8c7b-293a5a840532"}}
 :decorations 
 {:end "arrow"}
 :parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
-:nonce 1710863139118
+:nonce 1710863139138
 :italic false}}
-:block/updated-at 1710863146394})
+:block/updated-at 1711175907309} 
+{:block/created-at 1710861960617
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 36
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "d8e81490-e604-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [5656 2695.79]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0.21]}
+:end 
+{:id "end"
+:canBind true
+:point [116 0]
+:bindingId "d8e7ed81-e604-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710861898954
+:italic false}}
+:block/updated-at 1710861960617} 
+{:block/created-at 1710863240030
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 31
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "e31c8441-e5f1-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [6002.15 2161]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0.2 0]
+:bindingId "e31c8442-e5f1-11ee-8c7b-293a5a840532"}
+:end 
+{:id "end"
+:canBind true
+:point [0 67]
+:bindingId "e31c8443-e5f1-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710853755863
+:italic false}}
+:block/updated-at 1710863240030} 
+{:block/created-at 1710861960613
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 29
+:scale [1 1]
+:pageId "漢朝/稅制與土地制度"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [448 245.02500939710055]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "beb91ff0-e5ec-11ee-8c7b-293a5a840532"
+:noFill false
+:point [5776 2560]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710851547361}}
+:block/updated-at 1710861960613} 
+{:block/content "# 宋代後\n皆為科舉"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
+:block/parent 
+{:block/uuid #uuid "65f6de4e-a73f-4a72-8b34-3ae7bf1c909b"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f98261-f2c5-414b-84f7-372ebaa33cc1"} 
+{:block/created-at 1710861429335
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 28
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "3f94dda2-e5eb-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [6265 1689.1]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "40d8cf51-e5eb-11ee-8c7b-293a5a840532"}
+:end 
+{:id "end"
+:canBind true
+:point [51 1.41]
+:bindingId "41dc5ca1-e5eb-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710850904389
+:italic false}}
+:block/updated-at 1710861429335} 
+{:block/content "arst"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98262-670e-4c78-94a0-2c1793280a71"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f98282-8355-49e2-ad1b-b24732386c66"} 
+{:block/created-at 1710861965631
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 26
+:scale [1 1]
+:pageId "商周/稅制與土地制度"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [392 276.4478816211349]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8669cce0-e5eb-11ee-8c7b-293a5a840532"
+:noFill false
+:point [5264 2560]
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:collapsedHeight 0
+:nonce 1710851023466}}
+:block/updated-at 1710861965631} 
+{:block/content "# 漢朝後\n以郡縣制為主\n除[[西晉]]之外"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98266-7570-488c-b75e-3224a483f0f1"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "65f98264-7173-4ed8-b6e7-5f41af212028"} 
+{:block/content "科舉"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65f98282-8355-49e2-ad1b-b24732386c66"}
+:block/parent 
+{:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"}
+:block/uuid #uuid "65f98295-9072-43ed-9db8-9e4651bd95da"} 
+{:block/created-at 1710861429335
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 22
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "06ef85e0-e5eb-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [2657 1592]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "06ef85e1-e5eb-11ee-8c7b-293a5a840532"}
+:end 
+{:id "end"
+:canBind true
+:point [107 0]
+:bindingId "06ef85e2-e5eb-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710850809328
+:italic false}}
+:block/updated-at 1710861429335} 
+{:block/created-at 1710863158209
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 27
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "3d9ae262-e5eb-11ee-8c7b-293a5a840532"
+:fontWeight 400
+:noFill true
+:point [5769 1686.18]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "c6e8f721-e607-11ee-8c7b-293a5a840532"}
+:end 
+{:id "end"
+:canBind true
+:point [91 0.28]
+:bindingId "3d9ae261-e5eb-11ee-8c7b-293a5a840532"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f05d26-c7f4-4884-95ef-cd9455cfd272"
+:nonce 1710850901075
+:italic false}}
+:block/updated-at 1710863158209})
 :pages (
 {:block/uuid #uuid "65f05d26-c7f4-4884-95ef-cd9455cfd272"
 :block/properties 
@@ -1877,7 +1877,7 @@
 :nonce 0
 :assets []
 :shapes-index ("e31c8440-e5f1-11ee-8c7b-293a5a840532" "06ef5ed0-e5eb-11ee-8c7b-293a5a840532" "15eb6e10-e5eb-11ee-8c7b-293a5a840532" "21aa81f0-e352-11ee-bb90-a1823df17749" "ad887300-e1f2-11ee-bb90-a1823df17749" "4cabed20-e362-11ee-bb90-a1823df17749" "7c1453b0-e1f8-11ee-bb90-a1823df17749" "2620a440-e1f3-11ee-bb90-a1823df17749" "399b4fc0-e351-11ee-bb90-a1823df17749" "4d907400-e352-11ee-bb90-a1823df17749" "d5adf6d0-e354-11ee-bb90-a1823df17749" "ec3a3620-e354-11ee-bb90-a1823df17749" "b852e630-e355-11ee-bb90-a1823df17749" "8196cb60-e356-11ee-bb90-a1823df17749" "2a76ac10-e360-11ee-bb90-a1823df17749" "399a7220-e361-11ee-bb90-a1823df17749" "8a21ae22-e361-11ee-bb90-a1823df17749" "8d6c4542-e361-11ee-bb90-a1823df17749" "95536ef2-e361-11ee-bb90-a1823df17749" "147d7312-e362-11ee-bb90-a1823df17749" "b3309fa0-e457-11ee-bb90-a1823df17749" "61e9b370-e362-11ee-bb90-a1823df17749" "06ef85e0-e5eb-11ee-8c7b-293a5a840532" "64c5b2d0-e5ea-11ee-8c7b-293a5a840532" "ab845af0-e5ea-11ee-8c7b-293a5a840532" "15eb9520-e5eb-11ee-8c7b-293a5a840532" "8669cce0-e5eb-11ee-8c7b-293a5a840532" "3d9ae262-e5eb-11ee-8c7b-293a5a840532" "3f94dda2-e5eb-11ee-8c7b-293a5a840532" "beb91ff0-e5ec-11ee-8c7b-293a5a840532" "8b09cff0-e5ed-11ee-8c7b-293a5a840532" "e31c8441-e5f1-11ee-8c7b-293a5a840532" "c30b4492-e603-11ee-8c7b-293a5a840532" "c5d86e52-e603-11ee-8c7b-293a5a840532" "c873b2a2-e603-11ee-8c7b-293a5a840532" "eb2b2df0-e603-11ee-8c7b-293a5a840532" "d8e81490-e604-11ee-8c7b-293a5a840532" "db559222-e604-11ee-8c7b-293a5a840532" "3f990810-e606-11ee-8c7b-293a5a840532" "bbf92150-e607-11ee-8c7b-293a5a840532")}}
-:block/updated-at 1710863240045
+:block/updated-at 1711175907309
 :block/created-at 1710251302912
 :block/type "whiteboard"
 :block/name "歷史"
