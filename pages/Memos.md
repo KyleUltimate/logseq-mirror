@@ -199,3 +199,10 @@
   memo-id:: 103
 	- LATER  國文考卷訂正
 	  SCHEDULED: <2024-03-23 Sat>
+- [[Mar 25th, 2024]] 08:54 #memos
+  memo-id:: 106
+	- # 溫海秋冬較多雨
+	  因北極氣旋下移
+- [[Mar 24th, 2024]] 23:22 #memos
+  memo-id:: 105
+	- Hustle and bustle
