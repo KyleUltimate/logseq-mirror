@@ -206,3 +206,6 @@
 - [[Mar 24th, 2024]] 23:22 #memos
   memo-id:: 105
 	- Hustle and bustle
+- [[Mar 27th, 2024]] 11:23 #memos
+  memo-id:: 107
+	- Eradicate
