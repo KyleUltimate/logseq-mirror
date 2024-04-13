@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "661a316a-5f57-488c-ba6e-1690beca0d4c"} 
-{:block/created-at 1712998092389
+{:block/created-at 1713001984846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -34,9 +34,9 @@
 :point [736 152]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712992618056}}
-:block/updated-at 1712998092389} 
-{:block/created-at 1712999620446
+:nonce 1712992618060}}
+:block/updated-at 1713001984846} 
+{:block/created-at 1713001984844
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -62,8 +62,8 @@
 :point [648 1072]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 138.88959503173828
-:nonce 1712992633311}}
-:block/updated-at 1712999620446} 
+:nonce 1712992633315}}
+:block/updated-at 1713001984844} 
 {:block/content "分為 [[離子鍵]]、[[共價鍵]]、[[金屬鍵]]"
 :block/format :markdown
 :block/left 
@@ -73,7 +73,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "661a35a6-489c-430c-bc4c-9b679d417a9b"} 
-{:block/created-at 1712998080323
+{:block/created-at 1713001984846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -99,9 +99,9 @@
 :point [552 352]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712993702296}}
-:block/updated-at 1712998080323} 
-{:block/created-at 1712998096664
+:nonce 1712993702300}}
+:block/updated-at 1713001984846} 
+{:block/created-at 1713001984874
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -134,10 +134,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712993728578
+:nonce 1712993728583
 :italic false}}
-:block/updated-at 1712998096664} 
-{:block/created-at 1712999172920
+:block/updated-at 1713001984874} 
+{:block/created-at 1713002000294
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -163,8 +163,8 @@
 :point [1328 1072]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712993758965}}
-:block/updated-at 1712999172920} 
+:nonce 1712993758975}}
+:block/updated-at 1713002000294} 
 {:block/content "- 在任意瞬間，O3 在這兩種情況中 \"震盪\"，因此在 1 與 2 個鍵結中不斷切換\n- 取 \"中間值\" 1.5"
 :block/format :markdown
 :block/left 
@@ -172,7 +172,7 @@
 :block/parent 
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"}
 :block/uuid #uuid "661a3f45-8789-4431-a978-6b2d7cb8b960"} 
-{:block/created-at 1712998025304
+{:block/created-at 1713002000295
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -198,9 +198,9 @@
 :point [2256 1048]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712996225297}}
-:block/updated-at 1712998025304} 
-{:block/created-at 1712999439334
+:nonce 1712996225303}}
+:block/updated-at 1713002000295} 
+{:block/created-at 1713002000295
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -227,9 +227,9 @@
 :point [1480 1992]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712996246101}}
-:block/updated-at 1712999439334} 
-{:block/created-at 1712998098272
+:nonce 1712996246111}}
+:block/updated-at 1713002000295} 
+{:block/created-at 1713001984846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -254,9 +254,9 @@
 :point [712 -64]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712996619872}}
-:block/updated-at 1712998098272} 
-{:block/created-at 1712998098274
+:nonce 1712996619876}}
+:block/updated-at 1713001984846} 
+{:block/created-at 1713001984875
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -289,10 +289,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712996649564
+:nonce 1712996649569
 :italic false}}
-:block/updated-at 1712998098274} 
-{:block/created-at 1712999439335
+:block/updated-at 1713001984875} 
+{:block/created-at 1713002000310
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -325,10 +325,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712996669284
+:nonce 1712996669295
 :italic false}}
-:block/updated-at 1712999439335} 
-{:block/created-at 1712998025304
+:block/updated-at 1713002000310} 
+{:block/created-at 1713002000309
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -360,10 +360,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712996684987
+:nonce 1712996684993
 :italic false}}
-:block/updated-at 1712998025304} 
-{:block/created-at 1712999511499
+:block/updated-at 1713002000309} 
+{:block/created-at 1713001984846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -389,8 +389,8 @@
 :point [128 1072]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712996742148}}
-:block/updated-at 1712999511499} 
+:nonce 1712996742152}}
+:block/updated-at 1713001984846} 
 {:block/content "# 為何不同原子結合時要運用**不同的方法**？"
 :block/format :markdown
 :block/left 
@@ -400,7 +400,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "661a441d-1ccb-421d-a349-88bd7c16634e"} 
-{:block/created-at 1712998063586
+{:block/created-at 1713001984846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -426,8 +426,8 @@
 :point [448 560]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712997405864}}
-:block/updated-at 1712998063586} 
+:nonce 1712997405868}}
+:block/updated-at 1713001984846} 
 {:block/content "## 金屬與非金屬結合\nid:: 661a4525-ace9-4a00-af25-48f0d1b89df9\n金屬要達成 [[八隅體]] 最快速就是利用 **失去電子**，\n而非金屬要達成 [[八隅體]] 最快速即為 **得到電子** 兩者形成 **互補**"
 :block/format :markdown
 :block/left 
@@ -438,7 +438,7 @@
 {:heading 2
 :id "661a4525-ace9-4a00-af25-48f0d1b89df9"}
 :block/uuid #uuid "661a4525-ace9-4a00-af25-48f0d1b89df9"} 
-{:block/created-at 1712998069456
+{:block/created-at 1713001984846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -464,8 +464,8 @@
 :point [672 840]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712997668461}}
-:block/updated-at 1712998069456} 
+:nonce 1712997668465}}
+:block/updated-at 1713001984846} 
 {:block/content "## 非金屬與非金屬結合\n兩者距離 [[八隅體]] 最快速的方式皆是**得到電子**，\n但**無法**如此，因此退而求其次\n利用共用價電子來達成"
 :block/format :markdown
 :block/left 
@@ -475,7 +475,7 @@
 :block/properties 
 {:heading 2}
 :block/uuid #uuid "661a453f-493c-460d-b7ab-ff14e3781a71"} 
-{:block/created-at 1712999191538
+{:block/created-at 1713001984846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -500,8 +500,8 @@
 :point [1504 816]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712997695979}}
-:block/updated-at 1712999191538} 
+:nonce 1712997695983}}
+:block/updated-at 1713001984846} 
 {:block/content "## 金屬與金屬結合\n金屬要達成 [[八隅體]] 最快速就是利用 **失去電子**\n因此，**所有的**金屬都把電子丟掉後\n利用 **陰陽** 粒子吸引力達成穩定狀態"
 :block/format :markdown
 :block/left 
@@ -511,7 +511,7 @@
 :block/properties 
 {:heading 2}
 :block/uuid #uuid "661a45a6-34e9-4ef4-87a3-d280e11d1c67"} 
-{:block/created-at 1712997967042
+{:block/created-at 1713001984846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -537,9 +537,9 @@
 :point [168 824]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712997798550}}
-:block/updated-at 1712997967042} 
-{:block/created-at 1712998063586
+:nonce 1712997798554}}
+:block/updated-at 1713001984846} 
+{:block/created-at 1713001984875
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -572,10 +572,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997912374
+:nonce 1712997912380
 :italic false}}
-:block/updated-at 1712998063586} 
-{:block/created-at 1712999191536
+:block/updated-at 1713001984875} 
+{:block/created-at 1713001984875
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -608,10 +608,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997916864
+:nonce 1712997916870
 :italic false}}
-:block/updated-at 1712999191536} 
-{:block/created-at 1712998321847
+:block/updated-at 1713001984875} 
+{:block/created-at 1713001984875
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -644,10 +644,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997921057
+:nonce 1712997921062
 :italic false}}
-:block/updated-at 1712998321847} 
-{:block/created-at 1712999191538
+:block/updated-at 1713001984875} 
+{:block/created-at 1713002000310
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -680,10 +680,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712998034742
+:nonce 1712998034753
 :italic false}}
-:block/updated-at 1712999191538} 
-{:block/created-at 1712999620456
+:block/updated-at 1713002000310} 
+{:block/created-at 1713001984875
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -716,10 +716,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712998046307
+:nonce 1712998046311
 :italic false}}
-:block/updated-at 1712999620456} 
-{:block/created-at 1712998091077
+:block/updated-at 1713001984875} 
+{:block/created-at 1713001984875
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -752,10 +752,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712998054563
+:nonce 1712998054568
 :italic false}}
-:block/updated-at 1712998091077} 
-{:block/created-at 1712999511540
+:block/updated-at 1713001984875} 
+{:block/created-at 1713001984875
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -788,9 +788,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712998104779
+:nonce 1712998104784
 :italic false}}
-:block/updated-at 1712999511540} 
+:block/updated-at 1713001984875} 
 {:block/content "# O3\nasrt #.kanban\narst"
 :block/format :markdown
 :block/left 
@@ -1203,7 +1203,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4" "92404410-f971-11ee-a380-85ca1cd026a4" "a26bab90-f971-11ee-a380-85ca1cd026a4" "dfc0f6d0-f971-11ee-a380-85ca1cd026a4" "23f06892-f972-11ee-a380-85ca1cd026a4" "2660cc52-f972-11ee-a380-85ca1cd026a4" "28b347d2-f972-11ee-a380-85ca1cd026a4" "6cd17b82-f972-11ee-a380-85ca1cd026a4" "73e48c52-f972-11ee-a380-85ca1cd026a4" "78c61722-f972-11ee-a380-85ca1cd026a4" "96bf6e22-f972-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1713001968117
+:block/updated-at 1713002000326
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
