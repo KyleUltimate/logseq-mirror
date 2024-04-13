@@ -36,7 +36,7 @@
 :collapsedHeight 0
 :nonce 1712992618006}}
 :block/updated-at 1712994932494} 
-{:block/created-at 1712996561968
+{:block/created-at 1712996583586
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -62,8 +62,8 @@
 :point [656 616]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 138.88959503173828
-:nonce 1712992632851}}
-:block/updated-at 1712996561968} 
+:nonce 1712992632857}}
+:block/updated-at 1712996583586} 
 {:block/content "分為 [[離子鍵]]、[[共價鍵]]、[[金屬鍵]]"
 :block/format :markdown
 :block/left 
@@ -227,7 +227,34 @@
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
 :nonce 1712996245291}}
-:block/updated-at 1712996266334})
+:block/updated-at 1712996266334} 
+{:block/created-at 1712996627373
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "八隅體"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 155.80619416767888]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "2163d1a0-f96f-11ee-a380-85ca1cd026a4"
+:noFill false
+:point [888 1680]
+:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:collapsedHeight 0
+:nonce 1712996619196}}
+:block/updated-at 1712996627373})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -254,8 +281,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712996561968
+:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4")}}
+:block/updated-at 1712996627373
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
