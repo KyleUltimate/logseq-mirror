@@ -227,3 +227,9 @@
 - [[Apr 10th, 2024]] 11:24 #memos
   memo-id:: 111
 	- https://in-formant.app/
+- [[Apr 13th, 2024]] 18:51 #memos
+  memo-id:: 113
+	- web_sys
+	  wait_for_next_render
+	  use_eval
+	  https://css-tricks.com/animating-layouts-with-the-flip-technique/
