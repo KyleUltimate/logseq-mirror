@@ -36,7 +36,7 @@
 :collapsedHeight 0
 :nonce 1712992617888}}
 :block/updated-at 1712993697048} 
-{:block/created-at 1712993834234
+{:block/created-at 1712994543024
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -53,7 +53,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [544 801.5767977029503]
+:size [544 801.5767474522216]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -62,8 +62,8 @@
 :point [680 624]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 138.88959503173828
-:nonce 1712992632691}}
-:block/updated-at 1712993834234} 
+:nonce 1712992632693}}
+:block/updated-at 1712994543024} 
 {:block/content "分為 [[離子鍵]]、[[共價鍵]]、[[金屬鍵]]"
 :block/format :markdown
 :block/left 
@@ -136,12 +136,13 @@
 :nonce 1712993728412
 :italic false}}
 :block/updated-at 1712993738073} 
-{:block/created-at 1712993841088
+{:block/created-at 1712994673897
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 4
@@ -152,7 +153,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 174.9764961186912]
+:size [792 691.2048186429848]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -161,8 +162,8 @@
 :point [1288 616]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712993756735}}
-:block/updated-at 1712993841088})
+:nonce 1712993757220}}
+:block/updated-at 1712994673897})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -190,7 +191,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712993841088
+:block/updated-at 1712994673897
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
