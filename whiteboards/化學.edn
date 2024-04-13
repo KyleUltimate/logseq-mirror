@@ -1,0 +1,82 @@
+{:blocks (
+{:block/content "原子結合方案"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"}
+:block/parent 
+{:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"}
+:block/properties 
+{}
+:block/uuid #uuid "661a316a-5f57-488c-ba6e-1690beca0d4c"} 
+{:block/created-at 1712992628650
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "661a316a-5f57-488c-ba6e-1690beca0d4c"
+:scaleLevel "xxl"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [368 122.68128967285156]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d04574d0-f965-11ee-a380-85ca1cd026a4"
+:noFill false
+:point [712 448]
+:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:collapsedHeight 0
+:nonce 1712992617794}}
+:block/updated-at 1712992628650} 
+{:block/created-at 1712992656498
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "離子鍵"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 138.88959503173828]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d8c2c400-f965-11ee-a380-85ca1cd026a4"
+:noFill false
+:point [1000 648]
+:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:collapsedHeight 138.88959503173828
+:nonce 1712992631876}}
+:block/updated-at 1712992656498})
+:pages (
+{:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:name "化學"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4")}}
+:block/updated-at 1712992656499
+:block/created-at 1712992518765
+:block/type "whiteboard"
+:block/name "化學"
+:block/original-name "化學"})}
