@@ -36,7 +36,7 @@
 :collapsedHeight 0
 :nonce 1712992618006}}
 :block/updated-at 1712994932494} 
-{:block/created-at 1712994543024
+{:block/created-at 1712995114744
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -59,11 +59,11 @@
 :opacity 1
 :id "d8c2c400-f965-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [680 624]
+:point [656 616]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 138.88959503173828
-:nonce 1712992632693}}
-:block/updated-at 1712994543024} 
+:nonce 1712992632819}}
+:block/updated-at 1712995114744} 
 {:block/content "分為 [[離子鍵]]、[[共價鍵]]、[[金屬鍵]]"
 :block/format :markdown
 :block/left 
@@ -137,7 +137,7 @@
 :nonce 1712993728484
 :italic false}}
 :block/updated-at 1712994932495} 
-{:block/created-at 1712995061259
+{:block/created-at 1712995109303
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -154,7 +154,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [792 1109.185798577444]
+:size [792 1109.200044582481]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -163,9 +163,9 @@
 :point [1480 88]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712993758011}}
-:block/updated-at 1712995061259} 
-{:block/created-at 1712995058299
+:nonce 1712993758015}}
+:block/updated-at 1712995109303} 
+{:block/created-at 1712995121765
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -181,17 +181,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 106.8963137597324]
+:size [400 126.87959743221171]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "7d110b70-f96b-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [2664 184]
+:point [2472 432]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712995055017}}
-:block/updated-at 1712995058299})
+:nonce 1712995055940}}
+:block/updated-at 1712995121765})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -219,7 +219,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "7d110b70-f96b-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712995061259
+:block/updated-at 1712995121765
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
