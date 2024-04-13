@@ -137,7 +137,7 @@
 :nonce 1712993728484
 :italic false}}
 :block/updated-at 1712994932495} 
-{:block/created-at 1712995109303
+{:block/created-at 1712996163040
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -154,7 +154,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [792 1109.200044582481]
+:size [792 1773.1709506718948]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -163,8 +163,8 @@
 :point [1480 88]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712993758015}}
-:block/updated-at 1712995109303} 
+:nonce 1712993758039}}
+:block/updated-at 1712996163040} 
 {:block/created-at 1712995298198
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -192,7 +192,14 @@
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
 :nonce 1712995056988}}
-:block/updated-at 1712995298198})
+:block/updated-at 1712995298198} 
+{:block/content "- 在任意瞬間，O3 在這兩種情況中 \"震盪\"，因此在 1 與 2 個鍵結中不斷切換\n- 取 \"中間值\" 1.5"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "661a35a6-489c-430c-bc4c-9b679d417a9b"}
+:block/parent 
+{:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"}
+:block/uuid #uuid "661a3f45-8789-4431-a978-6b2d7cb8b960"})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -220,7 +227,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "7d110b70-f96b-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712995298198
+:block/updated-at 1712996166997
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
