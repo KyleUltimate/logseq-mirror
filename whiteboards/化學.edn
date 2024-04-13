@@ -498,7 +498,7 @@
 :nonce 1712997154246
 :italic false}}
 :block/updated-at 1712997160490} 
-{:block/content "# 為何不同原子結合時要運用**不同的方法**？\n金屬與非金屬結合\n金屬要達成 [[八隅體]] 最快速就是利用 **失去電子**，\n而非金屬要達成 [[八隅體]] 最快速即為 **得到電子** 兩者形成 **互補**"
+{:block/content "# 為何不同原子結合時要運用**不同的方法**？"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "661a3f45-8789-4431-a978-6b2d7cb8b960"}
@@ -507,7 +507,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "661a441d-1ccb-421d-a349-88bd7c16634e"} 
-{:block/created-at 1712997650946
+{:block/created-at 1712997692958
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -524,89 +524,90 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [632 112.88226242907001]
+:size [632 72.3022701385961]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "f5780140-f970-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [896 1832]
+:point [1056 1840]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712997405099}}
-:block/updated-at 1712997650946} 
-{:block/created-at 1712997650953
+:nonce 1712997405389}}
+:block/updated-at 1712997692958} 
+{:block/content "## 金屬與非金屬結合\n金屬要達成 [[八隅體]] 最快速就是利用 **失去電子**，\n而非金屬要達成 [[八隅體]] 最快速即為 **得到電子** 兩者形成 **互補**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "661a3f45-8789-4431-a978-6b2d7cb8b960"}
+:block/parent 
+{:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"}
+:block/properties 
+{:heading 2}
+:block/uuid #uuid "661a4525-ace9-4a00-af25-48f0d1b89df9"} 
+{:block/created-at 1712997709145
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
-{:stroke ""
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
 :index 16
 :scale [1 1]
-:scaleLevel "xxl"
+:pageId "661a4525-ace9-4a00-af25-48f0d1b89df9"
+:scaleLevel "md"
 :fill ""
-:type "line"
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [520 111.08509172593111]
 :strokeType "line"
-:strokeWidth 1
+:strokeWidth 2
 :opacity 1
-:label ""
-:id "2e12aaa2-f971-11ee-a380-85ca1cd026a4"
-:fontWeight 400
-:noFill true
-:point [1012.79 1662.17]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 0]
-:bindingId "2e12aaa0-f971-11ee-a380-85ca1cd026a4"}
-:end 
-{:id "end"
-:canBind true
-:point [25.59 165.83]
-:bindingId "2e12aaa1-f971-11ee-a380-85ca1cd026a4"}}
-:decorations 
-{:end "arrow"}
+:id "92404410-f971-11ee-a380-85ca1cd026a4"
+:noFill false
+:point [1552 2008]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997499631
-:italic false}}
-:block/updated-at 1712997650953} 
-{:block/created-at 1712997650952
+:collapsedHeight 0
+:nonce 1712997667649}}
+:block/updated-at 1712997709145} 
+{:block/content "## 非金屬與非金屬結合"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "661a4525-ace9-4a00-af25-48f0d1b89df9"}
+:block/parent 
+{:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"}
+:block/properties 
+{:heading 2}
+:block/uuid #uuid "661a453f-493c-460d-b7ab-ff14e3781a71"} 
+{:block/created-at 1712997709147
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
-{:stroke ""
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
 :index 17
 :scale [1 1]
-:scaleLevel "xxl"
+:pageId "661a453f-493c-460d-b7ab-ff14e3781a71"
+:scaleLevel "md"
 :fill ""
-:type "line"
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 63.07364741146712]
 :strokeType "line"
-:strokeWidth 1
+:strokeWidth 2
 :opacity 1
-:label ""
-:id "2ff414d2-f971-11ee-a380-85ca1cd026a4"
-:fontWeight 400
-:noFill true
-:point [1154.54 893.72]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [245 0]
-:bindingId "326ba481-f971-11ee-a380-85ca1cd026a4"}
-:end 
-{:id "end"
-:canBind true
-:point [0 934.28]
-:bindingId "2ff414d1-f971-11ee-a380-85ca1cd026a4"}}
-:decorations 
-{:end "arrow"}
+:id "a26bab90-f971-11ee-a380-85ca1cd026a4"
+:noFill false
+:point [1152 2056]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997502898
-:italic false}}
-:block/updated-at 1712997650952})
+:collapsedHeight 0
+:nonce 1712997694669}}
+:block/updated-at 1712997709147})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -638,14 +639,6 @@
 :toId "d8c2c400-f965-11ee-a380-85ca1cd026a4"
 :handleId "end"
 :point [0.5 0.5]
-:distance 4}
-:326ba481-f971-11ee-a380-85ca1cd026a4 
-{:id "326ba481-f971-11ee-a380-85ca1cd026a4"
-:type "line"
-:fromId "2ff414d2-f971-11ee-a380-85ca1cd026a4"
-:toId "77086d20-f968-11ee-a380-85ca1cd026a4"
-:handleId "start"
-:point [0.22 0.49]
 :distance 4}
 :6029a761-f970-11ee-a380-85ca1cd026a4 
 {:id "6029a761-f970-11ee-a380-85ca1cd026a4"
@@ -695,14 +688,6 @@
 :handleId "end"
 :point [0.5 0.46]
 :distance 4}
-:2e12aaa0-f971-11ee-a380-85ca1cd026a4 
-{:id "2e12aaa0-f971-11ee-a380-85ca1cd026a4"
-:type "line"
-:fromId "2e12aaa2-f971-11ee-a380-85ca1cd026a4"
-:toId "d8c2c400-f965-11ee-a380-85ca1cd026a4"
-:handleId "start"
-:point [0.5 0.5]
-:distance 4}
 :6029a760-f970-11ee-a380-85ca1cd026a4 
 {:id "6029a760-f970-11ee-a380-85ca1cd026a4"
 :type "line"
@@ -727,22 +712,6 @@
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
-:2e12aaa1-f971-11ee-a380-85ca1cd026a4 
-{:id "2e12aaa1-f971-11ee-a380-85ca1cd026a4"
-:type "line"
-:fromId "2e12aaa2-f971-11ee-a380-85ca1cd026a4"
-:toId "f5780140-f970-11ee-a380-85ca1cd026a4"
-:handleId "end"
-:point [0.25 0.73]
-:distance 4}
-:2ff414d0-f971-11ee-a380-85ca1cd026a4 
-{:id "2ff414d0-f971-11ee-a380-85ca1cd026a4"
-:type "line"
-:fromId "2ff414d2-f971-11ee-a380-85ca1cd026a4"
-:toId "77086d20-f968-11ee-a380-85ca1cd026a4"
-:handleId "start"
-:point [0.5 0.5]
-:distance 4}
 :485f5f41-f96f-11ee-a380-85ca1cd026a4 
 {:id "485f5f41-f96f-11ee-a380-85ca1cd026a4"
 :type "line"
@@ -750,14 +719,6 @@
 :toId "358966a0-f96e-11ee-a380-85ca1cd026a4"
 :handleId "end"
 :point [0.55 0.46]
-:distance 4}
-:2ff414d1-f971-11ee-a380-85ca1cd026a4 
-{:id "2ff414d1-f971-11ee-a380-85ca1cd026a4"
-:type "line"
-:fromId "2ff414d2-f971-11ee-a380-85ca1cd026a4"
-:toId "f5780140-f970-11ee-a380-85ca1cd026a4"
-:handleId "end"
-:point [0.38 0.61]
 :distance 4}
 :337202e1-f96f-11ee-a380-85ca1cd026a4 
 {:id "337202e1-f96f-11ee-a380-85ca1cd026a4"
@@ -801,8 +762,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "46224082-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "5dcd8462-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "6029a762-f970-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4" "2e12aaa2-f971-11ee-a380-85ca1cd026a4" "2ff414d2-f971-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712997650963
+:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "46224082-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "5dcd8462-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "6029a762-f970-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4" "92404410-f971-11ee-a380-85ca1cd026a4" "a26bab90-f971-11ee-a380-85ca1cd026a4")}}
+:block/updated-at 1712997709145
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
