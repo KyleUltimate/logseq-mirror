@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "661a316a-5f57-488c-ba6e-1690beca0d4c"} 
-{:block/created-at 1712993697048
+{:block/created-at 1712994932494
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -31,11 +31,11 @@
 :opacity 1
 :id "d04574d0-f965-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [712 232]
+:point [712 152]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712992617888}}
-:block/updated-at 1712993697048} 
+:nonce 1712992618006}}
+:block/updated-at 1712994932494} 
 {:block/created-at 1712994543024
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -73,34 +73,35 @@
 :block/properties 
 {}
 :block/uuid #uuid "661a35a6-489c-430c-bc4c-9b679d417a9b"} 
-{:block/created-at 1712993726488
+{:block/created-at 1712994929871
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 2
 :scale [1 1]
 :pageId "661a35a6-489c-430c-bc4c-9b679d417a9b"
-:scaleLevel "md"
+:scaleLevel "xxl"
 :fill ""
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 40.87953461335478]
+:size [720 122.68129650697675]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "567c3640-f968-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [712 416]
+:point [568 376]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712993701984}}
-:block/updated-at 1712993726488} 
-{:block/created-at 1712993738073
+:nonce 1712993702128}}
+:block/updated-at 1712994929871} 
+{:block/created-at 1712994932495
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -117,26 +118,26 @@
 :id "664e0c12-f968-11ee-a380-85ca1cd026a4"
 :fontWeight 400
 :noFill true
-:point [895.76 355.64]
+:point [896.69 275.64]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0.11 0]
+:point [0 0]
 :bindingId "664e0c10-f968-11ee-a380-85ca1cd026a4"}
 :end 
 {:id "end"
 :canBind true
-:point [0 56.36]
+:point [1.05 96.36]
 :bindingId "664e0c11-f968-11ee-a380-85ca1cd026a4"}}
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712993728412
+:nonce 1712993728484
 :italic false}}
-:block/updated-at 1712993738073} 
-{:block/created-at 1712994673897
+:block/updated-at 1712994932495} 
+{:block/created-at 1712994947353
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -153,17 +154,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [792 691.2048186429848]
+:size [792 1000.283294280252]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "77086d20-f968-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [1288 616]
+:point [1480 88]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712993757220}}
-:block/updated-at 1712994673897})
+:nonce 1712993758007}}
+:block/updated-at 1712994947353})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -191,7 +192,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712994673897
+:block/updated-at 1712994947353
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
