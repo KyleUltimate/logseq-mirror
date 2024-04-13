@@ -362,7 +362,7 @@
 :nonce 1712996684987
 :italic false}}
 :block/updated-at 1712998025304} 
-{:block/created-at 1712998106449
+{:block/created-at 1712998302545
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -379,7 +379,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [424 519.4712161965101]
+:size [424 519.4712245639648]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -388,8 +388,8 @@
 :point [144 1080]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712996742086}}
-:block/updated-at 1712998106449} 
+:nonce 1712996742088}}
+:block/updated-at 1712998302545} 
 {:block/content "# 為何不同原子結合時要運用**不同的方法**？"
 :block/format :markdown
 :block/left 
@@ -610,7 +610,7 @@
 :nonce 1712997916802
 :italic false}}
 :block/updated-at 1712998063586} 
-{:block/created-at 1712998071259
+{:block/created-at 1712998321847
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -627,25 +627,25 @@
 :id "28b347d2-f972-11ee-a380-85ca1cd026a4"
 :fontWeight 400
 :noFill true
-:point [922.92 669.45]
+:point [900.87 669.45]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 0]
-:bindingId "28b347d0-f972-11ee-a380-85ca1cd026a4"}
+:point [1.5 0]
+:bindingId "178f0bf1-f973-11ee-a380-85ca1cd026a4"}
 :end 
 {:id "end"
 :canBind true
-:point [2.79 166.55]
-:bindingId "82657821-f972-11ee-a380-85ca1cd026a4"}}
+:point [0 166.55]
+:bindingId "16ecb171-f973-11ee-a380-85ca1cd026a4"}}
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997920959
+:nonce 1712997921057
 :italic false}}
-:block/updated-at 1712998071259} 
+:block/updated-at 1712998321847} 
 {:block/created-at 1712998268770
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -754,7 +754,7 @@
 :nonce 1712998054563
 :italic false}}
 :block/updated-at 1712998091077} 
-{:block/created-at 1712998110472
+{:block/created-at 1712998302597
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -787,9 +787,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712998104770
+:nonce 1712998104772
 :italic false}}
-:block/updated-at 1712998110472})
+:block/updated-at 1712998302597})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -861,6 +861,14 @@
 :toId "dfc0f6d0-f971-11ee-a380-85ca1cd026a4"
 :handleId "end"
 :point [0.2 0.21]
+:distance 4}
+:178f0bf1-f973-11ee-a380-85ca1cd026a4 
+{:id "178f0bf1-f973-11ee-a380-85ca1cd026a4"
+:type "line"
+:fromId "28b347d2-f972-11ee-a380-85ca1cd026a4"
+:toId "f5780140-f970-11ee-a380-85ca1cd026a4"
+:handleId "start"
+:point [0.48 0.49]
 :distance 4}
 :6282a0a1-f972-11ee-a380-85ca1cd026a4 
 {:id "6282a0a1-f972-11ee-a380-85ca1cd026a4"
@@ -949,6 +957,14 @@
 :toId "f5780140-f970-11ee-a380-85ca1cd026a4"
 :handleId "start"
 :point [0.5 0.5]
+:distance 4}
+:16ecb171-f973-11ee-a380-85ca1cd026a4 
+{:id "16ecb171-f973-11ee-a380-85ca1cd026a4"
+:type "line"
+:fromId "28b347d2-f972-11ee-a380-85ca1cd026a4"
+:toId "92404410-f971-11ee-a380-85ca1cd026a4"
+:handleId "end"
+:point [0.44 0.51]
 :distance 4}
 :337202e0-f96f-11ee-a380-85ca1cd026a4 
 {:id "337202e0-f96f-11ee-a380-85ca1cd026a4"
@@ -1129,7 +1145,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4" "92404410-f971-11ee-a380-85ca1cd026a4" "a26bab90-f971-11ee-a380-85ca1cd026a4" "dfc0f6d0-f971-11ee-a380-85ca1cd026a4" "23f06892-f972-11ee-a380-85ca1cd026a4" "2660cc52-f972-11ee-a380-85ca1cd026a4" "28b347d2-f972-11ee-a380-85ca1cd026a4" "6cd17b82-f972-11ee-a380-85ca1cd026a4" "73e48c52-f972-11ee-a380-85ca1cd026a4" "78c61722-f972-11ee-a380-85ca1cd026a4" "96bf6e22-f972-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712998271016
+:block/updated-at 1712998321851
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
