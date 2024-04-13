@@ -36,7 +36,7 @@
 :collapsedHeight 0
 :nonce 1712992618006}}
 :block/updated-at 1712994932494} 
-{:block/created-at 1712995114744
+{:block/created-at 1712996561968
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -53,7 +53,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [544 801.5767474522216]
+:size [568 976.2917476124721]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -62,8 +62,8 @@
 :point [656 616]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 138.88959503173828
-:nonce 1712992632819}}
-:block/updated-at 1712995114744} 
+:nonce 1712992632851}}
+:block/updated-at 1712996561968} 
 {:block/content "分為 [[離子鍵]]、[[共價鍵]]、[[金屬鍵]]"
 :block/format :markdown
 :block/left 
@@ -255,7 +255,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712996270462
+:block/updated-at 1712996561968
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
