@@ -36,12 +36,13 @@
 :collapsedHeight 0
 :nonce 1712992617794}}
 :block/updated-at 1712992628650} 
-{:block/created-at 1712992656498
+{:block/created-at 1712993095130
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 1
@@ -52,7 +53,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 138.88959503173828]
+:size [728 1003.5067138671875]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -61,8 +62,8 @@
 :point [1000 648]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 138.88959503173828
-:nonce 1712992631876}}
-:block/updated-at 1712992656498})
+:nonce 1712992631969}}
+:block/updated-at 1712993095130})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -75,7 +76,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712992656499
+:block/updated-at 1712993095130
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
