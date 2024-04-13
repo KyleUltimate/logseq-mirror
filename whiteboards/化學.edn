@@ -36,7 +36,7 @@
 :collapsedHeight 0
 :nonce 1712992617794}}
 :block/updated-at 1712992628650} 
-{:block/created-at 1712993589445
+{:block/created-at 1712993675251
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -53,7 +53,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [728 890.0396728515625]
+:size [544 793.1612031300309]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -62,9 +62,9 @@
 :point [1000 648]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 138.88959503173828
-:nonce 1712992631979}}
-:block/updated-at 1712993589445} 
-{:block/created-at 1712993610685
+:nonce 1712992632114}}
+:block/updated-at 1712993675251} 
+{:block/created-at 1712993675251
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -81,7 +81,7 @@
 :id "1d83dc80-f968-11ee-a380-85ca1cd026a4"
 :fontWeight 400
 :noFill true
-:point [886.5 571.68]
+:point [871.85 571.68]
 :fontSize 20
 :handles 
 {:start 
@@ -92,14 +92,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [417.19 72.32]
+:point [353.43 72.32]
 :bindingId "1d83b571-f968-11ee-a380-85ca1cd026a4"}}
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712993606584
+:nonce 1712993606689
 :italic false}}
-:block/updated-at 1712993610685})
+:block/updated-at 1712993675251})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -135,7 +135,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "1d83dc80-f968-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712993610686
+:block/updated-at 1712993675251
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
