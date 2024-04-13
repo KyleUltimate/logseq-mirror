@@ -858,6 +858,35 @@
       "lastCommittedPoint": null,
       "simulatePressure": true,
       "pressures": []
+    },
+    {
+      "id": "iGhfgVaLvMwOTxHeuk997",
+      "type": "ellipse",
+      "x": 296.0329695835367,
+      "y": 266.64243047303216,
+      "width": 57.7955982676763,
+      "height": 47.04846599558354,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 860702888,
+      "version": 158,
+      "versionNonce": 93951192,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1712995867163,
+      "link": null,
+      "locked": false
     }
   ],
   "appState": {
