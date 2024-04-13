@@ -200,12 +200,13 @@
 :collapsedHeight 0
 :nonce 1712996225297}}
 :block/updated-at 1712998025304} 
-{:block/created-at 1712999197309
+{:block/created-at 1712999439334
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 6
@@ -216,7 +217,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 324.37355789006455]
+:size [416 300.3678455822784]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -226,8 +227,8 @@
 :point [1480 1992]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712996246083}}
-:block/updated-at 1712999197309} 
+:nonce 1712996246101}}
+:block/updated-at 1712999439334} 
 {:block/created-at 1712998098272
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -291,7 +292,7 @@
 :nonce 1712996649564
 :italic false}}
 :block/updated-at 1712998098274} 
-{:block/created-at 1712999199914
+{:block/created-at 1712999439335
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -308,25 +309,25 @@
 :id "3ebf8912-f96f-11ee-a380-85ca1cd026a4"
 :fontWeight 400
 :noFill true
-:point [1678.3 1880.82]
+:point [1679.81 1880.82]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [1.51 0]
+:point [0 0]
 :bindingId nil}
 :end 
 {:id "end"
 :canBind true
-:point [0 107.18]
+:point [1.6 107.18]
 :bindingId "435e6591-f96f-11ee-a380-85ca1cd026a4"}}
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712996669281
+:nonce 1712996669284
 :italic false}}
-:block/updated-at 1712999199914} 
+:block/updated-at 1712999439335} 
 {:block/created-at 1712998025304
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -1193,7 +1194,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4" "92404410-f971-11ee-a380-85ca1cd026a4" "a26bab90-f971-11ee-a380-85ca1cd026a4" "dfc0f6d0-f971-11ee-a380-85ca1cd026a4" "23f06892-f972-11ee-a380-85ca1cd026a4" "2660cc52-f972-11ee-a380-85ca1cd026a4" "28b347d2-f972-11ee-a380-85ca1cd026a4" "6cd17b82-f972-11ee-a380-85ca1cd026a4" "73e48c52-f972-11ee-a380-85ca1cd026a4" "78c61722-f972-11ee-a380-85ca1cd026a4" "96bf6e22-f972-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712999199918
+:block/updated-at 1712999439334
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
