@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "661a316a-5f57-488c-ba6e-1690beca0d4c"} 
-{:block/created-at 1712992628650
+{:block/created-at 1712993697048
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -25,17 +25,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [368 122.68128967285156]
+:size [368 122.63849444123501]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "d04574d0-f965-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [712 448]
+:point [712 232]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712992617794}}
-:block/updated-at 1712992628650} 
+:nonce 1712992617888}}
+:block/updated-at 1712993697048} 
 {:block/created-at 1712993675251
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -64,12 +64,48 @@
 :collapsedHeight 138.88959503173828
 :nonce 1712992632114}}
 :block/updated-at 1712993675251} 
-{:block/created-at 1712993675251
+{:block/content "分為 [[離子鍵]]、[[共價鍵]]、[[金屬鍵]]"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "661a316a-5f57-488c-ba6e-1690beca0d4c"}
+:block/parent 
+{:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"}
+:block/properties 
+{}
+:block/uuid #uuid "661a35a6-489c-430c-bc4c-9b679d417a9b"} 
+{:block/created-at 1712993726488
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "661a35a6-489c-430c-bc4c-9b679d417a9b"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.87953461335478]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "567c3640-f968-11ee-a380-85ca1cd026a4"
+:noFill false
+:point [712 416]
+:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:collapsedHeight 0
+:nonce 1712993701984}}
+:block/updated-at 1712993726488} 
+{:block/created-at 1712993738073
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 2
+:index 3
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -78,28 +114,64 @@
 :strokeWidth 1
 :opacity 1
 :label ""
-:id "1d83dc80-f968-11ee-a380-85ca1cd026a4"
+:id "664e0c12-f968-11ee-a380-85ca1cd026a4"
 :fontWeight 400
 :noFill true
-:point [871.85 571.68]
+:point [895.76 355.64]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0.11 0]
+:bindingId "664e0c10-f968-11ee-a380-85ca1cd026a4"}
+:end 
+{:id "end"
+:canBind true
+:point [0 56.36]
+:bindingId "664e0c11-f968-11ee-a380-85ca1cd026a4"}}
+:decorations 
+{:end "arrow"}
+:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:nonce 1712993728412
+:italic false}}
+:block/updated-at 1712993738073} 
+{:block/created-at 1712993739530
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "6b08adf2-f968-11ee-a380-85ca1cd026a4"
+:fontWeight 400
+:noFill true
+:point [897.67 457.88]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
 :point [0 0]
-:bindingId "1f7ee931-f968-11ee-a380-85ca1cd026a4"}
+:bindingId "6c85d810-f968-11ee-a380-85ca1cd026a4"}
 :end 
 {:id "end"
 :canBind true
-:point [353.43 72.32]
-:bindingId "1d83b571-f968-11ee-a380-85ca1cd026a4"}}
+:point [347.7 186.12]
+:bindingId "6b08adf1-f968-11ee-a380-85ca1cd026a4"}}
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712993606689
+:nonce 1712993736615
 :italic false}}
-:block/updated-at 1712993675251})
+:block/updated-at 1712993739530})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -108,34 +180,50 @@
 {:id "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :name "化學"
 :bindings 
-{:1d83b570-f968-11ee-a380-85ca1cd026a4 
-{:id "1d83b570-f968-11ee-a380-85ca1cd026a4"
+{:664e0c10-f968-11ee-a380-85ca1cd026a4 
+{:id "664e0c10-f968-11ee-a380-85ca1cd026a4"
 :type "line"
-:fromId "1d83dc80-f968-11ee-a380-85ca1cd026a4"
+:fromId "664e0c12-f968-11ee-a380-85ca1cd026a4"
 :toId "d04574d0-f965-11ee-a380-85ca1cd026a4"
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
-:1d83b571-f968-11ee-a380-85ca1cd026a4 
-{:id "1d83b571-f968-11ee-a380-85ca1cd026a4"
+:664e0c11-f968-11ee-a380-85ca1cd026a4 
+{:id "664e0c11-f968-11ee-a380-85ca1cd026a4"
 :type "line"
-:fromId "1d83dc80-f968-11ee-a380-85ca1cd026a4"
+:fromId "664e0c12-f968-11ee-a380-85ca1cd026a4"
+:toId "567c3640-f968-11ee-a380-85ca1cd026a4"
+:handleId "end"
+:point [0.46 0.79]
+:distance 4}
+:6b08adf0-f968-11ee-a380-85ca1cd026a4 
+{:id "6b08adf0-f968-11ee-a380-85ca1cd026a4"
+:type "line"
+:fromId "6b08adf2-f968-11ee-a380-85ca1cd026a4"
+:toId "567c3640-f968-11ee-a380-85ca1cd026a4"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:6b08adf1-f968-11ee-a380-85ca1cd026a4 
+{:id "6b08adf1-f968-11ee-a380-85ca1cd026a4"
+:type "line"
+:fromId "6b08adf2-f968-11ee-a380-85ca1cd026a4"
 :toId "d8c2c400-f965-11ee-a380-85ca1cd026a4"
 :handleId "end"
-:point [0.77 0.05]
+:point [0.75 0.11]
 :distance 4}
-:1f7ee931-f968-11ee-a380-85ca1cd026a4 
-{:id "1f7ee931-f968-11ee-a380-85ca1cd026a4"
+:6c85d810-f968-11ee-a380-85ca1cd026a4 
+{:id "6c85d810-f968-11ee-a380-85ca1cd026a4"
 :type "line"
-:fromId "1d83dc80-f968-11ee-a380-85ca1cd026a4"
-:toId "d04574d0-f965-11ee-a380-85ca1cd026a4"
+:fromId "6b08adf2-f968-11ee-a380-85ca1cd026a4"
+:toId "567c3640-f968-11ee-a380-85ca1cd026a4"
 :handleId "start"
-:point [0.22 0.85]
+:point [0.36 0.47]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "1d83dc80-f968-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712993675251
+:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "6b08adf2-f968-11ee-a380-85ca1cd026a4")}}
+:block/updated-at 1712993739533
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
