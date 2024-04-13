@@ -36,7 +36,7 @@
 :collapsedHeight 0
 :nonce 1712992617888}}
 :block/updated-at 1712993697048} 
-{:block/created-at 1712993675251
+{:block/created-at 1712993752910
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -59,11 +59,11 @@
 :opacity 1
 :id "d8c2c400-f965-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [1000 648]
+:point [1120 624]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 138.88959503173828
-:nonce 1712992632114}}
-:block/updated-at 1712993675251} 
+:nonce 1712992632394}}
+:block/updated-at 1712993752910} 
 {:block/content "分為 [[離子鍵]]、[[共價鍵]]、[[金屬鍵]]"
 :block/format :markdown
 :block/left 
@@ -136,7 +136,7 @@
 :nonce 1712993728412
 :italic false}}
 :block/updated-at 1712993738073} 
-{:block/created-at 1712993739530
+{:block/created-at 1712993754642
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -153,7 +153,7 @@
 :id "6b08adf2-f968-11ee-a380-85ca1cd026a4"
 :fontWeight 400
 :noFill true
-:point [897.67 457.88]
+:point [921.77 457.88]
 :fontSize 20
 :handles 
 {:start 
@@ -164,14 +164,41 @@
 :end 
 {:id "end"
 :canBind true
-:point [347.7 186.12]
-:bindingId "6b08adf1-f968-11ee-a380-85ca1cd026a4"}}
+:point [473.39 162.12]
+:bindingId "75879981-f968-11ee-a380-85ca1cd026a4"}}
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712993736615
+:nonce 1712993736693
 :italic false}}
-:block/updated-at 1712993739530})
+:block/updated-at 1712993754642} 
+{:block/created-at 1712993769502
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "共價鍵"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 126.87959855211432]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "77086d20-f968-11ee-a380-85ca1cd026a4"
+:noFill false
+:point [712 624]
+:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:collapsedHeight 0
+:nonce 1712993756519}}
+:block/updated-at 1712993769502})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -219,11 +246,19 @@
 :toId "567c3640-f968-11ee-a380-85ca1cd026a4"
 :handleId "start"
 :point [0.36 0.47]
+:distance 4}
+:75879981-f968-11ee-a380-85ca1cd026a4 
+{:id "75879981-f968-11ee-a380-85ca1cd026a4"
+:type "line"
+:fromId "6b08adf2-f968-11ee-a380-85ca1cd026a4"
+:toId "d8c2c400-f965-11ee-a380-85ca1cd026a4"
+:handleId "end"
+:point [0.76 0.06]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "6b08adf2-f968-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712993739533
+:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "6b08adf2-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4")}}
+:block/updated-at 1712993769502
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
