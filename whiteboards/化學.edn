@@ -165,12 +165,13 @@
 :collapsedHeight 0
 :nonce 1712993758015}}
 :block/updated-at 1712995109303} 
-{:block/created-at 1712995121765
+{:block/created-at 1712995228260
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 5
@@ -181,7 +182,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 126.87959743221171]
+:size [456 242.5432696388553]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -190,8 +191,8 @@
 :point [2472 432]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712995055940}}
-:block/updated-at 1712995121765})
+:nonce 1712995055973}}
+:block/updated-at 1712995228260})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -219,7 +220,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "7d110b70-f96b-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712995121765
+:block/updated-at 1712995228260
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
