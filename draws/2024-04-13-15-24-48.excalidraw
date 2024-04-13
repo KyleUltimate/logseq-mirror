@@ -1153,35 +1153,6 @@
       "pressures": []
     },
     {
-      "type": "ellipse",
-      "version": 203,
-      "versionNonce": 497719464,
-      "isDeleted": false,
-      "id": "_YU1KRrmUETGqfZ-ohS4F",
-      "fillStyle": "hachure",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 0,
-      "opacity": 100,
-      "angle": 0,
-      "x": 338.21423604867823,
-      "y": 174.7469250867958,
-      "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
-      "width": 85.97083193741487,
-      "height": 85.07994109845406,
-      "seed": 872561320,
-      "groupIds": [],
-      "frameId": null,
-      "roundness": {
-        "type": 2
-      },
-      "boundElements": [],
-      "updated": 1712993262156,
-      "link": null,
-      "locked": false
-    },
-    {
       "type": "text",
       "version": 236,
       "versionNonce": 566118872,
