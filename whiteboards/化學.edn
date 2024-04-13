@@ -498,7 +498,7 @@
 :nonce 1712997154246
 :italic false}}
 :block/updated-at 1712997160490} 
-{:block/content "# 為何不同原子結合時要運用**不同的方法**？\n金屬要達成 [[八隅體]] 最快速就是利用 **失去電子**，而非金屬"
+{:block/content "# 為何不同原子結合時要運用**不同的方法**？\n金屬與非金屬結合\n金屬要達成 [[八隅體]] 最快速就是利用 **失去電子**，\n而非金屬要達成 [[八隅體]] 最快速即為 **得到電子** 兩者形成 **互補**"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "661a3f45-8789-4431-a978-6b2d7cb8b960"}
@@ -507,7 +507,7 @@
 :block/properties 
 {:heading 1}
 :block/uuid #uuid "661a441d-1ccb-421d-a349-88bd7c16634e"} 
-{:block/created-at 1712997554289
+{:block/created-at 1712997650946
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -524,18 +524,18 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [632 64.88496078797786]
+:size [632 112.88226242907001]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "f5780140-f970-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [952 1840]
+:point [896 1832]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712997405058}}
-:block/updated-at 1712997554289} 
-{:block/created-at 1712997554296
+:nonce 1712997405099}}
+:block/updated-at 1712997650946} 
+{:block/created-at 1712997650953
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -552,7 +552,7 @@
 :id "2e12aaa2-f971-11ee-a380-85ca1cd026a4"
 :fontWeight 400
 :noFill true
-:point [1054.77 1662.17]
+:point [1012.79 1662.17]
 :fontSize 20
 :handles 
 {:start 
@@ -563,15 +563,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [40.75 173.83]
+:point [25.59 165.83]
 :bindingId "2e12aaa1-f971-11ee-a380-85ca1cd026a4"}}
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997499610
+:nonce 1712997499631
 :italic false}}
-:block/updated-at 1712997554296} 
-{:block/created-at 1712997554297
+:block/updated-at 1712997650953} 
+{:block/created-at 1712997650952
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -588,25 +588,25 @@
 :id "2ff414d2-f971-11ee-a380-85ca1cd026a4"
 :fontWeight 400
 :noFill true
-:point [1201.29 893.72]
+:point [1154.54 893.72]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [213.9 0]
+:point [245 0]
 :bindingId "326ba481-f971-11ee-a380-85ca1cd026a4"}
 :end 
 {:id "end"
 :canBind true
-:point [0 942.28]
+:point [0 934.28]
 :bindingId "2ff414d1-f971-11ee-a380-85ca1cd026a4"}}
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997502877
+:nonce 1712997502898
 :italic false}}
-:block/updated-at 1712997554297})
+:block/updated-at 1712997650952})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -802,7 +802,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "46224082-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "5dcd8462-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "6029a762-f970-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4" "2e12aaa2-f971-11ee-a380-85ca1cd026a4" "2ff414d2-f971-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712997595408
+:block/updated-at 1712997650963
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
