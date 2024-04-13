@@ -498,86 +498,16 @@
 :nonce 1712997154246
 :italic false}}
 :block/updated-at 1712997160490} 
-{:block/created-at 1712997403959
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 15
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "f169f312-f970-11ee-a380-85ca1cd026a4"
-:fontWeight 400
-:noFill true
-:point [369.95 -312]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 543]
-:bindingId "f169f310-f970-11ee-a380-85ca1cd026a4"}
-:end 
-{:id "end"
-:canBind true
-:point [312.28 0]
-:bindingId nil}}
-:decorations 
-{:end "arrow"}
-:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997397926
-:italic false}}
-:block/updated-at 1712997403959} 
-{:block/created-at 1712997468416
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 16
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "f3cb1492-f970-11ee-a380-85ca1cd026a4"
-:fontWeight 400
-:noFill true
-:point [1160 -312]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [252.22 335]
-:bindingId "f3cb1490-f970-11ee-a380-85ca1cd026a4"}
-:end 
-{:id "end"
-:canBind true
-:point [0 0]
-:bindingId nil}}
-:decorations 
-{:end "arrow"}
-:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712997401833
-:italic false}}
-:block/updated-at 1712997468416} 
-{:block/content ""
+{:block/content "# 為何不同原子結合時要運用"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "661a3f45-8789-4431-a978-6b2d7cb8b960"}
 :block/parent 
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"}
+:block/properties 
+{:heading 1}
 :block/uuid #uuid "661a441d-1ccb-421d-a349-88bd7c16634e"} 
-{:block/created-at 1712997471757
+{:block/created-at 1712997516046
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -585,25 +515,97 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 17
+:index 15
 :scale [1 1]
 :pageId "661a441d-1ccb-421d-a349-88bd7c16634e"
-:scaleLevel "xxl"
+:scaleLevel "md"
 :fill ""
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [1200 122.63839989214395]
+:size [400 72.30223073282173]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "f5780140-f970-11ee-a380-85ca1cd026a4"
 :noFill false
-:point [376 -480]
+:point [952 1840]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712997404641}}
-:block/updated-at 1712997471757})
+:nonce 1712997404989}}
+:block/updated-at 1712997516046} 
+{:block/created-at 1712997516048
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 16
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "2e12aaa2-f971-11ee-a380-85ca1cd026a4"
+:fontWeight 400
+:noFill true
+:point [1013.72 1662.17]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "2e12aaa0-f971-11ee-a380-85ca1cd026a4"}
+:end 
+{:id "end"
+:canBind true
+:point [27.13 173.83]
+:bindingId "2e12aaa1-f971-11ee-a380-85ca1cd026a4"}}
+:decorations 
+{:end "arrow"}
+:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:nonce 1712997499562
+:italic false}}
+:block/updated-at 1712997516048} 
+{:block/created-at 1712997516048
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 17
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "2ff414d2-f971-11ee-a380-85ca1cd026a4"
+:fontWeight 400
+:noFill true
+:point [1117.13 893.72]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [271.1 0]
+:bindingId "326ba481-f971-11ee-a380-85ca1cd026a4"}
+:end 
+{:id "end"
+:canBind true
+:point [0 942.28]
+:bindingId "2ff414d1-f971-11ee-a380-85ca1cd026a4"}}
+:decorations 
+{:end "arrow"}
+:parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
+:nonce 1712997502829
+:italic false}}
+:block/updated-at 1712997516048})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -636,13 +638,13 @@
 :handleId "end"
 :point [0.5 0.5]
 :distance 4}
-:f3cb1490-f970-11ee-a380-85ca1cd026a4 
-{:id "f3cb1490-f970-11ee-a380-85ca1cd026a4"
+:326ba481-f971-11ee-a380-85ca1cd026a4 
+{:id "326ba481-f971-11ee-a380-85ca1cd026a4"
 :type "line"
-:fromId "f3cb1492-f970-11ee-a380-85ca1cd026a4"
+:fromId "2ff414d2-f971-11ee-a380-85ca1cd026a4"
 :toId "77086d20-f968-11ee-a380-85ca1cd026a4"
 :handleId "start"
-:point [0.5 0.5]
+:point [0.22 0.49]
 :distance 4}
 :6029a761-f970-11ee-a380-85ca1cd026a4 
 {:id "6029a761-f970-11ee-a380-85ca1cd026a4"
@@ -684,14 +686,6 @@
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
-:f169f310-f970-11ee-a380-85ca1cd026a4 
-{:id "f169f310-f970-11ee-a380-85ca1cd026a4"
-:type "line"
-:fromId "f169f312-f970-11ee-a380-85ca1cd026a4"
-:toId "6a3cf550-f96f-11ee-a380-85ca1cd026a4"
-:handleId "start"
-:point [0.5 0.5]
-:distance 4}
 :49a9e0a1-f96f-11ee-a380-85ca1cd026a4 
 {:id "49a9e0a1-f96f-11ee-a380-85ca1cd026a4"
 :type "line"
@@ -699,6 +693,14 @@
 :toId "358966a0-f96e-11ee-a380-85ca1cd026a4"
 :handleId "end"
 :point [0.5 0.46]
+:distance 4}
+:2e12aaa0-f971-11ee-a380-85ca1cd026a4 
+{:id "2e12aaa0-f971-11ee-a380-85ca1cd026a4"
+:type "line"
+:fromId "2e12aaa2-f971-11ee-a380-85ca1cd026a4"
+:toId "d8c2c400-f965-11ee-a380-85ca1cd026a4"
+:handleId "start"
+:point [0.5 0.5]
 :distance 4}
 :6029a760-f970-11ee-a380-85ca1cd026a4 
 {:id "6029a760-f970-11ee-a380-85ca1cd026a4"
@@ -724,6 +726,22 @@
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
+:2e12aaa1-f971-11ee-a380-85ca1cd026a4 
+{:id "2e12aaa1-f971-11ee-a380-85ca1cd026a4"
+:type "line"
+:fromId "2e12aaa2-f971-11ee-a380-85ca1cd026a4"
+:toId "f5780140-f970-11ee-a380-85ca1cd026a4"
+:handleId "end"
+:point [0.25 0.73]
+:distance 4}
+:2ff414d0-f971-11ee-a380-85ca1cd026a4 
+{:id "2ff414d0-f971-11ee-a380-85ca1cd026a4"
+:type "line"
+:fromId "2ff414d2-f971-11ee-a380-85ca1cd026a4"
+:toId "77086d20-f968-11ee-a380-85ca1cd026a4"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
 :485f5f41-f96f-11ee-a380-85ca1cd026a4 
 {:id "485f5f41-f96f-11ee-a380-85ca1cd026a4"
 :type "line"
@@ -731,6 +749,14 @@
 :toId "358966a0-f96e-11ee-a380-85ca1cd026a4"
 :handleId "end"
 :point [0.55 0.46]
+:distance 4}
+:2ff414d1-f971-11ee-a380-85ca1cd026a4 
+{:id "2ff414d1-f971-11ee-a380-85ca1cd026a4"
+:type "line"
+:fromId "2ff414d2-f971-11ee-a380-85ca1cd026a4"
+:toId "f5780140-f970-11ee-a380-85ca1cd026a4"
+:handleId "end"
+:point [0.38 0.61]
 :distance 4}
 :337202e1-f96f-11ee-a380-85ca1cd026a4 
 {:id "337202e1-f96f-11ee-a380-85ca1cd026a4"
@@ -774,8 +800,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "46224082-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "5dcd8462-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "6029a762-f970-11ee-a380-85ca1cd026a4" "f169f312-f970-11ee-a380-85ca1cd026a4" "f3cb1492-f970-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712997471757
+:shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "46224082-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "5dcd8462-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "6029a762-f970-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4" "2e12aaa2-f971-11ee-a380-85ca1cd026a4" "2ff414d2-f971-11ee-a380-85ca1cd026a4")}}
+:block/updated-at 1712997534290
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
