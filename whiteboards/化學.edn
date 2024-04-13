@@ -572,7 +572,7 @@
 :collapsedHeight 0
 :nonce 1712997667649}}
 :block/updated-at 1712997709145} 
-{:block/content "## 非金屬與非金屬結合"
+{:block/content "## 非金屬與非金屬結合\n兩者距離 [[八隅體]] 最快速的方式皆是得到電子，\n但無法如此，因此退而求其次\n利用共用價電子來"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "661a4525-ace9-4a00-af25-48f0d1b89df9"}
@@ -581,7 +581,7 @@
 :block/properties 
 {:heading 2}
 :block/uuid #uuid "661a453f-493c-460d-b7ab-ff14e3781a71"} 
-{:block/created-at 1712997709147
+{:block/created-at 1712997770641
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -597,7 +597,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 63.07364741146712]
+:size [400 112.8822206720649]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -606,8 +606,8 @@
 :point [1152 2056]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712997694669}}
-:block/updated-at 1712997709147})
+:nonce 1712997694678}}
+:block/updated-at 1712997770641})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -763,7 +763,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "46224082-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "5dcd8462-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "6029a762-f970-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4" "92404410-f971-11ee-a380-85ca1cd026a4" "a26bab90-f971-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712997709145
+:block/updated-at 1712997776509
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
