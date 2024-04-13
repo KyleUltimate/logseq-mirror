@@ -434,12 +434,13 @@
 :nonce 1712996720678
 :italic false}}
 :block/updated-at 1712996723738} 
-{:block/created-at 1712996750814
+{:block/created-at 1712997084248
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 13
@@ -450,7 +451,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 126.87963162905326]
+:size [424 466.52462102718937]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -459,8 +460,8 @@
 :point [80 424]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712996741416}}
-:block/updated-at 1712996750814})
+:nonce 1712996741452}}
+:block/updated-at 1712997084248})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -592,7 +593,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "46224082-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "5dcd8462-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712996750814
+:block/updated-at 1712997084248
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
