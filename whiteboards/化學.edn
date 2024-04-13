@@ -36,7 +36,7 @@
 :collapsedHeight 0
 :nonce 1712992618056}}
 :block/updated-at 1712998092389} 
-{:block/created-at 1712999169734
+{:block/created-at 1712999620446
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -53,7 +53,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [568 976.2773759447015]
+:size [568 989.1288444427676]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -62,8 +62,8 @@
 :point [648 1072]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 138.88959503173828
-:nonce 1712992633308}}
-:block/updated-at 1712999169734} 
+:nonce 1712992633311}}
+:block/updated-at 1712999620446} 
 {:block/content "分為 [[離子鍵]]、[[共價鍵]]、[[金屬鍵]]"
 :block/format :markdown
 :block/left 
@@ -363,7 +363,7 @@
 :nonce 1712996684987
 :italic false}}
 :block/updated-at 1712998025304} 
-{:block/created-at 1712999168518
+{:block/created-at 1712999511499
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -380,7 +380,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [424 519.4712245639648]
+:size [424 519.4568621567382]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -389,8 +389,8 @@
 :point [128 1072]
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :collapsedHeight 0
-:nonce 1712996742146}}
-:block/updated-at 1712999168518} 
+:nonce 1712996742148}}
+:block/updated-at 1712999511499} 
 {:block/content "# 為何不同原子結合時要運用**不同的方法**？"
 :block/format :markdown
 :block/left 
@@ -683,7 +683,7 @@
 :nonce 1712998034742
 :italic false}}
 :block/updated-at 1712999191538} 
-{:block/created-at 1712999169735
+{:block/created-at 1712999620456
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -700,7 +700,7 @@
 :id "73e48c52-f972-11ee-a380-85ca1cd026a4"
 :fontWeight 400
 :noFill true
-:point [904.98 952.08]
+:point [904.99 952.08]
 :fontSize 20
 :handles 
 {:start 
@@ -716,9 +716,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712998046304
+:nonce 1712998046307
 :italic false}}
-:block/updated-at 1712999169735} 
+:block/updated-at 1712999620456} 
 {:block/created-at 1712998091077
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -755,7 +755,7 @@
 :nonce 1712998054563
 :italic false}}
 :block/updated-at 1712998091077} 
-{:block/created-at 1712999168516
+{:block/created-at 1712999511540
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -788,9 +788,18 @@
 :decorations 
 {:end "arrow"}
 :parentId "661a3106-31b7-40a6-a4e8-1f264614ed0a"
-:nonce 1712998104777
+:nonce 1712998104779
 :italic false}}
-:block/updated-at 1712999168516})
+:block/updated-at 1712999511540} 
+{:block/content "# O3\nasrt #.kanban\narst"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "661a45a6-34e9-4ef4-87a3-d280e11d1c67"}
+:block/parent 
+{:block/uuid #uuid "661a45a6-34e9-4ef4-87a3-d280e11d1c67"}
+:block/properties 
+{:heading 1}
+:block/uuid #uuid "661a55c6-6579-4978-b056-28a80bb9f994"})
 :pages (
 {:block/uuid #uuid "661a3106-31b7-40a6-a4e8-1f264614ed0a"
 :block/properties 
@@ -1194,7 +1203,7 @@
 :nonce 1
 :assets []
 :shapes-index ("d04574d0-f965-11ee-a380-85ca1cd026a4" "d8c2c400-f965-11ee-a380-85ca1cd026a4" "567c3640-f968-11ee-a380-85ca1cd026a4" "664e0c12-f968-11ee-a380-85ca1cd026a4" "77086d20-f968-11ee-a380-85ca1cd026a4" "358966a0-f96e-11ee-a380-85ca1cd026a4" "4237dc60-f96e-11ee-a380-85ca1cd026a4" "2163d1a0-f96f-11ee-a380-85ca1cd026a4" "337202e2-f96f-11ee-a380-85ca1cd026a4" "3ebf8912-f96f-11ee-a380-85ca1cd026a4" "485f5f42-f96f-11ee-a380-85ca1cd026a4" "6a3cf550-f96f-11ee-a380-85ca1cd026a4" "f5780140-f970-11ee-a380-85ca1cd026a4" "92404410-f971-11ee-a380-85ca1cd026a4" "a26bab90-f971-11ee-a380-85ca1cd026a4" "dfc0f6d0-f971-11ee-a380-85ca1cd026a4" "23f06892-f972-11ee-a380-85ca1cd026a4" "2660cc52-f972-11ee-a380-85ca1cd026a4" "28b347d2-f972-11ee-a380-85ca1cd026a4" "6cd17b82-f972-11ee-a380-85ca1cd026a4" "73e48c52-f972-11ee-a380-85ca1cd026a4" "78c61722-f972-11ee-a380-85ca1cd026a4" "96bf6e22-f972-11ee-a380-85ca1cd026a4")}}
-:block/updated-at 1712999439334
+:block/updated-at 1713001968117
 :block/created-at 1712992518765
 :block/type "whiteboard"
 :block/name "化學"
