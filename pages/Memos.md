@@ -251,3 +251,12 @@
 - [[Apr 15th, 2024]] 15:47 #memos
   memo-id:: 114
 	- DONE  取前
+- [[Apr 28th, 2024]] 21:12 #memos
+  memo-id:: 122
+	- remunerated
+- [[Apr 28th, 2024]] 21:02 #memos
+  memo-id:: 121
+	- reticent
+- [[Apr 28th, 2024]] 21:02 #memos
+  memo-id:: 120
+	- ornate, meretricious 華而不實
