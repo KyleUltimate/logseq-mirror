@@ -5,13 +5,13 @@
 	- 在使用 Rust 之前，我從事過涵蓋全棧的開發，從 Python, C, CUDA 和 JavaScript 都有涉獵。我不但有在昂貴的超級計算集群上處理偏微分方程，還要應付那殘破不堪的 Python 安裝環境、一次又一次失敗的 CUDA 驅動安裝、跟鬼一樣的 C 編譯環境，以及嘗試理解那 JavaScript 荒謬的生態系。你知道為什麼研究工具為什麼通常很難用嗎？因為他們沒有時間去摸索無止境的配置，工具鍊，以及維護不良的文擋，畢竟都不是他們專業的核心。
 	- 六年前我發現 Rust，宛如黑暗中的一曙光明。不到一周的時間，我的模擬電漿的程式碼就遷移到 Rust 上，並且在短短幾天內利用 Yew 構建了前端。
 -
-- # 翻譯
-	- Not only... But Also 的正常翻譯方法
-		- "Not only do we offer free shipping, but we also provide a 10-year warranty.
-		- ### 除了...之外，還...
+- # 常見翻譯問題
+	- ## Not only... But Also 的翻譯方法
+		- "Not only do we offer free shipping, but we also provide a 10-year warranty."
+		- ### 除了...之外，還...（Star, the best）
 			- 我們除了提供免運費之外，還有 10 年的保固。
 		- ### 同時（並無強調）
 			- 我們提供免運費，同時有 10 年的保固。
-		- ### 利用 也（
+		- ### 也（無強調）
 			- 我們提供免運費，也有 10 年保固。
 		-
