@@ -1,1 +1,1 @@
-- 最近有一篇在網上
+- 最近有一篇在 r/rust，r/programming 和 HackerNews 上出現了一篇對 Rust 極為批判性的文章。這不是第一次有人
