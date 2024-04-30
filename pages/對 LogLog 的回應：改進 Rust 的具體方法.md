@@ -8,6 +8,9 @@
 - # 翻譯
 	- Not only... But Also 的正常翻譯方法
 		- "Not only do we offer free shipping, but we also provide a 10-year warranty.
-		- ### 除了...之外，還...#
+		- ### 除了...之外，還...
+			- 我們除了提供免運費之外，還有 10 年的保固。
 		- ### 同時（並無強調）
+		-
+		- ### 換成 (and) 再做翻譯
 		-
