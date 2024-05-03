@@ -260,3 +260,6 @@
 - [[Apr 28th, 2024]] 21:02 #memos
   memo-id:: 120
 	- ornate, meretricious 華而不實
+- [[May 3rd, 2024]] 07:44 #memos
+  memo-id:: 123
+	- mpv --idle
