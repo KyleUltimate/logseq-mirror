@@ -263,3 +263,9 @@
 - [[May 3rd, 2024]] 07:44 #memos
   memo-id:: 123
 	- mpv --idle
+- [[May 9th, 2024]] 08:48 #memos
+  memo-id:: 125
+	- Dioxus sdk, context_providnr
+- [[May 6th, 2024]] 18:59 #memos
+  memo-id:: 124
+	- https://www.youtube.com/shorts/u1Ijupdjv_I
