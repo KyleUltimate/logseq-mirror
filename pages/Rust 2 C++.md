@@ -42,6 +42,8 @@
 		  ```
 - ## 陣列
 	- ### Vector
+		- #### 標頭擋
+			- `#include <vector>`
 		- `.len()` -> `.size()`
 		- `.push()` -> `.push_back()`
 		- ```cpp
@@ -53,6 +55,8 @@
 		  vec.push_back(3);
 		  ```
 	- ### 「傳統」陣列
+		- #### 標頭擋
+			- `#include <array>`
 		- ```cpp
 		  #include <array>
 		  using namespace std;
@@ -61,6 +65,8 @@
 		  a[0]
 		  ```
 - ## Strings
+	- ### 標頭擋
+		- `#include <string>`
 	- `.contains()` -> `.find()`
 	- ```cpp
 	  #include <string>
@@ -106,6 +112,7 @@
 		- 優點：較廣泛，能用於「傳統」陣列
 		- ```cpp
 		  #include <iostream>
+		  #include <algorithm>
 		  #include <string>
 		  #include <vector>
 		  #include <cassert>
@@ -114,6 +121,8 @@
 		  // 字串切片範例
 		  string str = "hello!";
 		  string sliced_str(str.begin(), str.begin() + 4);
+		  string sliced_str(str.size()); // 大小初始話方法
+		  
 		  assert(sliced_str == "hell");
 		  
 		  // Vector 切片範例
