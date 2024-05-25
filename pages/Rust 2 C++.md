@@ -54,7 +54,8 @@
 		  ```
 	- ### 傳統陣列
 		- ```cpp
-		  int a[2]; // how you declare it
+		  int a[2]; // how you declare it, without initiliaztion
+		  int a[2] = {2,3};
 		  int a[2][4]; // works for multi-dimensional display
 		  
 		  ```
