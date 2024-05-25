@@ -109,6 +109,7 @@
 		- #### 缺點
 			- 比純迭代器方法醜
 			- 需先初始化大小
+		- ####
 		- 優點：較廣泛，能用於「傳統」陣列
 		- ```cpp
 		  #include <iostream>
@@ -122,6 +123,7 @@
 		  string str = "hello!";
 		  string sliced_str(str.begin(), str.begin() + 4);
 		  string sliced_str(str.size()); // 大小初始話方法
+		  copy(str.begin(), str.begin() + 4, str.begin()); // 前兩個參數為「範圍」，第三個參數為
 		  
 		  assert(sliced_str == "hell");
 		  
