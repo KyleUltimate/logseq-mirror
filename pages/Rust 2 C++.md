@@ -99,4 +99,6 @@
 		  vector<int> ans = {2,3};
 		  assert(sliced_vec == ans);
 		  ```
-	-
+	- ### `std::copy`
+		- 缺點：比純迭代器方法醜
+		- 優點：較廣泛，能用於
