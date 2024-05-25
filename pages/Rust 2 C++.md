@@ -64,6 +64,7 @@
 	- `.contains()` -> `.find()`
 	- ```cpp
 	  #include <string>
+	  #include <cassert>
 	  using namespace std;
 	  
 	  string str = "Hello!";
@@ -83,6 +84,8 @@
 		- ```cpp
 		  #include <iostream>
 		  #include <string>
+		  #include <vector>
+		  #include <cassert>
 		  using namespace std;
 		  
 		  // 字串切片範例
