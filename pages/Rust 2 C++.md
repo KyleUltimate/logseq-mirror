@@ -96,10 +96,7 @@
 		  // Vector 切片範例
 		  vector<int> vec = {1,2,3,4,5};
 		  vector<int> sliced_vec(vec.begin() + 1, vec.begin() + 3);
-		  assert(sliced_vec == {2, 3});
-		  
-		  // array 切片範例
-		  array<int,5> array = {1,2,3,4,5};
-		  array<int,5> sliced_array(vec.begin() + 1, vec.begin() + 3);
-		  assert(sliced_array == {2, 3});
+		  vector<int> ans = {2,3};
+		  assert(sliced_vec == ans);
 		  ```
+	-
