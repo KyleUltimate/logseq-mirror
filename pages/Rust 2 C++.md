@@ -1,4 +1,4 @@
-## 基本概念
+## 1. 基本概念
 	- ### 型別前製
 		- ```rust
 		  let a: int = 5;
@@ -6,7 +6,7 @@
 		- ```cpp
 		  int a = 5;
 		  ```
-- ## 輸入輸出
+- ## 2. 輸入輸出
 	- ```cpp
 	  int a; // declaration without initialization
 	  int b;
@@ -14,7 +14,7 @@
 	  cout << a;
 	  ```
 	- cin 在新行或空格才會放入變數
-- ## if 判斷式
+- ## 3. if 判斷式
 	-
 	- ```cpp
 	  int a = 5;
@@ -25,7 +25,7 @@
 	  ```
 	- if 判斷式需加括號
 	- 判斷式會 「短路」
-- ## for 迴圈
+- ## 4. for 迴圈
 	- ### 一般
 		- ```cpp
 		  for (int i=0;i<=5;i++) {
@@ -39,7 +39,7 @@
 		  	cout << x;
 		  }
 		  ```
-- ## 陣列
+- ## 5. 陣列
 	- ### Vector（可變大小陣列）
 		- #### 標頭擋
 			- `#include <vector>`
@@ -65,7 +65,7 @@
 		  array<int, 2> empty; 
 		  assert(empty == init);
 		  ```
-- ## Strings
+- ## 6. Strings
 	- ### 標頭擋
 		- `#include <string>`
 	- #### Rust 方法至 C++ 轉換
@@ -87,7 +87,7 @@
 	  	cout << "found it!"
 	  }
 	  ```
-- ## Slicing（切片）
+- ## 7. Slicing（切片）
 	- ### 迭代器範圍構造
 		- 創建一個新的空容器，並利用迭代器進行初始化
 			- `vector<int> new(from.begin() + x, from.begin() + y)`
@@ -137,12 +137,13 @@
 		  vector<int> vec = {1,2,3,4,5};
 		  vector<int> sliced_vec(2); // 大小初始化方法
 		  copy(vec.begin() + 1, vec.begin() + 3, sliced_vec.begin());
-		  assert(sliced_vec == vector<int>{2,3});
+		  vector<int> ans = {2,3};
+		  assert(sliced_vec == ans);
 		  
 		  // array 切片範例
 		  array<int, 5> my_array = {1,2,3,4,5};
 		  array<int, 2> sliced_array;
 		  std::copy(my_array.begin() + 1, my_array.end() + 3, sliced_array.begin());
-		  assert(sliced_array == array<int,2>{2,3});
+		  array<int, 2> array_ans = {2,3};
+		  assert(sliced_array == array_ans);
 		  ```
--
