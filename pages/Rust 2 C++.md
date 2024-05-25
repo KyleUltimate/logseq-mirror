@@ -6,7 +6,6 @@
 		- ```cpp
 		  int a = 5;
 		  ```
-	- ### 自動 "Cloning"
 - ## 輸入輸出
 	- ```cpp
 	  int a; // declaration without initialization
