@@ -41,7 +41,7 @@
 		  }
 		  ```
 - ## 陣列
-	- ### Vector
+	- ### Vector（可變大小陣列）
 		- #### 標頭擋
 			- `#include <vector>`
 		- `.len()` -> `.size()`
@@ -54,7 +54,7 @@
 		  vec[0]; // direct access, automatic
 		  vec.push_back(3);
 		  ```
-	- ### 「傳統」陣列
+	- ### 「傳統」陣列（固定大小陣列）
 		- #### 標頭擋
 			- `#include <array>`
 		- ```cpp
