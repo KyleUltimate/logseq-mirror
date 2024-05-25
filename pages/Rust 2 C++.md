@@ -68,7 +68,11 @@
 - ## Strings
 	- ### 標頭擋
 		- `#include <string>`
-	- `.contains()` -> `.find()`
+	- #### Rust 方法至 C++ 轉換
+		- `.len()` -> `.size()` or `.length()`
+		- `.contains()` -> `.find()`
+		- `.push()` -> `.push_back()`
+		- `.push_str()`
 	- ```cpp
 	  #include <string>
 	  #include <cassert>
