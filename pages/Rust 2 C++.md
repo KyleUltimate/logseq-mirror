@@ -83,7 +83,7 @@
 	  	cout << "found it!"
 	  }
 	  ```
-- ## Slicing
+- ## Slicing（切片）
 	- ### 迭代器
 		- 創建一個新的空容器，並利用迭代器進行初始化
 			- `vector<int> new(from.begin() + x, from.begin() + y)`
