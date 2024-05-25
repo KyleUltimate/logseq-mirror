@@ -109,7 +109,9 @@
 		- #### 缺點
 			- 比純迭代器方法醜
 			- 需先初始化大小
-		- ####
+		- #### 語法
+			- `copy(from_str.begin(), from_str.begin() + 4, to_str.begin())`
+			- 前兩個參數為「範圍」，第三個參數為要
 		- 優點：較廣泛，能用於「傳統」陣列
 		- ```cpp
 		  #include <iostream>
@@ -121,9 +123,8 @@
 		  
 		  // 字串切片範例
 		  string str = "hello!";
-		  string sliced_str(str.begin(), str.begin() + 4);
 		  string sliced_str(str.size()); // 大小初始話方法
-		  copy(str.begin(), str.begin() + 4, str.begin()); // 前兩個參數為「範圍」，第三個參數為
+		  copy(str.begin(), str.begin() + 4, sliced_str.begin());
 		  
 		  assert(sliced_str == "hell");
 		  
