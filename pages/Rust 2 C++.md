@@ -111,7 +111,7 @@
 			- 需先初始化大小
 		- #### 語法
 			- `copy(from_str.begin(), from_str.begin() + 4, to_str.begin())`
-			- 前兩個參數為「範圍」，第三個參數為要
+			- 前兩個參數為「範圍」，第三個參數為要插入的變數之 `begin` 迭代器
 		- 優點：較廣泛，能用於「傳統」陣列
 		- ```cpp
 		  #include <iostream>
@@ -123,9 +123,8 @@
 		  
 		  // 字串切片範例
 		  string str = "hello!";
-		  string sliced_str(str.size()); // 大小初始話方法
+		  string sliced_str(str.size()); // 大小初始化方法
 		  copy(str.begin(), str.begin() + 4, sliced_str.begin());
-		  
 		  assert(sliced_str == "hell");
 		  
 		  // Vector 切片範例
