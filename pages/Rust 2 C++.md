@@ -56,6 +56,7 @@
 		- ```cpp
 		  int a[2]; // how you declare it
 		  int a[2][4]; // works for multi-dimensional display
+		  
 		  ```
 - ## Strings
 	- `.contains()` -> `.find()`
