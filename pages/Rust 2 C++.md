@@ -68,7 +68,7 @@
 	  
 	  string str = "Hello!";
 	  
-	  static_assert(str[0] == "H") // allows direct string manip
+	  assert(str[0] == "H") // allows direct string manip
 	  
 	  size_t location = str.find("el"); // finds sub string, returns location
 	  if (found != string::npos) {
@@ -84,6 +84,7 @@
 		  #include <iostream>
 		  #include <string>
 		  #include <vector>
+		  #include <cassert>
 		  using namespace std;
 		  
 		  // 字串切片範例
