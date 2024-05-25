@@ -137,13 +137,12 @@
 		  vector<int> vec = {1,2,3,4,5};
 		  vector<int> sliced_vec(2); // 大小初始化方法
 		  copy(vec.begin() + 1, vec.begin() + 3, sliced_vec.begin());
-		  vector<int> ans = {2,3};
-		  assert(sliced_vec == ans);
+		  assert(sliced_vec == vector<int>{2,3});
 		  
 		  // array 切片範例
 		  array<int, 5> my_array = {1,2,3,4,5};
 		  array<int, 2> sliced_array;
 		  std::copy(my_array.begin() + 1, my_array.end() + 3, sliced_array.begin());
-		  array<int, 2> array_ans = {2,3};
-		  assert(sliced_array == array_ans);
+		  assert(sliced_array == array<int,2>{2,3});
 		  ```
+-
