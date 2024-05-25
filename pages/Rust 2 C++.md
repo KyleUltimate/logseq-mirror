@@ -54,7 +54,11 @@
 		  ```
 	- ### 「傳統」陣列
 		- ```cpp
-		  std::array<int, 5> 
+		  #include <array>
+		  using namespace std;
+		  
+		  array<int, 5> = {1,2,3,4,5};
+		  a[0]
 		  ```
 - ## Strings
 	- `.contains()` -> `.find()`
