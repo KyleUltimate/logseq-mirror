@@ -104,4 +104,21 @@
 			- 比純迭代器方法醜
 			- 需先初始化大小
 		- 優點：較廣泛，能用於「傳統」陣列
-		-
+		- ```cpp
+		  #include <iostream>
+		  #include <string>
+		  #include <vector>
+		  #include <cassert>
+		  using namespace std;
+		  
+		  // 字串切片範例
+		  string str = "hello!";
+		  string sliced_str(str.begin(), str.begin() + 4);
+		  assert(sliced_str == "hell");
+		  
+		  // Vector 切片範例
+		  vector<int> vec = {1,2,3,4,5};
+		  vector<int> sliced_vec(vec.begin() + 1, vec.begin() + 3);
+		  vector<int> ans = {2,3};
+		  assert(sliced_vec == ans);
+		  ```
