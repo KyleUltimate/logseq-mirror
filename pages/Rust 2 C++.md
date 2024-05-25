@@ -52,12 +52,9 @@
 		  vec[0]; // direct access, automatic
 		  vec.push_back(3);
 		  ```
-	- ### 傳統陣列
+	- ### 「傳統」陣列
 		- ```cpp
-		  int a[2]; // how you declare it, without initiliaztion
-		  int a[2] = {2,3};
-		  int a[2][4]; // works for multi-dimensional display
-		  
+		  std::array<int, 5> 
 		  ```
 - ## Strings
 	- `.contains()` -> `.find()`
