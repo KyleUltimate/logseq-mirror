@@ -109,7 +109,7 @@
 		- #### 缺點
 			- 比純迭代器方法醜
 			- 需先初始化大小（或利用 `std::back_inserter`）
-				- `back_inserter`
+				- `back_inserter` 簡單來說就是一直 `push_back`
 		- #### 語法
 			- `copy(from_str.begin(), from_str.begin() + 4, to_str.begin())`
 			- 前兩個參數為「範圍」，第三個參數為要插入的變數之 `begin` 迭代器
@@ -124,7 +124,7 @@
 		  
 		  // 字串切片範例
 		  string str = "hello!";
-		  string sliced_str(str.size()); // 大小初始化方法
+		  string sliced_str(4); // 大小初始化方法
 		  copy(str.begin(), str.begin() + 4, sliced_str.begin());
 		  assert(sliced_str == "hell");
 		  
