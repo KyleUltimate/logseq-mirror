@@ -61,8 +61,9 @@
 		  #include <array>
 		  using namespace std;
 		  
-		  array<int, 5> = {1,2,3,4,5};
-		  a[0]
+		  array<int, 2> init = {0,0};
+		  array<int, 2> empty; 
+		  assert(empty == init);
 		  ```
 - ## Strings
 	- ### 標頭擋
