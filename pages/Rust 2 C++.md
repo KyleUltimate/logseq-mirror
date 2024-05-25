@@ -43,8 +43,9 @@
 	- ### Vector（可變大小陣列）
 		- #### 標頭擋
 			- `#include <vector>`
-		- `.len()` -> `.size()`
-		- `.push()` -> `.push_back()`
+		- #### Rust 方法至 C++ 轉換
+			- `.len()` -> `.size()`
+			- `.push()` -> `.push_back()`
 		- ```cpp
 		  #include <vector>
 		  using namespace std;
