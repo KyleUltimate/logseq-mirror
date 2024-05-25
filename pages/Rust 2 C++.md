@@ -72,7 +72,7 @@
 		- `.len()` -> `.size()` or `.length()`
 		- `.contains()` -> `.find()`
 		- `.push()` -> `.push_back()`
-		- `.push_str()`
+		- `.push_str()` -> `.append()` or `+=`
 	- ```cpp
 	  #include <string>
 	  #include <cassert>
