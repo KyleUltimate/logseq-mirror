@@ -269,3 +269,9 @@
 - [[May 6th, 2024]] 18:59 #memos
   memo-id:: 124
 	- https://www.youtube.com/shorts/u1Ijupdjv_I
+- [[May 27th, 2024]] 08:05 #memos
+  memo-id:: 127
+	- https://www.pinterest.com/pin/neumorphism-weather-app-concept--258957047312651543/
+- [[May 27th, 2024]] 08:05 #memos
+  memo-id:: 126
+	- https://www.pinterest.com/pin/eldente-smart-home-app--679058450084597957/
