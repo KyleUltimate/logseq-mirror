@@ -73,7 +73,7 @@
 			  int get_str() {
 			    	// 利用 `::` 來存取欄位(field)
 			    	auto block = Tetrominos::T;
-			      switch (block) {
+			      switch (mode) {
 			          // 可利用 using 來縮短名稱
 			          using B = Tetrominos;
 			          case B::T: return {0.78, 0.48, 1.00, 1.00};
