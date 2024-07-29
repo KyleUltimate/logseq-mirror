@@ -77,13 +77,13 @@
 			      switch (block) {
 			          // 可利用 using 來縮短名稱
 			          using B = Tetrominos;
-			          case B::T: "T Block!";
-			          case B::I: "I Block!";
-			          case B::J: "J Block!";
-			          case B::L: "L Block!";
-			          case B::Z: "Z Block!";
-			          case B::S: "S Block!";
-			          case B::O: "B Block!";
+			          case B::T: return "T Block!";
+			          case B::I: return "I Block!";
+			          case B::J: return "J Block!";
+			          case B::L: return "L Block!";
+			          case B::Z: return "Z Block!";
+			          case B::S: return "S Block!";
+			          case B::O: return "B Block!";
 			      }
 			  }
 			  ```
