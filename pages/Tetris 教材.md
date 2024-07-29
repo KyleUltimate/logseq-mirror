@@ -2,12 +2,15 @@
 - # C++ 語法補充
 	- ## 結構體(struct)
 		- ### 定義
+		  collapsed:: true
 			- 儲存**資料**的結構，並且每個結構體都有對其資料運用的**方法**（method）。
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別。
 		- ### 如何宣告及使用
+		  collapsed:: true
 			- 使用者端如何使用請參考下方 `main` 函數的使用方式。
 			- #### `this`  指標
+			  collapsed:: true
 				- 在結構體內，若需要使用對指到自己的指標，則可利用 `this` 指標，可以把她想成 `self`，指向**自己**的指標
 				- 另外，對於解決結構體內與結構體外的方法重名問題，`this` 指標也是非常重要的
 				- 利用 `operator->` 來得到內部方法及資料欄位，而非普通的 `operator.`
@@ -20,8 +23,10 @@
 			    
 			    	// 如何初始化，在「參數」內傳入使用者所需的傳入的資料
 			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
+			    
 			    	// 若需使用者傳入的參數不同，則也可有重載不同的初始化方法
 			    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
+			    
 			    	// 若需對使用者傳入的參數做操縱，則利用 `this` 指標做創建
 			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心使用
 			    	ScientificNumber(double number) {
@@ -61,11 +66,14 @@
 			  ```
 	- ## 枚舉（enum、std::variant）
 		- ### std::variant
+		  collapsed:: true
 			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union。
+			  collapsed:: true
 				- `std::variant<int, double, string>`
 			- ```cpp
 			  ```
 		- ### enum
+		  collapsed:: true
 			- 以型別安全的方式，告訴你有哪些種類。
 			- ```cpp
 			  enum Tetrominos { T, I, J, L, Z, S, O };
@@ -86,56 +94,57 @@
 			  }
 			  ```
 		- ###  與 struct 一起用的方式
-		- 看不懂沒有關係，不一定要這樣寫，對於小型專案而言，可以不必那麼在乎型別安全
-		- ```cpp
-		  // Utility to allow overloading lambdas for use in std::visit
-		  // 請忽略這些 template 的東西
-		  template<class... Ts>
-		  struct match : Ts... {
-		      using Ts::operator()...;
-		  };
-		  template<class... Ts>
-		  match(Ts...) -> match<Ts...>;
-		  
-		  
-		  enum Tetrominos { T, I, J, L, Z, S, O };
-		  
-		  struct Color {
-		      float r, g, b, a;
-		  };
-		  
-		  std::variant<Tetrominos, Color> data;
-		  
-		  auto visitor = match {
-		    	// a lambada that has a reference to the type of the variant
-		      [](const Tetrominos& mode) -> Color {
-		        switch (mode) {
-		            using B = Tetrominos;
-		            case B::T: return {0.78, 0.48, 1.00, 1.00};
-		            case B::I: return {0.40, 0.75, 1.00, 1.00};
-		            case B::J: return {1.00, 0.63, 0.00, 1.00};
-		            case B::L: return {0.00, 0.47, 0.95, 1.00};
-		            case B::Z: return {0.00, 0.89, 0.19, 1.00};
-		            case B::S: return {0.90, 0.16, 0.22, 1.00};
-		            case B::O: return {0.99, 0.98, 0.00, 1.00};
-		        }
-		      },
-		      [](const Color& color) -> Color {
-		        return color;
-		      }
-		  };
-		  return std::visit(visitor, data);
-		  ```
+		  collapsed:: true
+			- 看不懂沒有關係，不一定要這樣寫，對於小型專案而言，可以不必那麼在乎型別安全
+			- ```cpp
+			  // Utility to allow overloading lambdas for use in std::visit
+			  // 請忽略這些 template 的東西
+			  template<class... Ts>
+			  struct match : Ts... {
+			      using Ts::operator()...;
+			  };
+			  template<class... Ts>
+			  match(Ts...) -> match<Ts...>;
+			  
+			  
+			  enum Tetrominos { T, I, J, L, Z, S, O };
+			  
+			  struct Color {
+			      float r, g, b, a;
+			  };
+			  
+			  std::variant<Tetrominos, Color> data;
+			  
+			  auto visitor = match {
+			    	// a lambada that has a reference to the type of the variant
+			      [](const Tetrominos& mode) -> Color {
+			        switch (mode) {
+			            using B = Tetrominos;
+			            case B::T: return {0.78, 0.48, 1.00, 1.00};
+			            case B::I: return {0.40, 0.75, 1.00, 1.00};
+			            case B::J: return {1.00, 0.63, 0.00, 1.00};
+			            case B::L: return {0.00, 0.47, 0.95, 1.00};
+			            case B::Z: return {0.00, 0.89, 0.19, 1.00};
+			            case B::S: return {0.90, 0.16, 0.22, 1.00};
+			            case B::O: return {0.99, 0.98, 0.00, 1.00};
+			        }
+			      },
+			      [](const Color& color) -> Color {
+			        return color;
+			      }
+			  };
+			  return std::visit(visitor, data);
+			  ```
 	- ## std::span
 		- ### 定義
-			- 只讀的連續的一塊記憶體
-			- 不會重新複製資料，可以想成是對原本的
+			- 只讀的連續的一塊記憶體。
+			- 不會重新複製資料，可以想成是對原本的資料的參考而已。
 		- ### 優勢及適用時機
-			- 適用時機：函式參數
+			- 適用時機：函式參數。
 			- #### 優勢
-				- 能使使用者傳入各式資料型態
+				- 能使使用者傳入各式資料型態。
 				- 對於創造 subspan 而言極為輕鬆且有效率，不必宣告多餘的空間（與 `std::vector<int> subvec(vec.begin() + 2, 5)`相異）
-				- 不必利用雙指標（亦或者雙迭代器）達成
+				- 不必利用雙指標（亦或者雙迭代器）達成。
 		- ### 用法
 			- ```cpp
 			  void printSpan(std::span<int> span) {
