@@ -70,24 +70,25 @@
 			- 以型別安全的方式，告訴你有哪些種類。
 			- ```cpp
 			  enum Tetrominos { T, I, J, L, Z, S, O };
-			  int get_str() {
+			  
+			  std::string get_str() {
 			    	// 利用 `::` 來存取欄位(field)
 			    	auto block = Tetrominos::T;
-			      switch (mode) {
+			      switch (block) {
 			          // 可利用 using 來縮短名稱
 			          using B = Tetrominos;
-			          case B::T: return {0.78, 0.48, 1.00, 1.00};
-			          case B::I: return {0.40, 0.75, 1.00, 1.00};
-			          case B::J: return {1.00, 0.63, 0.00, 1.00};
-			          case B::L: return {0.00, 0.47, 0.95, 1.00};
-			          case B::Z: return {0.00, 0.89, 0.19, 1.00};
-			          case B::S: return {0.90, 0.16, 0.22, 1.00};
-			          case B::O: return {0.99, 0.98, 0.00, 1.00};
+			          case B::T: "T Block!";
+			          case B::I: "I Block!";
+			          case B::J: "J Block!";
+			          case B::L: "L Block!";
+			          case B::Z: "Z Block!";
+			          case B::S: "S Block!";
+			          case B::O: "B Block!";
 			      }
 			  }
 			  ```
 		- ###  與 struct 一起用的方式
-			- 看不懂沒有關係，不一定要這樣寫，對於小型專案而言，可以不必那麼在乎型別安全。
+			- 看不懂沒有關係，對於小型專案而言，可以先不必那麼在乎型別安全，等未來大點的專案在做考慮。
 			- ```cpp
 			  // Utility to allow overloading lambdas for use in std::visit
 			  // 請忽略這些 template 的東西
