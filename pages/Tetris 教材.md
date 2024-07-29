@@ -6,9 +6,7 @@
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別
 		- ### 建構子（初始化）
-			- 傳統
-			  logseq.order-list-type:: number
-			- logseq.order-list-type:: number
+			- ``````
 	- ## 枚舉（enum、std::variant）
 		- ### 定義
 			- enum -> 告訴你有哪些種類
