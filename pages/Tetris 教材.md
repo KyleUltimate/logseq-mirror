@@ -17,11 +17,11 @@
 		      OccupiedBlockStatus(Color color)
 		          : data(color), type(Finished) {}
 		  
-		      bool is_falling() const {
+		      const bool is_falling() const {
 		          return type == Falling;
 		      }
 		  
-		      bool is_finished() const {
+		      const bool is_finished() const {
 		          return type == Finished;
 		      }
 		  
@@ -29,7 +29,6 @@
 		          if (type == Finished) {
 		              return std::get<Color>(data);
 		          }
-		          // Example colors for block types, adjust as needed
 		          if (std::holds_alternative<T>(data)) return {0.5f, 0.0f, 0.5f, 1.0f}; // Purple for T
 		          if (std::holds_alternative<I>(data)) return {0.0f, 1.0f, 1.0f, 1.0f}; // Cyan for I
 		          if (std::holds_alternative<J>(data)) return {0.0f, 0.0f, 1.0f, 1.0f}; // Blue for J
