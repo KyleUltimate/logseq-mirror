@@ -6,6 +6,7 @@
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別。
 		- ### 如何宣告及使用
+			- `this` 指標：回傳對於這個
 			- ```cpp
 			  struct ScientificNumber {
 			    	// 在一開始定義結構體要含有什麼資料
@@ -30,8 +31,8 @@
 			      }
 			    
 			    	// 若要傳回對於整個結構體的指標，可利用 `this` 指標
-			    	*ScientificNumber doubled() {
-			    		this.fraction *= 2;
+			    	ScientificNumber* doubled() {
+			    		this->m_fraction *= 2;
 			        	return this;
 			      }
 			  };
