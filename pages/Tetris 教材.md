@@ -20,7 +20,7 @@
 			    	// 若需對使用者傳入的參數做操縱，則利用 `this` 指標做創建
 			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心處理
 			    	ScientificNumber(double number) {
-			        	int exponent = int(number/10.0)
+			        	int exponent = log(number/10.0)
 			          double fraction = number/exponent 
 			      }
 			    
