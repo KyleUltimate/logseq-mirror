@@ -13,7 +13,27 @@
 		- ### 適用於
 			- 函式參數，能使使用者傳入各式資料型態
 		- ## 用法
-		-
+			- ```cpp
+			  void printSpan(std::span<int> span) {
+			      for (const auto& elem : span) {
+			          std::cout << elem << " ";
+			      }
+			      std::cout << "\n";
+			  }
+			  int main() {
+			    	// Create a vector
+			      std::vector<int> vec = {6, 7, 8, 9, 10};
+			      std::span<int> vectorSpan(vec);
+			      std::cout << "Vector span: ";
+			      printSpan(vectorSpan);
+			  
+			      // Create a std::array
+			      std::array<int, 5> stdArray = {11, 12, 13, 14, 15};
+			      std::span<int> stdArraySpan(stdArray);
+			      std::cout << "std::array span: ";
+			      printSpan(stdArraySpan);
+			  }
+			  ```
 - # 俄羅斯方塊術語與規則介紹
 	- ## ARR
 	- ## DAS
