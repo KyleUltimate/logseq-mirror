@@ -2,12 +2,14 @@
 - # C++ 語法補充
 	- ## 結構體(struct)
 		- ### Constructor(member initializer list)
-	- ## 枚舉（ enum class、std::variant）
-		- enum -> 型別安全的方法來告訴你有哪些種類
+	- ## 枚舉（enum class、std::variant）
+		- enum -> 告訴你有哪些種類
 		- std::variant -> 可以擁有含有型別的型別
 			- `std::variant<int, double, string>`
-			- 可以想為安全
+			- 可以想為型別安全版的 union
 	- ## std::span
+		- ### 適用於
+			- 函式參數
 - # 俄羅斯方塊術語與規則介紹
 	- ## ARR
 	- ## DAS
