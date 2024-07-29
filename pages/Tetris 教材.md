@@ -1,16 +1,12 @@
-# 俄羅斯方塊（C++）
-- # C++ 語法補充
+# C++ 語法補充
 	- ## 結構體(struct)
 		- ### 定義
-		  collapsed:: true
 			- 儲存**資料**的結構，並且每個結構體都有對其資料運用的**方法**（method）。
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別。
 		- ### 如何宣告及使用
-		  collapsed:: true
 			- 使用者端如何使用請參考下方 `main` 函數的使用方式。
 			- #### `this`  指標
-			  collapsed:: true
 				- 在結構體內，若需要使用對指到自己的指標，則可利用 `this` 指標，可以把她想成 `self`，指向**自己**的指標
 				- 另外，對於解決結構體內與結構體外的方法重名問題，`this` 指標也是非常重要的
 				- 利用 `operator->` 來得到內部方法及資料欄位，而非普通的 `operator.`
@@ -66,14 +62,11 @@
 			  ```
 	- ## 枚舉（enum、std::variant）
 		- ### std::variant
-		  collapsed:: true
 			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union。
-			  collapsed:: true
 				- `std::variant<int, double, string>`
 			- ```cpp
 			  ```
 		- ### enum
-		  collapsed:: true
 			- 以型別安全的方式，告訴你有哪些種類。
 			- ```cpp
 			  enum Tetrominos { T, I, J, L, Z, S, O };
@@ -94,7 +87,6 @@
 			  }
 			  ```
 		- ###  與 struct 一起用的方式
-		  collapsed:: true
 			- 看不懂沒有關係，不一定要這樣寫，對於小型專案而言，可以不必那麼在乎型別安全
 			- ```cpp
 			  // Utility to allow overloading lambdas for use in std::visit
@@ -175,6 +167,6 @@
 	- ## DAS
 	- ## 旋轉機制
 - # 難點攻關
-- ## 1. 旋轉如何實施？
-- 直接把旋轉完的方塊 array 寫在程式碼中
-- 根據每個不同的方塊，撰寫獨立的旋轉軸(pivot)
+	- ## 1. 旋轉如何實施？
+	- 直接把旋轉完的方塊 array 寫在程式碼中
+	- 根據每個不同的方塊，撰寫獨立的旋轉軸(pivot)
