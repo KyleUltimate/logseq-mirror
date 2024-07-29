@@ -5,8 +5,8 @@
 			- 儲存**資料**的結構，並且每個結構體都有對其資料運用的**方法**（method）
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別
-		- ### 初始化
-			- 傳統方式
+		- ### 建構子（初始化）
+			- 傳統
 			  logseq.order-list-type:: number
 			- logseq.order-list-type:: number
 	- ## 枚舉（enum、std::variant）
