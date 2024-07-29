@@ -45,8 +45,13 @@
 		- ### enum
 			- 告訴你有哪些種類
 			- ```cpp
+			  enum Tetrominos { T, I, J, L, Z, S, O };
+			  int main() {
+			    	// 利用 `::` 來存取
+			    	auto block = Tetrominos::T;
+			  }
 			  ```
-		- ###  在 Tetris 裡的可能定義使用方法
+		- ###  與 struct 一起用的方式
 		- 看不懂沒有關係，不一定要這樣寫，對於小型專案而言，可以不必那麼在乎型別安全
 		- ```cpp
 		  // Utility to allow overloading lambdas for use in std::visit
