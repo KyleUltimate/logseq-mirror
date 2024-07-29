@@ -5,11 +5,13 @@
 			- 儲存**資料**的結構，並且每個結構體都有對其資料運用的**方法**（method）。
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別。
-		- ### 建構子
-			- 建構子即為告訴程式如何建造此結構體的方法。
+		- ### 如何宣告
 			- ```cpp
+			  struct Number {
+			    	
+			  };
 			  ```
-		- ### 使用方法
+		- ### 在 Tetris 裡的可能定義使用方法
 			- ```cpp
 			  enum Tetrominos { T, I, J, L, Z, S, O };
 			  
@@ -43,7 +45,7 @@
 			- std::variant -> 可以擁有含有各類型別的型別
 				- `std::variant<int, double, string>`
 				- 可以想為型別安全版的 union
-		- ###  用法
+		- ###  在 Tetris 裡的可能定義使用方法
 		- ```cpp
 		  // Utility to allow overloading lambdas for use in std::visit
 		  template<class... Ts>
