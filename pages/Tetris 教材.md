@@ -133,7 +133,8 @@
 			- 適用時機 => 函式參數
 			- #### 優勢
 				- 能使使用者傳入各式資料型態
-				- 對於創造 subspan 而言極為輕鬆，且完全不必宣告新的空間（不像
+				- 對於創造 subspan 而言極為輕鬆且有效率，不必宣告多餘的空間（與 `std::vector<int> subvec(vec.begin() + 2, 5)`相異）
+				- 不必用
 		- ### 用法
 			- ```cpp
 			  void printSpan(std::span<int> span) {
