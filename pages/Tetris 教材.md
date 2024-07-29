@@ -20,21 +20,22 @@
 			    
 			    	// 可以在內部創建方法，可直接存取 結構體的(fields)
 			    	double value() {
-			        	int sign = if m_sign {
-			          	1
+			          int sign;
+			        	if (m_sign) {
+			          	sign = 1;
 			          } else {
-			            	-1
+			            	sign = -1;
 			          };
-			       	return sign * m_fraction *pow(10, m_exponent)
+			       	return sign * m_fraction * pow(10, m_exponent);
 			      }
 			  };
 			  int main() {
 			    	auto num = ScientificNumber { 0.8772, 82 };
 			    	// 對於得到的結構體，可利用 `operator.` 來執行其方法
-			    	std::cout << num.value();
+			    	std::cout << num.value() << "\n";
 			     	auto num_ref = &num;
 			    	// 對於得到結構體參考（或是指針），可利用 `operator->` 來執行其方法
-			    	std::cout << num_ref->value();
+			    	std::cout << num_ref->value() << "\n";
 			  }
 			  ```
 	- ## 枚舉（enum、std::variant）
