@@ -7,37 +7,12 @@
 			- 資料可以是其他結構體、型別。
 		- ### 如何宣告
 			- ```cpp
-			  struct Number {
-			    	
+			  struct ScientificNumber {
+			    	double 
 			  };
 			  ```
 		- ### 在 Tetris 裡的可能定義使用方法
 			- ```cpp
-			  enum Tetrominos { T, I, J, L, Z, S, O };
-			  
-			  struct Color {
-			      float r, g, b, a;
-			  };
-			  
-			  struct OccupiedBlock {
-			      enum StatusType { Falling, Finished };
-			  
-			      Color color;
-			      std::variant<Tetrominos, Color> data;
-			      StatusType type;
-			  
-			      constexpr OccupiedBlock(Tetrominos mode) : type(StatusType::Falling), data(mode) {}
-			      constexpr OccupiedBlock(Color color) : type(StatusType::Finished), data(color) {}
-			  
-			      const bool is_falling() const {
-			          return type == Falling;
-			      }
-			  
-			      const bool is_finished() const {
-			          return type == Finished;
-			      }
-			  
-			  };
 			  ```
 	- ## 枚舉（enum、std::variant）
 		- ### 定義
