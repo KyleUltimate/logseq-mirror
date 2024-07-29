@@ -28,6 +28,12 @@
 			          };
 			       	return sign * m_fraction * pow(10, m_exponent);
 			      }
+			    
+			    	// 若要傳回對於整個結構體的指標，可利用 this
+			    	*ScientificNumber doubled() {
+			    		this.fraction *= 2;
+			        	return this;
+			      }
 			  };
 			  int main() {
 			    	auto num = ScientificNumber { 0.8772, 82 };
