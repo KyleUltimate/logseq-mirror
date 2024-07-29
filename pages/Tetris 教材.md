@@ -6,7 +6,6 @@
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別。
 		- ### 如何宣告及使用
-			- `this` 指標：回傳對於這個
 			- ```cpp
 			  struct ScientificNumber {
 			    	// 在一開始定義結構體要含有什麼資料
@@ -18,6 +17,46 @@
 			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
 			    	// 若需使用者傳入的參數不同，則也可有兩個以上的初始化方法
 			    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
+			    	// 若需對使用者傳入的參數不同，則也可有兩個以上的初始化方法
+			    
+			    	// 可以在內部創建方法，可直接存取 結構體的(fields)
+			    	double value() {
+			          int sign;
+			        	if (m_sign) {
+			          	sign = 1;
+			          } else {
+			            	sign = -1;
+			          };
+			       	return sign * m_fraction * pow(10, m_exponent);
+			      }
+			    
+			    	// 若要傳回對於整個結構體的指標，可利用 `this` 指標
+			    	ScientificNumber* doubled() {
+			    		this->m_fraction *= 2;
+			        	return this;
+			      }
+			  };
+			  int main() {
+			    	auto num = ScientificNumber { 0.8772, 82 };
+			    	// 對於得到的結構體，可利用 `operator.` 來執行其方法
+			    	std::cout << num.value() << "\n";
+			     	auto num_ref = &num;
+			    	// 對於得到結構體參考（或是指針），可利用 `operator->` 來執行其方法
+			    	std::cout << num_ref->value();
+			  }
+			  ```
+			- ```cpp
+			  struct ScientificNumber {
+			    	// 在一開始定義結構體要含有什麼資料
+			    	double m_fraction;
+			    	int m_exponent;
+			    	bool m_sign;
+			    
+			    	// 如何初始化，在「參數」內傳入使用者所需的傳入的資料
+			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
+			    	// 若需使用者傳入的參數不同，則也可有兩個以上的初始化方法
+			    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
+			    	// 若需對使用者傳入的參數不同，則也可有兩個以上的初始化方法
 			    
 			    	// 可以在內部創建方法，可直接存取 結構體的(fields)
 			    	double value() {
