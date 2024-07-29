@@ -17,7 +17,11 @@
 			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
 			    	// 若需使用者傳入的參數不同，則也可有兩個以上的初始化方法
 			    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
-			    	// 若需對使用者傳入的參數不同，則也可有兩個以上的初始化方法
+			    	// 若需對使用者傳入的參數做操縱，則利用 `this` 指標做創建
+			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心處理
+			    	ScientificNumber(double number) {
+			        	
+			      }
 			    
 			    	// 可以在內部創建方法，可直接存取 結構體的(fields)
 			    	double value() {
