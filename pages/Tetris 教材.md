@@ -22,10 +22,15 @@
 			  }
 			  int main() {
 			    	// Create a vector
-			      std::vector<int> vec = {6, 7, 8, 9, 10};
+			      std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 			      std::span<int> vectorSpan(vec);
 			      std::cout << "Vector span: ";
 			      printSpan(vectorSpan);
+			    
+			    	// Create a subspan from the vector (starting at index 2, length 5)
+			      std::span<int> subSpan(vec.begin() + 2, 5); // {3, 4, 5, 6, 7}
+			      std::cout << "Sub span: ";
+			      printSpan(subSpan);
 			  
 			      // Create a std::array
 			      std::array<int, 5> stdArray = {11, 12, 13, 14, 15};
