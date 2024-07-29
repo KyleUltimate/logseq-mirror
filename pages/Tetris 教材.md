@@ -6,7 +6,7 @@
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別。
 		- ### 如何宣告及使用
-			- 使用者端如何使用請參考下方 `main` 函數的使用方式
+			- 使用者端如何使用請參考下方 `main` 函數的使用方式。
 			- #### `this`  指標
 				- 在結構體內，若需要使用對指到自己的指標，則可利用 `this` 指標，可以把她想成 `self`，指向**自己**的指標
 				- 另外，對於解決結構體內與結構體外的方法重名問題，`this` 指標也是非常重要的
@@ -61,26 +61,27 @@
 			  ```
 	- ## 枚舉（enum、std::variant）
 		- ### std::variant
-			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union
+			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union。
 				- `std::variant<int, double, string>`
 			- ```cpp
 			  ```
 		- ### enum
-			- 告訴你有哪些種類
+			- 以型別安全的方式，告訴你有哪些種類。
 			- ```cpp
 			  enum Tetrominos { T, I, J, L, Z, S, O };
 			  int get_str() {
 			    	// 利用 `::` 來存取欄位(field)
 			    	auto block = Tetrominos::T;
 			      switch (mode) {
+			          // 可利用 using 來縮短名稱
 			          using B = Tetrominos;
-			        case B::T: ;
-			        case B::I: return {0.40, 0.75, 1.00, 1.00};
-			        case B::J: return {1.00, 0.63, 0.00, 1.00};
-			        case B::L: return {0.00, 0.47, 0.95, 1.00};
-			        case B::Z: return {0.00, 0.89, 0.19, 1.00};
-			        case B::S: return {0.90, 0.16, 0.22, 1.00};
-			        case B::O: return {0.99, 0.98, 0.00, 1.00};
+			          case B::T: return {0.78, 0.48, 1.00, 1.00};
+			          case B::I: return {0.40, 0.75, 1.00, 1.00};
+			          case B::J: return {1.00, 0.63, 0.00, 1.00};
+			          case B::L: return {0.00, 0.47, 0.95, 1.00};
+			          case B::Z: return {0.00, 0.89, 0.19, 1.00};
+			          case B::S: return {0.90, 0.16, 0.22, 1.00};
+			          case B::O: return {0.99, 0.98, 0.00, 1.00};
 			      }
 			  }
 			  ```
