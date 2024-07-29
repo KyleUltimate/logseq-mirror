@@ -24,7 +24,7 @@
 				- `std::variant<int, double, string>`
 				- 可以想為型別安全版的 union
 		- ###  在 Tetris 裡的可能定義使用方法
-		- 看不懂沒有關係，不一定要這樣寫，對於小型專案而言，
+		- 看不懂沒有關係，不一定要這樣寫，對於小型專案而言，可以不必那麼在乎型別安全
 		- ```cpp
 		  // Utility to allow overloading lambdas for use in std::visit
 		  template<class... Ts>
