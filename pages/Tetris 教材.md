@@ -17,7 +17,6 @@
 		  template<class... Ts>
 		  match(Ts...) -> match<Ts...>;
 		  
-		  #define path(T, K) [&](const T& K)
 		  
 		  enum Tetrominos { T, I, J, L, Z, S, O };
 		  
@@ -26,21 +25,21 @@
 		  };
 		  
 		  auto visitor = match {
-		    path(Tetrominos, mode) -> Color {
-		      switch (mode) {
-		          using B = Tetrominos;
-		          case B::T: return {0.78, 0.48, 1.00, 1.00};
-		          case B::I: return {0.40, 0.75, 1.00, 1.00};
-		          case B::J: return {1.00, 0.63, 0.00, 1.00};
-		          case B::L: return {0.00, 0.47, 0.95, 1.00};
-		          case B::Z: return {0.00, 0.89, 0.19, 1.00};
-		          case B::S: return {0.90, 0.16, 0.22, 1.00};
-		          case B::O: return {0.99, 0.98, 0.00, 1.00};
+		      [](const Tetrominos&, mode) -> Color {
+		        switch (mode) {
+		            using B = Tetrominos;
+		            case B::T: return {0.78, 0.48, 1.00, 1.00};
+		            case B::I: return {0.40, 0.75, 1.00, 1.00};
+		            case B::J: return {1.00, 0.63, 0.00, 1.00};
+		            case B::L: return {0.00, 0.47, 0.95, 1.00};
+		            case B::Z: return {0.00, 0.89, 0.19, 1.00};
+		            case B::S: return {0.90, 0.16, 0.22, 1.00};
+		            case B::O: return {0.99, 0.98, 0.00, 1.00};
+		        }
+		      },
+		      [](const Color&, color) -> Color {
+		        return color;
 		      }
-		    },
-		    path(Color, color) -> Color {
-		      return color;
-		    }
 		  };
 		  return std::visit(visitor, block->data);
 		  ```
