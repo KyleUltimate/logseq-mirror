@@ -18,7 +18,15 @@
 			    	// 若需使用者傳入的參數不同，則也可有兩個以上的初始化方法
 			    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
 			    
-			    	double 
+			    	// 可以在內部創建方法
+			    	double value() {
+			        	int sign = if m_sign {
+			          	1
+			          } else {
+			            	-1
+			          };
+			       	return sign * m_fraction *pow(10, m_exponent)
+			      }
 			  };
 			  ```
 	- ## 枚舉（enum、std::variant）
