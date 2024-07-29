@@ -29,7 +29,7 @@
 			       	return sign * m_fraction * pow(10, m_exponent);
 			      }
 			    
-			    	// 若要傳回對於整個結構體的指標，可利用 this
+			    	// 若要傳回對於整個結構體的指標，可利用 `this` 指標
 			    	*ScientificNumber doubled() {
 			    		this.fraction *= 2;
 			        	return this;
