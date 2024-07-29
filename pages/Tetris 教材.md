@@ -35,7 +35,7 @@
 			    	std::cout << num.value() << "\n";
 			     	auto num_ref = &num;
 			    	// 對於得到結構體參考（或是指針），可利用 `operator->` 來執行其方法
-			    	std::cout << num_ref->value() << "\n";
+			    	std::cout << num_ref->value();
 			  }
 			  ```
 	- ## 枚舉（enum、std::variant）
