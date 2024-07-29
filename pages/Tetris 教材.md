@@ -8,7 +8,13 @@
 		- ### 如何宣告
 			- ```cpp
 			  struct ScientificNumber {
-			    	double 
+			    	// 在一開始定義結構體要含有什麼資料
+			    	double fraction;
+			    	int exponent;
+			    	bool sign;
+			    
+			    	// 如何初始化
+			    	ScientificNumber()
 			  };
 			  ```
 		- ### 在 Tetris 裡的可能定義使用方法
