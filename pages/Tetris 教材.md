@@ -17,8 +17,8 @@
 			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
 			    	// 若需使用者傳入的參數不同，則也可有兩個以上的初始化方法
 			    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
-			    	// 若需對使用者傳入的參數做修改，則利用 `this` pointer
-			    	ScientificNumber()
+			    
+			    	double 
 			  };
 			  ```
 	- ## 枚舉（enum、std::variant）
