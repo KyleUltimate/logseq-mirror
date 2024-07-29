@@ -5,18 +5,18 @@
 			- 儲存**資料**的結構，並且每個結構體都有對其資料運用的**方法**（method）。
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別。
-		- ### 如何宣告
+		- ### 如何宣告及使用
 			- ```cpp
 			  struct ScientificNumber {
 			    	// 在一開始定義結構體要含有什麼資料
-			    	double fraction;
-			    	int exponent;
-			    	bool sign;
+			    	double m_fraction;
+			    	int m_exponent;
+			    	bool m_sign;
 			    
 			    	// 如何初始化，在「參數」內傳入使用者所需的傳入的資料
-			    	ScientificNumber(double fract, int expo): sign(true), exponent(expo), fraction(fract) {}
+			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
 			    	// 若需使用者傳入的參數不同，則也可有兩個以上的初始化方法
-			    	ScientificNumber(double fract, int expo, bool mode): sign(mode), exponent(expo), fraction(fract) {}
+			    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
 			    	// 若需對使用者傳入的參數做修改，則利用 `this` pointer
 			    	ScientificNumber()
 			  };
