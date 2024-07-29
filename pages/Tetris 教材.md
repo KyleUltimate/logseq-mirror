@@ -9,7 +9,7 @@
 			- #### `this`  指標
 				- 在結構體內，若需要使用對指到自己的指標，則可利用 `this` 指標，可以把她想成 `self`，指向**自己**的指標
 				- 另外，對於解決結構體內與結構體外的方法重名問題，`this` 指標也是非常重要的
-				- 利用 `operator->` 來得到內部
+				- 利用 `operator->` 來得到內部方法及資料欄位，而非普通的 `operator.`
 			- ```cpp
 			  struct ScientificNumber {
 			    	// 在一開始定義結構體要含有什麼資料
@@ -51,7 +51,7 @@
 			  };
 			  int main() {
 			    	auto num = ScientificNumber { 0.8772, 82 };
-			    	// 對於得到的結構體，可利用 `operator.` 來執行其方法
+			    	// 對於得到的結構體，可利用 `operator.` 來執行其方法，或得到其欄位
 			    	std::cout << num.value() << "\n";
 			     	auto num_ref = &num;
 			    	// 對於得到結構體參考（或是指針），可利用 `operator->` 來執行其方法
