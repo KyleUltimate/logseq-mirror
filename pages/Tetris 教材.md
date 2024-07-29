@@ -19,6 +19,12 @@
 		  
 		  #define path(T, K) [&](const T& K)
 		  
+		  enum Tetrominos { T, I, J, L, Z, S, O };
+		  
+		  struct Color {
+		      float r, g, b, a;
+		  };
+		  
 		  auto visitor = match {
 		    path(Tetrominos, mode) -> Color {
 		      switch (mode) {
