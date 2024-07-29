@@ -1,7 +1,9 @@
 # 俄羅斯方塊（C++）
 - # C++ 語法補充
 	- ## 結構體(struct)
-		- ### Constructor(member initializer list)
+		- ### 定義
+			- 儲存資料的結構
+				-
 	- ## 枚舉（enum class、std::variant）
 		- ### 定義
 			- enum -> 告訴你有哪些種類
@@ -25,6 +27,8 @@
 		      float r, g, b, a;
 		  };
 		  
+		  std::variant<Tetrominos, Color> data;
+		  
 		  auto visitor = match {
 		    	// a lambada that has a reference to the type of the variant
 		      [](const Tetrominos& mode) -> Color {
@@ -43,7 +47,7 @@
 		        return color;
 		      }
 		  };
-		  return std::visit(visitor, block->data);
+		  return std::visit(visitor, data);
 		  ```
 	- ## std::span
 		- ### 定義
