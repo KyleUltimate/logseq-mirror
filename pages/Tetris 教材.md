@@ -42,12 +42,14 @@
 		- ### std::variant
 			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union
 				- `std::variant<int, double, string>`
+			- ```cpp
+			  ```
 		- ### enum
 			- 告訴你有哪些種類
 			- ```cpp
 			  enum Tetrominos { T, I, J, L, Z, S, O };
 			  int main() {
-			    	// 利用 `::` 來存取
+			    	// 利用 `::` 來存取欄位(field)
 			    	auto block = Tetrominos::T;
 			  }
 			  ```
