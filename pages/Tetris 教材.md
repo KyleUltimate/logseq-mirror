@@ -34,9 +34,9 @@
 			        	return -1;
 			      }
 			    
-			    	// 若需要使用此結構體的其他方法，則可利用 `this` 指標索取
+			    	// 如果遇到名稱衝突，則可利用使用 `this->signum()` 做索取
 			    	double value() {
-			          int sign = this->signum();
+			          int sign = signum();
 			       	return sign * m_fraction * pow(10, m_exponent);
 			      }
 			    
