@@ -52,7 +52,7 @@
 			  int main() {
 			    	auto num = ScientificNumber { 0.8772, 82 };
 			    	// 對於得到的結構體，可利用 `operator.` 來執行其方法，或得到其欄位
-			    	std::cout << num.value() << "\n";
+			    	std::cout << num.m_sign << " " << num.value() <<  "\n";
 			     	auto num_ref = &num;
 			    	// 對於得到結構體參考（或是指針），可利用 `operator->` 來執行其方法
 			    	std::cout << num_ref->value();
