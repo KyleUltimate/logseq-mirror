@@ -9,7 +9,6 @@
 				- `std::variant<int, double, string>`
 				- 可以想為型別安全版的 union
 		- ###  用法
-		-
 		- ```cpp
 		  // Utility to allow overloading lambdas for use in std::visit
 		  template<class... Ts>
@@ -27,6 +26,7 @@
 		  };
 		  
 		  auto visitor = match {
+		    	// a lambada that has a reference to the type of the variant
 		      [](const Tetrominos& mode) -> Color {
 		        switch (mode) {
 		            using B = Tetrominos;
