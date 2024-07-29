@@ -39,11 +39,13 @@
 			  }
 			  ```
 	- ## 枚舉（enum、std::variant）
-		- ### 定義
-			- enum -> 告訴你有哪些種類
-			- std::variant -> 可以擁有含有各類型別的型別
+		- ### std::variant
+			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union
 				- `std::variant<int, double, string>`
-				- 可以想為型別安全版的 union
+		- ### enum
+			- 告訴你有哪些種類
+			- ```cpp
+			  ```
 		- ###  在 Tetris 裡的可能定義使用方法
 		- 看不懂沒有關係，不一定要這樣寫，對於小型專案而言，可以不必那麼在乎型別安全
 		- ```cpp
