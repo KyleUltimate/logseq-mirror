@@ -20,11 +20,11 @@
 			    	// 若需對使用者傳入的參數做操縱，則利用 `this` 指標做創建
 			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心處理
 			    	ScientificNumber(double number) {
-			        	int exponent = int(log10(number));
+			        	int exponent = std::ceil(log10(number));
 			          double fraction = number/(pow(10,exponent));
-			          this.m_fraction = fraction;
-			        	this.m_exponent = exponent;
-			        	this.m_sign = true;
+			          this->m_fraction = fraction;
+			        	this->m_exponent = exponent;
+			        	this->m_sign = true;
 			      }
 			    
 			    	// 可以在內部創建方法，可直接存取 結構體的(fields)
