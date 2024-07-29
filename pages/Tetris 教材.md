@@ -18,7 +18,7 @@
 			    	// 若需使用者傳入的參數不同，則也可有兩個以上的初始化方法
 			    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
 			    
-			    	// 可以在內部創建方法
+			    	// 可以在內部創建方法，可直接存取 結構體的(fields)
 			    	double value() {
 			        	int sign = if m_sign {
 			          	1
@@ -28,6 +28,11 @@
 			       	return sign * m_fraction *pow(10, m_exponent)
 			      }
 			  };
+			  int main() {
+			    	auto num = ScientificNumber { 0.8772, 82 };
+			    	// 對於得到的結構體，可直接
+			    	std::cout << num.value();
+			  }
 			  ```
 	- ## 枚舉（enum、std::variant）
 		- ### 定義
