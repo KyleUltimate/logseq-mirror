@@ -17,9 +17,6 @@
 			    	ScientificNumber(double fract, int expo): sign(true), exponent(expo), fraction(fract) {}
 			  };
 			  ```
-		- ### 在 Tetris 裡的可能定義使用方法
-			- ```cpp
-			  ```
 	- ## 枚舉（enum、std::variant）
 		- ### 定義
 			- enum -> 告訴你有哪些種類
@@ -27,6 +24,7 @@
 				- `std::variant<int, double, string>`
 				- 可以想為型別安全版的 union
 		- ###  在 Tetris 裡的可能定義使用方法
+		- 看不懂沒有關係，不一定要這樣寫，對於小型專案而言，
 		- ```cpp
 		  // Utility to allow overloading lambdas for use in std::visit
 		  template<class... Ts>
