@@ -25,7 +25,7 @@
 		  };
 		  
 		  auto visitor = match {
-		      [](const Tetrominos&, mode) -> Color {
+		      [](const Tetrominos& mode) -> Color {
 		        switch (mode) {
 		            using B = Tetrominos;
 		            case B::T: return {0.78, 0.48, 1.00, 1.00};
@@ -37,7 +37,7 @@
 		            case B::O: return {0.99, 0.98, 0.00, 1.00};
 		        }
 		      },
-		      [](const Color&, color) -> Color {
+		      [](const Color& color) -> Color {
 		        return color;
 		      }
 		  };
