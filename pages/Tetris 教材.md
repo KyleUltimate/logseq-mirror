@@ -7,6 +7,7 @@
 		- std::variant -> 可以擁有含有型別的型別
 			- `std::variant<int, double, string>`
 			- 可以想為型別安全版的 union
+		- ###  用法
 	- ## std::span
 		- ### 定義
 			- 不可寫的連續的一塊記憶體
