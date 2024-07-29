@@ -21,7 +21,10 @@
 			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心處理
 			    	ScientificNumber(double number) {
 			        	int exponent = int(log10(number));
-			          double fraction = number/exponent 
+			          double fraction = number/(pow(10,exponent));
+			          this.m_fraction = fraction;
+			        	this.m_exponent = exponent;
+			        	this.m_sign = true;
 			      }
 			    
 			    	// 可以在內部創建方法，可直接存取 結構體的(fields)
