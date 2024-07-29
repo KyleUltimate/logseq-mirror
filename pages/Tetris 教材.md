@@ -4,8 +4,9 @@
 		- ### Constructor(member initializer list)
 	- ## 枚舉（ enum class、std::variant）
 		- enum -> 型別安全的方法來告訴你有哪些種類
-		- std::variant -> 擁有不同型別的型別
-			- 例：
+		- std::variant -> 可以擁有含有型別的型別
+			- `std::variant<int, double, string>`
+			- 可以想為安全
 	- ## std::span
 - # 俄羅斯方塊術語與規則介紹
 	- ## ARR
