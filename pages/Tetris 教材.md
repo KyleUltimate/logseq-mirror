@@ -2,9 +2,11 @@
 - # C++ 語法補充
 	- ## 結構體(struct)
 		- ### 定義
-			- 儲存資料的結構
+			- 儲存資料的結構，並且每個
 			- 資料可以是其他結構體、型別
 		- ### 初始化
+			- 傳統方式
+			  logseq.order-list-type:: number
 			- logseq.order-list-type:: number
 	- ## 枚舉（enum、std::variant）
 		- ### 定義
