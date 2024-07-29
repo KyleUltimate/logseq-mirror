@@ -13,8 +13,8 @@
 			    	int exponent;
 			    	bool sign;
 			    
-			    	// 如何初始化
-			    	ScientificNumber()
+			    	// 如何初始化，在「參數」內傳入使用者所需的傳入的資料
+			    	ScientificNumber(double fract, int expo): sign(true), exponent(expo), fraction(fract) {}
 			  };
 			  ```
 		- ### 在 Tetris 裡的可能定義使用方法
