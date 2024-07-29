@@ -15,6 +15,9 @@
 			    
 			    	// 如何初始化，在「參數」內傳入使用者所需的傳入的資料
 			    	ScientificNumber(double fract, int expo): sign(true), exponent(expo), fraction(fract) {}
+			    	// 若需使用者傳入的參數不同，則也可有兩個以上的初始化方法
+			    	ScientificNumber(double fract, int expo, bool mode): sign(mode), exponent(expo), fraction(fract) {}
+			    	// 若需對使用者傳入的參數做修改，則利用 `this` pointer
 			  };
 			  ```
 	- ## 枚舉（enum、std::variant）
