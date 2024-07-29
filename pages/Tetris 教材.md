@@ -27,7 +27,7 @@
 			      std::cout << "Vector span: ";
 			      printSpan(vec);
 			    
-			    	// Create a subspan from the vector (starting at index 2, length 5)
+			    	// Create a subspan from the vector (starting at index 2, length 5), does not reallocate array
 			      std::span<int> subSpan(vec.begin() + 2, 5); // {3, 4, 5, 6, 7}
 			      std::cout << "Sub span: ";
 			      printSpan(subSpan);
