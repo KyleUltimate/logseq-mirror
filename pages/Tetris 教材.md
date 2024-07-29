@@ -29,13 +29,14 @@
 			      }
 			    
 			    	// 可以在內部創建方法，可直接存取結構體的欄位(fields)
+			    	int signum() {
+			        	if (m_sign) return 1;
+			        	return -1;
+			      }
+			    
+			    	// 
 			    	double value() {
-			          int sign;
-			        	if (m_sign) {
-			          	sign = 1;
-			          } else {
-			            	sign = -1;
-			          };
+			          int sign = this->signum;
 			       	return sign * m_fraction * pow(10, m_exponent);
 			      }
 			    
