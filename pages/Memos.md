@@ -275,3 +275,7 @@
 - [[May 27th, 2024]] 08:05 #memos
   memo-id:: 126
 	- https://www.pinterest.com/pin/eldente-smart-home-app--679058450084597957/
+- [[Jul 15th, 2024]] 22:32 #memos
+  memo-id:: 128
+	- https://vocus.cc/article/642789e7fd897800013d68b8
+	  https://medium.com/uxeastmeetswest/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88-atomic-design%E7%B0%A1%E4%BB%8B%E5%8F%8A%E5%B7%A5%E4%BD%9C%E5%AF%A6%E4%BE%8B-42e666358d52
