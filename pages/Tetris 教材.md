@@ -1,8 +1,7 @@
 # 俄羅斯方塊（C++）
 - # C++ 語法補充
-	- ## 經典二維陣列考題
 	- ## 結構體(struct)
-		- Constructor(member initializer list)
+		- ### Constructor(member initializer list)
 	- ## 枚舉（ enum class、std::variant）
 		- enum -> 型別安全的方法來告訴你有哪些種類
 		- std::variant -> 型別
