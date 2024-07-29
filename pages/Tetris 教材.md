@@ -3,8 +3,10 @@
 	- ## 結構體(struct)
 		- ### 定義
 			- 儲存資料的結構
-				-
-	- ## 枚舉（enum class、std::variant）
+			- 資料可以是其他結構體、型別
+		- ### 初始化
+			- logseq.order-list-type:: number
+	- ## 枚舉（enum、std::variant）
 		- ### 定義
 			- enum -> 告訴你有哪些種類
 			- std::variant -> 可以擁有含有各類型別的型別
