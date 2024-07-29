@@ -5,8 +5,35 @@
 			- 儲存**資料**的結構，並且每個結構體都有對其資料運用的**方法**（method）
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別
-		- ### 建構子（初始化）
-			- ``````
+		- ### 使用方法
+			- #### 何謂建構子
+			- ```cpp
+			  enum Tetrominos { T, I, J, L, Z, S, O };
+			  
+			  struct Color {
+			      float r, g, b, a;
+			  };
+			  
+			  struct OccupiedBlock {
+			      enum StatusType { Falling, Finished };
+			  
+			      Color color;
+			      std::variant<Tetrominos, Color> data;
+			      StatusType type;
+			  
+			      constexpr OccupiedBlock(Tetrominos mode) : type(StatusType::Falling), data(mode) {}
+			      constexpr OccupiedBlock(Color color) : type(StatusType::Finished), data(color) {}
+			  
+			      const bool is_falling() const {
+			          return type == Falling;
+			      }
+			  
+			      const bool is_finished() const {
+			          return type == Finished;
+			      }
+			  
+			  };
+			  ```
 	- ## 枚舉（enum、std::variant）
 		- ### 定義
 			- enum -> 告訴你有哪些種類
