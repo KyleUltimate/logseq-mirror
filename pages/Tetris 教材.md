@@ -52,13 +52,17 @@
 			  #include <iostream>
 			  
 			  // 以 `std::optional<type>` 來代表
-			  std::optional<int> fetch_bank_account(name: std::string) {
-			    	switch name {
-			        	case "kyle": return 334,
-			        	case "kevin": return 221,
-			        	case "amy": return 209,
-			        	default: return std::nullopt
+			  std::optional<int> fetch_bank_account(std::string name) {
+			      if (name == "kyle") {
+			          return 334;
 			      }
+			      if (name == "kevin") {
+			          return 221;
+			      }
+			      if (name == "amy") {
+			          return 209;
+			      }
+			      return std::nullopt;
 			  }
 			  
 			  int main() {
