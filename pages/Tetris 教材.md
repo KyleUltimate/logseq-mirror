@@ -186,11 +186,6 @@
 			- **宣告及使用**：通過構造函數初始化，並使用成員方法來操作數據。
 			- **`this` 指標**：用於指向當前對象，解決方法名稱衝突，並在內部方法中訪問成員數據。
 	- ## 枚舉（enum、std::variant）
-		- ### std::variant
-			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union。
-				- `std::variant<int, double, string>`
-			- ```cpp
-			  ```
 		- ### enum
 			- 以型別安全的方式，告訴你有哪些種類。
 			- ```cpp
@@ -212,11 +207,12 @@
 			      }
 			  }
 			  ```
-		- ###  與 struct 一起用的方式
-			- 看不懂沒有關係，對於小型專案而言，可以先不必那麼在乎型別安全，等未來大點的專案在做考慮。
+		- ### std::variant
+			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union。
+				- `std::variant<int, double, string>`
 			- ```cpp
-			  // Utility to allow overloading lambdas for use in std::visit
-			  // 請忽略這些 template 的東西
+			  #include <variant>
+			  
 			  template<class... Ts>
 			  struct match : Ts... {
 			      using Ts::operator()...;
@@ -231,27 +227,28 @@
 			      float r, g, b, a;
 			  };
 			  
-			  std::variant<Tetrominos, Color> data;
 			  
-			  auto visitor = match {
-			    	// a lambada that has a reference to the type of the variant
-			      [](const Tetrominos& mode) -> Color {
-			        switch (mode) {
-			            using B = Tetrominos;
-			            case B::T: return {0.78, 0.48, 1.00, 1.00};
-			            case B::I: return {0.40, 0.75, 1.00, 1.00};
-			            case B::J: return {1.00, 0.63, 0.00, 1.00};
-			            case B::L: return {0.00, 0.47, 0.95, 1.00};
-			            case B::Z: return {0.00, 0.89, 0.19, 1.00};
-			            case B::S: return {0.90, 0.16, 0.22, 1.00};
-			            case B::O: return {0.99, 0.98, 0.00, 1.00};
-			        }
-			      },
-			      [](const Color& color) -> Color {
-			        return color;
-			      }
-			  };
-			  return std::visit(visitor, data);
+			  Color get_color(std::variant<Tetrominos, Color> data) {
+			      auto visitor = match {
+			          // a lambada that has a reference to the type of the variant
+			          [](const Tetrominos& block) -> Color {
+			            switch (block) {
+			                using B = Tetrominos;
+			                case B::T: return {0.78, 0.48, 1.00, 1.00};
+			                case B::I: return {0.40, 0.75, 1.00, 1.00};
+			                case B::J: return {1.00, 0.63, 0.00, 1.00};
+			                case B::L: return {0.00, 0.47, 0.95, 1.00};
+			                case B::Z: return {0.00, 0.89, 0.19, 1.00};
+			                case B::S: return {0.90, 0.16, 0.22, 1.00};
+			                case B::O: return {0.99, 0.98, 0.00, 1.00};
+			            }
+			          },
+			          [](const Color& color) -> Color {
+			            return color;
+			          }
+			      };
+			      return std::visit(visitor, data);
+			  }
 			  ```
 - # 俄羅斯方塊術語與規則介紹
 	- ## ARR
