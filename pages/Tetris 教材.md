@@ -108,16 +108,12 @@
 			- **宣告及使用**：通過構造函數初始化，並使用成員方法來操作數據。
 			- **`this` 指標**：用於指向當前對象，解決方法名稱衝突，並在內部方法中訪問成員數據。
 	- ## 枚舉（enum、std::variant）
-	  collapsed:: true
 		- ### std::variant
-		  collapsed:: true
 			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union。
-			  collapsed:: true
 				- `std::variant<int, double, string>`
 			- ```cpp
 			  ```
 		- ### enum
-		  collapsed:: true
 			- 以型別安全的方式，告訴你有哪些種類。
 			- ```cpp
 			  enum Tetrominos { T, I, J, L, Z, S, O };
@@ -139,7 +135,6 @@
 			  }
 			  ```
 		- ###  與 struct 一起用的方式
-		  collapsed:: true
 			- 看不懂沒有關係，對於小型專案而言，可以先不必那麼在乎型別安全，等未來大點的專案在做考慮。
 			- ```cpp
 			  // Utility to allow overloading lambdas for use in std::visit
