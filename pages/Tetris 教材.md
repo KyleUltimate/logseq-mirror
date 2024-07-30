@@ -1,9 +1,11 @@
 # C++ 語法補充
 	- ## std::optional
 		- ### 定義
-			- 一個指兵，代表所其指到一個值可能是存在或不存在的
+			- 一個指標，代表所其指到一個值可能是存在或不存在的
 		- ### 用法
 			- ```cpp
+			  // 以
+			  std::optional<std::string> fetch_bank_account_id(name: std::string)
 			  ```
 	- ## 結構體(struct)
 	  collapsed:: true
