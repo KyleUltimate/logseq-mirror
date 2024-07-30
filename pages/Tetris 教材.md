@@ -1,13 +1,10 @@
 # C++ 語法補充
 	- ## lambda
 	- ## std::optional
-	  collapsed:: true
 		- ### 定義
-		  collapsed:: true
 			- 一個指標，代表所其指到一個值可能是存在或不存在的。
 			- 在標頭擋裡 `optional`
 		- ### 用法
-		  collapsed:: true
 			- 若為無，將其值設為 `std::nullopt`
 			- 以 `.has_value()` 確認其值是否存在
 			- 以 `.value()` 得到其值
@@ -38,7 +35,43 @@
 			    	if (auto val = bank_account) {
 			        	std::cout << *val;
 			      }
-			    	
+			  }
+			  ```
+	- ## std::span
+		- ### 定義
+			- 只讀的連續的一塊記憶體。
+			- 不會重新複製資料，可以想成是對原本的資料的參考而已。
+		- ### 優勢及適用時機
+			- 適用時機：函式參數。
+			- #### 優勢
+				- 能使使用者傳入各式資料型態。
+				- 對於創造 subspan 而言極為輕鬆且有效率，不必宣告多餘的空間（與 `std::vector<int> subvec(vec.begin() + 2, 5)`相異）
+				- 不必利用雙指標（亦或者雙迭代器）達成。
+		- ### 用法
+			- ```cpp
+			  #include <span>
+			  #include <iostream>
+			  
+			  void printSpan(std::span<int> span) {
+			      for (const auto& elem : span) {
+			          std::cout << elem << " ";
+			      }
+			      std::cout << "\n";
+			  }
+			  int main() {
+			      std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+			      std::cout << "Vector span: ";
+			      printSpan(vec);
+			     
+			    	// 創建一個自 vec 的 subspan (索引 2, 長度 5), 不會重新複製陣列
+			      std::span<int> subSpan(vec.begin() + 2, 5); // {3, 4, 5, 6, 7}
+			      std::cout << "Sub span: ";
+			      printSpan(subSpan);
+			  
+			      // Create a std::array
+			      std::array<int, 5> stdArray = {11, 12, 13, 14, 15};
+			      std::cout << "std::array span: ";
+			      printSpan(stdArray);
 			  }
 			  ```
 	- ## 結構體(struct)
@@ -174,45 +207,6 @@
 			      }
 			  };
 			  return std::visit(visitor, data);
-			  ```
-	- ## std::span
-	  collapsed:: true
-		- ### 定義
-		  collapsed:: true
-			- 只讀的連續的一塊記憶體。
-			- 不會重新複製資料，可以想成是對原本的資料的參考而已。
-		- ### 優勢及適用時機
-		  collapsed:: true
-			- 適用時機：函式參數。
-			- #### 優勢
-			  collapsed:: true
-				- 能使使用者傳入各式資料型態。
-				- 對於創造 subspan 而言極為輕鬆且有效率，不必宣告多餘的空間（與 `std::vector<int> subvec(vec.begin() + 2, 5)`相異）
-				- 不必利用雙指標（亦或者雙迭代器）達成。
-		- ### 用法
-		  collapsed:: true
-			- ```cpp
-			  void printSpan(std::span<int> span) {
-			      for (const auto& elem : span) {
-			          std::cout << elem << " ";
-			      }
-			      std::cout << "\n";
-			  }
-			  int main() {
-			      std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-			      std::cout << "Vector span: ";
-			      printSpan(vec);
-			     
-			    	// 創建一個自 vec 的 subspan (索引 2, 長度 5), 不會重新複製陣列
-			      std::span<int> subSpan(vec.begin() + 2, 5); // {3, 4, 5, 6, 7}
-			      std::cout << "Sub span: ";
-			      printSpan(subSpan);
-			  
-			      // Create a std::array
-			      std::array<int, 5> stdArray = {11, 12, 13, 14, 15};
-			      std::cout << "std::array span: ";
-			      printSpan(stdArray);
-			  }
 			  ```
 - # 俄羅斯方塊術語與規則介紹
 	- ## ARR
