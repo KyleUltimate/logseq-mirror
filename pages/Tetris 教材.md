@@ -66,23 +66,23 @@
 			  }
 			  
 			  int main() {
-			    	std::optional<int> bank_account = fetch_bank_account("kyle");
+			    	std::optional<int> kyle_account = fetch_bank_account("kyle");
 			    	
 			    	// 第一種存取方法，不倚賴自動型別轉換
-			    	if (bank_account.has_value()) {
-			        	std::cout << bank_account.value();
+			    	if (kyle_account.has_value()) {
+			        	std::cout << kyle_account.value();
 			      } else {
-			        	std::cout << "You don't have a bank account!"
+			        	std::cout << "You don't have a bank account!";
 			      }
 			    
-			    	std::optional<int> bank_account = fetch_bank_account("dave");
+			    	std::optional<int> dave_account = fetch_bank_account("dave");
 			    
 			    	// 第二種，較方便使用，要注意，因為拿回來的是指標，所以必須利用 `operator*` 來執行解參考
 			    	// 或是 `operator->` 來存取 struct 的方法(method)與欄位(field)
-			    	if (auto val = bank_account) {
+			    	if (auto val = dave_account) {
 			        	std::cout << *val;
 			      } else {
-			        	std::cout << "You don't have a bank account!"
+			        	std::cout << "You don't have a bank account!";
 			      }
 			  }
 			  ```
