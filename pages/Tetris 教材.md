@@ -18,7 +18,7 @@
 			  }
 			  
 			  int main() {
-			    	std::optional<int> bank_account = fetch_bank_account("hello!");
+			    	std::optional<int> bank_account = fetch_bank_account("kyle");
 			    	
 			    	// 第一種存取方法，較推薦，不倚賴自動型別轉換
 			    	if (bank_account.has_value()) {
