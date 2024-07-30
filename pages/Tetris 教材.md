@@ -28,12 +28,16 @@
 			    	// 第一種存取方法，不倚賴自動型別轉換
 			    	if (bank_account.has_value()) {
 			        	std::cout << bank_account.value();
+			      } else {
+			        	std::cout << "You don't have a bank account!"
 			      }
 			    
 			    	// 第二種，較方便使用，要注意，因為拿回來的是指標，所以必須利用 `operator*` 來執行解參考
 			    	// 或是 `operator->` 來存取 struct 的方法(method)與欄位(field)
 			    	if (auto val = bank_account) {
 			        	std::cout << *val;
+			      } else {
+			        	std::cout << "You don't have a bank account!"
 			      }
 			  }
 			  ```
@@ -43,7 +47,41 @@
 			- 不會重新**複製**資料，可以想成是對原本的資料的**參考**而已。
 			- 在**標頭擋**裡 `span` ，需要 **C++ 20** 標準
 		- ### 優勢及適用時機
-			- 適用時機：**函式參數**。
+			- ```cpp
+			  #include <optional>
+			  #include <iostream>
+			  
+			  // 以 `std::optional<type>` 來代表
+			  std::optional<int> fetch_bank_account(name: std::string) {
+			    	switch name {
+			        	case "kyle": return 334,
+			        	case "kevin": return 221,
+			        	case "amy": return 209,
+			        	default: return std::nullopt
+			      }
+			  }
+			  
+			  int main() {
+			    	std::optional<int> bank_account = fetch_bank_account("kyle");
+			    	
+			    	// 第一種存取方法，不倚賴自動型別轉換
+			    	if (bank_account.has_value()) {
+			        	std::cout << bank_account.value();
+			      } else {
+			        	std::cout << "You don't have a bank account!"
+			      }
+			    
+			    	std::optional<int> bank_account = fetch_bank_account("dave");
+			    
+			    	// 第二種，較方便使用，要注意，因為拿回來的是指標，所以必須利用 `operator*` 來執行解參考
+			    	// 或是 `operator->` 來存取 struct 的方法(method)與欄位(field)
+			    	if (auto val = bank_account) {
+			        	std::cout << *val;
+			      } else {
+			        	std::cout << "You don't have a bank account!"
+			      }
+			  }
+			  ```
 			- #### 優勢
 				- 能使使用者傳入**各式資料型態**。
 				- 對於創造 subspan 而言極為輕鬆且**有效率**，不必宣告多餘的空間（與 `std::vector<int> subvec(vec.begin() + 2, 5)`相異）
