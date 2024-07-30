@@ -182,20 +182,19 @@
 			      std::cout << "\n";
 			  }
 			  int main() {
-			    	// Create a vector
 			      std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 			      std::cout << "Vector span: ";
 			      printSpan(vec);
 			    
-			    	// Create a subspan from the vector (starting at index 2, length 5), does not reallocate array
-			      std::span<int> subSpan(vec.begin() + 2, 5); // {3, 4, 5, 6, 7}
-			      std::cout << "Sub span: ";
-			      printSpan(subSpan);
-			  
 			      // Create a std::array
 			      std::array<int, 5> stdArray = {11, 12, 13, 14, 15};
 			      std::cout << "std::array span: ";
 			      printSpan(stdArray);
+			    	// 創建一個自 vec 的 subspan (索引 2, 長度 5), 不會重新複製陣列
+			      std::span<int> subSpan(vec.begin() + 2, 5); // {3, 4, 5, 6, 7}
+			      std::cout << "Sub span: ";
+			      printSpan(subSpan);
+			  
 			  }
 			  ```
 - # 俄羅斯方塊術語與規則介紹
