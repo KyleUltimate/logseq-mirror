@@ -8,6 +8,9 @@
 			- 以 `.has_value()` 確認其值是否存在
 			- 以 `.value()` 得到其值
 			- ```cpp
+			  #include <optional>
+			  #include <iostream>
+			  
 			  // 以 `std::optional<type>` 來代表
 			  std::optional<int> fetch_bank_account(name: std::string) {
 			    	switch name {
@@ -185,16 +188,16 @@
 			      std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 			      std::cout << "Vector span: ";
 			      printSpan(vec);
-			    
-			      // Create a std::array
-			      std::array<int, 5> stdArray = {11, 12, 13, 14, 15};
-			      std::cout << "std::array span: ";
-			      printSpan(stdArray);
+			     
 			    	// 創建一個自 vec 的 subspan (索引 2, 長度 5), 不會重新複製陣列
 			      std::span<int> subSpan(vec.begin() + 2, 5); // {3, 4, 5, 6, 7}
 			      std::cout << "Sub span: ";
 			      printSpan(subSpan);
 			  
+			      // Create a std::array
+			      std::array<int, 5> stdArray = {11, 12, 13, 14, 15};
+			      std::cout << "std::array span: ";
+			      printSpan(stdArray);
 			  }
 			  ```
 - # 俄羅斯方塊術語與規則介紹
