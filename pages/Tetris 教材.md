@@ -1,11 +1,14 @@
 # C++ 語法補充
 	- ## std::optional
+	  collapsed:: true
 		- ### 定義
+		  collapsed:: true
 			- 一個指標，代表所其指到一個值可能是存在或不存在的
+		- ### 用法
+		  collapsed:: true
 			- 若為無，將其值設為 `std::nullopt`
 			- 以 `.has_value()` 確認其值是否存在
 			- 以 `.value()` 得到其值
-		- ### 用法
 			- ```cpp
 			  // 以 `std::optional<type>` 來代表
 			  std::optional<int> fetch_bank_account(name: std::string) {
@@ -20,14 +23,15 @@
 			  int main() {
 			    	std::optional<int> bank_account = fetch_bank_account("kyle");
 			    	
-			    	// 第一種存取方法，較推薦，不倚賴自動型別轉換
+			    	// 第一種存取方法，不倚賴自動型別轉換
 			    	if (bank_account.has_value()) {
 			        	std::cout << bank_account.value();
 			      }
 			    
-			    	// 第二種，較方便使用
+			    	// 第二種，較方便使用，要注意，因為拿回來的是指標，所以必須利用 `operator*` 來執行解參考
+			    	// 或是 `operator->` 來存取 struct 的方法(method)與欄位(field)
 			    	if (auto val = bank_account) {
-			        	std::cout << val;
+			        	std::cout << *val;
 			      }
 			    	
 			  }
