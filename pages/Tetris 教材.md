@@ -16,6 +16,21 @@
 			        	default: return std::nullopt
 			      }
 			  }
+			  
+			  int main() {
+			    	std::optional<int> bank_account = fetch_bank_account("hello!");
+			    	
+			    	// 第一種存取方法，較推薦，不倚賴自動型別轉換
+			    	if (bank_account.has_value()) {
+			        	std::cout << bank_account.value();
+			      }
+			    
+			    	// 第二種，較方便使用
+			    	if (auto val = bank_account) {
+			        	std::cout << val;
+			      }
+			    	
+			  }
 			  ```
 	- ## 結構體(struct)
 	  collapsed:: true
