@@ -2,14 +2,17 @@
 	- ## std::optional
 		- ### 定義
 			- 一個指標，代表所其指到一個值可能是存在或不存在的
+			- 若為無，將其值設為 `std::nullopt`
 		- ### 用法
 			- ```cpp
 			  // 以 `std::optional<type>` 來代表
-			  std::optional<std::string> fetch_bank_account_id(name: std::string) {
+			  std::optional<int> fetch_bank_account(name: std::string) {
 			    	switch name {
-			        	case "kyle": return 
+			        	case "kyle": return 334,
+			        	case "kevin": return 221,
+			        	case "amy": return 209,
+			        	default: return std::nullopt
 			      }
-			    	if (name == "app")
 			  }
 			  ```
 	- ## 結構體(struct)
