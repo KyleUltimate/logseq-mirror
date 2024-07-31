@@ -14,31 +14,37 @@
 			  #include <iostream>
 			  
 			  // 以 `std::optional<type>` 來代表
-			  std::optional<int> fetch_bank_account(name: std::string) {
-			    	switch name {
-			        	case "kyle": return 334,
-			        	case "kevin": return 221,
-			        	case "amy": return 209,
-			        	default: return std::nullopt
+			  std::optional<int> fetch_bank_account(std::string name) {
+			      if (name == "kyle") {
+			          return 334;
 			      }
+			      if (name == "kevin") {
+			          return 221;
+			      }
+			      if (name == "amy") {
+			          return 209;
+			      }
+			      return std::nullopt;
 			  }
 			  
 			  int main() {
-			    	std::optional<int> bank_account = fetch_bank_account("kyle");
+			    	std::optional<int> kyle_account = fetch_bank_account("kyle");
 			    	
 			    	// 第一種存取方法，不倚賴自動型別轉換
-			    	if (bank_account.has_value()) {
-			        	std::cout << bank_account.value();
+			    	if (kyle_account.has_value()) {
+			        	std::cout << kyle_account.value();
 			      } else {
-			        	std::cout << "You don't have a bank account!"
+			        	std::cout << "You don't have a bank account!";
 			      }
+			    
+			    	std::optional<int> dave_account = fetch_bank_account("dave");
 			    
 			    	// 第二種，較方便使用，要注意，因為拿回來的是指標，所以必須利用 `operator*` 來執行解參考
 			    	// 或是 `operator->` 來存取 struct 的方法(method)與欄位(field)
-			    	if (auto val = bank_account) {
+			    	if (auto val = dave_account) {
 			        	std::cout << *val;
 			      } else {
-			        	std::cout << "You don't have a bank account!"
+			        	std::cout << "You don't have a bank account!";
 			      }
 			  }
 			  ```
@@ -47,13 +53,10 @@
 			- **只讀**的連續的一塊記憶體。
 			- 不會重新**複製**資料，可以想成是對原本的資料的**參考**而已。
 			- 在**標頭擋**裡 `span` ，需要 **C++ 20** 標準
-		- ### 優勢及適用時機
-			- ```cpp
-			  ```
-			- #### 優勢
-				- 能使使用者傳入**各式資料型態**。
-				- 對於創造 subspan 而言極為輕鬆且**有效率**，不必宣告多餘的空間（與 `std::vector<int> subvec(vec.begin() + 2, 5)`相異）
-				- 不必利用雙指標（亦或者雙迭代器）達成。
+		- ### 優勢
+			- 能使使用者傳入**各式資料型態**。
+			- 對於創造 subspan 而言極為輕鬆且**有效率**，不必宣告多餘的空間（與 `std::vector<int> subvec(vec.begin() + 2, 5)`相異）
+			- 不必利用雙指標（亦或者雙迭代器）達成。
 		- ### 用法
 			- ```cpp
 			  #include <span>
