@@ -1,10 +1,14 @@
 # C++ 語法補充
 	- ## lambda
+	- ## [[指標與參考]]
 	- ## std::optional
+	  collapsed:: true
 		- ### 定義
+		  collapsed:: true
 			- 一個**指標，**代表所其指到一個值可能是**存在或不存在**的。
 			- 在**標頭擋**裡 `optional`
 		- ### 用法
+		  collapsed:: true
 			- 若為無，將其值設為 `std::nullopt`
 			- 以 `.has_value()` 確認其值是否存在
 			- 以 `.value()` 得到其值
@@ -42,11 +46,14 @@
 			  }
 			  ```
 	- ## std::span
+	  collapsed:: true
 		- ### 定義
+		  collapsed:: true
 			- **只讀**的連續的一塊記憶體。
 			- 不會重新**複製**資料，可以想成是對原本的資料的**參考**而已。
 			- 在**標頭擋**裡 `span` ，需要 **C++ 20** 標準
 		- ### 優勢及適用時機
+		  collapsed:: true
 			- ```cpp
 			  #include <optional>
 			  #include <iostream>
@@ -87,10 +94,12 @@
 			  }
 			  ```
 			- #### 優勢
+			  collapsed:: true
 				- 能使使用者傳入**各式資料型態**。
 				- 對於創造 subspan 而言極為輕鬆且**有效率**，不必宣告多餘的空間（與 `std::vector<int> subvec(vec.begin() + 2, 5)`相異）
 				- 不必利用雙指標（亦或者雙迭代器）達成。
 		- ### 用法
+		  collapsed:: true
 			- ```cpp
 			  #include <span>
 			  #include <iostream>
@@ -119,13 +128,17 @@
 			  ```
 	- ## 結構體(struct)
 	  id:: 66a7a403-20df-4ce1-86a6-75cef5c3640e
+	  collapsed:: true
 		- ### 定義
+		  collapsed:: true
 			- 將相關的欄位與資訊**組織**在一起，並且每個結構體都有對其資料運用的**成員方法**（method）。
 			- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的型態。
 			- 資料可以是其他結構體、型別。
 		- ### 如何宣告及使用
+		  collapsed:: true
 			- 使用者端如何使用請參考下方 `main` 函數的使用方式。
 			- #### `this`  指標
+			  collapsed:: true
 				- 在結構體內，若需要使用對指到自己的指標，則可利用 `this` 指標，可以把她想成 `self`，指向**自己**的指標
 				- 另外，對於解決結構體內與結構體外的方法重名問題，`this` 指標也是非常重要的
 				- 利用 `operator->` 來得到內部方法及資料欄位，而非普通的 `operator.`
@@ -182,11 +195,14 @@
 			  }
 			  ```
 		- ### tl;dr
+		  collapsed:: true
 			- **結構體**：是一種自定義的數據類型，用於儲存和操作相關的數據。
 			- **宣告及使用**：通過構造函數初始化，並使用成員方法來操作數據。
 			- **`this` 指標**：用於指向當前對象，解決方法名稱衝突，並在內部方法中訪問成員數據。
 	- ## 枚舉（enum、std::variant）
+	  collapsed:: true
 		- ### enum
+		  collapsed:: true
 			- 以型別安全的方式，告訴你有哪些種類。
 			- ```cpp
 			  enum Tetrominos { T, I, J, L, Z, S, O };
@@ -208,7 +224,9 @@
 			  }
 			  ```
 		- ### std::variant
+		  collapsed:: true
 			- 定義：可以擁有含有各類型別的型別，可以想為型別安全版的 union。
+			  collapsed:: true
 				- `std::variant<int, double, string>`
 			- ```cpp
 			  #include <variant>
