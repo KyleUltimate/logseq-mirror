@@ -8,7 +8,7 @@
 		- 另外，對於解決結構體內與結構體外的方法重名問題，`this` 指標也是非常重要的
 		- 利用 `operator->` 來得到內部方法及資料欄位，而非普通的 `operator.`
 	- ## Aggregate Initialization + Designated Initalizers
-	- ## List-initialization
+	- ## Member List-initialization
 	- ## 建構子
 		- 目的：若需對使用者傳入的參數做操縱，則需利用建構子
 		- ```cpp
