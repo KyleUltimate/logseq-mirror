@@ -10,6 +10,30 @@
 	- ## 建構子
 		- 目的：為了建造結構體的方法
 		- ```cpp
+		  #include <iostream>
+		  
+		  struct ScientificNumber {
+		    	// 在一開始定義結構體要含有什麼資料
+		    	// convention 會將資料加個 `m_` prefix ，減少可能的重名機會
+		    	double m_fraction;
+		    	int m_exponent;
+		    	bool m_sign;
+		    
+		    	// 此為 「建構子」，宣告方式即為 `Struct(args) {}`
+		    	// 利用 `this` 指標設定結構體
+		    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心使用
+		    	ScientificNumber(double number) {
+		        	int exponent = std::ceil(log10(number));
+		          double fraction = number/(pow(10,exponent));
+		          this->m_fraction = fraction;
+		        	this->m_exponent = exponent;
+		        	this->m_sign = number > 0;
+		      }
+		  };
+		  int main() {
+		    	// 利用大括弧（`{}`）來利用建構子
+		    	ScientificNumber num = ScientificNumber { 8202.87332 };
+		  }
 		  ```
 	- ```cpp
 	  #include <iostream>
