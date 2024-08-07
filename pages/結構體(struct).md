@@ -12,8 +12,7 @@
 		- ### Aggregate Initialization + Designated Initializer
 		- ### 建構子
 			- 目的：若需對使用者傳入的參數進行前製作業，則需利用建構子
-			- 定義：是一種特殊的成員方法，用於初始化類別或結構體的實例。它的名稱與類別名相同，沒有返回類型。
-			- 初始化列表
+			- 定義：是一種特殊的成員**方法**，用於初始化結構體的實例。它的名稱與類別名相同，沒有返回類型。
 			- ```cpp
 			  #include <iostream>
 			  
@@ -24,7 +23,6 @@
 			    	int m_exponent;
 			    	bool m_sign;
 			    
-			    	// 此為 「建構子」，宣告方式即為 `Struct(args) {}`
 			    	// 利用 `this` 指標設定結構體
 			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心使用
 			    	ScientificNumber(double number) {
