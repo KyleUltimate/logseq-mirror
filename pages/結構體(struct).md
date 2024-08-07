@@ -53,9 +53,8 @@
 		  }
 		  ```
 	- ## 宣告方法
-		- ### Member List-initialization
-		- ### Aggregate Initialization + Designated Initializer
 		- ### 建構子
+		  collapsed:: true
 			- 目的：若需對使用者傳入的參數進行前製作業，則需利用建構子
 			- 定義：為一種特殊的**成員方法**。它的名稱與類別名相同，沒有返回類型。
 			- ```cpp
@@ -114,6 +113,8 @@
 			    	ScientificNumber num = ScientificNumber { 8202.87332 };
 			  }
 			  ```
+		- ### Aggregate Initialization + Designated Initializer
+			- 目的：對於簡單的
 	- ```cpp
 	  #include <iostream>
 	  
