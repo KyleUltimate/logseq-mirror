@@ -119,47 +119,16 @@
 			  #include <iostream>
 			  
 			  struct ScientificNumber {
-			    	// 在一開始定義結構體要含有什麼資料
 			    	double m_fraction;
 			    	int m_exponent;
 			    	bool m_sign;
-			    
-			    	// 如何初始化，在「參數」內傳入使用者所需的傳入的資料
-			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
-			    
-			    	// 若需使用者傳入的參數不同，則也可有重載不同的初始化方法
-			    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
-			    
-			    	// 若需對使用者傳入的參數做操縱，則利用 `this` 指標做創建
-			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心使用
-			    	ScientificNumber(double number) {
-			        	int exponent = std::ceil(log10(number));
-			          double fraction = number/(pow(10,exponent));
-			          this->m_fraction = fraction;
-			        	this->m_exponent = exponent;
-			        	this->m_sign = number > 0;
-			      }
-			    
-			    	// 可以在內部創建方法，可直接存取結構體的欄位(fields)
-			    	int signum() {
-			        	if (m_sign) return 1;
-			        	return -1;
-			      }
-			    
-			    	// 如果遇到名稱衝突，則可利用使用 `this->signum()` 做索取
-			    	double value() {
-			          int sign = signum();
-			       	return sign * m_fraction * pow(10, m_exponent);
-			      }
-			    
-			    	// 若要傳回對於整個結構體的指標，可利用 `this` 指標
-			    	ScientificNumber* doubled() {
-			    		this->m_fraction *= 2;
-			        	return this;
-			      }
 			  };
 			  int main() {
-			    	ScientificNumber num = ScientificNumber { 0.8772, 82 };
+			    	ScientificNumber num = ScientificNumber { 
+			       	.m_fraction = 0.8772,
+			        	.m_exponent = 82,
+			        	.m_sign = true,
+			       };
 			    	// 對於得到的結構體，可利用 `operator.` 來執行其方法，或得到其欄位
 			    	std::cout << num.m_sign << " " << num.value() <<  "\n";
 			     	auto num_ref = &num;
@@ -167,55 +136,4 @@
 			    	std::cout << num_ref->value();
 			  }
 			  ```
-	- ```cpp
-	  #include <iostream>
-	  
-	  struct ScientificNumber {
-	    	// 在一開始定義結構體要含有什麼資料
-	    	double m_fraction;
-	    	int m_exponent;
-	    	bool m_sign;
-	    
-	    	// 如何初始化，在「參數」內傳入使用者所需的傳入的資料
-	    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
-	    
-	    	// 若需使用者傳入的參數不同，則也可有重載不同的初始化方法
-	    	ScientificNumber(double fract, int expo, bool sign): m_sign(sign), m_exponent(expo), m_fraction(fract) {}
-	    
-	    	// 若需對使用者傳入的參數做操縱，則利用 `this` 指標做創建
-	    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心使用
-	    	ScientificNumber(double number) {
-	        	int exponent = std::ceil(log10(number));
-	          double fraction = number/(pow(10,exponent));
-	          this->m_fraction = fraction;
-	        	this->m_exponent = exponent;
-	        	this->m_sign = number > 0;
-	      }
-	    
-	    	// 可以在內部創建方法，可直接存取結構體的欄位(fields)
-	    	int signum() {
-	        	if (m_sign) return 1;
-	        	return -1;
-	      }
-	    
-	    	// 如果遇到名稱衝突，則可利用使用 `this->signum()` 做索取
-	    	double value() {
-	          int sign = signum();
-	       	return sign * m_fraction * pow(10, m_exponent);
-	      }
-	    
-	    	// 若要傳回對於整個結構體的指標，可利用 `this` 指標
-	    	ScientificNumber* doubled() {
-	    		this->m_fraction *= 2;
-	        	return this;
-	      }
-	  };
-	  int main() {
-	    	ScientificNumber num = ScientificNumber { 0.8772, 82 };
-	    	// 對於得到的結構體，可利用 `operator.` 來執行其方法，或得到其欄位
-	    	std::cout << num.m_sign << " " << num.value() <<  "\n";
-	     	auto num_ref = &num;
-	    	// 對於得到指向結構體的指針，可利用 `operator->` 來執行其方法
-	    	std::cout << num_ref->value();
-	  }
-	  ```
+	-
