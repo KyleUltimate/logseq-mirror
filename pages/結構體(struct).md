@@ -3,6 +3,53 @@
 	- 你可以把他想像為一個**設計藍圖**，設計者可以利用這個藍圖來去建立物件，換句話說 struct 是一種使用者定義的**型態**。
 	- 資料可以是其他結構體、型別。
 - # 如何宣告及使用
+	- ## 宣告方法
+		- ### 建構子
+			- 目的：若需對使用者傳入的參數進行前製作業，則需利用建構子
+			- 定義：為一種特殊的**成員方法**。它的名稱與類別名相同，沒有返回類型。
+			- ```cpp
+			  #include <iostream>
+			  
+			  struct ScientificNumber {
+			    	// 在一開始定義結構體要含有什麼資料
+			    	// convention 會將資料加個 `m_` prefix ，減少可能的重名機會
+			    	double m_fraction;
+			    	int m_exponent;
+			    	bool m_sign;
+			    
+			    	// 如何初始化，在「參數」內傳入使用者所需的傳入的資料	
+			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
+			    
+			    	// 利用 `this` 指標設定結構體
+			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心使用
+			    	ScientificNumber(double number) {
+			        	int exponent = std::ceil(log10(number));
+			          double fraction = number/(pow(10,exponent));
+			          this->m_fraction = fraction;
+			        	this->m_exponent = exponent;
+			        	this->m_sign = number > 0;
+			      }
+			  };
+			  int main() {
+			    	// 利用大括弧（`{}`）來利用建構子
+			    	ScientificNumber num = ScientificNumber { 8202.87332 };
+			  }
+			  ```
+		- ### Aggregate Initialization + Designated Initializer
+			- 目的：對於簡單的結構體而言， **Aggregate Initialization**  允許使用大括號 `{}` 在使用者端進行初始化。
+			- **Designated Initializer** 則是更加明確的指定初始化哪個成員。
+			- ```cpp
+			  struct Rectangle {
+			      double m_width;
+			      double m_height;
+			  };
+			  
+			  // 使用 Aggregate Initialization
+			  Rectangle r1 = {5.0, 3.0};
+			  
+			  // 使用 Designated Initializer (C++20)
+			  Rectangle r2 = {.m_width = 4.0, .m_height = 2.5};
+			  ```
 	- ## 成員方法
 		- ### 特性
 			- 成員方法可以直接訪問結構體的數據成員。
@@ -53,51 +100,4 @@
 		    	std::cout << num_ref->value();
 		  }
 		  ```
-	- ## 宣告方法
-		- ### 建構子
-			- 目的：若需對使用者傳入的參數進行前製作業，則需利用建構子
-			- 定義：為一種特殊的**成員方法**。它的名稱與類別名相同，沒有返回類型。
-			- ```cpp
-			  #include <iostream>
-			  
-			  struct ScientificNumber {
-			    	// 在一開始定義結構體要含有什麼資料
-			    	// convention 會將資料加個 `m_` prefix ，減少可能的重名機會
-			    	double m_fraction;
-			    	int m_exponent;
-			    	bool m_sign;
-			    
-			    	// 如何初始化，在「參數」內傳入使用者所需的傳入的資料	
-			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
-			    
-			    	// 利用 `this` 指標設定結構體
-			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心使用
-			    	ScientificNumber(double number) {
-			        	int exponent = std::ceil(log10(number));
-			          double fraction = number/(pow(10,exponent));
-			          this->m_fraction = fraction;
-			        	this->m_exponent = exponent;
-			        	this->m_sign = number > 0;
-			      }
-			  };
-			  int main() {
-			    	// 利用大括弧（`{}`）來利用建構子
-			    	ScientificNumber num = ScientificNumber { 8202.87332 };
-			  }
-			  ```
-		- ### Aggregate Initialization + Designated Initializer
-			- 目的：對於簡單的結構體而言， **Aggregate Initialization**  允許使用大括號 `{}` 在使用者端進行初始化。
-			- **Designated Initializer** 則是更加明確的指定初始化哪個成員。
-			- ```cpp
-			  struct Rectangle {
-			      double width;
-			      double height;
-			  };
-			  
-			  // 使用 Aggregate Initialization
-			  Rectangle r1 = {5.0, 3.0};
-			  
-			  // 使用 Designated Initializer (C++20)
-			  Rectangle r2 = {.width = 4.0, .height = 2.5};
-			  ```
 	-
