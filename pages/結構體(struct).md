@@ -114,7 +114,8 @@
 			  }
 			  ```
 		- ### Aggregate Initialization + Designated Initializer
-			- 目的：對於簡單的結構體而言，得以利用 **Aggregate Initialization** 在使用者端進行初始化。
+			- 目的：對於簡單的結構體而言， **Aggregate Initialization**  允許使用大括號 `{}` 在使用者端進行初始化。
+			- **Designated Initializer** 則是更加明確的指定初始化哪個成員。
 			- ```cpp
 			  #include <iostream>
 			  
@@ -123,7 +124,15 @@
 			    	int m_exponent;
 			    	bool m_sign;
 			  };
+			  
 			  int main() {
+			      	// 使用 Designated Initializer (C++20)
+			    	ScientificNumber num = ScientificNumber { 
+			       	.m_fraction = 0.8772,
+			        	.m_exponent = 82,
+			        	.m_sign = true,
+			       };
+			    	// 使用 Designated Initializer (C++20)
 			    	ScientificNumber num = ScientificNumber { 
 			       	.m_fraction = 0.8772,
 			        	.m_exponent = 82,
