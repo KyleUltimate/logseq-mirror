@@ -54,37 +54,8 @@
 		  ```
 	- ## 宣告方法
 		- ### 建構子
-		  collapsed:: true
 			- 目的：若需對使用者傳入的參數進行前製作業，則需利用建構子
 			- 定義：為一種特殊的**成員方法**。它的名稱與類別名相同，沒有返回類型。
-			- ```cpp
-			  #include <iostream>
-			  
-			  struct ScientificNumber {
-			    	// 在一開始定義結構體要含有什麼資料
-			    	// convention 會將資料加個 `m_` prefix ，減少可能的重名機會
-			    	double m_fraction;
-			    	int m_exponent;
-			    	bool m_sign;
-			    
-			    	// 初始化列表，在「參數」內傳入使用者所需的傳入的資料
-			    	ScientificNumber(double fract, int expo): m_sign(true), m_exponent(expo), m_fraction(fract) {}
-			    
-			    	// 利用 `this` 指標設定結構體
-			    	// **注意**: 這裡的 `this` 指標是指到尚未創建的結構體，要小心使用
-			    	ScientificNumber(double number) {
-			        	int exponent = std::ceil(log10(number));
-			          double fraction = number/(pow(10,exponent));
-			          this->m_fraction = fraction;
-			        	this->m_exponent = exponent;
-			        	this->m_sign = number > 0;
-			      }
-			  };
-			  int main() {
-			    	// 利用大括弧（`{}`）來利用建構子
-			    	ScientificNumber num = ScientificNumber { 8202.87332 };
-			  }
-			  ```
 			- ```cpp
 			  #include <iostream>
 			  
@@ -117,27 +88,15 @@
 			- 目的：對於簡單的結構體而言， **Aggregate Initialization**  允許使用大括號 `{}` 在使用者端進行初始化。
 			- **Designated Initializer** 則是更加明確的指定初始化哪個成員。
 			- ```cpp
-			  #include <iostream>
-			  
-			  struct ScientificNumber {
-			    	double m_fraction;
-			    	int m_exponent;
-			    	bool m_sign;
+			  struct Rectangle {
+			      double width;
+			      double height;
 			  };
 			  
-			  int main() {
-			      	// 使用 Designated Initializer (C++20)
-			    	ScientificNumber num = ScientificNumber { 
-			       	.m_fraction = 0.8772,
-			        	.m_exponent = 82,
-			        	.m_sign = true,
-			       };
-			    	// 使用 Designated Initializer (C++20)
-			    	ScientificNumber num = ScientificNumber { 
-			       	.m_fraction = 0.8772,
-			        	.m_exponent = 82,
-			        	.m_sign = true,
-			       };
-			  }
+			  // 使用 Aggregate Initialization
+			  Rectangle r1 = {5.0, 3.0};
+			  
+			  // 使用 Designated Initializer (C++20)
+			  Rectangle r2 = {.width = 4.0, .height = 2.5};
 			  ```
 	-
