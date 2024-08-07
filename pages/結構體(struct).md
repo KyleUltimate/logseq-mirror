@@ -11,7 +11,8 @@
 		- ### Member List-initialization
 		- ### Aggregate Initialization + Designated Initializer
 		- ### 建構子
-			- 目的：若需對使用者傳入的參數做操縱，則需利用建構子
+			- 目的：若需對使用者傳入的參數進行前製作業，則需利用建構子
+			- 定義：是一種特殊的成員方法，用於初始化類別或結構體的實例。它的名稱與類別名相同，沒有返回類型。
 			- ```cpp
 			  #include <iostream>
 			  
