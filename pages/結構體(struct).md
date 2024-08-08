@@ -5,7 +5,7 @@
 - # 如何宣告及使用
 	- ## 宣告方法
 		- ### Aggregate Initialization + Designated Initializer
-			- 目的：對於簡單的結構體而言， **Aggregate Initialization**  允許使用大括號 `{}` 在使用者端進行初始化。
+			- 目的：對於簡單的結構體而言， **Aggregate Initialization**  允許使用大括號 `{}` 在使用者端進行依照結構體**宣告順序**進行初始化。
 			- **Designated Initializer** 則是更加明確的指定初始化哪個成員。
 			- ```cpp
 			  struct Rectangle {
