@@ -4,6 +4,21 @@
 	- 資料可以是其他結構體、型別。
 - # 如何宣告及使用
 	- ## 宣告方法
+		- ### Aggregate Initialization + Designated Initializer
+			- 目的：對於簡單的結構體而言， **Aggregate Initialization**  允許使用大括號 `{}` 在使用者端進行初始化。
+			- **Designated Initializer** 則是更加明確的指定初始化哪個成員。
+			- ```cpp
+			  struct Rectangle {
+			      double m_width;
+			      double m_height;
+			  };
+			  
+			  // 使用 Aggregate Initialization
+			  Rectangle r1 = {5.0, 3.0};
+			  
+			  // 使用 Designated Initializer (C++20)
+			  Rectangle r2 = {.m_width = 4.0, .m_height = 2.5};
+			  ```
 		- ### 建構子
 			- 目的：若需對使用者傳入的參數進行前製作業，則需利用建構子
 			- 定義：為一種特殊的**成員方法**。它的名稱與類別名相同，沒有返回類型。
@@ -34,21 +49,6 @@
 			    	// 利用大括弧（`{}`）來利用建構子
 			    	ScientificNumber num = ScientificNumber { 8202.87332 };
 			  }
-			  ```
-		- ### Aggregate Initialization + Designated Initializer
-			- 目的：對於簡單的結構體而言， **Aggregate Initialization**  允許使用大括號 `{}` 在使用者端進行初始化。
-			- **Designated Initializer** 則是更加明確的指定初始化哪個成員。
-			- ```cpp
-			  struct Rectangle {
-			      double m_width;
-			      double m_height;
-			  };
-			  
-			  // 使用 Aggregate Initialization
-			  Rectangle r1 = {5.0, 3.0};
-			  
-			  // 使用 Designated Initializer (C++20)
-			  Rectangle r2 = {.m_width = 4.0, .m_height = 2.5};
 			  ```
 	- ## 成員方法
 		- ### 特性
