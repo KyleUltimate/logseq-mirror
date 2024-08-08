@@ -39,8 +39,7 @@
 			    
 			    	std::optional<int> dave_account = fetch_bank_account("dave");
 			    
-			    	// 第二種，較方便使用，要注意，因為拿回來的是指標，所以必須利用 `operator*` 來執行解參考
-			    	// 或是 `operator->` 來存取 struct 的方法(method)與欄位(field)
+			    	// 第二種，較方便使用，要注意，拿回來的是指標，而非實際的值
 			    	if (auto val = dave_account) {
 			        	std::cout << *val;
 			      } else {
