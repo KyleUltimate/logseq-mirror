@@ -25,7 +25,7 @@
 		- ### 1. 安裝 vcpkg
 			- 開啟命令列（Win + R, 打 cmd）
 			- ```bash
-			  git clone https://github.com/microsoft/vcpkg.
+			  git clone https://github.com/microsoft/vcpkg
 			  cd vcpkg && bootstrap-vcpkg.bat
 			  ```
 		- ### 2.安裝 Visual Studio Code 延伸模組
@@ -104,7 +104,7 @@
 				- ![image.png](../assets/image_1724681131962_0.png)
 			- `default`選取 CMake 預設
 				- ![image.png](../assets/image_1724681186589_0.png)
-- # C++ 語法補充
+- # C++ 語法補充（有時間再看）
   collapsed:: true
 	- ## lambda
 	- ## [[指標與參考]]
