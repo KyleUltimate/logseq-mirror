@@ -19,8 +19,10 @@ collapsed:: true
 	- 根據每個不同的方塊，撰寫獨立的旋轉軸(pivot)
 - # 安裝 Raylib
 	- ## Raylib 簡介
-		- 一個非常簡單的 C++ 遊戲 library
-		- 只提供了
+		- 一個非常簡單的 C++ 2d 遊戲 library
+	- ## 安裝教學
+		- 我們將利用 [[vcpkg]] 來安裝
+		-
 	-
 - # C++ 語法補充
   collapsed:: true
