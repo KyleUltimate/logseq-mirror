@@ -131,6 +131,36 @@
 - # 使用 Raylib
 	- 請直接看以下程式碼即可。
 	- ```cpp
+	  #include "raylib.h"
+	  
+	  int main() {
+	      const int screenWidth = 800;
+	      const int screenHeight = 450;
+	  
+	      InitWindow(screenWidth, screenHeight, "raylib Tutorial");
+	      SetTargetFPS(60);
+	  	/*                         /-------x-------/ /-------y--------/ /width/ /height/ */
+	      Rectangle rectPosition = { screenWidth/2.0f, screenHeight/2.0f, 30.0f, 30.0f };
+	      
+	      while (!WindowShouldClose()) {
+	          // Update
+	          if (IsKeyDown(KEY_RIGHT)) rectPosition.x += 2.0f;
+	          if (IsKeyDown(KEY_LEFT)) rectPosition.x -= 2.0f;
+	          if (IsKeyDown(KEY_UP)) rectPosition.y -= 2.0f;
+	          if (IsKeyDown(KEY_DOWN)) rectPosition.y += 2.0f;
+	  
+	          // Draw
+	          BeginDrawing();
+	              ClearBackground(RAYWHITE);
+	        		/*       /----------------text---------------/ /x/ /y/ /fontSize/  /Color/ */
+	              DrawText("Move the rectangle with arrow keys", 10, 10,    20     , DARKGRAY);
+	              DrawRectangleRec(rectPosition, 20, MAROON);
+	          EndDrawing();
+	      }
+	  
+	      CloseWindow();
+	      return 0;
+	  }
 	  ```
 - # 難點攻關
   collapsed:: true
