@@ -25,7 +25,7 @@
 		- ### 1. 安裝 vcpkg
 			- 開啟命令列（Win + R, 打 cmd）
 			- ```bash
-			  git clone https://github.com/microsoft/vcpkg
+			  git clone https://github.com/microsoft/vcpkg.git
 			  cd vcpkg && bootstrap-vcpkg.bat
 			  ```
 		- ### 2.安裝 Visual Studio Code 延伸模組
