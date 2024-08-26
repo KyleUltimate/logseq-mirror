@@ -39,7 +39,7 @@ collapsed:: true
 				  記得將 `C:\path\to\vcpkg` 替換成
 				  #+END_IMPORTANT
 				- ```bash
-				  set "VCPKG_ROOT=C:\path\to\vcpkg"
+				  set "VCPKG_ROOT=C:\Users\Kyle\vcpkg"
 				  set PATH=%VCPKG_ROOT%;%PATH%
 				  ```
 	-
