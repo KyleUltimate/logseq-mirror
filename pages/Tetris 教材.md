@@ -14,6 +14,7 @@
 	- ## tl;dr
 		- 其實，你在電腦上按下任何一個按鍵，都可以發現 **DAS 間隔** 與 **ARR 速率** 的存在
 - # 安裝 Raylib
+  collapsed:: true
 	- ## Raylib 簡介
 		- 一個非常簡單的 C++ 2d 遊戲函式庫
 	- ## 安裝教學
@@ -89,10 +90,37 @@
 				  ```
 			- 6. 在 `main.cpp` 中，添加以下程式碼
 				- ```cpp
-				  #include <raylib.h>
+				  // main.cpp
+				  #include "raylib.h"
 				  
 				  int main() {
-				    	CreateWindow();
+				      // Initialization
+				      const int screenWidth = 800;
+				      const int screenHeight = 450;
+				  
+				      InitWindow(screenWidth, screenHeight, "你的遊戲");
+				  
+				      SetTargetFPS(60);
+				  
+				      // Main game loop
+				      while (!WindowShouldClose()) 
+				      {
+				  
+				          BeginDrawing()
+				            
+				          /* 如果你要畫東西放在 BeginDrawing() 到 EndDrawing() 之間 */
+				  
+				          ClearBackground(RAYWHITE);
+				  
+				        	DrawText("Welcome to Raylib C++ Starter!", 190, 200, 20, LIGHTGRAY);
+				  
+				          EndDrawing();
+				      }
+				  
+				      // De-Initialization
+				      CloseWindow();  // Close window and OpenGL context
+				  
+				      return 0;
 				  }
 				  ```
 		- ### 4. 創建專案
@@ -100,6 +128,8 @@
 				- ![image.png](../assets/image_1724681131962_0.png)
 			- `default`選取 CMake 預設
 				- ![image.png](../assets/image_1724681186589_0.png)
+- # 使用 Raylib
+	-
 - # 難點攻關
   collapsed:: true
 	- ## 1. 旋轉如何實施？
