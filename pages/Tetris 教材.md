@@ -48,7 +48,9 @@ collapsed:: true
 				  vcpkg new --application
 				  vcpkg add port raylib
 				  ```
-			- 創建 `CMakeLists.txt` ，
+			- 創建 `CMakeLists.txt` ，並寫入以下資料
+				- ```cmake
+				  ```
 - # C++ 語法補充
   collapsed:: true
 	- ## lambda
