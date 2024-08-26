@@ -34,8 +34,14 @@ collapsed:: true
 			- ![image.png](../assets/image_1724680110050_0.png)
 		- ###  3. 使用 vcpkg
 			- 先設定 `VCPKG_ROOT` 環境變數
-			  logseq.order-list-type:: number
-				- logseq.order-list-type:: number
+				- 在 VSCode 中開啟新的終端機： **終端 > 新終端機**
+				- #+BEGIN_IMPORTANT
+				  記得將 `C:\path\to\vcpkg` 替換成
+				  #+END_IMPORTANT
+				- ```bash
+				  set "VCPKG_ROOT=C:\path\to\vcpkg"
+				  set PATH=%VCPKG_ROOT%;%PATH%
+				  ```
 	-
 - # C++ 語法補充
   collapsed:: true
