@@ -170,7 +170,8 @@ collapsed:: true
 	- ## 判斷時間過了多久
 		- 利用 `chrono` 來判斷
 			- `std::chrono::steady_clock::now()` -> 開始計時器
-			- 可透過 `.count()` 方法獲取
+			- 得知過了多久 -> `std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now() - lastMoveTime).count()`
+		- 一樣請看
 		- ```cpp
 		  #include <chrono>
 		  #include "raylib.h"
@@ -187,10 +188,9 @@ collapsed:: true
 		      while (!WindowShouldClose()) {
 		          if (IsKeyDown(KEY_RIGHT)) {
 		              auto currentTime = std::chrono::steady_clock::now();
-		           	auto elapsedTime = (currentTime - lastMoveTime).count();
-		              auto elapsedMilisecond = std::chrono::duration_cast<std::chrono::milliseconds>(elapsedTime);
+		              auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(currentTime - lastMoveTime).count();
 		  
-		              if (elapsedMilisecond > 200) {  
+		              if (elapsedTime > 200) {  
 		                  lastMoveTime = currentTime;
 		              }
 		          }
