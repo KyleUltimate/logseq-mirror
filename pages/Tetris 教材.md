@@ -36,13 +36,16 @@ collapsed:: true
 			- 先設定 `VCPKG_ROOT` 環境變數
 				- 在 VSCode 中開啟新的終端機： **終端 > 新終端機**
 				- #+BEGIN_IMPORTANT
-				  記得將 `%userprofile%\vcpkg`` 替換成該主機的
+				  記得先確認 `%userprofile%\vcpkg` 存在。
+				  看 `cd %userprofile%\vcpkg` 是否成功運行
 				  #+END_IMPORTANT
 				- ```bash
 				  set "VCPKG_ROOT=%userprofile%\vcpkg"
 				  set PATH=%VCPKG_ROOT%;%PATH%
 				  ```
-	-
+			- 添加依賴
+				- ```bash
+				  ```
 - # C++ 語法補充
   collapsed:: true
 	- ## lambda
