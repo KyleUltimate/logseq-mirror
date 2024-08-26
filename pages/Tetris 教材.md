@@ -78,8 +78,22 @@ collapsed:: true
 				  ```
 			- 5. 創建 `CMakeUserPresets.json`，並寫入以下資料
 				- ```json
+				  {
+				    "version": 2,
+				    "configurePresets": [
+				      {
+				        "name": "default",
+				        "inherits": "vcpkg",
+				        "environment": {
+				          "VCPKG_ROOT": "$env{userprofile}\vcpkg"
+				        }
+				      }
+				    ]
+				  }
 				  ```
-			- 5. 在 `main.cpp` 中，添加 raylib 標頭擋 `#include <raylib.h>`
+			- 6. 在 `main.cpp` 中，添加 raylib 標頭擋 `#include <raylib.h>`
+		- ### 4. 建制專案
+			- ![image.png](../assets/image_1724681131962_0.png)
 - # C++ 語法補充
   collapsed:: true
 	- ## lambda
