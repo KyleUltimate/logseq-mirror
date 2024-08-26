@@ -32,8 +32,10 @@ collapsed:: true
 			- 在 **擴充功能** 介面，安裝這兩個延伸模組
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
-		- ####  3. 設定環境變數
-		- ### 4.
+		- ###  3. 使用 vcpkg
+			- 先設定 `VCPKG_ROOT` 環境變數
+			  logseq.order-list-type:: number
+				- logseq.order-list-type:: number
 	-
 - # C++ 語法補充
   collapsed:: true
