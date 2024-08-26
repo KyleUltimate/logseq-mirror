@@ -167,7 +167,7 @@ collapsed:: true
 		      return 0;
 		  }
 		  ```
-	- ## 判斷時間過了多久(pseudo code)
+	- ## 判斷時間過了多久
 		- ```cpp
 		  #include <chrono>
 		  
