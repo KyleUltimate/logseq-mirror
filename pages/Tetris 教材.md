@@ -14,10 +14,12 @@ collapsed:: true
 			- 使玩家能夠更加輕易的做出一格移動
 	- 其實，你在電腦上按下任何一個按鍵，都可以發現 DAS 間隔與 ARR 速率的存在
 - # 難點攻關
+  collapsed:: true
 	- ## 1. 旋轉如何實施？
 	- 直接把旋轉完的方塊 array 寫在程式碼中
 	- 根據每個不同的方塊，撰寫獨立的旋轉軸(pivot)
 - # 安裝 Raylib
+  collapsed:: true
 	- ## Raylib 簡介
 		- 一個非常簡單的 C++ 2d 遊戲函式庫
 	- ## 安裝教學
@@ -91,8 +93,15 @@ collapsed:: true
 				    ]
 				  }
 				  ```
-			- 6. 在 `main.cpp` 中，添加 raylib 標頭擋 `#include <raylib.h>`
-		- ### 4. 建制專案
+			- 6. 在 `main.cpp` 中，添加以下程式碼
+				- ```cpp
+				  #include <raylib.h>
+				  
+				  int main() {
+				    	CreateWindow();
+				  }
+				  ```
+		- ### 4. 創建專案
 			- 按下 **Ctrl + Shift + P**，並搜尋「CMake: Build」
 				- ![image.png](../assets/image_1724681131962_0.png)
 			- `default`選取 CMake 預設
