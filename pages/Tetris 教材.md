@@ -21,8 +21,13 @@ collapsed:: true
 	- ## Raylib 簡介
 		- 一個非常簡單的 C++ 2d 遊戲函式庫
 	- ## 安裝教學
-		- 我們將利用 [[vcpkg]] 來安裝
+		- 我們將利用 [[vcpkg]] 來安裝函式庫，並利用 CMake 來在我們的 C++ 專案中使用
 		- ### 1. 安裝 vcpkg
+			- 開啟命令列（Win + R, 打 cmd）
+			- ```bash
+			  git clone https://github.com/microsoft/vcpkg.
+			  cd vcpkg && bootstrap-vcpkg.bat
+			  ```
 	-
 - # C++ 語法補充
   collapsed:: true
