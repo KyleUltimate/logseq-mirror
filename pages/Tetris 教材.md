@@ -60,7 +60,25 @@ collapsed:: true
 				  
 				  target_link_libraries(HelloWorld PRIVATE raylib)
 				  ```
-			- 4. 創建 `CMakePresets.json`
+			- 4. 創建 `CMakePresets.json`，並寫入以下資料
+				- ```json
+				  {
+				    "version": 2,
+				    "configurePresets": [
+				      {
+				        "name": "vcpkg",
+				        "generator": "Ninja",
+				        "binaryDir": "${sourceDir}/build",
+				        "cacheVariables": {
+				          "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
+				        }
+				      }
+				    ]
+				  }
+				  ```
+			- 5. 創建 `CMakeUserPresets.json`，並寫入以下資料
+				- ```json
+				  ```
 			- 5. 在 `main.cpp` 中，添加 raylib 標頭擋 `#include <raylib.h>`
 - # C++ 語法補充
   collapsed:: true
