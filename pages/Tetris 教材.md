@@ -1,20 +1,5 @@
-# 俄羅斯方塊術語與規則介紹
-	- ## ARR
-		- ### 定義
-			- **A**uto **R**peat **R**ate - 自動重複速率
-			- 在 DAS 延遲結束後，方塊**連續移動**的間隔時間
-		- ### 為何需要
-			- 允許玩家通過持續按住按鍵來快速移動方塊
-	- ## DAS
-		- ### 定義
-			- **D**elayed **A**uto **S**hift - 自動移動延遲
-			- 為在按下移動件後，距離方塊開始移動的時間間隔
-		- ### 為何需要
-			- 使玩家能夠更加輕易的做出一格移動
-	- ## tl;dr
-		- 其實，你在電腦上按下任何一個按鍵，都可以發現 **DAS 間隔** 與 **ARR 速率** 的存在
-- # 安裝 Raylib
-  collapsed:: true
+# 安裝 Raylib
+collapsed:: true
 	- ## Raylib 簡介
 		- 一個非常簡單的 C++ 2d 遊戲函式庫
 	- ## 安裝教學
@@ -129,6 +114,7 @@
 			- `default`選取 CMake 預設
 				- ![image.png](../assets/image_1724681186589_0.png)
 - # 使用 Raylib
+  collapsed:: true
 	- 請直接看以下程式碼即可。
 	- ```cpp
 	  #include "raylib.h"
@@ -139,22 +125,24 @@
 	  
 	      InitWindow(screenWidth, screenHeight, "raylib Tutorial");
 	      SetTargetFPS(60);
-	  	/*                         /-------x-------/ /-------y--------/ /width/ /height/ */
-	      Rectangle rectPosition = { screenWidth/2.0f, screenHeight/2.0f, 30.0f, 30.0f };
+	  
+	      /*                         ┌───── x ──────┐ ┌─────── y ───────┐ ┌─width─┐ ┌height┐ */
+	      Rectangle rectPosition = { screenWidth/2.0f, screenHeight/2.0f,   30.0f,   30.0f };
 	      
 	      while (!WindowShouldClose()) {
-	          // Update
+	          /*           ┌─KeyCode─┐        */
 	          if (IsKeyDown(KEY_RIGHT)) rectPosition.x += 2.0f;
-	          if (IsKeyDown(KEY_LEFT)) rectPosition.x -= 2.0f;
-	          if (IsKeyDown(KEY_UP)) rectPosition.y -= 2.0f;
-	          if (IsKeyDown(KEY_DOWN)) rectPosition.y += 2.0f;
+	          if (IsKeyDown(KEY_LEFT))  rectPosition.x -= 2.0f;
+	          if (IsKeyDown(KEY_UP))    rectPosition.y -= 2.0f;
+	          if (IsKeyDown(KEY_DOWN))  rectPosition.y += 2.0f;
 	  
 	          // Draw
 	          BeginDrawing();
+	        		/*             ┌──color──┐ */
 	              ClearBackground(RAYWHITE);
-	        		/*       /----------------text---------------/ /x/ /y/ /fontSize/  /Color/ */
-	              DrawText("Move the rectangle with arrow keys", 10, 10,    20     , DARKGRAY);
-	              DrawRectangleRec(rectPosition, 20, MAROON);
+	              /*        ┌───────────── text ─────────────┐ ┌─x─┐ ┌─y─┐ ┌─size─┐ ┌─color──┐ */
+	              DrawText("Move the rectangle with arrow keys", 10,   10,    20,    DARKGRAY);
+	              DrawRectangleRec(rectPosition, MAROON);
 	          EndDrawing();
 	      }
 	  
@@ -162,8 +150,23 @@
 	      return 0;
 	  }
 	  ```
+- # 俄羅斯方塊術語與規則介紹
+	- ## ARR
+		- ### 定義
+			- **A**uto **R**peat **R**ate - 自動重複速率
+			- 在 DAS 延遲結束後，方塊**連續移動**的間隔時間
+		- ### 為何需要
+			- 允許玩家通過持續按住按鍵來快速移動方塊
+	- ## DAS
+		- ### 定義
+			- **D**elayed **A**uto **S**hift - 自動移動延遲
+			- 為在按下移動件後，距離方塊開始移動的時間間隔
+		- ### 為何需要
+			- 使玩家能夠更加輕易的做出一格移動
+		- ###
+	- ## tl;dr
+		- 其實，你在電腦上按下任何一個按鍵，都可以發現 **DAS 間隔** 與 **ARR 速率** 的存在
 - # 難點攻關
-  collapsed:: true
 	- ## 1. 旋轉如何實施？
 	- 直接把旋轉完的方塊 array 寫在程式碼中
 	- 根據每個不同的方塊，撰寫獨立的旋轉軸(pivot)
