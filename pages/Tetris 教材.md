@@ -32,7 +32,7 @@ collapsed:: true
 			- 在 **擴充功能** 介面，安裝這兩個延伸模組
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
-		- ###  3. 使用 vcpkg
+		- ###  3. 設定 vcpkg 與添加 Raylib
 			- 先設定 `VCPKG_ROOT` 環境變數
 				- 在 VSCode 中開啟新的終端機： **終端 > 新終端機**
 				- #+BEGIN_IMPORTANT
@@ -43,9 +43,12 @@ collapsed:: true
 				  set "VCPKG_ROOT=%userprofile%\vcpkg"
 				  set PATH=%VCPKG_ROOT%;%PATH%
 				  ```
-			- 添加依賴
+			- 在 `vcpkg` 中添加依賴
 				- ```bash
+				  vcpkg new --application
+				  vcpkg add port raylib
 				  ```
+			- 創建 `CMakeLists.txt` ，
 - # C++ 語法補充
   collapsed:: true
 	- ## lambda
