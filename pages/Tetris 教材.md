@@ -33,7 +33,7 @@ collapsed:: true
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
 		- ###  3. 設定 vcpkg 與添加 Raylib
-			- 先設定 `VCPKG_ROOT` 環境變數
+			- 1. 先設定 `VCPKG_ROOT` 環境變數
 				- 在 VSCode 中開啟新的終端機： **終端 > 新終端機**
 				- #+BEGIN_IMPORTANT
 				  記得先確認 `%userprofile%\vcpkg` 存在。
@@ -43,12 +43,12 @@ collapsed:: true
 				  set "VCPKG_ROOT=%userprofile%\vcpkg"
 				  set PATH=%VCPKG_ROOT%;%PATH%
 				  ```
-			- 在 `vcpkg` 中添加依賴
+			- 2. 在 `vcpkg` 中添加依賴
 				- ```bash
 				  vcpkg new --application
 				  vcpkg add port raylib
 				  ```
-			- 創建 `CMakeLists.txt` ，並寫入以下資料
+			- 3. 創建 `CMakeLists.txt` ，並寫入以下資料
 				- ```cmake
 				  cmake_minimum_required(VERSION 3.10)
 				  
@@ -60,9 +60,8 @@ collapsed:: true
 				  
 				  target_link_libraries(HelloWorld PRIVATE raylib)
 				  ```
-			- 在 `main.cpp` 中，添加 raylib 標頭擋
-				- `#include <raylib.h>`
-				-
+			- 4. 在 `main.cpp` 中，添加 raylib 標頭擋`#include <raylib.h>`
+		- ### 4.
 - # C++ 語法補充
   collapsed:: true
 	- ## lambda
