@@ -1,5 +1,4 @@
 # 俄羅斯方塊術語與規則介紹
-collapsed:: true
 	- ## ARR
 		- ### 定義
 			- **A**uto **R**peat **R**ate - 自動重複速率
@@ -15,7 +14,6 @@ collapsed:: true
 	- ## tl;dr
 		- 其實，你在電腦上按下任何一個按鍵，都可以發現 **DAS 間隔** 與 **ARR 速率** 的存在
 - # 安裝 Raylib
-  collapsed:: true
 	- ## Raylib 簡介
 		- 一個非常簡單的 C++ 2d 遊戲函式庫
 	- ## 安裝教學
@@ -131,7 +129,6 @@ collapsed:: true
 				- ![image.png](../assets/image_1724681186589_0.png)
 - # 如何將 Tetris 做出來
 	- ## 基礎 Raylib 教學
-	  collapsed:: true
 		- 請直接看以下程式碼即可。
 		- ```cpp
 		  #include "raylib.h"
@@ -171,7 +168,7 @@ collapsed:: true
 		- 利用 `chrono` 來判斷
 			- `std::chrono::steady_clock::now()` -> 開始計時器
 			- 得知過了多久 -> `std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now() - lastMoveTime).count()`
-		- 一樣請看
+		- 一樣請看下方程式碼：
 		- ```cpp
 		  #include <chrono>
 		  #include "raylib.h"
@@ -180,7 +177,7 @@ collapsed:: true
 		      const int screenWidth = 800;
 		      const int screenHeight = 450;
 		  
-		      InitWindow(screenWidth, screenHeight, "raylib Tutorial");
+		      InitWindow(screenWidth, screenHeight, "Raylib Tutorial");
 		      SetTargetFPS(60);
 		  
 		      auto lastMoveTime = std::chrono::steady_clock::now();
