@@ -169,6 +169,7 @@ collapsed:: true
 		  ```
 	- ## 判斷時間過了多久
 		- 利用 `chrono` 來判斷
+			- `std::chrono::steady_clock::now()` -> 開始計時器
 			-
 		- ```cpp
 		  #include <chrono>
