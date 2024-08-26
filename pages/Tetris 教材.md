@@ -93,7 +93,10 @@ collapsed:: true
 				  ```
 			- 6. 在 `main.cpp` 中，添加 raylib 標頭擋 `#include <raylib.h>`
 		- ### 4. 建制專案
-			- ![image.png](../assets/image_1724681131962_0.png)
+			- 按下 **Ctrl + Shift + P**，並搜尋「CMake: Build」
+				- ![image.png](../assets/image_1724681131962_0.png)
+			- `default`選取 CMake 預設
+				- ![image.png](../assets/image_1724681186589_0.png)
 - # C++ 語法補充
   collapsed:: true
 	- ## lambda
