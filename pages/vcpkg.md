@@ -1,0 +1,2 @@
+- vcpkg 是免費且開放原始碼的 C/C++ 套件管理員，由 Microsoft 和在 Windows、macOS 和 Linux[上執行的C++社群](https://learn.microsoft.com/zh-tw/vcpkg/concepts/supported-hosts) 所維護。 它是C++工具，並使用 C++ 和 CMake 腳本撰寫。 其設計目的是要解決管理 C/C++連結庫的獨特痛點。
+-
