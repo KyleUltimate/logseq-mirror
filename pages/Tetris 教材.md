@@ -29,9 +29,11 @@ collapsed:: true
 			  cd vcpkg && bootstrap-vcpkg.bat
 			  ```
 		- ### 2.安裝 Visual Studio Code 延伸模組
-			- 在 **擴充功能** 介面，安裝這兩個
+			- 在 **擴充功能** 介面，安裝這兩個延伸模組
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
+		- ####  3. 設定環境變數
+		- ### 4.
 	-
 - # C++ 語法補充
   collapsed:: true
