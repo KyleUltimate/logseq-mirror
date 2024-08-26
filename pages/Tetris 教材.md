@@ -168,22 +168,37 @@ collapsed:: true
 		  }
 		  ```
 	- ## 判斷時間過了多久
+		- 利用 `chrono` 來判斷
+			-
 		- ```cpp
 		  #include <chrono>
+		  #include "raylib.h"
 		  
-		  // At the start of your game loop:
-		  auto lastMoveTime = std::chrono::steady_clock::now();
+		  int main() {
+		      const int screenWidth = 800;
+		      const int screenHeight = 450;
 		  
-		  // In your game loop:
-		  if (IsKeyDown(KEY_RIGHT)) {
-		      auto currentTime = std::chrono::steady_clock::now();
-		      auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(currentTime - lastMoveTime).count();
-		      
-		      if (elapsedTime > 200) {  // 200ms for initial delay
-		          // Move piece right
-		          lastMoveTime = currentTime;
+		      InitWindow(screenWidth, screenHeight, "raylib Tutorial");
+		      SetTargetFPS(60);
+		  
+		      auto lastMoveTime = std::chrono::steady_clock::now();
+		    
+		      while (!WindowShouldClose()) {
+		          if (IsKeyDown(KEY_RIGHT)) {
+		              auto currentTime = std::chrono::steady_clock::now();
+		              auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(currentTime - lastMoveTime).count();
+		  
+		              if (elapsedTime > 200) {  
+		                  lastMoveTime = currentTime;
+		              }
+		          }
 		      }
+		  
+		      CloseWindow();
+		      return 0;
 		  }
+		  
+		  
 		  ```
 - # 難點攻關
 	- ## 1. 旋轉如何實施？
