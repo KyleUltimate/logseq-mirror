@@ -50,7 +50,19 @@ collapsed:: true
 				  ```
 			- 創建 `CMakeLists.txt` ，並寫入以下資料
 				- ```cmake
+				  cmake_minimum_required(VERSION 3.10)
+				  
+				  project(HelloWorld)
+				  
+				  find_package(raylib CONFIG REQUIRED)
+				  
+				  add_executable(HelloWorld main.cpp)
+				  
+				  target_link_libraries(HelloWorld PRIVATE raylib)
 				  ```
+			- 在 `main.cpp` 中，添加 raylib 標頭擋
+				- `#include <raylib.h>`
+				-
 - # C++ 語法補充
   collapsed:: true
 	- ## lambda
