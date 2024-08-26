@@ -129,8 +129,8 @@ collapsed:: true
 				- ![image.png](../assets/image_1724681131962_0.png)
 			- `default`選取 CMake 預設
 				- ![image.png](../assets/image_1724681186589_0.png)
-- # 使用 Raylib
-	- ## 基礎教學
+- # 如何將 Tetris 做出來
+	- ## 基礎 Raylib 教學
 	  collapsed:: true
 		- 請直接看以下程式碼即可。
 		- ```cpp
@@ -167,7 +167,24 @@ collapsed:: true
 		      return 0;
 		  }
 		  ```
-	- ##
+	- ## 判斷時間過了多久(pseudo code)
+		- ```cpp
+		  #include <chrono>
+		  
+		  // At the start of your game loop:
+		  auto lastMoveTime = std::chrono::steady_clock::now();
+		  
+		  // In your game loop:
+		  if (IsKeyDown(KEY_RIGHT)) {
+		      auto currentTime = std::chrono::steady_clock::now();
+		      auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(currentTime - lastMoveTime).count();
+		      
+		      if (elapsedTime > 200) {  // 200ms for initial delay
+		          // Move piece right
+		          lastMoveTime = currentTime;
+		      }
+		  }
+		  ```
 - # 難點攻關
 	- ## 1. 旋轉如何實施？
 	- 直接把旋轉完的方塊 array 寫在程式碼中
