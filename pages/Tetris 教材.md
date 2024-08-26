@@ -60,8 +60,8 @@ collapsed:: true
 				  
 				  target_link_libraries(HelloWorld PRIVATE raylib)
 				  ```
-			- 4. 在 `main.cpp` 中，添加 raylib 標頭擋`#include <raylib.h>`
-		- ### 4.
+			- 4. 創建 `CMakePresets.json`
+			- 5. 在 `main.cpp` 中，添加 raylib 標頭擋 `#include <raylib.h>`
 - # C++ 語法補充
   collapsed:: true
 	- ## lambda
