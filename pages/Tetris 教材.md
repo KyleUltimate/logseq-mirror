@@ -14,11 +14,13 @@ collapsed:: true
 			- 使玩家能夠更加輕易的做出一格移動
 	- 其實，你在電腦上按下任何一個按鍵，都可以發現 DAS 間隔與 ARR 速率的存在
 - # 難點攻關
-  collapsed:: true
 	- ## 1. 旋轉如何實施？
 	- 直接把旋轉完的方塊 array 寫在程式碼中
 	- 根據每個不同的方塊，撰寫獨立的旋轉軸(pivot)
-- # 安裝 RayLib
+- # 安裝 Raylib
+	- ## Raylib 簡介
+		- 一個非常簡單的 C++ 遊戲 library
+		- 只提供了
 	-
 - # C++ 語法補充
   collapsed:: true
