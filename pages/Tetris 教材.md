@@ -129,7 +129,9 @@
 			- `default`選取 CMake 預設
 				- ![image.png](../assets/image_1724681186589_0.png)
 - # 使用 Raylib
-	-
+	- 請直接看以下程式碼即可。
+	- ```cpp
+	  ```
 - # 難點攻關
   collapsed:: true
 	- ## 1. 旋轉如何實施？
