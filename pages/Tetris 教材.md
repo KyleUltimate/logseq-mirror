@@ -28,6 +28,10 @@ collapsed:: true
 			  git clone https://github.com/microsoft/vcpkg.
 			  cd vcpkg && bootstrap-vcpkg.bat
 			  ```
+		- ### 2.安裝 Visual Studio Code 延伸模組
+			- 在 **擴充功能** 介面，安裝這兩個
+			- ![image.png](../assets/image_1724680103492_0.png)
+			- ![image.png](../assets/image_1724680110050_0.png)
 	-
 - # C++ 語法補充
   collapsed:: true
