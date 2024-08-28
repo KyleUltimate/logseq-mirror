@@ -34,7 +34,7 @@
 			- 在 **擴充功能** 介面，安裝這兩個延伸模組
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
-		- ###  3. 設定 vcpkg 與添加 Raylib
+		- ###  4. 設定 vcpkg 與添加 Raylib
 			- 1. 在 `vcpkg` 中添加依賴
 				- ```bash
 				  vcpkg new --application
@@ -118,7 +118,7 @@
 				      return 0;
 				  }
 				  ```
-		- ### 4. 創建專案
+		- ### 5. 建立程式
 			- 按下 **Ctrl + Shift + P**，並搜尋「CMake: Build」
 				- ![image.png](../assets/image_1724681131962_0.png)
 			- `default`選取 CMake 預設
