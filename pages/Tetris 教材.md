@@ -35,7 +35,7 @@
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
 		- ###  4. 創建 VSCode 專案
-			- 1. 在 `vcpkg` 中添加依賴
+			- 1. 在專案資料夾裡運行
 				- ```bash
 				  vcpkg new --application
 				  vcpkg add port raylib
