@@ -1,1 +1,1 @@
-- 但今天要介紹 Windows 環境的另外一個 command line 套件管理工具
+- 今天要介紹 Windows 環境的 command line 套件管理工具
