@@ -28,29 +28,19 @@
 			- ```bash
 			  scoop install vcpkg
 			  scoop install ninja
+			  scoop install mingw
 			  ```
-		-
 		- ### 3.安裝 Visual Studio Code 延伸模組
 			- 在 **擴充功能** 介面，安裝這兩個延伸模組
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
 		- ###  3. 設定 vcpkg 與添加 Raylib
-			- 1. 先設定 `VCPKG_ROOT` 環境變數
-				- 在 VSCode 中開啟新的終端機： **終端 > 新終端機**
-				- #+BEGIN_IMPORTANT
-				  記得先確認 `%userprofile%\vcpkg` 存在。
-				  看 `cd %userprofile%\vcpkg` 是否成功運行
-				  #+END_IMPORTANT
-				- ```bash
-				  set "VCPKG_ROOT=%userprofile%\vcpkg"
-				  set PATH=%VCPKG_ROOT%;%PATH%
-				  ```
-			- 2. 在 `vcpkg` 中添加依賴
+			- 1. 在 `vcpkg` 中添加依賴
 				- ```bash
 				  vcpkg new --application
 				  vcpkg add port raylib
 				  ```
-			- 3. 創建 `CMakeLists.txt` ，並寫入以下資料
+			- 2. 創建 `CMakeLists.txt` ，並寫入以下資料
 				- ```cmake
 				  cmake_minimum_required(VERSION 3.10)
 				  
@@ -62,7 +52,7 @@
 				  
 				  target_link_libraries(HelloWorld PRIVATE raylib)
 				  ```
-			- 4. 創建 `CMakePresets.json`，並寫入以下資料
+			- 3. 創建 `CMakePresets.json`，並寫入以下資料
 				- ```json
 				  {
 				    "version": 2,
