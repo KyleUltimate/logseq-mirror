@@ -68,7 +68,7 @@
 				    ]
 				  }
 				  ```
-			- 5. 創建 `CMakeUserPresets.json`，並寫入以下資料
+			- 4. 創建 `CMakeUserPresets.json`，並寫入以下資料
 				- ```json
 				  {
 				    "version": 2,
@@ -77,7 +77,7 @@
 				        "name": "default",
 				        "inherits": "vcpkg",
 				        "environment": {
-				          "VCPKG_ROOT": "$env{userprofile}\vcpkg"
+				          "VCPKG_ROOT": "$env{userprofile}/scoop/apps/vcpkg"
 				        }
 				      }
 				    ]
@@ -101,7 +101,7 @@
 				      while (!WindowShouldClose()) 
 				      {
 				  
-				          BeginDrawing()
+				          BeginDrawing();
 				            
 				          /* 如果你要畫東西放在 BeginDrawing() 到 EndDrawing() 之間 */
 				  
