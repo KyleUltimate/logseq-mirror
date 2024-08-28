@@ -24,7 +24,7 @@
 			  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 			  Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 			  ```
-		- ### 2. 安裝 vcpkg
+		- ### 2. 安裝 vcpkg 及其依賴
 			- ```bash
 			  scoop install vcpkg
 			  scoop install ninja
