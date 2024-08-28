@@ -20,15 +20,17 @@
 		- 我們將利用 [[scoop]] 與 [[vcpkg]] 來安裝函式庫，並利用 CMake 來在我們的 C++ 專案中使用
 		- ### 1. 安裝 scoop
 			- 開啟命令列（Win + R, 打 powershell）（或是 Windows Terimnal）
-			- ```pwsh
+			- ```powershell
+			  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+			  Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 			  ```
-		- ### 1. 安裝 vcpkg
-			-
+		- ### 2. 安裝 vcpkg
 			- ```bash
-			  git clone https://github.com/microsoft/vcpkg.git
-			  cd vcpkg && bootstrap-vcpkg.bat
+			  scoop install vcpkg
+			  scoop install ninja
 			  ```
-		- ### 2.安裝 Visual Studio Code 延伸模組
+		-
+		- ### 3.安裝 Visual Studio Code 延伸模組
 			- 在 **擴充功能** 介面，安裝這兩個延伸模組
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
