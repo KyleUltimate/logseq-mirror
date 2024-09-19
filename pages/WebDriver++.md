@@ -16,4 +16,8 @@
 		  cmake ../src
 		  ```
 - # 執行 ChromeDriver
+	- #+BEGIN_IMPORTANT
+	  在執行任何爬蟲之前，此步驟**非常重要**
+	  
+	  #+END_IMPORTANT
 	- `java -jar selenium.jar standalone`
