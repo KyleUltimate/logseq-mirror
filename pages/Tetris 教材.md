@@ -17,7 +17,6 @@
 	- ## Raylib 簡介
 		- 一個非常簡單的 C++ 2d 遊戲函式庫
 	- ## 安裝教學
-	  collapsed:: true
 		- 我們將利用 [[scoop]] 與 [[vcpkg]] 來安裝函式庫，並利用 CMake 來在我們的 C++ 專案中使用
 		- ### 1. 安裝 scoop
 			- 開啟命令列（Win + R, 打 powershell）（或是 Windows Terimnal）
@@ -123,7 +122,7 @@
 			- 按下 **Ctrl + Shift + P**，並搜尋「CMake: Build」
 				- ![image.png](../assets/image_1724681131962_0.png)
 			- `default`選取 CMake 預設
-				- ![image.png](../assets/image_1724681186589_0.png)
+				- ![image.png](../assets/image_1724681186589_0.png){:height 179, :width 1128}
 - # 如何將 Tetris 做出來
 	- ## 基礎 Raylib 教學
 		- 請直接看以下程式碼即可。
