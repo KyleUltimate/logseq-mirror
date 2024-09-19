@@ -1,5 +1,13 @@
 # **C++ R**equests: Curl for People
 - 是一個簡易的 library 來使你能 **下載檔案**
+- # 安裝
+	- ### 在專案資料夾裡運行
+		- ```bash
+		  vcpkg install picojson
+		  scoop install curl
+		  scoop bucket add java
+		  scoop install openjdk
+		  ```
 -
 - # 簡易範例
 	- 詳細功能請洽 https://docs.libcpr.org/
