@@ -17,6 +17,7 @@
 	- ## Raylib 簡介
 		- 一個非常簡單的 C++ 2d 遊戲函式庫
 	- ## 安裝教學
+	  collapsed:: true
 		- 我們將利用 [[scoop]] 與 [[vcpkg]] 來安裝函式庫，並利用 CMake 來在我們的 C++ 專案中使用
 		- ### 1. 安裝 scoop
 			- 開啟命令列（Win + R, 打 powershell）（或是 Windows Terimnal）
