@@ -82,11 +82,16 @@
 			- `default`選取 CMake 預設
 				- ![image.png](../assets/image_1724681186589_0.png){:height 179, :width 1128}
 	- ## Raylib 安裝教學
-		-
-		- 1. 在專案資料夾裡運行
+		- #### 在專案資料夾裡運行
 			- ```bash
 			  vcpkg new --application
 			  vcpkg add port raylib
+			  ```
+		- #### 在 `Cmakelists.txt` 中增加下列行數
+			- ```cmake  
+			  find_package(raylib CONFIG REQUIRED)
+			  
+			  target_link_libraries(HelloWorld PRIVATE raylib)
 			  ```
 		- 在 `main.cpp` 中，添加以下程式碼
 			- ```cpp
