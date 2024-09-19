@@ -9,11 +9,11 @@
 		  scoop install curl
 		  scoop bucket add java
 		  scoop install openjdk
+		  scoop install selenium
 		  
 		  mkdir build
 		  cd build
 		  cmake ../src
-		  
-		  wget https://selenium-release.storage.googleapis.com/4.0-beta-4/selenium-server-4.0.0-beta-4.jar
 		  ```
 - # 執行 ChromeDriver
+	- `java -jar selenium.jar standalone`
