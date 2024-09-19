@@ -21,7 +21,6 @@
 	- ## Raylib 安裝教學
 		- #### 在專案資料夾裡運行
 			- ```bash
-			  vcpkg new --application
 			  vcpkg add port raylib
 			  ```
 		- #### 在 `Cmakelists.txt` 中增加下列行數

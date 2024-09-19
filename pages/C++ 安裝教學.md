@@ -17,7 +17,7 @@
 	- ![image.png](../assets/image_1724680110050_0.png)
 - ### 4. 創建 VSCode 專案
 	- 1. 在專案資料夾裡運行
-		- `vcpkg `
+		- `vcpkg new --application`
 	- 2. 創建 `CMakeLists.txt` ，並寫入以下資料
 		- ```cmake
 		  cmake_minimum_required(VERSION 3.10)

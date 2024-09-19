@@ -5,11 +5,7 @@
 	- ## 安裝
 		- ### 在專案資料夾裡運行
 			- ```bash
-			  vcpkg new --application
-			  vcpkg add port raylib
+			  vcpkg add port cpr
+			  vcpkg install picojson
+			  scoop install curl
 			  ```
-	- https://vcpkg.io/en/package/cpr
-	- https://github.com/durdyev/webdriverxx
-		- dependencies:
-			- `scoop install curl`
-			- https://vcpkg.io/en/package/picojson
