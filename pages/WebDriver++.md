@@ -18,6 +18,6 @@
 - # 執行 ChromeDriver
 	- #+BEGIN_IMPORTANT
 	  在執行任何爬蟲之前，此步驟**非常重要**
-	  
+	  這串命令得使你 C++ 內部的程式碼能連結到
 	  #+END_IMPORTANT
 	- `java -jar selenium.jar standalone`
