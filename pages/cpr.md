@@ -3,10 +3,7 @@
 - # 安裝
 	- ### 在專案資料夾裡運行
 		- ```bash
-		  vcpkg install picojson
-		  scoop install curl
-		  scoop bucket add java
-		  scoop install openjdk
+		  vcpkg add port cpr
 		  ```
 -
 - # 簡易範例
