@@ -11,7 +11,7 @@
 	- ## 將函式庫 include 到你的專案中
 		- ### 在 `Cmakelists.txt` 中增加下列行數
 			- ```cmake  
-			  find_package( CONFIG REQUIRED)
+			  find_package(webdriverxx CONFIG REQUIRED)
 			  
 			  target_link_libraries(HelloWorld PRIVATE raylib)
 			  ```
