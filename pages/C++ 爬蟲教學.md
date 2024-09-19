@@ -1,4 +1,11 @@
 # 何謂爬蟲
 -
 - # 爬蟲前製函式庫
-	- 在開始之前，請根據
+	- 請先據 [[C++ 安裝教學]] 來設定專案
+	- ## 安裝
+		-
+	- https://vcpkg.io/en/package/cpr
+	- https://github.com/durdyev/webdriverxx
+		- dependencies:
+			- `scoop install curl`
+			- https://vcpkg.io/en/package/picojson
