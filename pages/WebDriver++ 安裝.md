@@ -9,6 +9,7 @@
 		  scoop bucket add java
 		  scoop install openjdk
 		  scoop install selenium
+		  scool install chromedriver
 		  
 		  mkdir build
 		  cd build
