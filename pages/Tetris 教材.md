@@ -18,7 +18,6 @@
 	- ## Raylib 簡介
 		- 一個非常簡單的 C++ 2d 遊戲函式庫
 	- ## C++ 安裝教學
-	  collapsed:: true
 		- 我們將利用 [[scoop]] 與 [[vcpkg]] 來安裝函式庫，並利用 CMake 來在我們的 C++ 專案中使用
 		- ### 1. 安裝 scoop
 			- 開啟命令列（Win + R, 打 powershell）（或是 Windows Terimnal）
@@ -36,24 +35,15 @@
 			- 在 **擴充功能** 介面，安裝這兩個延伸模組
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
-	- ## Raylib 安裝教學
 		- ### 4. 創建 VSCode 專案
-			- 1. 在專案資料夾裡運行
-				- ```bash
-				  vcpkg new --application
-				  vcpkg add port raylib
-				  ```
 			- 2. 創建 `CMakeLists.txt` ，並寫入以下資料
 				- ```cmake
 				  cmake_minimum_required(VERSION 3.10)
 				  
 				  project(HelloWorld)
 				  
-				  find_package(raylib CONFIG REQUIRED)
-				  
 				  add_executable(HelloWorld main.cpp)
 				  
-				  target_link_libraries(HelloWorld PRIVATE raylib)
 				  ```
 			- 3. 創建 `CMakePresets.json`，並寫入以下資料
 				- ```json
@@ -86,46 +76,53 @@
 				    ]
 				  }
 				  ```
-			- 6. 在 `main.cpp` 中，添加以下程式碼
-				- ```cpp
-				  // main.cpp
-				  #include "raylib.h"
-				  
-				  int main() {
-				      // Initialization
-				      const int screenWidth = 800;
-				      const int screenHeight = 450;
-				  
-				      InitWindow(screenWidth, screenHeight, "你的遊戲");
-				  
-				      SetTargetFPS(60);
-				  
-				      // Main game loop
-				      while (!WindowShouldClose()) 
-				      {
-				  
-				          BeginDrawing();
-				            
-				          /* 如果你要畫東西放在 BeginDrawing() 到 EndDrawing() 之間 */
-				  
-				          ClearBackground(RAYWHITE);
-				  
-				        	DrawText("Welcome to Raylib C++ Starter!", 190, 200, 20, LIGHTGRAY);
-				  
-				          EndDrawing();
-				      }
-				  
-				      // De-Initialization
-				      CloseWindow();  // Close window and OpenGL context
-				  
-				      return 0;
-				  }
-				  ```
 		- ### 5. 建立程式
 			- 按下 **Ctrl + Shift + P**，並搜尋「CMake: Build」
 				- ![image.png](../assets/image_1724681131962_0.png)
 			- `default`選取 CMake 預設
 				- ![image.png](../assets/image_1724681186589_0.png){:height 179, :width 1128}
+	- ## Raylib 安裝教學
+		-
+		- 1. 在專案資料夾裡運行
+			- ```bash
+			  vcpkg new --application
+			  vcpkg add port raylib
+			  ```
+		- 在 `main.cpp` 中，添加以下程式碼
+			- ```cpp
+			  // main.cpp
+			  #include "raylib.h"
+			  
+			  int main() {
+			      // Initialization
+			      const int screenWidth = 800;
+			      const int screenHeight = 450;
+			  
+			      InitWindow(screenWidth, screenHeight, "你的遊戲");
+			  
+			      SetTargetFPS(60);
+			  
+			      // Main game loop
+			      while (!WindowShouldClose()) 
+			      {
+			  
+			          BeginDrawing();
+			            
+			          /* 如果你要畫東西放在 BeginDrawing() 到 EndDrawing() 之間 */
+			  
+			          ClearBackground(RAYWHITE);
+			  
+			        	DrawText("Welcome to Raylib C++ Starter!", 190, 200, 20, LIGHTGRAY);
+			  
+			          EndDrawing();
+			      }
+			  
+			      // De-Initialization
+			      CloseWindow();  // Close window and OpenGL context
+			  
+			      return 0;
+			  }
+			  ```
 - # 如何將 Tetris 做出來
 	- ## 基礎 Raylib 教學
 		- 請直接看以下程式碼即可。
