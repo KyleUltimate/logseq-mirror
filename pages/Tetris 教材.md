@@ -13,10 +13,12 @@
 			- 使玩家能夠更加輕易的做出一格移動
 	- ## tl;dr
 		- 其實，你在電腦上按下任何一個按鍵，都可以發現 **DAS 間隔** 與 **ARR 速率** 的存在
+-
 - # 安裝 Raylib
 	- ## Raylib 簡介
 		- 一個非常簡單的 C++ 2d 遊戲函式庫
-	- ## 安裝教學
+	- ## C++ 安裝教學
+	  collapsed:: true
 		- 我們將利用 [[scoop]] 與 [[vcpkg]] 來安裝函式庫，並利用 CMake 來在我們的 C++ 專案中使用
 		- ### 1. 安裝 scoop
 			- 開啟命令列（Win + R, 打 powershell）（或是 Windows Terimnal）
@@ -34,7 +36,8 @@
 			- 在 **擴充功能** 介面，安裝這兩個延伸模組
 			- ![image.png](../assets/image_1724680103492_0.png)
 			- ![image.png](../assets/image_1724680110050_0.png)
-		- ###  4. 創建 VSCode 專案
+	- ## Raylib 安裝教學
+		- ### 4. 創建 VSCode 專案
 			- 1. 在專案資料夾裡運行
 				- ```bash
 				  vcpkg new --application
