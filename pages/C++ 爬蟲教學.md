@@ -8,5 +8,6 @@
 			  vcpkg add port cpr
 			  vcpkg install picojson
 			  scoop install curl
-			  scoop install java
+			  scoop bucket add java
+			  scoop install openjdk
 			  ```
