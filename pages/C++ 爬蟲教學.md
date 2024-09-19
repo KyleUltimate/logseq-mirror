@@ -8,8 +8,6 @@
 			  vcpkg new --application
 			  vcpkg add port raylib
 			  ```
-		- ```bash 
-		  ```
 	- https://vcpkg.io/en/package/cpr
 	- https://github.com/durdyev/webdriverxx
 		- dependencies:
