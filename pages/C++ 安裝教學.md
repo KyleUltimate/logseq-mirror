@@ -46,21 +46,6 @@
 		    ]
 		  }
 		  ```
-	- 4. 創建 `CMakeUserPresets.json`，並寫入以下資料
-		- ```json
-		  {
-		    "version": 2,
-		    "configurePresets": [
-		      {
-		        "name": "default",
-		        "inherits": "vcpkg",
-		        "environment": {
-		          "VCPKG_ROOT": "$env{userprofile}/scoop/apps/vcpkg"
-		        }
-		      }
-		    ]
-		  }
-		  ```
 - ### 5. 編譯程式
 	- 按下 **Ctrl + Shift + P**，並搜尋「CMake: Build」
 		- ![image.png](../assets/image_1724681131962_0.png)
