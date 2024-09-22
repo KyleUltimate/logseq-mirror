@@ -1,9 +1,7 @@
-- Windows 環境的命令列套件管理工具
-- # **Scoop**: Windows 的套件管理工具
-	- Scoop 是一個命令列工具，讓你在 Windows 上輕鬆安裝和管理應用程式。
-	- 它簡化了安裝過程，自動處理下載、解壓縮和設定環境變數等繁瑣步驟。
+# **Scoop**: Windows 的套件管理工具
+	- Scoop 是一個 Windows 環境的命令列套件管理工具。
 - # 安裝
-	- ### 使用 PowerShell (管理員權限)：
+	- ### 使用 PowerShell ：
 	  ```powershell
 	  Set-ExecutionPolicy RemoteSigned -scope CurrentUser # 允許執行腳本
 	  irm get.scoop.sh | iex
