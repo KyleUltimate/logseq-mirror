@@ -21,7 +21,7 @@
 		- `vcpkg new --application`
 	- 2. 創建 `CMakeLists.txt` ，並寫入以下資料
 		- #+BEGIN_IMPORTANT
-		  注意：
+		  注意：**main.cpp** 為你 C++ 檔案的名稱
 		  #+END_IMPORTANT
 		- ```cmake
 		  cmake_minimum_required(VERSION 3.10)
