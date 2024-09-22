@@ -11,7 +11,7 @@
 	  ```
 - ### 3.安裝 Visual Studio Code 延伸模組
 	- #+BEGIN_TIP
-	  若位安裝
+	  若尚未安裝，可利用 `scoop install vscode` 來進行安裝
 	  #+END_TIP
 	- 在 **擴充功能** 介面，安裝這兩個延伸模組
 	- ![image.png](../assets/image_1724680103492_0.png)
