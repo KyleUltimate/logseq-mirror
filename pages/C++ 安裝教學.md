@@ -20,6 +20,9 @@
 	- 1. 在專案資料夾裡運行
 		- `vcpkg new --application`
 	- 2. 創建 `CMakeLists.txt` ，並寫入以下資料
+		- #+BEGIN_IMPORTANT
+		  注意：
+		  #+END_IMPORTANT
 		- ```cmake
 		  cmake_minimum_required(VERSION 3.10)
 		  
