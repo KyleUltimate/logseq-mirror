@@ -11,8 +11,7 @@
 		  scoop install selenium
 		  
 		  mkdir build
-		  cd build
-		  cmake ../src
+		  cmake .
 		  ```
 - # 執行 ChromeDriver
   id:: 66ec0852-de5d-48de-a3fe-7b679e3ec7fc
