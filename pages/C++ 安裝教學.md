@@ -7,11 +7,12 @@
 	  ```
 - ### 2. 安裝 vcpkg 及其依賴
 	- ```powershell
-	  scoop install vcpkg
-	  scoop install ninja
-	  scoop install mingw
+	  scoop install vcpkg ninja mingw
 	  ```
 - ### 3.安裝 Visual Studio Code 延伸模組
+	- #+BEGIN_TIP
+	  若位安裝
+	  #+END_TIP
 	- 在 **擴充功能** 介面，安裝這兩個延伸模組
 	- ![image.png](../assets/image_1724680103492_0.png)
 	- ![image.png](../assets/image_1724680110050_0.png)
