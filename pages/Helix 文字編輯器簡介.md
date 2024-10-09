@@ -28,6 +28,9 @@
 			  id:: 67067ec9-5b12-4982-941c-d1b7f1105894
 				- 按下 `i` 在鼠標目前位置進入輸入模式
 				- 按下 `A` 在最後的位置進入輸入模式
+				- #+BEGIN_IMPORTANT
+				  要回到正常模式，請按 `Esc`
+				  #+END_IMPORTANT
 				- ![test.gif](../assets/test_1728479007498_0.gif){:height 635, :width 714}
 			- 按下 `:w` 儲存檔案，按下 `:q` 則會退出檔案，按下 `:wq` 則能儲存且退出檔案
 				- #+BEGIN_IMPORTANT
