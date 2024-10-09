@@ -212,6 +212,8 @@
  :feature/enable-timetracking? true
  :file/name-format :triple-lowbar
  :ui/show-full-blocks? false
+ :graph/forcesettings {:link-dist 60
+ :charge-range 700}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
