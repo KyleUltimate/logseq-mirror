@@ -10,7 +10,10 @@
 				- ![test.gif](../assets/test_1728477826900_0.gif)
 			- 按下 `d` 將選取之文字刪除
 				- ![test.gif](../assets/test_1728477945106_0.gif)
-			- 按下 `:w` 儲存檔案，按下 `:wq` 則能儲存且退出檔案
-				-
+			- 按下 `:w` 儲存檔案，按下 `:q` 則會退出檔案，按下 `:wq` 則能儲存且退出檔案
+				- #+BEGIN_IMPORTANT
+				  若有**尚未儲存**的資料，無法以 `:q` 退出檔案
+				  #+END_IMPORTANT
+				- ![test.gif](../assets/test_1728478240639_0.gif)
 -
 -
