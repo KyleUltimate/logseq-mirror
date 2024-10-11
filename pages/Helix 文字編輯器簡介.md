@@ -64,8 +64,11 @@
 				- ![test.gif](../assets/test_1728661505155_0.gif)
 				-
 			- #### Space 模式（太空模式）
-				-
+				- 我稱其為 **IDE 模式**（具有
 - # 安裝
 	- 按下 `Win+R`，並複製以下命令
-		- <hint
+		- #+BEGIN_TIP
+		  若**已安裝**過 `scoop`，則只需執行以下命令
+		  `scoop install helix`
+		  #+END_TIP
 		- `powershell -c 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin"; scoop install helix'`
