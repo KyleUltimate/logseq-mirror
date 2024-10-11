@@ -65,4 +65,7 @@
 				-
 			- #### Space 模式（太空模式）
 				-
--
+- # 安裝
+	- 按下 `Win+R`，並複製以下命令
+		- <hint
+		- `powershell -c 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin"; scoop install helix'`
