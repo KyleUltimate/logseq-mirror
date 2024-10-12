@@ -42,10 +42,13 @@
 		- ### 基礎行動介紹（補充）
 			- 這段介紹的意義在於，提升效率，即使不使用這些快捷鍵也能達成一樣的效果。
 			- `c` = `d` + `i`
+				- 將選取區域中的文字刪除，並直接進入輸入模式
 				- change = delete + insert
 			- `t` + `Enter`= `A` + `Esc`
-				- till end line = last line
-			- `t` 到
+				- 選取
+				- till end line = last line insert, return to normal mode
+			- #### 選取直到一個字母
+				- `t` + 該字母
 		- ### 進階行動介紹
 			- #### 萬能空間
 				- 在 **Helix** 中，有一個很重要的觀念
