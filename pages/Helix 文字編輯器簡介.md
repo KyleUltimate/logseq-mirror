@@ -81,4 +81,4 @@
 		  若**已安裝**過 `scoop`，則只需執行以下命令
 		  `scoop install helix`
 		  #+END_TIP
-		- `powershell -c 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin"; scoop install helix'`
+		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix'`
