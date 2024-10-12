@@ -44,7 +44,8 @@
 			- `c` = `d` + `i`
 				- change = delete + insert
 			- `t` + `Enter`= `A` + `Esc`
-				-
+				- till end line = last line
+			- `t` 到
 		- ### 進階行動介紹
 			- #### 萬能空間
 				- 在 **Helix** 中，有一個很重要的觀念
