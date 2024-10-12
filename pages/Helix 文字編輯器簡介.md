@@ -44,11 +44,11 @@
 			- `c` = `d` + `i`
 				- 將選取區域中的文字刪除，並直接進入輸入模式
 				- change = delete + insert
-			- `t` + `Enter`= `A` + `Esc`
-				- 選取
-				- till end line = last line insert, return to normal mode
 			- #### 選取直到一個字母
 				- `t` + 該字母
+			- `t` + `Enter`= `A` + `Esc`
+				- 選取直到 `\n` = 從最後輸入，回到正常模式
+				- till end line = last line insert, return to normal mode
 		- ### 進階行動介紹
 			- #### 萬能空間
 				- 在 **Helix** 中，有一個很重要的觀念
