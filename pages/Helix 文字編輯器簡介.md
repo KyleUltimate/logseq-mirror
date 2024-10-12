@@ -82,3 +82,4 @@
 		  `scoop install helix`
 		  #+END_TIP
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix'`
+		- `powershell -command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { iex '& {$(irm get.scoop.sh)} -RunAsAdmin' }; scoop install helix"`
