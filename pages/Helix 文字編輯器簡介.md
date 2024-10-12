@@ -77,9 +77,4 @@
 				- 我稱為 **IDE 模式**（具有很多方便的功能）
 - # 安裝
 	- 按下 `Win+R`，並複製以下命令
-		- #+BEGIN_TIP
-		  若**已安裝**過 `scoop`，則只需執行以下命令
-		  `scoop install helix`
-		  #+END_TIP
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix'`
-		- `powershell -command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { iex '& {$(irm get.scoop.sh)} -RunAsAdmin' }; scoop install helix"`
