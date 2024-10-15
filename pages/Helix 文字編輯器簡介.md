@@ -98,7 +98,10 @@
 					- 複製 `space` + `y`
 					- 貼上 `space` + `p`
 					- ![test.gif](../assets/test_1729002053434_0.gif)
-			- #### Goto 模式
+			- ####Goto 模式
+				- 將目前視窗
+				- `gs`
+					- goto definition 將目前去定義
 - # 安裝
 	- 按下 `Win+R`，並複製以下命令
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix clangd'`
