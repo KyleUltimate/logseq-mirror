@@ -33,12 +33,12 @@
 				  要回到正常模式，請按 `Esc`
 				  #+END_IMPORTANT
 				- ![test.gif](../assets/test_1728479007498_0.gif){:height 635, :width 714}
-			- #### 按下 `:w` 儲存檔案，按下 `:q` 則會退出檔案，按下 `:wq` 則能儲存且退出檔案
-				- #+BEGIN_IMPORTANT
-				  若有**尚未儲存**的資料，無法以 `:q` 退出檔案
-				  若執意退出，可以 `:q!` **強制退出**，拋棄更改的文字
-				  #+END_IMPORTANT
-				- ![test.gif](../assets/test_1728478240639_0.gif)
+		- #### 按下 `:w` 儲存檔案，按下 `:q` 則會退出檔案，按下 `:wq` 則能儲存且退出檔案
+			- #+BEGIN_IMPORTANT
+			  若有**尚未儲存**的資料，無法以 `:q` 退出檔案
+			  若執意退出，可以 `:q!` **強制退出**，拋棄更改的文字
+			  #+END_IMPORTANT
+			- ![test.gif](../assets/test_1728478240639_0.gif)
 		- ### 基礎行動介紹（補充）
 			- 這段介紹的意義在於，提升效率，即使不使用這些快捷鍵也能達成一樣的效果。
 			- #### 取代並輸入
@@ -103,6 +103,6 @@
 	- 按下 `Win+R`，並複製以下命令
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix clangd'`
 - # 命令列簡介
-	- 由於 `helix` 是命令列工具
+	- 由於 `helix` 是命令列工具，所以你必須熟悉命令列的
 - # Playground
 	- 下載此檔案，可以試試看各種功能。
