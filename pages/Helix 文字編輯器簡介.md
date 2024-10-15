@@ -116,8 +116,11 @@
 	- ## 刪除檔案 (rm)
 		- `rm -r [folder]` 刪除目錄 (`-r` 意旨遞迴式刪除)
 		- `rm [file]` 刪除檔案
+	- ## 遞迴列出所有檔案
+		- `tree` 列出在目前目錄下的所有檔案
 	- ## 新增資料夾(mkdir)
-		- `mkdir -p [folder]` 自目前目錄，創建至 `[folder]` 的
+		- `mkdir -p [folder]` 自目前目錄，創建至 `[folder]` 的資料夾
+			- 例：`mkdir -p folder/folder2` 的 `tree` 長這樣
 	- ## 在 `helix` 中存取檔案
 		- `hx [file]` 開啟檔案，或是新增以`file`為名稱的檔案
 	- ## General Tips
