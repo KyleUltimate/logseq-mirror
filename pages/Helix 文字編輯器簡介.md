@@ -155,7 +155,7 @@
 	  
 	  int main() {
 	  
-	    // 試試看打 `space` + `a`，應該會自動幫你 include map
+	    // 試試看在 `map` 的地方打 `space` + `a`，helix 應該會自動幫你 include map
 	    // 在這裡熟悉 `helix` 的操作模式（在輸入模式與普通模式中切換）
 	    map<string, int> ages = {{"Alice", 25}, {"Bob", 30}};
 	  
