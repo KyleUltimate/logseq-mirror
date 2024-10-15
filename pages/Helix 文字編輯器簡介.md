@@ -49,7 +49,7 @@
 				- `t` + `Enter`= `A` + `Esc`
 				- 選取直到 `\n` = 從行末輸入，回到正常模式
 		- ### 進階行動介紹
-			- #### 萬能空間
+			- #### 暫存器
 				- 在 **Helix** 中，有一個很重要的觀念
 					- 當你把文字**刪除**時，Helix 會把那串文字放到一個 **暫存器** 內
 				- 可利用 `y` 將選取的文字放入 **暫存器** 內
@@ -98,6 +98,8 @@
 					- ![test.gif](../assets/test_1729002053434_0.gif)
 - # 安裝
 	- 按下 `Win+R`，並複製以下命令
-		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix'`
+		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix clangd'`
 - # 命令列簡介
 	- 由於 `helix` 是命令列工具
+- # Playground
+	- 下載此檔案，來玩玩~~
