@@ -114,8 +114,10 @@
 		- `cd ..` 回到上一層目錄
 		- `cd [folder]` 切換目錄至指定位置
 	- ## 刪除檔案 (rm)
-		- `rm -r` 刪除目錄 (`-r` 意旨遞迴式刪除)
+		- `rm -r [folder]` 刪除目錄 (`-r` 意旨遞迴式刪除)
 		- `rm [file]` 刪除檔案
+	- ## 新增資料夾(mkdir)
+		- `mkdir -p [folder]` 自目前目錄，創建至 `[folder]` 的
 	- ## 在 `helix` 中存取檔案
 		- `hx [file]` 開啟檔案，或是新增以`file`為名稱的檔案
 	- ## General Tips
