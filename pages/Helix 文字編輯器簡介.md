@@ -88,7 +88,6 @@
 					- 選擇字串裡面 `mi"`
 					- ![test.gif](../assets/test_1729001846115_0.gif)
 			- #### Space 模式（太空模式）
-			  collapsed:: true
 				- 我稱為 **IDE 模式**（具有很多方便的功能）
 				- 不必背誦，有需要在按 `space` 得知詳細 short cuts
 				- 讀取 documentation
@@ -98,10 +97,11 @@
 					- 複製 `space` + `y`
 					- 貼上 `space` + `p`
 					- ![test.gif](../assets/test_1729002053434_0.gif)
-			- ####Goto 模式
-				- 將目前視窗
-				- `gs`
-					- goto definition 將目前去定義
+			- #### Goto 模式
+				- 移動目前的視窗至其他地方
+				- 利用 `:bc` 來回到原始檔案
+				- `gs` 去定義那個物件的檔案
+					- goto definition
 - # 安裝
 	- 按下 `Win+R`，並複製以下命令
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix clangd'`
