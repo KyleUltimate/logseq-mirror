@@ -105,13 +105,14 @@
 - # 命令列簡介
 	- 由於 `helix` 是命令列工具，所以你必須熟悉命令列，若不熟，以下是對命令列的簡介。
 	- #+BEGIN_TIP
-	  在此簡介中，`[file]` 意旨檔案名稱/路徑
-	  所以 `folder1/folder2/folder3/file.pdf` 跟 `file.pdf`
+	  在此簡介中，`[folder]`/`[file]` 意旨檔案名稱/路徑
+	  所以 `folder1/folder2` 、 `folder1/folder2/folder3/file.pdf` 跟 `file.pdf` 皆為合法意義
 	  #+END_TIP
-	- 瀏覽檔案(ls)
+	- 瀏覽目前目錄下的檔案(ls)
 		- `ls -l` 列出檔案
 	- 移動目錄(cd)
-		- cd .. 回到上一層
+		- cd .. `回到上一層
+		- `cd [folder]`
 	- 刪除檔案
 		- `rm -r` 刪除目錄
 		- `rm [file]` 刪除檔案
