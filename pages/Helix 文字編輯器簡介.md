@@ -108,11 +108,6 @@
 	  在此簡介中，`[folder]`/`[file]` 意旨檔案名稱/路徑
 	  所以 `folder1/folder2` 、 `folder1/folder2/folder3/file.pdf` 跟 `file.pdf` 皆為合法意義
 	  #+END_TIP
-	- ## General Tips
-		- ### 得到 app 的簡略使用
-			- `[app] -h`
-		- ### 開啟檔案
-			- 通常是 `[app] [file]` 或是 `[app] -i [file]`
 	- ## 瀏覽目前目錄下的檔案(ls)
 		- `ls -l` 列出檔案
 	- ## 切換目錄(cd)
@@ -123,5 +118,11 @@
 		- `rm [file]` 刪除檔案
 	- ## 在 `helix` 中存取檔案
 		- `hx [file]` 開啟檔案
+	- ## General Tips
+		- ### Flags(
+		- ### 得到 app 的簡略使用
+			- `[app] -h`
+		- ### 開啟檔案
+			- 通常是 `[app] [file]` 或是 `[app] -i [file]`
 - # Playground
 	- 下載此檔案，可以試試看各種功能。
