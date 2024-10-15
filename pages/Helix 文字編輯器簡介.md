@@ -88,7 +88,10 @@
 					- ![test.gif](../assets/test_1729001846115_0.gif)
 			- #### Space 模式（太空模式）
 				- 我稱為 **IDE 模式**（具有很多方便的功能）
+				- 不必背誦，有需要在按 `space` 得知詳細 short cuts
+				-
 				- 從系統剪貼簿複製與貼上
+				  collapsed:: true
 					- ![test.gif](../assets/test_1729002053434_0.gif)
 					- 複製 `space` + `y`
 					- 貼上 `space` + `p`
