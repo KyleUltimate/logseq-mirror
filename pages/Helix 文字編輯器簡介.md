@@ -108,14 +108,16 @@
 	  在此簡介中，`[folder]`/`[file]` 意旨檔案名稱/路徑
 	  所以 `folder1/folder2` 、 `folder1/folder2/folder3/file.pdf` 跟 `file.pdf` 皆為合法意義
 	  #+END_TIP
+	- ##
 	- ## 瀏覽目前目錄下的檔案(ls)
 		- `ls -l` 列出檔案
 	- ## 切換目錄(cd)
 		- `cd ..` 回到上一層目錄
 		- `cd [folder]` 切換目錄至指定位置
 	- ## 刪除檔案 (rm)
-		- `rm -r` 刪除目錄
-			-
+		- `rm -r` 刪除目錄 (`-r` 意旨遞迴式刪除)
 		- `rm [file]` 刪除檔案
+	- ## 在 `helix` 中存取檔案
+		- `hx [file]` 開啟檔案
 - # Playground
 	- 下載此檔案，可以試試看各種功能。
