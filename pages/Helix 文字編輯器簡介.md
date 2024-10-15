@@ -76,10 +76,11 @@
 				- 用於選擇各式「**可重複字元**」的選擇
 				- #+BEGIN_TIP
 				  何謂**可重複字元**？
-				  `()` `{}` `[]` `""` `''`
+				  `()` `{}` `[]` `""` `''` .....
+				  各類可將字串「包覆」起來的字元
 				  #+END_TIP
 				- `mm` 移動遊標至對應的重複字元
-					-
+					- ![test.gif](../assets/test_1729001930303_0.gif)
 				- `mi` + `字元`
 					- 選擇 **可重複字元** 的裡面
 					- 選擇括號 `mi(` or `mi)`
@@ -87,7 +88,7 @@
 					- ![test.gif](../assets/test_1729001846115_0.gif)
 			- #### Space 模式（太空模式）
 				- 我稱為 **IDE 模式**（具有很多方便的功能）
-				- （請自己讀）
+				-
 - # 安裝
 	- 按下 `Win+R`，並複製以下命令
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix'`
