@@ -148,4 +148,4 @@
 	- ## 在 `helix` 中存取檔案
 		- `hx [file]` 開啟檔案，或是新增以`file`為名稱的檔案
 - # Playground
-	- 下載此檔案，可以試試看各種功能。
+	- 下載[此檔案](https://files.catbox.moe/cjfleu.cc)，可以試試看各種功能。
