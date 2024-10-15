@@ -104,6 +104,10 @@
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix clangd'`
 - # 命令列簡介
 	- 由於 `helix` 是命令列工具，所以你必須熟悉命令列，若不熟，以下是對命令列的簡介。
+	- #+BEGIN_TIP
+	  在此簡介中，`[file]` 意旨檔案名稱/路徑
+	  所以 `folder1/folder2/folder3/file.pdf` 跟 `file.pdf`
+	  #+END_TIP
 	- 瀏覽檔案(ls)
 		- `ls -l` 列出檔案
 	- 移動目錄(cd)
@@ -111,6 +115,6 @@
 	- 刪除檔案
 		- `rm -r` 刪除目錄
 		- `rm [file]` 刪除檔案
-			- 例，刪除 `rm`
+			- 例：刪除 file.pdf `rm file.pdf`
 - # Playground
 	- 下載此檔案，可以試試看各種功能。
