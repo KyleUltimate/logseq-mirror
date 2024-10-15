@@ -93,9 +93,9 @@
 					- `space` + `k`
 					- ![test.gif](../assets/test_1729002293483_0.gif)
 				- 從系統剪貼簿複製與貼上
-					- ![test.gif](../assets/test_1729002053434_0.gif)
 					- 複製 `space` + `y`
 					- 貼上 `space` + `p`
+					- ![test.gif](../assets/test_1729002053434_0.gif)
 - # 安裝
 	- 按下 `Win+R`，並複製以下命令
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix'`
