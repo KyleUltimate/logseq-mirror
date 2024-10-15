@@ -149,4 +149,28 @@
 		- `hx [file]` 開啟檔案，或是新增以`file`為名稱的檔案
 - # Playground
 	- 將下列檔案命名至 `main.cc`，可以試試看各種功能。
-	-
+	- （提示：利用 `space` + `p` 來從 `helix` 中將剪貼簿的內容貼上）
+	- ```cpp
+	  #include <string>
+	  #include <vector>
+	  using namespace std;
+	  
+	  int main() {
+	  
+	    // 試試看打 `space` + `a`，應該會自動幫你 include map
+	    // 在這裡熟悉 `helix` 的操作模式（在輸入模式與普通模式中切換）
+	    map<string, int> ages = {{"Alice", 25}, {"Bob", 30}};
+	  
+	    // 試著把他們的 type 都改成 `std::string`
+	    string s = "string";
+	    string s2 = "string";
+	    string s3 = "string";
+	    string s4 = "string";
+	  
+	    // 將下一行改為合法語法的 C++
+	    // HINT: 可以用 surround 跟 select 達成
+	    vector<int> v = {1 3 4 5 6 7};
+	  }
+	  
+	  ```
+	- 若想嘗試 `helix`
