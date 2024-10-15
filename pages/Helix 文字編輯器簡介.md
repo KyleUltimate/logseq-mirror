@@ -1,4 +1,5 @@
-# Helix 簡介
+- {{renderer :tocgen2}}
+- # Helix 簡介
 	- Helix 編輯器的精髓在於其 **模態編輯** 的功能。
 		- 模態編輯意旨：在輸入時，具有不同狀態
 		- **正常**模式、**輸入**模式
@@ -87,6 +88,7 @@
 					- 選擇字串裡面 `mi"`
 					- ![test.gif](../assets/test_1729001846115_0.gif)
 			- #### Space 模式（太空模式）
+			  collapsed:: true
 				- 我稱為 **IDE 模式**（具有很多方便的功能）
 				- 不必背誦，有需要在按 `space` 得知詳細 short cuts
 				- 讀取 documentation
@@ -96,10 +98,11 @@
 					- 複製 `space` + `y`
 					- 貼上 `space` + `p`
 					- ![test.gif](../assets/test_1729002053434_0.gif)
+			- #### Goto 模式
 - # 安裝
 	- 按下 `Win+R`，並複製以下命令
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix clangd'`
 - # 命令列簡介
 	- 由於 `helix` 是命令列工具
 - # Playground
-	- 下載此檔案，來玩玩~~
+	- 下載此檔案，可以試試看各種功能。
