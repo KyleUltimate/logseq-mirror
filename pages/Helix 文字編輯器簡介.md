@@ -72,9 +72,12 @@
 					- 按下 `d`、`i`，開始進入多鼠標編輯模式
 				- 用途示範：（將 `ascent` 替換成 `descent`，並將所有的數值增加一個後綴零）
 				- ![test.gif](../assets/test_1728661505155_0.gif)
+			- #### Surround 模式
+				- 用於選擇各式括號（`() [] {}`）的選擇
 				-
 			- #### Space 模式（太空模式）
 				- 我稱為 **IDE 模式**（具有很多方便的功能）
+				- （請自己讀）
 - # 安裝
 	- 按下 `Win+R`，並複製以下命令
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix'`
