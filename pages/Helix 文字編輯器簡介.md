@@ -103,6 +103,6 @@
 	- 按下 `Win+R`，並複製以下命令
 		- `powershell -c 'if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iex "& {$(irm get.scoop.sh)} -RunAsAdmin" }; scoop install helix clangd'`
 - # 命令列簡介
-	- 由於 `helix` 是命令列工具，所以你必須熟悉命令列的
+	- 由於 `helix` 是命令列工具，所以你必須熟悉命令列，若不熟，以下是對命令列的簡介。
 - # Playground
 	- 下載此檔案，可以試試看各種功能。
