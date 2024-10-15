@@ -108,6 +108,15 @@
 	  在此簡介中，`[folder]`/`[file]` 意旨檔案名稱/路徑
 	  所以 `folder1/folder2` 、 `folder1/folder2/folder3/file.pdf` 跟 `file.pdf` 皆為合法意義
 	  #+END_TIP
+	- ## General Tips
+		- ### Flags(功能開關)
+			- 單字母的，通常是單個 `-` ，例：`-h` 、 `-l` 、 `-i`
+			- 一個字的，通常是兩個 `--` 例：`--help` 、 `--list` 、 `--input`
+		- ### 得到 app 的簡略使用
+			- `[app] -h`
+		- ### 開啟檔案
+			- 通常是 `[app] [file]` 或是 `[app] -i [file]`
+		-
 	- ## 瀏覽目前目錄下的檔案(ls)
 		- `ls -l` 列出檔案
 	- ## 切換目錄(cd)
@@ -121,15 +130,12 @@
 	- ## 新增資料夾(mkdir)
 		- `mkdir -p [folder]` 自目前目錄，創建至 `[folder]` 的資料夾
 			- 例：`mkdir -p folder/folder2` 的 `tree` 長這樣
+			- ```
+			  .
+			  └── folder
+			      └── folder2
+			  ```
 	- ## 在 `helix` 中存取檔案
 		- `hx [file]` 開啟檔案，或是新增以`file`為名稱的檔案
-	- ## General Tips
-		- ### Flags(功能開關)
-			- 單字母的，通常是單個 `-` ，例：`-h` 、 `-l` 、 `-i`
-			- 一個字的，通常是兩個 `--` 例：`--help` 、 `--list` 、 `--input`
-		- ### 得到 app 的簡略使用
-			- `[app] -h`
-		- ### 開啟檔案
-			- 通常是 `[app] [file]` 或是 `[app] -i [file]`
 - # Playground
 	- 下載此檔案，可以試試看各種功能。
