@@ -91,12 +91,16 @@
 				- 我稱為 **IDE 模式**（具有很多方便的功能）
 				- 不必背誦，有需要在按 `space` 得知詳細 short cuts
 				- 讀取 documentation
+				  collapsed:: true
 					- `space` + `k`
 					- ![test.gif](../assets/test_1729002293483_0.gif)
 				- 從系統剪貼簿複製與貼上
+				  collapsed:: true
 					- 複製 `space` + `y`
 					- 貼上 `space` + `p`
 					- ![test.gif](../assets/test_1729002053434_0.gif)
+				- 讓 auto complete 幫你做事
+					- `space` + `a` actions
 			- #### Goto 模式
 				- 移動目前的視窗至其他地方
 				- 利用 `:bc` 來回到原始檔案
