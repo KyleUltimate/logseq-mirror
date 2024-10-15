@@ -157,7 +157,10 @@
 	  
 	    // 試試看在 `map` 的地方打 `space` + `a`，helix 應該會自動幫你 include map
 	    // 在這裡熟悉 `helix` 的操作模式（在輸入模式與普通模式中切換）
-	    map<string, int> ages = {{"Alice", 25}, {"Bob", 30}};
+	    map<string, int> ages = {
+	        {"Alice", 25}, 
+	        {"Bob", 30}
+	    };
 	  
 	    // 試著把他們的 type 都改成 `std::string`
 	    string s = "string";
