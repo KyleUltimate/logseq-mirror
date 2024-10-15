@@ -91,6 +91,7 @@
 				- 不必背誦，有需要在按 `space` 得知詳細 short cuts
 				- 讀取 documentation
 					- `space` + `k`
+					- ![test.gif](../assets/test_1729002293483_0.gif)
 				- 從系統剪貼簿複製與貼上
 					- ![test.gif](../assets/test_1729002053434_0.gif)
 					- 複製 `space` + `y`
