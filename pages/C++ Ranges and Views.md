@@ -9,6 +9,8 @@
 	- 更標準的說法，**Range Factory** - **範圍工廠**
 	- 新建標頭擋，`#include <ranges>` 裡面
 	- ## `std::views::iota`
+		- 用法 `std::views::iota(from, to)`
+		- `std::views::iota(1, 11)`
 		- ```cpp
 		  for (int i : std::views::iota(1, 11)) {
 		    std::cout << i << ' ';
