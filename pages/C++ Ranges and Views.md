@@ -8,8 +8,13 @@
 - # 如何創建 range?
 	- 更標準的說法，**Range Factory** - **範圍工廠**
 	- 新建標頭擋，`#include <ranges>` 裡面
+	- ## Range 的 `for` 迴圈語法
+		- `for(`
 	- ## `std::vector`
-		-
+		- 沒錯! vector 本身也是一種 range!
+		- ```cpp
+		  for (int )
+		  ```
 	- ## `std::views::iota`
 		- 用法 `std::views::iota(from, to)`
 		- `std::views::iota(1, 11)` 創建一個 Range，從 1 到 10
