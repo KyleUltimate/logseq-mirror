@@ -46,7 +46,9 @@
 				- ```cpp
 				  int one = 1;
 				  
-				  int func = [&] (int x) { // `&` 在此指 capture by reference，可替換成 `=` 來表達 capture by value。
+				  // 中括號內的 `&` 在此指 capture by reference，可替換成 `=` 來表達 capture by value。
+				  // 小括號的是此 lambda 的參數，如同普通函式一般，可以參數數量無上限
+				  int func = [&] (int x) {
 				    	return one + x;
 				  };
 				  
