@@ -54,8 +54,16 @@
 				  // 4 8 3
 				  ```
 	- ## 經典
-		-
+		- std::views::transform
+		- std::views::filter
+		  std::views::take
 	- ## 進階
+		- std::views::chunk_by
+- # Ranges algorithms
+	- #+BEGIN_IMPORTANT
+	  跟 Views adapters 差在她輸出不能使用 `|` 來串接
+	  有時甚至輸出的
+	  #+END_IMPORTANT
 - # 題目練習
 	- #+BEGIN_IMPORTANT
 	  要注意，因為多數競程平台（甚至 IDE）都尚不支援 C++ 23 標準
