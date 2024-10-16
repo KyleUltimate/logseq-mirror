@@ -64,6 +64,7 @@
 		- ### `std::views::chunk(int)`
 	- ## 進階
 		- ### `std::views::chunk_by(func)`
+		- ### `std::ranges::to<type>`
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
 	  跟 Views adapters 差在輸出**不能**使用 `|` 來串接。
@@ -74,7 +75,7 @@
 	- ## `std::ranges::accumulate`
 	- ## `std::ranges::fold_left`
 		- `std::ranges::fold_left_first`
-	- ## `std::ranges::to<type>`
+	-
 - # 題目練習
 	- #+BEGIN_IMPORTANT
 	  要注意，因為多數競程平台（甚至 IDE）都尚不支援 C++ 23 標準
