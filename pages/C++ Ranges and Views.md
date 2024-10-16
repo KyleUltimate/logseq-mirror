@@ -68,9 +68,9 @@
 	  有時甚至輸出的連 range 都不是。
 	  #+END_IMPORTANT
 	- ## `std::ranges::accumulate`
-	- ## `std::ranges::to<type>`
 	- ## `std::ranges::fold_left`
 		- `std::ranges::fold_left_first`
+	- ## `std::ranges::to<type>`
 - # 題目練習
 	- #+BEGIN_IMPORTANT
 	  要注意，因為多數競程平台（甚至 IDE）都尚不支援 C++ 23 標準
