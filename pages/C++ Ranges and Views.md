@@ -9,4 +9,10 @@
 	- 更標準的說法，**Range Factory** - **範圍工廠**
 	- 新建標頭擋，`#include <ranges>` 裡面
 	- ## `std::views::iota`
-		-
+		- ```cpp
+		  for (int i : std::views::iota(1, 11)) {
+		    std::cout << i << ' ';
+		  }
+		  std::cout << '\n';
+		  // 1 2 3 4 5 6 7 8 9 10
+		  ```
