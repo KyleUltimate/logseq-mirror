@@ -37,7 +37,7 @@
 	- ## 術語
 		- `func`：在此教材中，指的是任意的**可呼叫物件**，可以是 lambda function、函式指針
 			- **可呼叫物件**是任何可以用此語法 `x()` 呼叫的物件
-			- 不會 **lambda function**? 以下是用法簡介
+			- 不會 **lambda function** ? 以下是用法簡介
 				- lambda function 就是**匿名函數**，但可以直接存取非在其 scope 底下的變數，語法如下
 				- （如果想詳細了解 capture by value 與 by reference 的差異，請先確保你理解 [[指標與參考]]）
 				  collapsed:: true
@@ -61,8 +61,8 @@
 		- std::views::chunk_by
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
-	  跟 Views adapters 差在她輸出不能使用 `|` 來串接
-	  有時甚至輸出的
+	  跟 Views adapters 差在輸出**不能**使用 `|` 來串接。
+	  有時甚至輸出的連 range 都不是。
 	  #+END_IMPORTANT
 - # 題目練習
 	- #+BEGIN_IMPORTANT
