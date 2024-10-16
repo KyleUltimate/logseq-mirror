@@ -6,4 +6,6 @@
 	- ## Views adapter
 		- 可將視圖內的元素，進行各類的轉換
 - # 如何創建 range?
-	- 新建標頭擋，`#inclulde `
+	- 更標準的說法，**Range Factory** - **範圍工廠**
+	- 新建標頭擋，`#include <ranges>` 裡面
+	-
