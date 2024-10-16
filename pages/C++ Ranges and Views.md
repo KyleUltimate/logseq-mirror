@@ -36,7 +36,7 @@
 	- ## 術語
 		- `func`：在此教材中，指的是任意的可呼叫物件，可以是 lambda function、函式指針
 		- 不會 lambda function? 以下是用法簡介
-			- lambda function 就是匿名函數，但具有，語法如下
+			- lambda function 就是匿名函數，但可以直接存取非在其 scope 底下的變數，語法如下
 			- ```cpp
 			  
 			  int x = [_] (type x) {
