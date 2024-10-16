@@ -54,13 +54,14 @@
 				  // 4 8 3
 				  ```
 	- ## 經典
-		- ### `std::views::transform`
-		- ### `std::views::filter`
-		  std::views::take
-		- std::views::enumerate
-		- std::views::adjacent_transform
+		- ### `std::views::transform(func)`
+		- ### `std::views::filter(func)`
+		- ### `std::views::take(int)`
+		- ### `std::views::enumerate`
+		- ### `std::views::<int>adjacent_transform(func)`
+		- ### `std::views::chunk(int)`
 	- ## 進階
-		- std::views::chunk_by
+		- ### `std::views::chunk_by(func)`
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
 	  跟 Views adapters 差在輸出**不能**使用 `|` 來串接。
