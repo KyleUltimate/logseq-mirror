@@ -229,6 +229,7 @@
 			  ```
 	- ## [[結構體(struct)]]
 	  id:: 66a7a403-20df-4ce1-86a6-75cef5c3640e
+	  collapsed:: true
 		- ### tl;dr
 			- **結構體**：是一種自定義的數據類型，用於儲存和操作相關的數據。
 			- **宣告及使用**
@@ -236,6 +237,7 @@
 				- 利用**aggregate initialization**來快速初始化結構。
 			- **`this` 指標**：用於指向當前對象，解決方法名稱衝突，並在內部方法中訪問成員數據。
 	- ## 枚舉（enum、std::variant）
+	  collapsed:: true
 		- ### enum
 			- 以型別安全的方式，告訴你有哪些種類。
 			- ```cpp
