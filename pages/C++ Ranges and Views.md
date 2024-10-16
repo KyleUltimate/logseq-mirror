@@ -4,4 +4,6 @@
 	- ## Views
 		- 為一種 **視圖**，可以想像成一種特殊的只讀 sub-range
 	- ## Views adapter
-		- 可將
+		- 可將視圖內的元素，進行各類的轉換
+- # 如何創建 range?
+	- 新建標頭擋，`#inclulde `
