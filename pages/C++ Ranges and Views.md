@@ -54,4 +54,9 @@
 				  ```
 	- ## 經典
 	- ## 進階
--
+- # 題目練習
+	- #+BEGIN_IMPORTANT
+	  要注意，因為多數競程平台尚不支援 C++ 23
+	  將你的程式碼丟上去會
+	  #+END_IMPORTANT
+	- https://zerojudge.tw/ShowProblem?problemid=o076
