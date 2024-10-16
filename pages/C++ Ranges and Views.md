@@ -8,9 +8,11 @@
 - # 如何創建 range?
 	- 更標準的說法，**Range Factory** - **範圍工廠**
 	- 新建標頭擋，`#include <ranges>` 裡面
+	- ## `std::vector`
+		-
 	- ## `std::views::iota`
 		- 用法 `std::views::iota(from, to)`
-		- `std::views::iota(1, 11)`
+		- `std::views::iota(1, 11)` 創建一個 Range，從 1 到 10
 		- ```cpp
 		  for (int i : std::views::iota(1, 11)) {
 		    std::cout << i << ' ';
