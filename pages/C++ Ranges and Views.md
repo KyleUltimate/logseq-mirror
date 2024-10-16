@@ -5,7 +5,7 @@
 		- 為一種 **視圖**，可以想像成一種特殊的只讀 sub-range
 		- 所以，任何 range 同時也是 views
 	- ## Views adapter
-		- 可將視圖內的元素，進行各類的轉換，轉換後仍然是一種 **Views**
+		- 可將 Views 內的元素，進行各類的轉換，轉換後仍然是一種 **Views**
 		- 可利用 `pipe |` operator 進行串接
 	- 以上概念，都被包括在 `#include <ranges>` 裡面
 - # 如何創建 range?
@@ -54,6 +54,7 @@
 				  // 4 8 3
 				  ```
 	- ## 經典
+		-
 	- ## 進階
 - # 題目練習
 	- #+BEGIN_IMPORTANT
