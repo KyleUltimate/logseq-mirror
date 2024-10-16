@@ -40,7 +40,7 @@
 			- 不會 **lambda function**? 以下是用法簡介
 				- lambda function 就是**匿名函數**，但可以直接存取非在其 scope 底下的變數，語法如下
 				- （如果想詳細了解 capture by value 與 by reference 的差異，請先確保你理解 [[指標與參考]]）
-				- >
+				- > Capture By Value -  是普通函式的預設行為，會將所有的
 				- ```cpp
 				  int one = 1;
 				  
