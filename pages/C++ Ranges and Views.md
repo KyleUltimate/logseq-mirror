@@ -46,7 +46,7 @@
 				- ```cpp
 				  int one = 1;
 				  
-				  int func = [=] (int x) { // `=` 在此指 capture by value， 可替換成 `&` 來表達 capture by reference
+				  int func = [&] (int x) { // `&` 在此指 capture by reference，可替換成 `=` 來表達 capture by value。
 				    	return one + x;
 				  };
 				  
