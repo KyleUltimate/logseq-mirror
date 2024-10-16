@@ -12,20 +12,20 @@
 		- `for(auto x: [range]) { .. }`
 		- 創建一個變數，從 range 裡面迭代過去
 	- ## `std::vector`
-		- 沒錯! vector 本身也是一種 range!
+		- 沒錯! vector 本身也是一種 range!（畢竟她也是 STL 容器）
 		- ```cpp
-		  vector<int> v = {1,3,4,4,5};
+		  vector<int> v = {1,3,4,5};
 		  for (auto x: v) {
-		      
+		    std::cout << x << ' ';
 		  }
+		  // 1 3 4 5
 		  ```
 	- ## `std::views::iota`
 		- 用法 `std::views::iota(from, to)`
 		- `std::views::iota(1, 11)` 創建一個 Range，從 1 到 10
 		- ```cpp
-		  for (int i : std::views::iota(1, 11)) {
+		  for (int i: std::views::iota(1, 11)) {
 		    std::cout << i << ' ';
 		  }
-		  std::cout << '\n';
 		  // 1 2 3 4 5 6 7 8 9 10
 		  ```
