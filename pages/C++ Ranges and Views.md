@@ -54,9 +54,11 @@
 				  // 4 8 3
 				  ```
 	- ## 經典
-		- std::views::transform
-		- std::views::filter
+		- ### `std::views::transform`
+		- ### `std::views::filter`
 		  std::views::take
+		- std::views::enumerate
+		- std::views::adjacent_transform
 	- ## 進階
 		- std::views::chunk_by
 - # Ranges algorithms
