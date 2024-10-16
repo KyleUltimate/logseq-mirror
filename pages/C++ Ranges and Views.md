@@ -69,6 +69,8 @@
 	  跟 Views adapters 差在輸出**不能**使用 `|` 來串接。
 	  有時甚至輸出的連 range 都不是。
 	  #+END_IMPORTANT
+	- ## `std::ranges::all_of`
+	- ## `std::ranges::any_of`
 	- ## `std::ranges::accumulate`
 	- ## `std::ranges::fold_left`
 		- `std::ranges::fold_left_first`
