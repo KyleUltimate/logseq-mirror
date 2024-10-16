@@ -7,7 +7,7 @@
 	- ## Views adapter
 		- 可將視圖內的元素，進行各類的轉換，轉換後仍然是一種 **Views**
 		- 可利用 `pipe |` operator 進行串接
-	-
+	- 以上概念，都被包括在 `#include <ranges>` 裡面
 - # 如何創建 range?
 	- 更標準的說法，**Range Factory** - **範圍工廠**
 	- ## Range 的 `for` 迴圈語法
