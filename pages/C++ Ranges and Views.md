@@ -33,6 +33,7 @@
 - # Views adapters
 	- 先介紹一些經典的 adapters（在 C++ 20 推出的）
 	- 後半部則是較新穎（在 C++ 23 才推出的）adapters
-	-
+	- ## 術語
+		- `func`：在此教材中，指的是任意的可呼叫物件，可以是 lambda function、函式指針
 	- ## 經典
 	- ## 進階
