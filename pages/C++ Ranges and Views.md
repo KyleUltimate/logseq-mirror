@@ -8,4 +8,5 @@
 - # 如何創建 range?
 	- 更標準的說法，**Range Factory** - **範圍工廠**
 	- 新建標頭擋，`#include <ranges>` 裡面
-	-
+	- ## `std::views::iota`
+		-
