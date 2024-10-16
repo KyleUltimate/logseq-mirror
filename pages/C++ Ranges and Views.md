@@ -35,9 +35,9 @@
 	- 後半部則是較新穎（在 C++ 23 才推出的）adapters
 	- ## 術語
 		- `func`：在此教材中，指的是任意的**可呼叫物件**，可以是 lambda function、函式指針
-			- 可呼叫物件是任何可以 `x()` 呼叫的
-		- 不會 lambda function? 以下是用法簡介
-			- lambda function 就是匿名函數，但可以直接存取非在其 scope 底下的變數，語法如下
+			- 可呼叫物件是任何可以用此語法 `x()` 呼叫的物件
+		- 不會 **lambda function**? 以下是用法簡介
+			- lambda function 就是**匿名函數**，但可以直接存取非在其 scope 底下的變數，語法如下
 			- ```cpp
 			  int one = 1;
 			  
@@ -45,7 +45,7 @@
 			    	return one;
 			  }
 			  
-			  cout << x();
+			  cout << x() << x() << x(); // 利用 `()` 來呼叫，可重複呼叫
 			  ```
 	- ## 經典
 	- ## 進階
