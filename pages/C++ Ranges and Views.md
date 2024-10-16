@@ -9,11 +9,15 @@
 	- 更標準的說法，**Range Factory** - **範圍工廠**
 	- 新建標頭擋，`#include <ranges>` 裡面
 	- ## Range 的 `for` 迴圈語法
-		- `for(`
+		- `for(auto x: [range]) { .. }`
+		- 創建一個變數，從 range 裡面迭代過去
 	- ## `std::vector`
 		- 沒錯! vector 本身也是一種 range!
 		- ```cpp
-		  for (int )
+		  vector<int> v = {1,3,4,4,5};
+		  for (auto x: v) {
+		      
+		  }
 		  ```
 	- ## `std::views::iota`
 		- 用法 `std::views::iota(from, to)`
