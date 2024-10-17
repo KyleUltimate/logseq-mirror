@@ -74,9 +74,10 @@
 	- ## `std::ranges::any_of`
 	- ## `std::ranges::accumulate`
 	- ## `std::ranges::fold_left`
-		- `functional` 版的 for loop
+		- 可以視為，有著「記憶」的 for loop
+		- 把所有
 		- 語法：`fold_left(vec, func(accumulater,x))`
-			- `func(accumulater,x)` 指的是，
+			- `func(accumulater,x)` 指的是，擁有兩個參數的一個可呼叫物件
 		- `std::ranges::fold_left_first`
 	-
 - # 題目練習
