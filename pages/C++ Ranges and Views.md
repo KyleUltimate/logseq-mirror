@@ -47,7 +47,7 @@
 				  int one = 1;
 				  
 				  // 中括號內的 `&` 在此指 capture by reference，可替換成 `=` 來表達 capture by value。
-				  // 小括號的是此 lambda 的參數，如同普通函式一般，可以參數數量無上限
+				  // 小括號的是此 lambda 的參數，如同普通函式一般，可以有無限量的參數數量
 				  int func = [&] (int x) {
 				    	return one + x;
 				  };
@@ -74,6 +74,8 @@
 	- ## `std::ranges::any_of`
 	- ## `std::ranges::accumulate`
 	- ## `std::ranges::fold_left`
+		- `functional` 版的 for loop
+		- 簡單來說就是
 		- `std::ranges::fold_left_first`
 	-
 - # 題目練習
