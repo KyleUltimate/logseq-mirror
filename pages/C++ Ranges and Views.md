@@ -75,7 +75,8 @@
 	- ## `std::ranges::accumulate`
 	- ## `std::ranges::fold_left`
 		- `functional` 版的 for loop
-		- 簡單來說就是
+		- 語法：`fold_left(vec, func(accumulater,x))`
+			- `func(accumulater,x)` 指的是，
 		- `std::ranges::fold_left_first`
 	-
 - # 題目練習
