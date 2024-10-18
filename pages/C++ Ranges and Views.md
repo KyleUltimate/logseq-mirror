@@ -87,8 +87,13 @@
 					  }
 					  ```
 			- 如果同時要輸出 index 則只能使用傳統 for loop
-			- `views::enumerate` transformation way
-				- `value` ->
+			- `views::enumerate` 將每個元素的型別轉換成 enumerate_result
+				- ```cpp
+				  struct enumerate_result {
+				      Index index;
+				      Value value;
+				  };
+				  ```
 			- 有了 `views::enumerate` 之後，就可以做以下動作
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"}
