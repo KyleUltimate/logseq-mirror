@@ -66,18 +66,24 @@
 		- ### `std::views::filter(func)`
 		- ### `std::views::take(int)`
 		- ### `std::views::enumerate`
-			- ```cpp
-			  vector<string> v = {"a", "b", "c", "d"}
-			  
-			  // 傳統 for loop
-			  for(int i = 0; i<v.size();i++) {
-			    	cout << v[i] << " ";
-			  }
-			  
-			  for(int x: v) {
-			    	cout << x << " ";
-			  }
-			  ```
+			- 如果要輸出 vector 裡的每個 element，有兩種方法。
+				- 傳統 for loop
+					- ```cpp
+					  vector<string> v = {"a", "b", "c", "d"}
+					  
+					  // 傳統 for loop
+					  for(int i = 0; i<v.size();i++) {
+					    	cout << v[i] << " ";
+					  }
+					  ```
+				- for range
+					- ```cpp
+					  // ranges based for loop
+					  for(int x: v) {
+					    	cout << x << " ";
+					  }
+					  ```
+			-
 		- ### `std::views::adjacent_transform(func)`
 		- ### `std::views::chunk(int)`
 	- ## 進階
