@@ -87,7 +87,7 @@
 					  }
 					  ```
 			- 如果同時要輸出 index 則只能使用傳統 for loop
-			-
+			- `views::enumerate` 將每個 element 從 `element` 轉化成 `[index, element]`
 			- 有了 `views::enumerate` 之後，就可以做以下動作
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"}
