@@ -108,7 +108,6 @@
 				    	cout << index << ": " << element << '\n';
 				  }
 				  ```
-		- ### `std::views::adjacent_transform(func)`
 		- ### `std::views::chunk(int)`
 	- ## 進階
 		- ### `std::views::chunk_by(func)`
