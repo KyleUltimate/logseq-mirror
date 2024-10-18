@@ -1,4 +1,4 @@
-# Programming Paradigms
+# 程式設計典範
 	- ## Procedural Programming
 	  id:: 671267b9-aae8-45cd-8b3a-4eb37b055d1a
 	- ## Object Oriented Programming
