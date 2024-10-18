@@ -211,4 +211,27 @@
 			  ```
 	- 將下列 for loop ，轉換成利用 ranges and views 來解決
 		- ```cpp
+		  int calculate(int bottom, int top) {
+		    	int sum = 0;
+		    	for(int number = bottom; number<=top; number++) {
+		        	if (number % 2 == 0) {
+		            	sum += number;
+		          }
+		      }
+		    	return sum;
+		  }
 		  ```
+		- #+BEGIN_TIP
+		  官方解答
+		  #+END_TIP
+			- ```cpp
+			  int sum_lists_evens(int bottom, int top) {
+			      auto list = views::iota(bottom, top+1);
+			      auto even = [](auto element) { return element % 2 == 0; };
+			      return ranges::fold_left(
+			          list | views::filter(even),
+			          0,
+			          std::plus{}
+			      );
+			  }
+			  ```
