@@ -73,7 +73,7 @@
 					  vector<string> v = {"a", "b", "c", "d"}
 					  
 					  // 傳統 for loop
-					  for(int i = 0; i<v.size();i++) {
+					  for(int i = 0; i<v.size() ;i++) {
 					    	cout << v[i] << " ";
 					  }
 					  ```
