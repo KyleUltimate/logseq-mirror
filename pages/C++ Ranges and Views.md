@@ -135,9 +135,10 @@
 	  將你的程式碼丟上去會編譯失敗!
 	  #+END_IMPORTANT
 	- https://zerojudge.tw/ShowProblem?problemid=o076
-		- #+BEGIN_IMPORTANT
+		- collapsed:: true
+		  #+BEGIN_TIP
 		  官方解答
-		  #+END_IMPORTANT
+		  #+END_TIP
 			- ```cpp
 			  int n;
 			  cin >> n;
@@ -150,4 +151,8 @@
 			      | views::transform(ranges::size));
 			  ```
 	- 給與你一串陣列，告訴我有多少個個數字是小於零的
+		- #+BEGIN_TIP
+		  官方解答（一）
+		  #+END_TIP
+			-
 	- 給與你一串陣列，告訴我小於零的數字的總和是多少
