@@ -155,7 +155,7 @@
 		  官方解答（一）
 		  #+END_TIP
 			- ```cpp
-			  int count_negatives(span<int> xs) {
+			  int count_negatives(vector<int> xs) {
 			      return ranges::distance(
 			          xs | views::filter([](auto element) { return element < 0;})
 			      );
@@ -166,15 +166,23 @@
 		  官方解答（二）
 		  #+END_TIP
 			- ```cpp
-			  int count_negatives(span<int> xs) {
+			  int count_negatives(vector<int> xs) {
 			      return ranges::count_if(xs,
 			          [](auto element) { return element < 0;}
 			      );
 			  }
 			  ```
 	- 給與你一串陣列，告訴我小於零的數字的總和是多少
+	  collapsed:: true
 		- #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
 			- ```cpp
+			  int sum_negative_numbers(vector<int> xs) {
+			      return ranges::fold_left(
+			          xs | views::filter([](auto element) { return element < 0;}),
+			          0,
+			          std::plus{}
+			      );
+			  }
 			  ```
