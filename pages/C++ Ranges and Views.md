@@ -149,7 +149,8 @@
 			      | views::transform(ranges::size));
 			  ```
 	- 給與你一串陣列，告訴我有多少個個數字是小於零的
-		- #+BEGIN_TIP
+		- collapsed:: true
+		  #+BEGIN_TIP
 		  官方解答（一）
 		  #+END_TIP
 			- ```cpp
@@ -207,7 +208,6 @@
 			  }
 			  ```
 	- 將下列 for loop ，轉換成利用 ranges and views 來解決
-	  collapsed:: true
 		- ```cpp
 		  int calculate(int bottom, int top) {
 		    	int sum = 0;
