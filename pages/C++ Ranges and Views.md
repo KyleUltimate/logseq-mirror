@@ -66,6 +66,7 @@
 		- ### `std::views::filter(func)`
 		- ### `std::views::take(int)`
 		- ### `std::views::enumerate`
+			- 意義：將 range 的 index 給「枚舉」出來
 			- 如果要輸出 vector 裡的每個 element，有兩種方法。
 				- 傳統 for loop
 					- ```cpp
@@ -78,6 +79,8 @@
 					  ```
 				- for range
 					- ```cpp
+					  vector<string> v = {"a", "b", "c", "d"}
+					  
 					  // ranges based for loop
 					  for(int x: v) {
 					    	cout << x << " ";
@@ -86,6 +89,11 @@
 			- 如果同時要輸出 index 則只能使用傳統 for loop
 			- 有了 `views::enumerate` 之後，就可以做以下動作
 				- ```cpp
+				  vector<string> v = {"a", "b", "c", "d"}
+				  
+				  for(auto [index, x]: v | views::enumerate) {
+				    	
+				  }
 				  ```
 		- ### `std::views::adjacent_transform(func)`
 		- ### `std::views::chunk(int)`
