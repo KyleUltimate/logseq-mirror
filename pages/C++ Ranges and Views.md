@@ -173,8 +173,8 @@
 			  }
 			  ```
 	- 給與你一串陣列，告訴我小於零的數字的總和是多少
-	  collapsed:: true
-		- #+BEGIN_TIP
+		- collapsed:: true
+		  #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
 			- ```cpp
@@ -187,10 +187,14 @@
 			  }
 			  ```
 	- 將字串反轉
-		- 會用到這個，請嘗試自行閱讀，並且使用
+		- 會用到這個，請嘗試自行閱讀，並且使用（建議直接看 examples 比較快）
 		- https://en.cppreference.com/w/cpp/ranges/reverse_view
-		- ```cpp
-		  string reverse_string(string_view str) {
-		      return str | views::reverse | ranges::to<string>();
-		  }
-		  ```
+		- collapsed:: true
+		  #+BEGIN_TIP
+		  官方解答
+		  #+END_TIP
+			- ```cpp
+			  string reverse_string(string str) {
+			      return str | views::reverse | ranges::to<string>();
+			  }
+			  ```
