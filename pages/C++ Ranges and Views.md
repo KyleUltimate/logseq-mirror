@@ -190,4 +190,7 @@
 		- 會用到這個，請嘗試自行閱讀，並且使用
 		- https://en.cppreference.com/w/cpp/ranges/reverse_view
 		- ```cpp
+		  string reverse_string(string_view str) {
+		      return str | views::reverse | ranges::to<string>();
+		  }
 		  ```
