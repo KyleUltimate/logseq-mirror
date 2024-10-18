@@ -149,8 +149,7 @@
 			      | views::transform(ranges::size));
 			  ```
 	- 給與你一串陣列，告訴我有多少個個數字是小於零的
-		- collapsed:: true
-		  #+BEGIN_TIP
+		- #+BEGIN_TIP
 		  官方解答（一）
 		  #+END_TIP
 			- ```cpp
@@ -196,7 +195,6 @@
 			  }
 			  ```
 	- 將字串反轉
-	  collapsed:: true
 		- 會用到這個，請嘗試自行閱讀，並且使用（建議滑到下面，直接看 examples 比較快）
 		- https://en.cppreference.com/w/cpp/ranges/reverse_view
 		- collapsed:: true
@@ -249,7 +247,8 @@
 			  
 			  // (1,2) (2,3) (3,4) (4,5) (5,6)
 			  ```
-		- #+BEGIN_TIP
+		- collapsed:: true
+		  #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
 			- ```cpp
