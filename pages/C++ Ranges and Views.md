@@ -67,6 +67,16 @@
 		- ### `std::views::take(int)`
 		- ### `std::views::enumerate`
 			- ```cpp
+			  vector<string> v = {"a", "b", "c", "d"}
+			  
+			  // 傳統 for loop
+			  for(int i = 0; i<v.size();i++) {
+			    	cout << v[i] << " ";
+			  }
+			  
+			  for(int x: v) {
+			    	cout << x << " ";
+			  }
 			  ```
 		- ### `std::views::adjacent_transform(func)`
 		- ### `std::views::chunk(int)`
