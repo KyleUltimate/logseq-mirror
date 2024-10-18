@@ -210,6 +210,7 @@
 			  }
 			  ```
 	- 將下列 for loop ，轉換成利用 ranges and views 來解決
+	  collapsed:: true
 		- ```cpp
 		  int calculate(int bottom, int top) {
 		    	int sum = 0;
