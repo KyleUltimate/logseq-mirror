@@ -240,6 +240,20 @@
 	  id:: 67127e91-a5e0-4ea9-a2c7-962557f22313
 		- 快速介紹 `std::views::pairwise`
 			- 將原始元素，替換成相鄰兩元素，例：
+			- ```cpp
+			  std::vector<int> numbers = {1, 2, 3, 4, 5, 6};
+			  
+			  // 使用 std::views::adjacent 创建重叠子切片
+			  for (auto [a, b] : numbers | views::pairwise) {
+			    	cout << a << ',' << b << '\n';
+			  }
+			  
+			  // 1,2
+			  // 2,3
+			  // 3,4
+			  // 4,5
+			  // 5,6
+			  ```
 		- #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
