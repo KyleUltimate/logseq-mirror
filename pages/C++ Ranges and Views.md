@@ -122,12 +122,13 @@
 	- ## `std::ranges::any_of`
 	- ## `std::ranges::accumulate`
 	- ## `std::ranges::fold_left`
+	  collapsed:: true
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
 		- 語法：`fold_left(vec, func(accumulater,x))`
 			- `func(accumulater,x)` 指的是，擁有兩個參數的一個可呼叫物件
 		- `std::ranges::fold_left_first`
-	-
+	- ### `std::ranges::size`
 - # 題目練習
 	- #+BEGIN_IMPORTANT
 	  要注意，因為多數競程平台（甚至 IDE）都尚不支援 C++ 23 標準
