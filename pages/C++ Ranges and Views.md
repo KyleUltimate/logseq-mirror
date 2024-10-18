@@ -237,3 +237,17 @@
 			  }
 			  ```
 	- 確認是否所有元素皆大於前一個元素（遞增數列）
+		- #+BEGIN_TIP
+		  官方解答
+		  #+END_TIP
+			- ```cpp
+			  bool increasing_array(vector<int> xs) {
+			      auto x = ranges::distance(
+			          xs 
+			          | views::chunk_by(ranges::less{}) 
+			          | views::transform(ranges::size)
+			      );
+			      return x==1;
+			  }
+			  
+			  ```
