@@ -133,8 +133,7 @@
 	  將你的程式碼丟上去會編譯失敗!
 	  #+END_IMPORTANT
 	- https://zerojudge.tw/ShowProblem?problemid=o076
-		- collapsed:: true
-		  #+BEGIN_TIP
+		- #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
 			- ```cpp
