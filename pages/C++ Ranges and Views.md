@@ -240,7 +240,6 @@
 			- ```cpp
 			  std::vector<int> numbers = {1, 2, 3, 4, 5, 6};
 			  
-			  // 使用 std::views::adjacent 创建重叠子切片
 			  for (auto [a, b]: numbers | views::pairwise) {
 			    	cout << '(' << a << ',' << b << ')' << ' ';
 			  }
