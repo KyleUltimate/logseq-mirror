@@ -91,8 +91,9 @@
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"}
 				  
+				  // 
 				  for(auto [index, x]: v | views::enumerate) {
-				    	cout << index
+				    	cout << index <<
 				  }
 				  ```
 		- ### `std::views::adjacent_transform(func)`
