@@ -99,8 +99,8 @@
 				  vector<string> v = {"a", "b", "c", "d"}
 				  
 				  
-				  for (auto result : vec | std::views::enumerate) {
-				    std::cout << result.index << ": " << result.value << '\n';
+				  for (auto result: vec | std::views::enumerate) {
+				  	cout << result.index << ": " << result.value << '\n';
 				  }
 				  
 				  // 這種方式叫做 `de-structring`，可以叫方便的獲取
