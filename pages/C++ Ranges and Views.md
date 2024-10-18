@@ -186,3 +186,6 @@
 			      );
 			  }
 			  ```
+	- 將字串反轉
+		- 會用到這個，請嘗試自行閱讀，
+		- https://en.cppreference.com/w/cpp/ranges/reverse_view
