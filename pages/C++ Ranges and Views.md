@@ -237,17 +237,17 @@
 			  }
 			  ```
 	- 確認是否所有元素皆大於前一個元素（遞增數列）
+	  id:: 67127e91-a5e0-4ea9-a2c7-962557f22313
+		- 快速介紹 `std::views::pairwise`
 		- #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
 			- ```cpp
-			  bool increasing_array(vector<int> xs) {
-			      auto x = ranges::distance(
-			          xs 
-			          | views::chunk_by(ranges::less{}) 
-			          | views::transform(ranges::size)
-			      );
-			      return x==1;
+			  bool increasing_array(const std::vector<int>& xs) {
+			      return std::ranges::all_of(xs | views::adjacent<2>, 
+			          [](auto t) {
+			              auto [x,y] = t;
+			              return x < y;
+			          });
 			  }
-			  
 			  ```
