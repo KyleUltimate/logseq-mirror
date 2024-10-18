@@ -197,6 +197,7 @@
 			  }
 			  ```
 	- 將字串反轉
+	  collapsed:: true
 		- 會用到這個，請嘗試自行閱讀，並且使用（建議滑到下面，直接看 examples 比較快）
 		- https://en.cppreference.com/w/cpp/ranges/reverse_view
 		- collapsed:: true
@@ -208,3 +209,5 @@
 			      return str | views::reverse | ranges::to<string>();
 			  }
 			  ```
+	- 將下列 for loop ，轉換成利用 ranges and views 來解決
+		-
