@@ -135,5 +135,5 @@
 	  將你的程式碼丟上去會編譯失敗!
 	  #+END_IMPORTANT
 	- https://zerojudge.tw/ShowProblem?problemid=o076
-		- https://zerojudge.tw/ShowProblem?problemid=o076
 	- 給與你一串陣列，告訴我有多少個個數字是小於零的
+	- 給與你一串陣列，告訴我小於零的數字的總和是多少
