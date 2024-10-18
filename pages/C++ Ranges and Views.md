@@ -221,15 +221,15 @@
 		    	return sum;
 		  }
 		  ```
-		- #+BEGIN_TIP
+		- collapsed:: true
+		  #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
 			- ```cpp
 			  int sum_lists_evens(int bottom, int top) {
-			      auto list = views::iota(bottom, top+1);
 			      auto even = [](auto element) { return element % 2 == 0; };
 			      return ranges::fold_left(
-			          list | views::filter(even),
+			          views::iota(bottom, top+1) | views::filter(even),
 			          0,
 			          std::plus{}
 			      );
