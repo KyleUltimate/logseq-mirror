@@ -91,7 +91,7 @@
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"}
 				  
-				  // 
+				  // 這種方式叫做 `de-structring`
 				  for(auto [index, x]: v | views::enumerate) {
 				    	cout << index <<
 				  }
