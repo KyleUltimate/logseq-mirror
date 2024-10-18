@@ -121,7 +121,6 @@
 	- ## `std::ranges::size`/`std::ranges::distance`
 	- ## `std::ranges::all_of`
 	- ## `std::ranges::any_of`
-	- ## `std::ranges::accumulate`
 	- ## `std::ranges::fold_left`
 	  collapsed:: true
 		- 可以視為，有著「記憶」的 for loop
