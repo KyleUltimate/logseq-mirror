@@ -92,9 +92,9 @@
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"}
 				  
-				  // 這種方式叫做 `de-structring`
-				  for(auto [index, x]: v | views::enumerate) {
-				    	cout << index <<
+				  // 這種方式叫做 `de-structring`，可以叫方便的獲取
+				  for(auto [index, element]: v | views::enumerate) {
+				    	cout << index << ':' << element << '\n';
 				  }
 				  ```
 		- ### `std::views::adjacent_transform(func)`
