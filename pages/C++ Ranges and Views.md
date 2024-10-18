@@ -186,12 +186,21 @@
 			      );
 			  }
 			  ```
-	- 將
+	- 給與你 `string`，返回 `vector<char>`
+		- collapsed:: true
+		  #+BEGIN_TIP
+		  官方解答
+		  #+END_TIP
+			- ```cpp
+			  vector<char> string_to_vec_char(string str) {
+			      return str | ranges::to<vector<char>>();
+			  }
+			  ```
 	- 將字串反轉
-	  collapsed:: true
 		- 會用到這個，請嘗試自行閱讀，並且使用（建議滑到下面，直接看 examples 比較快）
 		- https://en.cppreference.com/w/cpp/ranges/reverse_view
-		- #+BEGIN_TIP
+		- collapsed:: true
+		  #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
 			- ```cpp
