@@ -31,9 +31,16 @@
 		- 一種將計算視為**數學函數**評估的編程範式，強調**不可變性**和避免**副作用**。
 		- #+BEGIN_TIP
 		  何謂副作用？除了返回一個值之外，還對**程式狀態**產生了其他的影響，以下是例子：
-		  修改傳入的參數：副作用
+		  - 修改傳入的參數
+		  - 拋出異常
 		  #+END_TIP
+		- ```cpp
+		  auto sumFunctional = [](const std::vector<int>& numbers) {
+		      return std::accumulate(numbers.begin(), numbers.end(), 0);
+		  };
+		  ```
 	- ## **Collection** Oriented Programming
+		- 是 Functional Programming 內的
 - # 簡介
 	- ## Ranges
 		- **一大坨可迭代元素的集合**，大部分 STL 的容器都是一種 Range
