@@ -126,8 +126,17 @@
 				- 回傳型別：bool
 			- #### 例
 			- ```cpp
+			  int calculate(vector<int> v) {
+			    	auto iter = v | views::filter([](auto x) {
+			        	return x % 2 && x > 48;
+			      });
+			      for (auto element: iter) {
+			         	cout << element << ' ';
+			      }
+			  }
 			  ```
 		- ### `std::views::take(int)`
+			- 意義：取前 N 個元素
 		- ### `std::views::enumerate`
 			- 意義：將 range 的 index 給「**枚舉**(enumurate)」出來
 			- 如果要輸出 vector 裡的每個元素，有兩種方法。
