@@ -30,7 +30,8 @@
 	- ## Functional Programming
 		- 一種將計算視為**數學函數**評估的編程範式，強調**不可變性**和避免**副作用**。
 		- #+BEGIN_TIP
-		  
+		  何謂副作用？除了返回一個值之外，還對**程式狀態**產生了其他的影響，以下是例子：
+		  修改傳入的參數：副作用
 		  #+END_TIP
 	- ## **Collection** Oriented Programming
 - # 簡介
