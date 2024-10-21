@@ -105,7 +105,10 @@
 	- ## 經典
 		- ### `std::views::transform(func)`
 			- 意義：將每個元素，到「**轉換**(transform)」成一個新的型別/數值。
-			- func
+			- #### `func` 的定義
+				- 接受參數：原 range 的型別
+				- 回傳型別：目標數值的型別
+			- 例，講
 		- ### `std::views::filter(func)`
 		- ### `std::views::take(int)`
 		- ### `std::views::enumerate`
