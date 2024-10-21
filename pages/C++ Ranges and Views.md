@@ -110,13 +110,17 @@
 				- 回傳型別：目標數值的型別
 			- #### 例
 			- ```cpp
-			  int vecInt_to_string(vector<int> v) {
-			    	v | views::transform([](auto x) {
-			        	return std::to_string(x) + ;
-			      })
+			  int calculate(vector<int> v) {
+			    	auto iter = v | views::transform([](auto x) {
+			        	return std::to_string(x) + std::to_string(x*x);
+			      });
+			    	for (auto element: iter) {
+			        	cout << element << ' ';
+			      }
 			  }
 			  ```
 		- ### `std::views::filter(func)`
+			- 意義：將 range 禮的
 		- ### `std::views::take(int)`
 		- ### `std::views::enumerate`
 			- 意義：將 range 的 index 給「**枚舉**(enumurate)」出來
