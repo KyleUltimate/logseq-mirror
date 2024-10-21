@@ -104,10 +104,12 @@
 				  ```
 	- ## 經典
 		- ### `std::views::transform(func)`
+			- 意義：將每個元素，到「**轉換**(transform)」成一個新的型別/數值。
+			- func
 		- ### `std::views::filter(func)`
 		- ### `std::views::take(int)`
 		- ### `std::views::enumerate`
-			- 意義：將 range 的 index 給「枚舉」出來
+			- 意義：將 range 的 index 給「**枚舉**(enumurate)」出來
 			- 如果要輸出 vector 裡的每個 element，有兩種方法。
 				- 傳統 for loop
 					- ```cpp
