@@ -199,7 +199,7 @@
 	- ## `std::ranges::size`/`std::ranges::distance`
 	- ## `std::ranges::all_of`
 	- ## `std::ranges::any_of`
-	- ## `std::ranges::fold_left`
+	- ## `std::ranges::fold_left(range, type, func)`
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
 		- `std::ranges::fold_left_first`
