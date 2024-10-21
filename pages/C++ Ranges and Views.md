@@ -136,7 +136,7 @@
 			  }
 			  ```
 		- ### `std::views::take(int)`
-			- 意義：取前 N 個元素
+			- 意義：把 range 前 N 個元素給取出來
 		- ### `std::views::enumerate`
 			- 意義：將 range 的 index 給「**枚舉**(enumurate)」出來
 			- 如果要輸出 vector 裡的每個元素，有兩種方法。
