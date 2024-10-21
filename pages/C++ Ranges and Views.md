@@ -40,7 +40,8 @@
 		  };
 		  ```
 	- ## **Collection** Oriented Programming
-		- 是 Functional Programming 內的
+		- 是 Functional Programming 內的子集，目標在於盡量用容器（Collection）來達成目的，一樣強調盡量避免**可變性**
+		-
 - # 簡介
 	- ## Ranges
 		- **一大坨可迭代元素的集合**，大部分 STL 的容器都是一種 Range
