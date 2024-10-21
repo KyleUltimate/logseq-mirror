@@ -152,7 +152,6 @@
 					- ```cpp
 					  vector<string> v = {"a", "b", "c", "d"}
 					  
-					  // 傳統 for loop
 					  for(int i = 0; i<v.size() ;i++) {
 					    	cout << v[i] << " ";
 					  }
@@ -161,7 +160,6 @@
 					- ```cpp
 					  vector<string> v = {"a", "b", "c", "d"}
 					  
-					  // ranges based for loop
 					  for(int x: v) {
 					    	cout << x << " ";
 					  }
