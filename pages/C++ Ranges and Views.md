@@ -108,7 +108,9 @@
 			- #### `func` 的定義
 				- 接受參數：原 range 的型別
 				- 回傳型別：目標數值的型別
-			- 例，講
+			- 例：將原本 `vector<int>` 換成 `vector<string>`
+			- ```cpp
+			  ```
 		- ### `std::views::filter(func)`
 		- ### `std::views::take(int)`
 		- ### `std::views::enumerate`
