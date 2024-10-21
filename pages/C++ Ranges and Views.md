@@ -110,6 +110,11 @@
 				- 回傳型別：目標數值的型別
 			- 例：將原本 `vector<int>` 換成 `vector<string>`
 			- ```cpp
+			  int vecInt_to_string(vector<int> v) {
+			    	v | views::transform([](auto x) {
+			        	std::to_string()
+			      })
+			  }
 			  ```
 		- ### `std::views::filter(func)`
 		- ### `std::views::take(int)`
