@@ -108,11 +108,11 @@
 			- #### `func` 的定義
 				- 接受參數：原 range 的型別
 				- 回傳型別：目標數值的型別
-			- 例：將原本 `vector<int>` 換成 `vector<string>`
+			- 例：將原本數值換成 string 之後，再
 			- ```cpp
 			  int vecInt_to_string(vector<int> v) {
 			    	v | views::transform([](auto x) {
-			        	std::to_string()
+			        	return std::to_string(x);
 			      })
 			  }
 			  ```
