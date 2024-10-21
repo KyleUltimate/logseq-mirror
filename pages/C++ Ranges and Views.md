@@ -202,8 +202,6 @@
 	- ## `std::ranges::fold_left(range, value, func)`
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
-		- ### func 的定義
-			-
 		- `std::ranges::fold_left_first`
 - # 題目練習
 	- #+BEGIN_IMPORTANT
