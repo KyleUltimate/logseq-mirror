@@ -106,7 +106,7 @@
 		- ### `std::views::transform(func)`
 			- 意義：將每個元素，到「**轉換**(transform)」成一個新的型別/數值。
 			- #### `func` 的定義
-				- 接受參數：原 range 的型別
+				- 接受參數：原 range 每個元素的型別
 				- 回傳型別：目標數值的型別
 			- #### 例
 			- ```cpp
@@ -122,7 +122,11 @@
 		- ### `std::views::filter(func)`
 			- 意義：將 range 內的元素「**過濾**(filter)」到只剩符合 `func` 描述的限制時。
 			- #### func 的意義
-				- 接受參數：原 range
+				- 接受參數：原 range 每個元素的型別
+				- 回傳型別：bool
+			- #### 例
+			- ```cpp
+			  ```
 		- ### `std::views::take(int)`
 		- ### `std::views::enumerate`
 			- 意義：將 range 的 index 給「**枚舉**(enumurate)」出來
@@ -145,7 +149,7 @@
 					    	cout << x << " ";
 					  }
 					  ```
-			- 如果同時要輸出 index 則只能使用傳統 for loop
+			- 如果**同時要輸出** index 則只能使用傳統 for loop
 			- `views::enumerate` 將每個元素的型別轉換成 enumerate_result
 				- ```cpp
 				  struct enumerate_result {
