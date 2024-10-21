@@ -120,11 +120,13 @@
 			  }
 			  ```
 		- ### `std::views::filter(func)`
-			- 意義：將 range 禮的
+			- 意義：將 range 內的元素「**過濾**(filter)」到只剩符合 `func` 描述的限制時。
+			- #### func 的意義
+				- 接受參數：原 range
 		- ### `std::views::take(int)`
 		- ### `std::views::enumerate`
 			- 意義：將 range 的 index 給「**枚舉**(enumurate)」出來
-			- 如果要輸出 vector 裡的每個 element，有兩種方法。
+			- 如果要輸出 vector 裡的每個元素，有兩種方法。
 				- 傳統 for loop
 					- ```cpp
 					  vector<string> v = {"a", "b", "c", "d"}
