@@ -129,7 +129,7 @@
 			- ```cpp
 			  int calculate(vector<int> v) {
 			    	auto iter = v | views::filter([](auto x) {
-			        	return x % 2 && x > 48;
+			        	return x % 2 == 0 && x > 48;
 			      });
 			      for (auto element: iter) {
 			         	cout << element << ' ';
