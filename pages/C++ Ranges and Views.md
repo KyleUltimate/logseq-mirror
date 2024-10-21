@@ -1,7 +1,19 @@
 # 程式設計典範
 	- ## Procedural Programming
 	  id:: 671267b9-aae8-45cd-8b3a-4eb37b055d1a
+		- 一種基於過程和子程序的編程範式，強調按**順序執行一系列計算步驟**。
+		- 經典例子：**C**
+		- ```cpp
+		  int sumProcedural(const std::vector<int>& numbers) {
+		      int total = 0;
+		      for (int num : numbers) {
+		          total += num;
+		      }
+		      return total;
+		  }
+		  ```
 	- ## Object Oriented Programming
+		- 一種基於物件概念的編程範式，通過封裝數據和行為到**物件**中來組織代碼。
 	- ## Functional Programming
 	- ## **Collection** Oriented Programming
 - # 簡介
