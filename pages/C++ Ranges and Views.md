@@ -1,7 +1,7 @@
 # 程式設計典範
 	- ## Procedural Programming
 	  id:: 671267b9-aae8-45cd-8b3a-4eb37b055d1a
-		- 一種基於過程和子程序的編程範式，強調按**順序執行一系列計算步驟**。
+		- 一種基於過程和子程序的編程典範，強調按**順序執行一系列計算步驟**。
 		- 經典例子：**C**
 		- ```cpp
 		  int sumProcedural(const std::vector<int>& numbers) {
@@ -13,8 +13,25 @@
 		  }
 		  ```
 	- ## Object Oriented Programming
-		- 一種基於物件概念的編程範式，通過封裝數據和行為到**物件**中來組織代碼。
+		- 一種基於**物件**概念的編程典範，通過**封裝**數據和行為到**物件**中來組織代碼。
+		- ```cpp
+		  class NumberList {
+		  private:
+		      std::vector<int> numbers;
+		  
+		  public:
+		      NumberList(const std::vector<int>& nums) : numbers(nums) {}
+		  
+		      int calculateSum() const {
+		          return std::accumulate(numbers.begin(), numbers.end(), 0);
+		      }
+		  };
+		  ```
 	- ## Functional Programming
+		- 一種將計算視為**數學函數**評估的編程範式，強調**不可變性**和避免**副作用**。
+		- #+BEGIN_TIP
+		  
+		  #+END_TIP
 	- ## **Collection** Oriented Programming
 - # 簡介
 	- ## Ranges
