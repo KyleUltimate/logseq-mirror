@@ -139,6 +139,11 @@
 			- 意義：把 range 前 N 個元素給取出來
 			- #### 例
 			- ```cpp
+			  int calculate() {
+			    	for (auto x: views::iota(8,24) | views::take(5)) {
+			        	cout << x << ' ';
+			      }
+			  }
 			  ```
 		- ### `std::views::enumerate`
 			- 意義：將 range 的 index 給「**枚舉**(enumurate)」出來
