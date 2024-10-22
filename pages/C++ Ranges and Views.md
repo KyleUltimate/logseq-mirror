@@ -259,13 +259,18 @@
 		  ```
 		- #### `std::funcitonal`
 			- 有很多好用的物件，如：
-				- std::plus{}
-				- std::minus{}
+				- `std::plus{}` == `[](auto a,auto b) { return a+b })`
+				- `std::minus{}` == `[](auto a, auto b) { return a-b })`
 				- std::multiplies{}
 				- std::divides{}
 			- 與 fold_left 合用如下
 			- ```cpp
-			  vector<int> a =
+			  vector<int> v = {1,2,3};
+			  int sum = a | ranges::fold_left(
+			      v,
+			      0,
+			      std::plus{}
+			  )
 			  ```
 - # 題目練習
 	- #+BEGIN_IMPORTANT
