@@ -208,13 +208,14 @@
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"};
 				  
-				  auto indexed_vector = v | views::enumerate 
-				                          | views::transform([](auto p) {
-				                              auto [index, element] = p;
-				                              pair<int, string> x = {index, element};
-				                              return x;
-				                          }) 
-				                          | ranges::to<vector>();
+				  auto indexed_vector = v 
+				  	| views::enumerate 
+				      | views::transform([](auto p) {
+				          auto [index, element] = p;
+				  		pair<int, string> x = {index, element};
+				          return x;
+				  	})
+				  	| ranges::to<vector>();
 				  ```
 		- #### 理想
 			- ```cpp
