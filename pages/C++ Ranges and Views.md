@@ -196,13 +196,14 @@
 			- #### 不正確
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"};
-				  auto indexed_vector = v | views::enumerate 
-				                          | views::transform([](auto p) {
-				                              auto [index, element] = p;
-				                              pair<int, string> x = {index, element};
-				                              return x;
-				                          }) 
-				                          | ranges::to<vector<pair<int, string>>>();
+				  auto indexed_vector = v 
+				  	| views::enumerate 
+				      | views::transform([](auto p) {
+				   		auto [index, element] = p;
+				    	 	pair<int, string> x = {index, element};
+				      	return x;
+				      }) 
+				    	| ranges::to<vector<pair<int, string>>>();
 				  ```
 			- #### 正確
 				- ```cpp
@@ -232,7 +233,6 @@
 	- ## `std::ranges::fold_left(range, value, func)`
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
-		-
 		- #.grid
 			- |element|acc|x|result|
 			  ||0|||
