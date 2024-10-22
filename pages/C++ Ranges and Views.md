@@ -197,13 +197,13 @@
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"};
 				  auto indexed_vector = v 
-				  | views::enumerate 
+				      | views::enumerate 
 				      | views::transform([](auto p) {
-				   		auto [index, element] = p;
-				    	 	pair<int, string> x = {index, element};
-				      	return x;
+				          auto [index, element] = p;
+				          pair<int, string> x = {index, element};
+				          return x;
 				      }) 
-				    	| ranges::to<vector<pair<int, string>>>();
+				      | ranges::to<vector<pair<int, string>>>();
 				  ```
 			- #### 正確
 				- ```cpp
