@@ -219,10 +219,6 @@
 				      })
 				      | ranges::to<vector>();
 				  ```
-		- #### 最佳
-			- ```cpp
-			  auto indexed_vector = v | views::enumerate | ranges::to<vector>();
-			  ```
 	- # Views adapters
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
