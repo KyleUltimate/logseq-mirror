@@ -237,6 +237,7 @@
 			  ||0|||
 			  |1|0|1|1|
 			  |2|1|2|3|
+			  |3|3|3|6|
 			- ```cpp
 			  vector<int> a = [1,2,3];
 			  - int sum = a | ranges::fold_left(
