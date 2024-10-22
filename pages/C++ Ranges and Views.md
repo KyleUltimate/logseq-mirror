@@ -228,6 +228,8 @@
 	  有時甚至輸出的連 range 都不是。
 	  #+END_IMPORTANT
 	- ## `std::ranges::size`/`std::ranges::distance`
+		- ```cpp
+		  ```
 	- ## `std::ranges::all_of(range, func)`/`std::ranegs::any_of(range, func)`
 		- ```cpp
 		  vector<int> v = {1,2,3,4,5,6,7,8};
@@ -246,7 +248,8 @@
 		      }
 		  );
 		  ```
-		- ranges::all_of
+		- `ranges::all_of`：確認**所有**的元素皆符合 `func` 所限制的條件
+		- `ranges::any_of`：確認**任意**元素有符合 `func` 所限制的條件
 	- ## `std::ranges::fold_left(range, value, func)`
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
