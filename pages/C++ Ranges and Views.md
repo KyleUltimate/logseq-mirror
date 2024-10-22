@@ -228,8 +228,9 @@
 	  有時甚至輸出的連 range 都不是。
 	  #+END_IMPORTANT
 	- ## `std::ranges::size`/`std::ranges::distance`
-	- ## `std::ranges::all_of`/`std::ranegs::any_of`
-		- `ranges::all_of(`
+	- ## `std::ranges::all_of(range, func)`/`std::ranegs::any_of(range, func)`
+		- ```cpp
+		  ```
 	- ## `std::ranges::fold_left(range, value, func)`
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
