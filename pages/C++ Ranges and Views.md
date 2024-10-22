@@ -192,29 +192,32 @@
 		- ### `std::views::chunk_by(func)`
 		- ### `std::ranges::to<STL_CONTAINER>()`
 			- 能將 ranges 轉成 STL 容器
-			- 注意，template
-			- ```cpp
-			  vector<string> v = {"a", "b", "c", "d"};
-			  
-			  // **WRONG**: 不正確
-			  auto indexed_vector = v | views::enumerate 
-			                          | views::transform([](auto p) {
-			                              auto [index, element] = p;
-			                              pair<int, string> x = {index, element};
-			                              return x;
-			                          }) 
-			                          | ranges::to<vector>();
-			  
-			  auto indexed_vector = v | views::enumerate 
-			                          | views::transform([](auto p) {
-			                              auto [index, element] = p;
-			                              pair<int, string> x = {index, element};
-			                              return x;
-			                          }) 
-			                          | ranges::to<vector>();
-			  //
-			  auto indexed_vector = v | views::enumerate | ranges::to<vector>();
-			  ```
+			- 注意，`STL_CONTAINER` 不必拼出完整型別，只需拼出 container 即可
+			- #### 不正確
+				- ```cpp
+				  vector<string> v = {"a", "b", "c", "d"};
+				  auto indexed_vector = v | views::enumerate 
+				                          | views::transform([](auto p) {
+				                              auto [index, element] = p;
+				                              pair<int, string> x = {index, element};
+				                              return x;
+				                          }) 
+				                          | ranges::to<vector>();
+				  ```
+			- #### 正確
+				- ```cpp
+				  vector<string> v = {"a", "b", "c", "d"};
+				  
+				  auto indexed_vector = v | views::enumerate 
+				                          | views::transform([](auto p) {
+				                              auto [index, element] = p;
+				                              pair<int, string> x = {index, element};
+				                              return x;
+				                          }) 
+				                          | ranges::to<vector>();
+				  //
+				  auto indexed_vector = v | views::enumerate | ranges::to<vector>();
+				  ```
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
 	  跟 Views adapters 差在輸出**不能**使用 `|` 來串接。
