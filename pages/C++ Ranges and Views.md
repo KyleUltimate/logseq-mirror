@@ -380,19 +380,20 @@
 	- 確認是否所有元素皆大於前一個元素（遞增數列）
 	  id:: 67127e91-a5e0-4ea9-a2c7-962557f22313
 		- 快速介紹 `std::views::pairwise`
+		  collapsed:: true
 			- 將原始元素，替換成相鄰兩元素，例：
 			- ```cpp
 			  std::vector<int> numbers = {1, 2, 3, 4, 5, 6};
 			  
 			  for (auto [a, b]: numbers | views::pairwise) {
-			    	cout << '(' << a << ',' << b << ')' << ' ';
+			    	cout << std::format("({},{})", a, b) << ' ';
 			  }
 			  
 			  // (1,2) (2,3) (3,4) (4,5) (5,6)
 			  ```
 		- collapsed:: true
 		  #+BEGIN_TIP
-		  官方解答
+		  官方解答（一）
 		  #+END_TIP
 			- ```cpp
 			  bool increasing_array(const std::vector<int>& xs) {
