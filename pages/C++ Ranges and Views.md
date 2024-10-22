@@ -369,10 +369,9 @@
 			  }
 			  ```
 	- 給予你 `string` 將反轉的字串回傳
-		- 會用到這個，請嘗試自行閱讀，並且使用（建議滑到下面，直接看 examples 比較快）
+		- 會用到 ，請嘗試自行閱讀，並且使用（建議滑到下面，直接看 examples 比較快）
 		- https://en.cppreference.com/w/cpp/ranges/reverse_view
-		- collapsed:: true
-		  #+BEGIN_TIP
+		- #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
 			- ```cpp
