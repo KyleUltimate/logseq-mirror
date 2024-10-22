@@ -190,11 +190,12 @@
 		- ### `std::views::chunk(int)`
 	- ## 進階
 		- ### `std::views::chunk_by(func)`
-		- ### `std::ranges::to<type>()`
+		- ### `std::ranges::to<STL_CONTAINER>()`
 			- 能將 ranges 轉成 STL 容器
 			- ```cpp
 			  vector<string> v = {"a", "b", "c", "d"};
 			  
+			  //
 			  auto indexed_vector = v | views::enumerate | ranges::to<vector<pair<int, string>>();
 			  ```
 - # Ranges algorithms
