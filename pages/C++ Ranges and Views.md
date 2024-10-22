@@ -404,3 +404,11 @@
 			          });
 			  }
 			  ```
+		- #+BEGIN_TIP
+		  官方解答（一）
+		  #+END_TIP
+			- ```cpp
+			  bool increasing_array(const std::vector<int>& xs) {
+			      return std::ranges::all_of(xs | views::pairwise, std::greater{})
+			  }
+			  ```
