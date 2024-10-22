@@ -191,6 +191,10 @@
 	- ## 進階
 		- ### `std::views::chunk_by(func)`
 		- ### `std::ranges::to<type>()`
+			- 能將 ranges 轉成 STL 容器
+			- ```cpp
+			  auto indexed_vector = vec | std::views::enumerate
+			  ```
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
 	  跟 Views adapters 差在輸出**不能**使用 `|` 來串接。
