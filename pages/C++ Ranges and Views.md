@@ -257,7 +257,9 @@
 		      target = std::format("({} + {})", target, x);
 		  }
 		  ```
-		- std::numeric``
+		- #### `std::funcitonal`
+			- 有很多好用的物件，如：
+				-
 - # 題目練習
 	- #+BEGIN_IMPORTANT
 	  要注意，因為多數競程平台（甚至 IDE）都尚不支援 C++ 23 標準
