@@ -59,7 +59,7 @@
 - # 如何創建 range?
 	- 更標準的說法，**Range Factory** - **範圍工廠**
 	- ## Range 的 `for` 迴圈語法
-		- `for(auto x: [range]) { .. }`
+		- `for(auto x: range) { .. }`
 		- 創建一個變數，從 range 裡面迭代過去
 	- ## `std::vector`
 		- 沒錯! vector 本身也是一種 range!（畢竟她也是 STL 容器）
