@@ -229,6 +229,7 @@
 	  #+END_IMPORTANT
 	- ## `std::ranges::size`/`std::ranges::distance`
 		- ```cpp
+		  int p = ranges::size(views::iota(3,10) | views::take(5));
 		  ```
 	- ## `std::ranges::all_of(range, func)`/`std::ranegs::any_of(range, func)`
 		- ```cpp
