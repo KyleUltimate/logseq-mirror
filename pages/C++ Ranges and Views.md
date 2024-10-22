@@ -231,6 +231,9 @@
 		- ```cpp
 		  int p = ranges::size(views::iota(3,10) | views::take(5));
 		  ```
+		- `ranges::size` 與 `ranges::distance` 用於告訴你這個 range 的 **長度**
+		- 兩者差異在於 ：
+			- `ranges::size` 只能
 	- ## `std::ranges::all_of(range, func)`/`std::ranegs::any_of(range, func)`
 		- ```cpp
 		  vector<int> v = {1,2,3,4,5,6,7,8};
