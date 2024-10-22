@@ -171,15 +171,15 @@
 					  }
 					  ```
 			- 如果**同時要輸出** index 則只能使用傳統 for loop
-			- `views::enumerate` 將每個元素的型別轉換成 pair<int, T>
+			- `views::enumerate` 將每個元素的型別轉換成 tuple<int, T>
 			- 有了 `views::enumerate` 之後，就可以做以下動作
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"};
 				  
 				  
 				  for (auto result: v | std::views::enumerate) {
-				  	cout << result.index << ": " << result.value << ' ';
-				  }
+				      cout << get<0>(result) << ": " << get<1>(result) << ' ';
+				  }   
 				  // 0:a 1:b 2:c 3:d
 				  
 				  // 這種方式叫做 `de-structring`，可以叫方便的獲取
