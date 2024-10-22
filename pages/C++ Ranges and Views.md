@@ -221,6 +221,7 @@
 			- ```cpp
 			  auto indexed_vector = v | views::enumerate | ranges::to<vector>();
 			  ```
+	- # Views adapters
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
 	  跟 Views adapters 差在輸出**不能**使用 `|` 來串接。
