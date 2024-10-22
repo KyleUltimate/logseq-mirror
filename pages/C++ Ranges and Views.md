@@ -233,7 +233,10 @@
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
 		-
 		- #.grid
-			- ab
+			- |element|acc|x|result|
+			  ||0|||
+			  |1|0|1|1|
+			  |2|1|2|3|
 			- ```cpp
 			  vector<int> a = [1,2,3];
 			  - int sum = a | ranges::fold_left(
