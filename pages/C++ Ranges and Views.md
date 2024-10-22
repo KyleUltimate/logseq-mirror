@@ -235,13 +235,16 @@
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
 		- ![image.png](../assets/image_1729603264016_0.png)
 		- ```cpp
-		  vector<int> v = [1,2,3,4,5];
+		  vector<int> v = {1,2,3,4,5};
 		  
-		  ranges::fold_left(
+		  string s = ranges::fold_left(
 		      v,
-		      "",
-		    	[](auto acc, auto ele)
-		  )
+		      "0",
+		    	[](auto acc, auto ele) {
+		          return std::format("({} + {})", acc, ele);
+		      },
+		  );
+		  
 		  ```
 		- `std::ranges::fold_left_first`
 - # 題目練習
