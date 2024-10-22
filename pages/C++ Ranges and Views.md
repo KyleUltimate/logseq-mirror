@@ -237,7 +237,11 @@
 		- ```cpp
 		  vector<int> v = [1,2,3,4,5];
 		  
-		  
+		  ranges::fold_left(
+		      v,
+		      "",
+		    	[](auto acc, auto ele)
+		  )
 		  ```
 		- `std::ranges::fold_left_first`
 - # 題目練習
