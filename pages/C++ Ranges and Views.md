@@ -261,8 +261,8 @@
 			- 有很多好用的物件，如：
 				- `std::plus{}` == `[](auto a,auto b) { return a+b })`
 				- `std::minus{}` == `[](auto a, auto b) { return a-b })`
-				- std::multiplies{}
-				- std::divides{}
+				- `std::multiplies{}` == `[](auto a, auto b) { return a*b })`
+				- `std::divides{}` == `[](auto a, auto b) { return a/b })`
 			- 與 fold_left 合用如下
 			- ```cpp
 			  vector<int> v = {1,2,3};
@@ -270,7 +270,7 @@
 			      v,
 			      0,
 			      std::plus{}
-			  )
+			  );
 			  ```
 - # 題目練習
 	- #+BEGIN_IMPORTANT
