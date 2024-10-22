@@ -156,7 +156,7 @@
 			- 如果要輸出 vector 裡的每個元素，有兩種方法。
 				- 傳統 for loop
 					- ```cpp
-					  vector<string> v = {"a", "b", "c", "d"}
+					  vector<string> v = {"a", "b", "c", "d"};
 					  
 					  for(int i = 0; i<v.size() ;i++) {
 					    	cout << v[i] << " ";
@@ -164,23 +164,19 @@
 					  ```
 				- for range
 					- ```cpp
-					  vector<string> v = {"a", "b", "c", "d"}
+					  vector<string> v = {"a", "b", "c", "d"};
 					  
 					  for(int x: v) {
 					    	cout << x << " ";
 					  }
 					  ```
 			- 如果**同時要輸出** index 則只能使用傳統 for loop
-			- `views::enumerate` 將每個元素的型別轉換成 enumerate_result
+			- `views::enumerate` 將每個元素的型別轉換成 pair<int, int>
 				- ```cpp
-				  struct enumerate_result {
-				      Index index;
-				      Value value;
-				  };
 				  ```
 			- 有了 `views::enumerate` 之後，就可以做以下動作
 				- ```cpp
-				  vector<string> v = {"a", "b", "c", "d"}
+				  vector<string> v = {"a", "b", "c", "d"};
 				  
 				  
 				  for (auto result: v | std::views::enumerate) {
