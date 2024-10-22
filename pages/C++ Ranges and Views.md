@@ -202,7 +202,7 @@
 				                              pair<int, string> x = {index, element};
 				                              return x;
 				                          }) 
-				                          | ranges::to<vector>();
+				                          | ranges::to<vector<pair<int, string>>>();
 				  ```
 			- #### 正確
 				- ```cpp
@@ -215,9 +215,11 @@
 				                              return x;
 				                          }) 
 				                          | ranges::to<vector>();
-				  //
-				  auto indexed_vector = v | views::enumerate | ranges::to<vector>();
 				  ```
+		- #### 理想
+			- ```cpp
+			  auto indexed_vector = v | views::enumerate | ranges::to<vector>();
+			  ```
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
 	  跟 Views adapters 差在輸出**不能**使用 `|` 來串接。
