@@ -230,7 +230,23 @@
 	- ## `std::ranges::size`/`std::ranges::distance`
 	- ## `std::ranges::all_of(range, func)`/`std::ranegs::any_of(range, func)`
 		- ```cpp
+		  vector<int> v = {1,2,3,4,5,6,7,8};
+		  
+		  bool f = ranges::all_of(
+		      v,
+		      [](auto ele) {
+		        	return ele % 2 == 0;
+		      }
+		  );
+		  
+		  bool g = ranges::any_of(
+		      v,
+		      [](auto ele) {
+		        	return ele % 2 == 0;
+		      }
+		  );
 		  ```
+		- ranges::all_of
 	- ## `std::ranges::fold_left(range, value, func)`
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
