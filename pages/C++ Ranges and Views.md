@@ -193,7 +193,9 @@
 		- ### `std::ranges::to<type>()`
 			- 能將 ranges 轉成 STL 容器
 			- ```cpp
-			  auto indexed_vector = vec | std::views::enumerate
+			  vector<string> v = {"a", "b", "c", "d"}
+			  
+			  auto indexed_vector = v | views::enumerate | ranges::to<vector<pair<int, string>>()
 			  ```
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
