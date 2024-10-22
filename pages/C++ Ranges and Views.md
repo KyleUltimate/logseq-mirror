@@ -241,11 +241,11 @@
 		      v,
 		      "0",
 		    	[](auto acc, auto ele) {
-		          return std::format("({} + {})", acc, ele); //
+		          return std::format("({} + {})", acc, ele); 
+		        	// 與 `printf("(%s, %d)", acc, ele) 類似
 		      },
 		  );
 		  ```
-		- `std::ranges::fold_left_first`
 - # 題目練習
 	- #+BEGIN_IMPORTANT
 	  要注意，因為多數競程平台（甚至 IDE）都尚不支援 C++ 23 標準
