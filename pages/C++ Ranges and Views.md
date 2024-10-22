@@ -218,7 +218,7 @@
 				      })
 				      | ranges::to<vector>();
 				  ```
-		- #### 理想
+		- #### 最佳
 			- ```cpp
 			  auto indexed_vector = v | views::enumerate | ranges::to<vector>();
 			  ```
