@@ -192,11 +192,28 @@
 		- ### `std::views::chunk_by(func)`
 		- ### `std::ranges::to<STL_CONTAINER>()`
 			- 能將 ranges 轉成 STL 容器
+			- 注意，template
 			- ```cpp
 			  vector<string> v = {"a", "b", "c", "d"};
 			  
+			  // **WRONG**: 不正確
+			  auto indexed_vector = v | views::enumerate 
+			                          | views::transform([](auto p) {
+			                              auto [index, element] = p;
+			                              pair<int, string> x = {index, element};
+			                              return x;
+			                          }) 
+			                          | ranges::to<vector>();
+			  
+			  auto indexed_vector = v | views::enumerate 
+			                          | views::transform([](auto p) {
+			                              auto [index, element] = p;
+			                              pair<int, string> x = {index, element};
+			                              return x;
+			                          }) 
+			                          | ranges::to<vector>();
 			  //
-			  auto indexed_vector = v | views::enumerate | ranges::to<vector<pair<int, string>>();
+			  auto indexed_vector = v | views::enumerate | ranges::to<vector>();
 			  ```
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
