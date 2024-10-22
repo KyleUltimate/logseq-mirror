@@ -187,7 +187,6 @@
 				    	cout << index << ": " << element << '\n';
 				  }
 				  ```
-		- ### `std::views::chunk(int)`
 	- ## 進階
 		- ### `std::views::chunk_by(func)`
 		- ### `std::ranges::to<STL_CONTAINER>()`
@@ -238,6 +237,9 @@
 			- #+BEGIN_TIP
 			  若將 `ranges::distance` 用於**已知**大小的 range，其時間複雜度為何？
 			  #+END_TIP
+			- #+BEGIN_CAUTION
+			  O(1)
+			  #+END_CAUTION
 	- ## `std::ranges::all_of(range, func)`/`std::ranegs::any_of(range, func)`
 		- ```cpp
 		  vector<int> v = {1,2,3,4,5,6,7,8};
