@@ -112,13 +112,18 @@
 			- #### 例
 			- ```cpp
 			  int calculate(vector<int> v) {
-			    	auto iter = v | views::transform([](auto x) {
+			    	auto iter = v | views::transform([](int x) {
 			        	return std::to_string(x) + std::to_string(x*x);
 			      });
 			    	for (auto element: iter) {
 			        	cout << element << ' ';
 			      }
 			  }
+			  ```
+			- ```cpp
+			  // calculate({1,2,4,5});
+			  // STDOUT:
+			  // 11 24 416 525
 			  ```
 		- ### `std::views::filter(func)`
 			- 意義：將 range 內的元素「**過濾**(filter)」到只剩符合 `func` 描述的限制時。
