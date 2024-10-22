@@ -183,14 +183,17 @@
 				  vector<string> v = {"a", "b", "c", "d"}
 				  
 				  
-				  for (auto result: vec | std::views::enumerate) {
-				  	cout << result.index << ": " << result.value << '\n';
+				  for (auto result: v | std::views::enumerate) {
+				  	cout << result.index << ": " << result.value << ' ';
 				  }
+				  // 0:a 1:b 2:c 3:d
 				  
 				  // 這種方式叫做 `de-structring`，可以叫方便的獲取
 				  for(auto [index, element]: v | views::enumerate) {
-				    	cout << index << ": " << element << '\n';
+				    	cout << index << ": " << element << ' ';
 				  }
+				  
+				  // 0:a 1:b 2:c 3:d
 				  ```
 	- ## 進階
 		- ### `std::views::chunk_by(func)`
