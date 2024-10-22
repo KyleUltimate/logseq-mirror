@@ -234,7 +234,9 @@
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
 		- ![image.png](../assets/image_1729603264016_0.png)
-		- #.grid
+		- ```cpp
+		  vector<int
+		  ```
 		- `std::ranges::fold_left_first`
 - # 題目練習
 	- #+BEGIN_IMPORTANT
