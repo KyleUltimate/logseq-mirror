@@ -233,7 +233,7 @@
 	- ## `std::ranges::fold_left(range, value, func)`
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
-		-
+		- ![carbon (7).png](../assets/carbon_(7)_1729603056598_0.png)
 		- ```cpp
 		  vector<int> a = [1,2,3];
 		  int sum = a | ranges::fold_left(
