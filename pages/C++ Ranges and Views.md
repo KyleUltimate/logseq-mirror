@@ -259,7 +259,14 @@
 		  ```
 		- #### `std::funcitonal`
 			- 有很多好用的物件，如：
-				-
+				- std::plus{}
+				- std::minus{}
+				- std::multiplies{}
+				- std::divides{}
+			- 與 fold_left 合用如下
+			- ```cpp
+			  vector<int> a =
+			  ```
 - # 題目練習
 	- #+BEGIN_IMPORTANT
 	  要注意，因為多數競程平台（甚至 IDE）都尚不支援 C++ 23 標準
