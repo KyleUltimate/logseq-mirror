@@ -197,7 +197,7 @@
 				- ```cpp
 				  vector<string> v = {"a", "b", "c", "d"};
 				  auto indexed_vector = v 
-				  	| views::enumerate 
+				  | views::enumerate 
 				      | views::transform([](auto p) {
 				   		auto [index, element] = p;
 				    	 	pair<int, string> x = {index, element};
@@ -213,10 +213,10 @@
 				  	| views::enumerate 
 				      | views::transform([](auto p) {
 				          auto [index, element] = p;
-				  		pair<int, string> x = {index, element};
+				          pair<int, string> x = {index, element};
 				          return x;
-				  	})
-				  	| ranges::to<vector>();
+				      })
+				      | ranges::to<vector>();
 				  ```
 		- #### 理想
 			- ```cpp
@@ -234,6 +234,7 @@
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
 		- ![image.png](../assets/image_1729603264016_0.png)
+		- #.grid
 		- `std::ranges::fold_left_first`
 - # 題目練習
 	- #+BEGIN_IMPORTANT
