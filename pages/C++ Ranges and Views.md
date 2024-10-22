@@ -235,7 +235,9 @@
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
 		- ![image.png](../assets/image_1729603264016_0.png)
 		- ```cpp
-		  vector<int
+		  vector<int> v = [1,2,3,4,5];
+		  
+		  
 		  ```
 		- `std::ranges::fold_left_first`
 - # 題目練習
