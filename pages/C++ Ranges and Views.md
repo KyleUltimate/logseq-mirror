@@ -250,9 +250,14 @@
 		  (((((0 + 1) + 2) + 3) + 4) + 5)
 		  ```
 		- ```cpp
-		  vector<int> v = {1,2,3,5};
+		  vector<int> v = {1,2,3,4,5};
 		  
-		  std::string s = "0";
+		  std::string target = "0";
+		  
+		  for (auto x: v) {
+		    	string s = std::format("({} + {})", target, x);
+		    	target+=s;
+		  }
 		  ```
 - # 題目練習
 	- #+BEGIN_IMPORTANT
