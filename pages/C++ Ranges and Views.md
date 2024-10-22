@@ -233,7 +233,8 @@
 		  ```
 		- `ranges::size` 與 `ranges::distance` 用於告訴你這個 range 的 **長度**
 		- 兩者差異在於 ：
-			- `ranges::size` 只能
+			- `ranges::size` 只能用於**已知**大小的 range，且時間複雜度為 `O(1)`
+			- `ranges::distance` 可用於**未知**大小的 range，但時間複雜度為 `O(n)`
 	- ## `std::ranges::all_of(range, func)`/`std::ranegs::any_of(range, func)`
 		- ```cpp
 		  vector<int> v = {1,2,3,4,5,6,7,8};
