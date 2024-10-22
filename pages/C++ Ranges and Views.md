@@ -244,6 +244,8 @@
 		  
 		  // sum == 6
 		  ```
+		- #.grid
+			-
 		- `std::ranges::fold_left_first`
 - # 題目練習
 	- #+BEGIN_IMPORTANT
