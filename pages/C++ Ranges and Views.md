@@ -219,11 +219,10 @@
 				      })
 				      | ranges::to<vector>();
 				  ```
-	- # Views adapters
 - # Ranges algorithms
 	- #+BEGIN_IMPORTANT
 	  跟 Views adapters 差在輸出**不能**使用 `|` 來串接。
-	  有時甚至輸出的連 range 都不是。
+	  輸出不是 range。
 	  #+END_IMPORTANT
 	- ## `std::ranges::size`/`std::ranges::distance`
 		- ```cpp
