@@ -331,13 +331,12 @@
 			  }
 			  ```
 	- 給與你 `string`，返回 `vector<char>`
-		- collapsed:: true
-		  #+BEGIN_TIP
+		- #+BEGIN_TIP
 		  官方解答
 		  #+END_TIP
 			- ```cpp
 			  vector<char> string_to_vec_char(string str) {
-			      return str | ranges::to<vector<char>>();
+			      return str | ranges::to<vector>();
 			  }
 			  ```
 	- 將字串反轉
