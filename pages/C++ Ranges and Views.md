@@ -191,6 +191,15 @@
 				  ```
 	- ## 進階
 		- ### `std::views::chunk_by(func)`
+			- ```cpp
+			  vector<int> v = {1, 1, 1, 3, 3, 2, 2, 2}
+			  
+			  auto list = v | views::chunk_by(std::equal{}) | ranges::to<vector>();
+			  
+			  list[0] == [1,1,1]
+			  list[1] == [3,3]
+			  list[2] == [2,2,2]
+			  ```
 		- ### `std::ranges::to<STL_CONTAINER>()`
 			- 能將 ranges 轉成 STL 容器
 			- 注意，`STL_CONTAINER` 不必拼出完整型別，只需拼出 container 即可
@@ -300,6 +309,12 @@
 			      std::plus{}
 			  );
 			  ```
+- # 如何撰寫
+	- 由於大部分線上 compiler 尚不支援 C++ 23 標準，請利用 Compiler Explorer。
+	- [Compiler Explorer (godbolt.org)](https://godbolt.org/z/hanTzjhj4)
+		- 左方是你的程式碼
+		- 右方是執行結果(會自動執行)
+-
 - # 題目練習
 	- #+BEGIN_IMPORTANT
 	  要注意，因為多數競程平台（甚至 IDE）都尚不支援 C++ 23 標準
