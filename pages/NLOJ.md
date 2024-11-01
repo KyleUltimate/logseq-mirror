@@ -15,4 +15,5 @@
 		- `mysql -u root -p tioj_production < backup.sql`
 	- ## 將 `key` 更新為在步驟一所得到的 `key`
 - # 更新
-	- 當你對
+	- 當你對任何 html 檔案，或是更改圖片時
+	- 需執行 `update.sh` 將變更上傳到伺服器上面
