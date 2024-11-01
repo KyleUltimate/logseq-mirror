@@ -18,6 +18,7 @@
 	- 當你對任何 html 檔案，或是更改圖片時
 	- 需執行 `update.sh` 將變更上傳到伺服器上面
 - # 密碼重製設定
+  collapsed:: true
 	- https://tonypepe.com/posts/others/cf-email-routing-gmail
 	- ## 修改 `config/settings.yml.example` 裡的 `smtp_settings`
 		- ![image.png](../assets/image_1730474196623_0.png)
@@ -30,3 +31,4 @@
 			- 這裡的電子郵件地址
 	- ## 將檔案儲存為 `config/settings.yml`
 	- ## 執行 `update.sh`
+- # 網域
