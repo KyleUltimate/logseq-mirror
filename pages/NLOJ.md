@@ -30,7 +30,8 @@
 			- 這裡的電子郵件地址
 	- ## 將檔案儲存為 `config/settings.yml`
 	- ## 執行 `update.sh`
-- # 網域申請
+- # 網域申
+  請
 	- ## 免費
 		- `freedns.afraid.org`
 			- 可以直接新增 `A` 到 VPS 的 IP 位置
