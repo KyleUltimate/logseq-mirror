@@ -8,4 +8,8 @@
 	- `sudo systemctl enable --now tioj-judge`
 - # 資料庫回復
 	- ## 獲取新主機的 `key`
-		-
+		- `cd ~/tioj`
+		- `RAILS_ENV=production rails db`
+		- `SELECT * FROM judge_servers;`
+	-
+-
