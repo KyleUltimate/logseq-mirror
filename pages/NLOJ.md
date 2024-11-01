@@ -20,7 +20,11 @@
 - # 密碼重製設定
 	- https://tonypepe.com/posts/others/cf-email-routing-gmail
 	- 修改 `config/settings.yml.example` 裡的 `smtp_settings`
-	- ![image.png](../assets/image_1730474196623_0.png)
-	- `address`: SMTP 伺服器
-	- `port`: 通訊
-	- `user_name`:
+		- ![image.png](../assets/image_1730474196623_0.png)
+		- `address`: SMTP 伺服器
+		- `port`: 通訊埠
+		- `user_name`: 使用者名稱
+		- `password`: 密碼
+	- `sender`
+		- ![image.png](../assets/image_1730474316789_0.png)
+		- 這裡的電子郵件地址
