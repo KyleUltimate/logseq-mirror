@@ -36,4 +36,4 @@
 		- `freedns.afraid.org`
 			- 可以直接新增 `A` 到 VPS 的 IP 位置
 		- `eu.org`
-			- 串接 cloudflare
+			- 將 NS records 串接至 cloudflare，再利用 cloudflare tunnel 架設
