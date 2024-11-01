@@ -14,4 +14,5 @@
 	- ## 贖回資料庫
 		- `mysql -u root -p tioj_production < backup.sql`
 	- ## 將 `key` 更新為在步驟一所得到的 `key`
--
+- # 更新
+	- 當你對
