@@ -26,7 +26,6 @@
 		- `user_name`: 使用者名稱
 		- `password`: 密碼
 		- `sender`
-		  collapsed:: true
 			- ![image.png](../assets/image_1730474316789_0.png)
 			- 這裡的電子郵件地址
 	- ## 將檔案儲存為 `config/settings.yml`
