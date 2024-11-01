@@ -17,4 +17,5 @@
 - # 更新
 	- 當你對任何 html 檔案，或是更改圖片時
 	- 需執行 `update.sh` 將變更上傳到伺服器上面
-- ##
+- # 密碼重製設定
+	- https://tonypepe.com/posts/others/cf-email-routing-gmail
