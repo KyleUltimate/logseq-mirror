@@ -18,10 +18,10 @@
 	- 當你對任何 html 檔案，或是更改圖片時
 	- 需執行 `update.sh` 將變更上傳到伺服器上面
 - # 密碼重製設定
-	- https://tonypepe.com/posts/others/cf-email-routing-gmail
+	- 根據 https://tonypepe.com/posts/others/cf-email-routing-gmail 設定。
 	- ## 修改 `config/settings.yml.example` 裡的 `smtp_settings`
 		- ![image.png](../assets/image_1730474196623_0.png){:height 111, :width 469}
-		- `address`: SMTP 伺服器(`smtp.gmail.com`)
+		- `address`: SMTP 伺服器
 		- `port`: 通訊埠
 		- `user_name`: 使用者名稱
 		- `password`: 密碼
