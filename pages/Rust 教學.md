@@ -57,15 +57,25 @@
 			- `x+y`
 			- `func()`
 			- 被 `{}` 包住的語句群中的最後一個表達式
-		- 因此，**函數**即為一種表達式
 	- ## 何謂語句
 		- 當我們在加了一個 **分號**，任何的表達式都會變成語句。
+		- ### 情況一
+			- ```rust
+			  fn main() {
+			    	let y = 5;
+			    	let x = {
+			      	let z = y+3;
+			        	z
+			    	};
+			  }
+			  ```
+		-
 		- ```rust
 		  fn main() {
 		    	let y = 5;
 		    	let x = {
 		      	let z = y+3;
-		        	z
+		        	z;
 		    	};
 		  }
 		  ```
@@ -78,7 +88,7 @@
 			    	x_squared + y_squared
 			  }
 			  ```
-			- 由於 `x+squarde`
+			- 由於 `x+squared + y_squared`
 		- 所有函數都需具有返回型別，那請問 main 函數的返回型別為何？
 			- ```rust
 			  fn main() -> ???? {
