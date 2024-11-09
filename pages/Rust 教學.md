@@ -65,7 +65,7 @@
 			    	let y = 5;
 			    	let x = {
 			      	let z = y+3;
-			        	z
+			        	z + 2
 			    	};
 			  }
 			  ```
@@ -75,7 +75,7 @@
 			    	let y = 5;
 			    	let x = {
 			      	let z = y+3;
-			        	z;
+			        	z + 2; 
 			    	};
 			  }
 			  ```
