@@ -9,11 +9,13 @@
 		  let x: i32 = 42;
 		  ```
 	- 在 Rust，在預設情況話，所有變數都是 **不可變** 的，需利用 `let mut` 來宣告
-		- 但理想情況下，
+		- 但理想情況下，我們要盡量**減少** `mut` 的使用，減少所需要在腦中管理的 **state**
 		- ```rust
 		  let x = 32;
 		  x = 87; // 錯誤
 		  let mut y = 32;
 		  y = 72; // ok
 		  ```
-	- Rust 同時也支援 **Variables Shadowing**時常
+	- Rust 同時也支援 **Variables Shadowing**
+		- ```rust
+		  ```
