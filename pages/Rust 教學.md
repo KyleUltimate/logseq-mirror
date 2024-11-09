@@ -1,4 +1,5 @@
 # 宣告變數
+collapsed:: true
 	- 在 Rust 中，所有變數都有 **型別** ，但是你可以不用特別把型別寫出來，編譯器會**自動**幫你推斷。
 		- ```rust
 		  let x = 42;	
@@ -18,4 +19,9 @@
 		  ```
 	- Rust 同時也支援 **Variables Shadowing**
 		- ```rust
+		  let x = 32;
+		  let x = 64;
+		  // x == 64
 		  ```
+- # 函數
+	-
