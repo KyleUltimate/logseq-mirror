@@ -144,6 +144,6 @@
 			- `String::from("hello")` 的所有權將被轉移至 `s2`
 			- 當試著存取 `s1` 時，將會 **報錯**（因 所有權在 `s2` 手上）
 			- #+BEGIN_TIP
-			  為什麼要這樣設計，請詳略 [[Stack and Heap]]
+			  至於為什麼要這樣設計，請詳略 [[Stack and Heap]]
 			  #+END_TIP
 		-
