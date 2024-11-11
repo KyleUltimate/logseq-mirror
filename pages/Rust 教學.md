@@ -118,12 +118,15 @@
 		  }                   
 		  ```
 		- 而 Rust 的所有權系統，即是要解決 **記憶體安全性** 所研發的系統。
-	- ## 所有權規則
-		- Rust 每個值都被一個**變數**所擁有，稱之 **所有者**
-		  logseq.order-list-type:: number
-		- 一個值只能有**一個**所有者
-		  logseq.order-list-type:: number
-		- 將變數（所有者）離開作用域(大括弧所包住的程式區塊)，這個值將被丟棄(**drop**)
-		  logseq.order-list-type:: number
+	- ## 所有權
+		- ### 規則
+			- Rust 每個值都被一個**變數**所擁有，稱之 **所有者**
+			  logseq.order-list-type:: number
+			- 一個值只能有**一個**所有者
+			  logseq.order-list-type:: number
+			- 將變數（所有者）離開作用域(大括弧所包住的程式區塊)，這個值將被丟棄(**drop**) 
+			  logseq.order-list-type:: number
+		- ### String 介紹
+			- 與 C++ 的 string 類似，為可**動態**
 		-
 		-
