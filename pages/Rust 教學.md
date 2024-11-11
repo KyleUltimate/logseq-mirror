@@ -134,6 +134,9 @@
 			- 將變數（所有者）離開作用域(大括弧所包住的程式區塊)，這個值將被丟棄(**drop**)
 			  logseq.order-list-type:: number
 		- ### 所有權轉移
+			- #+BEGIN_TIP
+			  先備知識：[[Stack and Heap]]
+			  #+END_TIP
 			- #### String 介紹
 				- 與 C++ 的 string 類似，為可**動態**改變大小的字串。
 			- 對於非上述所提到的基礎類型，當進行
@@ -143,7 +146,4 @@
 			  ```
 			- `String::from("hello")` 的所有權將被轉移至 `s2`
 			- 當試著存取 `s1` 時，將會 **報錯**（因 所有權在 `s2` 手上）
-			- #+BEGIN_TIP
-			  至於為什麼要這樣設計，請詳略 [[Stack and Heap]]
-			  #+END_TIP
 		-
