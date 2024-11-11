@@ -118,4 +118,7 @@
 		  }                   
 		  ```
 		- 而 Rust 的所有權系統，即是要解決 **記憶體安全性** 所研發的系統。
-	-
+	- ## 所有權規則
+		- Rust 每個值都被一個**變數**所擁有，稱之 **所有者**
+		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
