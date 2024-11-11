@@ -165,10 +165,11 @@
 				  fn main() {
 				    	let s = String::from("hello");
 				    	print_str(s);
+				    	// 這裡 `s` 已不可用! 因所有者已轉移至 `print_str` 底下。
 				  }
 				  
 				  fn print_str(s: String) {
-				    	
+				    	println!("{}", s);
 				  }
 				  ```
 		-
