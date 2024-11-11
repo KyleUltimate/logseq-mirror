@@ -156,6 +156,5 @@
 				- #+BEGIN_TIP
 				  為何要這樣設計？
 				  若 s1 與 s2 都能存取，在離開作用域的時候就會將同一塊記憶體 **二次釋放** (double free error)
-				  
 				  #+END_TIP
 		-
