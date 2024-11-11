@@ -121,4 +121,9 @@
 	- ## 所有權規則
 		- Rust 每個值都被一個**變數**所擁有，稱之 **所有者**
 		  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
+		- 一個值只能有**一個**所有者
+		  logseq.order-list-type:: number
+		- 將變數（所有者）離開作用域(大括弧所包住的程式區塊)，這個值將被丟棄(**drop**)
+		  logseq.order-list-type:: number
+		-
+		-
