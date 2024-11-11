@@ -133,13 +133,14 @@
 			  logseq.order-list-type:: number
 			- 將變數（所有者）離開作用域(大括弧所包住的程式區塊)，這個值將被丟棄(**drop**)
 			  logseq.order-list-type:: number
-		- ### String 介紹
-			- 與 C++ 的 string 類似，為可**動態**改變大小的字串。
 		- ### 所有權轉移
+			- #### String 介紹
+				- 與 C++ 的 string 類似，為可**動態**改變大小的字串。
 			- 對於非上述所提到的基礎類型，當進行
 			- ```rust
 			  let s1 = String::from("hello");
 			  let s2 = s1;
 			  ```
+			- `String::from("hello")` 的所有權將被轉移至 `s2`
 		-
 		-
