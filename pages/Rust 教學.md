@@ -151,7 +151,7 @@
 				  let s1 = String::from("hello");
 				  let s2 = s1;
 				  ```
-				- `String::from("hello")` 的所有權將被轉移至 `s2`
+				- {{cloze String::from("hello")` 的所有權將被轉移至 `s2`}}
 				- 當試著存取 `s1` 時，將會 **報錯**（因 所有權在 `s2` 手上）
 				- #+BEGIN_TIP
 				  為何要這樣設計？
