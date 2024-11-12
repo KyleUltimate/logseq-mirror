@@ -603,7 +603,15 @@
 	- ## Option 使用
 		- ### match
 		  ```rust
+		  fn add_maybe_number(x: i32, y: Option<i32>) -> Option<i32> {
+		      match y {
+		          Some(y) => Some(x + y),
+		          None => None,
+		      }
+		  }
 		  ```
+		- ### if let
+			- 當你沒有要輸入
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
