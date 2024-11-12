@@ -437,7 +437,8 @@
 	      sign_in_count: u64,
 	  }
 	  ```
-	- ```rust
+	- 使用方法：
+	  ```rust
 	  let mut user = User {
 	    email: String::from("someone@example.com"),
 	    username: String::from("someusername123"),
@@ -517,6 +518,8 @@
 		  在 ((67336fdf-8b40-4cdb-9338-bae17b0b63f3)) 會做介紹
 - # 模式配對
   id:: 67336fdf-8b40-4cdb-9338-bae17b0b63f3
+	- ```rust
+	  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
