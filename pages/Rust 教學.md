@@ -330,3 +330,13 @@
 		  ```
 - # String
 	- 在 Rust 中，用 `""` 宣告的字串類別是 `&str` 而非 String
+	- ```rust
+	  fn main() {
+	    	let my_name = "Kyle";
+	    	greet(my_name);
+	  }
+	  
+	  fn greet(name: String) {
+	    	println!("Hello, {}!", name);
+	  }
+	  ```
