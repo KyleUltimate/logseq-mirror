@@ -428,9 +428,28 @@
 	  }
 	  ```
 - # 結構體
+  collapsed:: true
 	- 與 **元組** 類似，但可以對每個欄位命名：
 	  ```rust
+	  struct User {
+	      active: bool,
+	      username: String,
+	      email: String,
+	      sign_in_count: u64,
+	  }
 	  ```
+	- 使用方法如下：
+	  ```rust
+	  let mut user = User {
+	    email: String::from("someone@example.com"),
+	    username: String::from("someusername123"),
+	    active: true,
+	    sign_in_count: 1,
+	  };
+	  
+	  user.email = String::from("anotheremail@example.com");
+	  ```
+- #
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
