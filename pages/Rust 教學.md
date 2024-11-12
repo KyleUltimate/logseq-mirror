@@ -12,19 +12,19 @@
 	  let x: i32 = 42;
 	  ```
 	- 在 Rust，在預設情況話，所有變數都是 **不可變** 的，需利用 `let mut` 來宣告
-		- ```rust
-		  let x = 32;
-		  x = 87; // 錯誤
-		  let mut y = 32;
-		  y = 72; // ok
-		  ```
+	  ```rust
+	  let x = 32;
+	  x = 87; // 錯誤
+	  let mut y = 32;
+	  y = 72; // ok
+	  ```
 	- Rust 同時也支援 **Variables Shadowing**
-		- ```rust
-		  let x = 32;
-		  let x = 64;
-		  // x == 64
-		  ```
-- # 型別
+	  ```rust
+	  let x = 32;
+	  let x = 64;
+	  // x == 64
+	  ```
+- # 基礎型別
   id:: 672f37e6-7911-4973-ab97-e6f5b6236896
 	- ## 數值
 		- `i8` `i16` `i32` `i64`
