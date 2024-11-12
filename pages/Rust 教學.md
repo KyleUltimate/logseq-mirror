@@ -576,8 +576,30 @@
 	          }
 	      }
 	  }
+	  ```
+	- ## 用法（三）
+	  ```rust
+	  enum Direction {
+	      East,
+	      West,
+	      North,
+	      South,
+	  }
+	  
+	  fn main() {
+	      let dire = Direction::South;
+	      match dire {
+	          Direction::East => println!("East"),
+	          Direction::North | Direction::South => {
+	              println!("South or North");
+	          },
+	      };
+	  }
 	  
 	  ```
+	- #+BEGIN_IMPORTANT
+	  你必須列出**所有**的可能性!
+	  #+END_IMPORTANT
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
