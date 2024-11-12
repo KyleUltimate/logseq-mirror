@@ -385,6 +385,12 @@
 		- `String::new()` 新增一個空的 `String`
 		- ### `format!` -- 與 `println!` 語法類似
 		  ```rust
+		  fn main() {
+		    	let a = "hello";
+		   	let b = "my name is";
+		    	let c = "kyle";
+		    	let ans = format!("{} {} {}!", a, b, c);
+		  }
 		  ```
 - # 元組
 	- 將多個不同類型**組合**成一個新的類型
