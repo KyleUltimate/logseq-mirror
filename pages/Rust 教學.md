@@ -311,13 +311,16 @@
 		  ```
 		- ```rust
 		  fn main() {
-		    let mut s = String::from("hello world");
-		  - let word = borrow_word(&s);
-		  - s.clear();
-		  - println!("the first word is: {}", word);
+		      let mut s = String::from("hello world");
+		  
+		      let word: &str = borrow_word(&s);
+		  
+		      s.clear();
+		  
+		      println!("the first word is: {}", word);
 		  }
 		  fn borrow_word(s: &String) -> &str {
-		    &s
+		      &s
 		  }
 		  ```
 		- 某些情況下利用 **所有權轉移** 來實行操作
