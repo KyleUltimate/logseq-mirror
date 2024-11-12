@@ -619,7 +619,7 @@
 			    }
 			  }
 			  ```
-		- 當發生了 **不可恢復的
+		-
 - # Vector
 	- 在 Rust 中，類型名為 `Vec<T>`，代表整個數組只能儲存同一種型別
 	- ## 宣告及使用
@@ -640,6 +640,16 @@
 	  }
 	  ```
 - # Panic
+	- 當發生了 **不可恢復的** 情形時，可利用 `panic!()` 來結束程式
+	  ```rust
+	  fn add_maybe_number(x: i32, y: Option<i32>) -> i32 {
+	      match y {
+	          Some(y) => Some(x + y),
+	          None => panic!("You must provide a y value"),
+	      }
+	  }
+	  ```
+	- 因為 Option
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
