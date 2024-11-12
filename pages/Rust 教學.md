@@ -340,3 +340,17 @@
 	    	println!("Hello, {}!", name);
 	  }
 	  ```
+	- ## 切片
+		- 何謂切片？
+		  在集合中**連續**的元素序列。
+		- ```rust
+		  fn main() {
+		    	let my_name = String::from("Kyle");
+		    	greet(my_name);
+		  }
+		  
+		  fn greet(name: String) -> &str {
+		    	println!("Hello, {}!", name);
+		  }
+		  ```
+-
