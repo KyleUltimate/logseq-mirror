@@ -383,6 +383,9 @@
 		  `s.push_str` ：向最後新增一個切片
 		  `s.push()` ：向最後新增一個 `char`
 		- `String::new()` 新增一個空的 `String`
+		- ### `format!` -- 與 `println!` 語法類似
+		  ```rust
+		  ```
 - # 元組
 	- 將多個不同類型**組合**成一個新的類型
 	- ## 語法`(type1, type2, type3)`
