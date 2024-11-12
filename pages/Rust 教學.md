@@ -449,7 +449,7 @@
 	- 通過列舉可能的成員，來將可能性以型別的方式顯現出來
 	- ## 宣告
 	  ```rust
-	  enum PokerType {
+	  enum PokerCard {
 	    Clubs,
 	    Spades,
 	    Diamonds,
@@ -459,8 +459,8 @@
 	- ## 使用
 	  ```rust
 	  fn main() {
-	      let heart = PokerSuit::Hearts;
-	      let diamond = PokerSuit::Diamonds;
+	      let heart = PokerCard::Hearts;
+	      let diamond = PokerCard::Diamonds;
 	  }
 	  ```
 	- ## 也可以含有數值
@@ -477,6 +477,23 @@
 	     let c2 = PokerCard::Diamonds(13);
 	  }
 	  ```
+	- ## 甚至可以含有結構體
+	  ```rust
+	  enum Message {
+	      Quit,
+	      Move { x: i32, y: i32 }, // 結構體
+	      Write(String),
+	      ChangeColor(i32, i32, i32), 
+	  }
+	  
+	  fn main() {
+	      let m1 = Message::Quit;
+	      let m2 = Message::Move{ x:1 ,y:1 };
+	      let m3 = Message::ChangeColor(255,255,0);
+	  }
+	  
+	  ```
+	- ``
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
