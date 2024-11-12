@@ -437,9 +437,7 @@
 	      sign_in_count: u64,
 	  }
 	  ```
-	- 使用方法如下：
-	  ```rust
-	  let mut user = User {
+	- let mut user = User {
 	    email: String::from("someone@example.com"),
 	    username: String::from("someusername123"),
 	    active: true,
@@ -447,15 +445,22 @@
 	  };
 	  
 	  user.email = String::from("anotheremail@example.com");
-	  ```
 - # 枚舉
 	- 通過列舉可能的成員，來將可能性以型別的方式顯現出來
-	- ```rust
+	- ## 宣告
+	  ```rust
 	  enum PokerType {
 	    Clubs,
 	    Spades,
 	    Diamonds,
 	    Hearts,
+	  }
+	  ```
+	- ## 使用
+	  ```rust
+	  fn main() {
+	      let heart = PokerSuit::Hearts;
+	      let diamond = PokerSuit::Diamonds;
 	  }
 	  ```
 - # 測試
