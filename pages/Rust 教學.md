@@ -51,8 +51,10 @@
 		- **布林**
 		- 為 `true` 或 `false`
 - # `println!()`
-	- 與 C++ 23 的 print 類似
-	- ```rust
+	- 與 C++ 23 的 print 類似，利用 `{}` 來代表放置變數的位置
+	  ```rust
+	  let name = "kyle";
+	  println!("My name is {}", name);
 	  ```
 - # 函數宣告
 	- ![image.png](../assets/image_1731148907978_0.png){:height 340, :width 774}
