@@ -159,9 +159,12 @@
 					  為何要這樣設計？
 					  若 s1 與 s2 都能存取，在離開作用域的時候就會將同一塊記憶體 **二次釋放** (double free error)
 					  #+END_TIP
-					- 若你**執意**還要使用 `s1`(也就是說你要 s1 和 s2 皆指向 **不同** 的 Heap 區塊)let s1 = String::from("hello");
+					- 若你**執意**還要使用 `s1`(也就是說你要 s1 和 s2 皆指向 **不同** 的 Heap 區塊)
+					  ```rust
+					  let s1 = String::from("hello");
 					  let s2 = s1.clone();
-					  // s1 與 s2 皆在此使用
+					  // s1 與 s2 皆能在此使用
+					  ```
 				- ##### 函數傳遞
 				  ```rust
 				  fn main() {
