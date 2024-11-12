@@ -381,7 +381,10 @@
 	- ## 語法`(type1, type2, type3)`
 	  ```rust
 	  fn main() {
-	      let tup: (i32, f64, u8) = (500, 6.4, 1);
-	    	let (x,y,z) = tup; // 解構
+	      let tuple: (i32, f64, u8) = (500, 6.4, 1);
+	    	let (x,y,z) = tuple; // 解構
+	    	let a = tuple.0; // 利用 `.` 來訪問元組
+	    	let b = tuple.1;
+	    	let c = tuple.2;
 	  }
 	  ```
