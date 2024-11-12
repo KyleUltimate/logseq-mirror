@@ -658,7 +658,7 @@
 	  }
 	  ```
 - # 測試
-	- 可利用 Compiler Explorer 或是 Rust Playground 進行撰寫
+	- 可利用 [Compiler Explorer (godbolt.org)](https://godbolt.org/z/hanTzjhj4) 或是 Rust Playground 進行撰寫
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
 	- ```rust
