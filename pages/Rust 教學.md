@@ -343,14 +343,14 @@
 	- ## 切片
 		- 何謂切片？
 		  **借用**在集合中**連續**的元素序列。
-		- 切片是**不可變**的
 		- ```rust
 		  fn main() {
 		      let s: &str = "hello, world";
 		    	// `&` 非常重要
 		  }
 		  ```
-		- ```rust
+		- 可利用`[a..b]` 進行
+		  ```rust
 		  fn main() {
 		    	let my_name = String::from("Kyle");
 		    	greet(my_name);
