@@ -295,7 +295,31 @@
 		  1. 在 **同一時間下** ：不得有超過一個可變借用存在
 		  2. 在 **同一時間下** ，存在可變借用：不得存在其他**不可變**借用
 		  3. 引用必須是**有效的**
-		-
+		- ```rust
+		  fn main() {
+		      let mut s = String::from("hello world");
+		  
+		      let word = borrow_word(&s);
+		  
+		      s.clear();
+		  
+		      println!("the first word is: {}", word);
+		  }
+		  fn borrow_word(s: &String) -> &str {
+		      &s
+		  }
+		  ```
+		- ```rust
+		  fn main() {
+		    let mut s = String::from("hello world");
+		  - let word = borrow_word(&s);
+		  - s.clear();
+		  - println!("the first word is: {}", word);
+		  }
+		  fn borrow_word(s: &String) -> &str {
+		    &s
+		  }
+		  ```
 		- 某些情況下利用 **所有權轉移** 來實行操作
 		  ```rust
 		  fn main() {
