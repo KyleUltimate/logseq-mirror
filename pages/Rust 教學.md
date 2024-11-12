@@ -553,6 +553,18 @@
 	  ```
 	- ## 用法（二）
 	   ```rust
+	  enum Message {
+	      Quit,
+	      Move { x: i32, y: i32 }, // 結構體
+	      Write(String),
+	      ChangeColor(i32, i32, i32), 
+	  }
+	  
+	  fn print_message(msg: Message) {
+	    	match msg {
+	        
+	    }
+	  }
 	  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
