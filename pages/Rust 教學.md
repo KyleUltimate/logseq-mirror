@@ -365,7 +365,7 @@
 	- ## String 的方法
 		- ```rust
 		  fn main() {
-		      let mut s = String::new("Kyle");
+		      let mut s = String::from("Kyle");
 		      s.push_str(" hello, world");
 		      s.push('!');
 		  
@@ -375,5 +375,5 @@
 		  `String::from("Kyle")`：透過 `&str` 宣告 String
 		  `s.push_str` ：向最後新增一個切片
 		  `s.push()` ：向最後新增一個 `char`
-		-
+		- `String::new()` 新增一個空的 `String`
 -
