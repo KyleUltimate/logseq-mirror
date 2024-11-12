@@ -557,14 +557,26 @@
 	      Quit,
 	      Move { x: i32, y: i32 }, // 結構體
 	      Write(String),
-	      ChangeColor(i32, i32, i32), 
+	      ChangeColor(i32, i32, i32),
 	  }
 	  
 	  fn print_message(msg: Message) {
-	    	match msg {
-	        
-	    }
+	      match msg {
+	          Message::Quit => {
+	              println!("Game ended!");
+	          }
+	          Message::Move { x, y } => {
+	              println!("Moved from {} to {}", x, y);
+	          }
+	          Message::Write(string) => {
+	              println!("{} recieved!", string);
+	          }
+	          Message::ChangeColor(r, g, b) => {
+	              println!("Color has been changed into r:{}, g:{}, b:{}", r, g, b);
+	          }
+	      }
 	  }
+	  
 	  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
