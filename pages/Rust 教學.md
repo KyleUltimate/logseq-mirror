@@ -206,12 +206,10 @@
 		  ```rust
 		  fn main() {
 		    	let s = String::from("hello");
-		    	print_str(&mut s);
-		    	// 這裡 `s` 是可以用的! 因所有者仍是 `s`。
-		    	// 因此，可以不限次數 call
-		    	print_str(&mut s);
-		    	print_str(&mut s);
-		    	print_str(&mut s);
+		    	print_str(&mut s); // s == hello hello 
+		    	print_str(&mut s); // s == hello hello hello
+		    	print_str(&mut s); // s == hello hello hello hello 
+		    	print_str(&mut s); // s == hello hello hello hello hello
 		  }
 		  
 		  fn print_str(s: &mut String) {
@@ -219,3 +217,6 @@
 		    	println!("{}", s);
 		  }
 		  ```
+		- #+BEGIN_IMPORTANT
+		  一樣基於安全性的
+		  #+END_IMPORTANT
