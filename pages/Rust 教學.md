@@ -619,6 +619,8 @@
 			    }
 			  }
 			  ```
+- # Vector
+	- 在 Rust 中，
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
@@ -630,6 +632,6 @@
 	          .next()
 	          .expect("not valid input string");
 	  }
-	  
-	  
 	  ```
+	- ## 推薦使用的函式
+		-
