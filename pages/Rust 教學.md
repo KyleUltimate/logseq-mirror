@@ -365,12 +365,14 @@
 	- ## String 的方法
 		- ```rust
 		  fn main() {
-		      let mut s = String::new();
-		      s.push_str("hello, world");
+		      let mut s = String::new("Kyle");
+		      s.push_str(" hello, world");
 		      s.push('!');
 		  
-		      assert_eq!(s, "hello, world!");
+		      assert_eq!(s, "Kyle, hello, world!");
 		  }
 		  ```
+		  - `String::from("Kyle")`：透過 `&str` 宣告 String
+		  - `s.push_str` 向最後
 		-
 -
