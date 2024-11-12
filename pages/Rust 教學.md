@@ -651,4 +651,5 @@
 	  }
 	  ```
 	- ## 推薦使用的函式
-		-
+		- 將 input 用空格分開
+			- `let values = input.split(' ').collect::<Vec<&str>>()`
