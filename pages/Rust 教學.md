@@ -463,6 +463,20 @@
 	      let diamond = PokerSuit::Diamonds;
 	  }
 	  ```
+	- ## 也可以含有數值
+	  ```rust
+	  enum PokerCard {
+	      Clubs(u8),
+	      Spades(u8),
+	      Diamonds(u8),
+	      Hearts(u8),
+	  }
+	  
+	  fn main() {
+	     let c1 = PokerCard::Spades(5);
+	     let c2 = PokerCard::Diamonds(13);
+	  }
+	  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
