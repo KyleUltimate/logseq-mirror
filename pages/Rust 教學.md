@@ -189,7 +189,7 @@
 		- 要如何讓 `s` 變得可用，利用 **不可變借用** 即可
 		  ```rust
 		  fn main() {
-		    	let mut s = String::from("hello");
+		    	let s = String::from("hello");
 		    	print_str(&s);
 		    	// 這裡 `s` 是可以用的! 因所有者仍是 `s`。
 		    	// 因此，可以不限次數 call
@@ -206,7 +206,7 @@
 		- **可變借用**：
 		  ```rust
 		  fn main() {
-		    	let s = String::from("hello");
+		    	let mut s = String::from("hello");
 		    	print_str(&mut s); // s == hello hello 
 		    	print_str(&mut s); // s == hello hello hello
 		    	print_str(&mut s); // s == hello hello hello hello 
