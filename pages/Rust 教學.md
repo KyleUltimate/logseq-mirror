@@ -153,7 +153,8 @@
 		       
 		  }
 		  ```
-		- ```rust
+		- 例子：
+		  ```rust
 		  fn main() {
 		      for i in 1..=5 {
 		          println!("{}", i);
