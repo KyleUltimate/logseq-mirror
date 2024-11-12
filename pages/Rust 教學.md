@@ -658,92 +658,93 @@
 	  }
 	  ```
 - # 測試
-	- 可利用 [Compiler Explorer (godbolt.org)](https://godbolt.org/z/hanTzjhj4) 或是 Rust Playground 進行撰寫
-	- `input` 是使用者所輸入的第一行 `String`
-	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
-	- ```rust
-	  fn main() {
-	      let input = std::io::stdin()
-	          .lines()
-	          .map_while(Result::ok)
-	          .next()
-	          .expect("not valid input string");
-	  }
-	  ```
-	- ## 推薦使用的函式
-		- 將 input 用空格分開，並存到 `Vec` 裡面
-			- `let values: Vec<&str> = input.split(' ').collect()`
-	- ## 解答
-	  collapsed:: true
+	- 可利用 [Compiler Explorer (godbolt.org)](https://godbolt.org/z/EeaYf5fns) 或是 [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021) 進行撰寫
+	- ## 華氏攝氏轉換器
+		- `input` 是使用者所輸入的第一行 `String`
+		- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
 		- ```rust
-		  pub enum TempatureUnit {
-		      Celcius,
-		      Farenhite,
-		  }
-		  
-		  pub struct Tempature {
-		      pub value: f64,
-		      pub unit: TempatureUnit,
-		  }
-		  
 		  fn main() {
 		      let input = std::io::stdin()
 		          .lines()
 		          .map_while(Result::ok)
 		          .next()
 		          .expect("not valid input string");
-		      let (current, target) = parse_input(&input).expect("haha");
-		      let Tempature { value, unit } = apply(current, target);
-		      println!(
-		          "{} {}",
-		          value,
-		          match unit {
-		              TempatureUnit::Celcius => 'C',
-		              TempatureUnit::Farenhite => 'F',
-		          }
-		      );
 		  }
-		  
-		  fn apply(tempature: Tempature, target: TempatureUnit) -> Tempature {
-		      let original_unit = &tempature.unit;
-		      match (original_unit, target) {
-		          (TempatureUnit::Celcius, TempatureUnit::Celcius) => tempature,
-		          (TempatureUnit::Farenhite, TempatureUnit::Farenhite) => tempature,
-		          (TempatureUnit::Celcius, TempatureUnit::Farenhite) => {
-		              celsuius_to_farenhite(tempature.value)
-		          }
-		          (TempatureUnit::Farenhite, TempatureUnit::Celcius) => farenhite_to_celsius(tempature.value),
-		      }
-		  }
-		  
-		  fn celsuius_to_farenhite(degree: f64) -> Tempature {
-		      Tempature {
-		          value: degree * 32.0,
-		          unit: TempatureUnit::Farenhite,
-		      }
-		  }
-		  fn farenhite_to_celsius(degree: f64) -> Tempature {
-		      Tempature {
-		          value: degree / 32.0,
-		          unit: TempatureUnit::Celcius,
-		      }
-		  }
-		  
-		  fn parse_input(input: &str) -> Option<(Tempature, TempatureUnit)> {
-		      let mut words = input.split(' ');
-		      let value = words.next()?.parse::<f64>().expect("malformed input");
-		      let unit = match words.next()? {
-		          "C" => TempatureUnit::Celcius,
-		          "F" => TempatureUnit::Farenhite,
-		          _ => panic!("Unsupported unit"),
-		      };
-		      let tempature = Tempature { value, unit };
-		      let target = match words.next()? {
-		          "C" => TempatureUnit::Celcius,
-		          "F" => TempatureUnit::Farenhite,
-		          _ => panic!("Unsupported unit"),
-		      };
-		      Some((tempature, target))
-		  }
-		  
 		  ```
+		- ### 推薦使用的函式
+			- 將 input 用空格分開，並存到 `Vec` 裡面
+				- `let values: Vec<&str> = input.split(' ').collect()`
+		- ### 解答
+		  collapsed:: true
+			- ```rust
+			  pub enum TempatureUnit {
+			      Celcius,
+			      Farenhite,
+			  }
+			  
+			  pub struct Tempature {
+			      pub value: f64,
+			      pub unit: TempatureUnit,
+			  }
+			  
+			  fn main() {
+			      let input = std::io::stdin()
+			          .lines()
+			          .map_while(Result::ok)
+			          .next()
+			          .expect("not valid input string");
+			      let (current, target) = parse_input(&input).expect("haha");
+			      let Tempature { value, unit } = apply(current, target);
+			      println!(
+			          "{} {}",
+			          value,
+			          match unit {
+			              TempatureUnit::Celcius => 'C',
+			              TempatureUnit::Farenhite => 'F',
+			          }
+			      );
+			  }
+			  
+			  fn apply(tempature: Tempature, target: TempatureUnit) -> Tempature {
+			      let original_unit = &tempature.unit;
+			      match (original_unit, target) {
+			          (TempatureUnit::Celcius, TempatureUnit::Celcius) => tempature,
+			          (TempatureUnit::Farenhite, TempatureUnit::Farenhite) => tempature,
+			          (TempatureUnit::Celcius, TempatureUnit::Farenhite) => {
+			              celsuius_to_farenhite(tempature.value)
+			          }
+			          (TempatureUnit::Farenhite, TempatureUnit::Celcius) => farenhite_to_celsius(tempature.value),
+			      }
+			  }
+			  
+			  fn celsuius_to_farenhite(degree: f64) -> Tempature {
+			      Tempature {
+			          value: degree * 32.0,
+			          unit: TempatureUnit::Farenhite,
+			      }
+			  }
+			  fn farenhite_to_celsius(degree: f64) -> Tempature {
+			      Tempature {
+			          value: degree / 32.0,
+			          unit: TempatureUnit::Celcius,
+			      }
+			  }
+			  
+			  fn parse_input(input: &str) -> Option<(Tempature, TempatureUnit)> {
+			      let mut words = input.split(' ');
+			      let value = words.next()?.parse::<f64>().expect("malformed input");
+			      let unit = match words.next()? {
+			          "C" => TempatureUnit::Celcius,
+			          "F" => TempatureUnit::Farenhite,
+			          _ => panic!("Unsupported unit"),
+			      };
+			      let tempature = Tempature { value, unit };
+			      let target = match words.next()? {
+			          "C" => TempatureUnit::Celcius,
+			          "F" => TempatureUnit::Farenhite,
+			          _ => panic!("Unsupported unit"),
+			      };
+			      Some((tempature, target))
+			  }
+			  
+			  ```
