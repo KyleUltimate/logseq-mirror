@@ -428,7 +428,6 @@
 	  }
 	  ```
 - # 結構體
-  collapsed:: true
 	- 與 **元組** 類似，但可以對每個欄位命名：
 	  ```rust
 	  struct User {
@@ -449,7 +448,16 @@
 	  
 	  user.email = String::from("anotheremail@example.com");
 	  ```
-- #
+- # 枚舉
+	- 通過列舉可能的成員，來將可能性以型別的方式顯現出來
+	- ```rust
+	  enum PokerType {
+	    Clubs,
+	    Spades,
+	    Diamonds,
+	    Hearts,
+	  }
+	  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
