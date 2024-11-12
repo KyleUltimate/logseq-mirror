@@ -247,17 +247,17 @@
 		  ```rust
 		  fn main() {
 		      let s = String::from("hello");
-		      print_str(s);
+		      let s = print_str(s);
 		      assert!(s == "hello hello");
-		      print_str(s);
+		      let s = print_str(s);
 		      assert!(s == "hello hello hello");
-		      print_str(s);
+		      let s = print_str(s);
 		      assert!(s == "hello hello hello hello");
-		      print_str(s);
+		      let s = print_str(s);
 		      assert!(s == "hello hello hello hello hello");
 		  }
 		  
-		  fn print_str(s: String) {
+		  fn print_str(s: String) -> String {
 		      s.push_str(" hello");
 		      println!("{}", s);
 		  }
