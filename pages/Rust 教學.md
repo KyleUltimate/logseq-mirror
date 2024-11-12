@@ -132,8 +132,34 @@
 		  ```
 		- 支援 `else if` 語法
 		  ```rust
+		  fn main() {
+		      let n = 6;
+		  
+		      if n % 4 == 0 {
+		          println!("divisible by 4");
+		      } else if n % 3 == 0 {
+		          println!("divisible by 3");
+		      } else if n % 2 == 0 {
+		          println!("divisible by 2");
+		      } else {
+		          println!("not divisible by 4, 3, or 2");
+		      }
+		  }
 		  ```
 	- ## `for`
+		- 語法：
+		  ```rust
+		  for 元素 in 集合 {
+		       
+		  }
+		  ```
+		- ```rust
+		  fn main() {
+		      for i in 1..=5 {
+		          println!("{}", i);
+		      }
+		  }
+		  ```
 	- ## `while`
 	- ## `loop`
 - # 所有權 & 借用
