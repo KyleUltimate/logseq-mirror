@@ -649,7 +649,12 @@
 	      }
 	  }
 	  ```
-	- 因為 Option
+	- 對於 Option，可利用 `.expect()` 來達成一樣的效果
+	  ```rust
+	  fn add_maybe_number(x: i32, y: Option<i32>) -> i32 {
+	    	x + y.expect("You must provied a y value")
+	  }
+	  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
@@ -665,3 +670,4 @@
 	- ## 推薦使用的函式
 		- 將 input 用空格分開
 			- `let values = input.split(' ').collect::<Vec<&str>>()`
+			- `values` 是一個 `Vec`
