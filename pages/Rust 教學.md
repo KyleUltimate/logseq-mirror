@@ -600,6 +600,10 @@
 	- #+BEGIN_IMPORTANT
 	  在模式配對中，必須列出**所有**的可能性!
 	  #+END_IMPORTANT
+	- ## Option 使用
+		- ### match
+		  ```rust
+		  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
