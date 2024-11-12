@@ -199,10 +199,11 @@
 		  }
 		  
 		  fn print_str(s: &String) {
+		      // s.push_str(" hello"); 此行刪除會得到 compile error
 		    	println!("{}", s);
 		  }
 		  ```
-		- **可變借用**也是可以的：
+		- **可變借用**：
 		  ```rust
 		  fn main() {
 		    	let s = String::from("hello");
