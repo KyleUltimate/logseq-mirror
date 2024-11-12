@@ -121,6 +121,17 @@
 	- ## `if`
 		- 本身即是 **表達式**：
 		  ```rust
+		  fn main() {
+		    	let condition = true;
+		      let number = if condition {
+		        	5
+		    	} else {
+		        	6
+		    	};
+		  }
+		  ```
+		- 支援 `else if` 語法
+		  ```rust
 		  ```
 	- ## `for`
 	- ## `while`
