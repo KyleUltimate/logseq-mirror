@@ -299,21 +299,18 @@
 		  fn main() {
 		      let mut s = String::from("hello world");
 		  
-		      let word = borrow_word(&s);
+		      let word = &s
 		  
 		      s.clear();
 		  
 		      println!("borrowed word is: {}", word);
-		  }
-		  fn borrow_word(s: &String) -> &str {
-		      &s
 		  }
 		  ```
 		- ```rust
 		  fn main() {
 		      let mut s = String::from("hello world");
 		  
-		      let word: &str = borrow_word(&s);
+		      let word: &str = &s;
 		  
 		      s.clear();
 		  
