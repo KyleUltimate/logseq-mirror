@@ -531,7 +531,7 @@
 	      _ => 表達式3
 	  }
 	  ```
-	  `match` 的
+	  `match` 的結果本身也是一種表達式
 	- ## 用法（一）
 	  ```rust
 	  enum Coin {
@@ -658,6 +658,7 @@
 	  }
 	  ```
 - # 測試
+	- 可利用 Compiler Explorer 或是 Rust Playground 進行撰寫
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
 	- ```rust
@@ -673,6 +674,7 @@
 		- 將 input 用空格分開，並存到 `Vec` 裡面
 			- `let values: Vec<&str> = input.split(' ').collect()`
 	- ## 解答
+	  collapsed:: true
 		- ```rust
 		  pub enum TempatureUnit {
 		      Celcius,
