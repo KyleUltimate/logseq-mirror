@@ -50,6 +50,8 @@
 	- ## `bool`
 		- **布林**
 		- 為 `true` 或 `false`
+- # `println!()`
+	-
 - # 函數宣告
 	- ![image.png](../assets/image_1731148907978_0.png){:height 340, :width 774}
 	- 簡單來說，與其他語言的差異：
