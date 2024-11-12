@@ -383,6 +383,9 @@
 		  `s.push_str` ：向最後新增一個切片
 		  `s.push()` ：向最後新增一個 `char`
 		- `String::new()` 新增一個空的 `String`
+		- ### parse()
+		  ```rust
+		  ```
 		- ### `format!` -- 與 `println!` 語法類似
 		  ```rust
 		  fn main() {
@@ -422,4 +425,15 @@
 	  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
-	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏`
+	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
+	- ```rust
+	  fn main() {
+	      let input = std::io::stdin()
+	          .lines()
+	          .map_while(Result::ok)
+	          .next()
+	          .expect("not valid input string");
+	  }
+	  
+	  
+	  ```
