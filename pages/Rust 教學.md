@@ -376,4 +376,11 @@
 		  `s.push_str` ：向最後新增一個切片
 		  `s.push()` ：向最後新增一個 `char`
 		- `String::new()` 新增一個空的 `String`
--
+- # 元組
+	- 將多個不同類型**組合**成一個新的類型
+	- ## 語法`(type1, type2, type3)`
+	- ```rust
+	  fn main() {
+	      let tup: (i32, f64, u8) = (500, 6.4, 1);
+	  }
+	  ```
