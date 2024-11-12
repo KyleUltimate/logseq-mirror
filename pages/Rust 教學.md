@@ -350,7 +350,9 @@
 		  }
 		  
 		  fn greet(name: String) -> &str {
-		    	println!("Hello, {}!", name);
+		    	println!("Hello, {}!", name[0..=1]);
+		    	&name[0..=1]
+		    	// Hello, Ky
 		  }
 		  ```
 -
