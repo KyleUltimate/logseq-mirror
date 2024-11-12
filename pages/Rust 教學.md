@@ -501,6 +501,16 @@
 		      None,
 		  }
 		  ```
+		- #+BEGIN_TIP
+		  為何要如此？
+		  因為 Option<T> 與 T 的類型不同，所以以下程式碼編譯不會通過
+		  #+END_TIP
+		  ```rust
+		  let x: i8 = 5;
+		  let y: Option<i8> = Some(5);
+		  
+		  let sum = x + y;
+		  ```
 		-
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
