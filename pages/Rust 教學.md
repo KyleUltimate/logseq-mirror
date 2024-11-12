@@ -349,7 +349,7 @@
 		    	// `&` 非常重要
 		  }
 		  ```
-		- 可利用`[a..b]` 進行
+		- 可利用`[a..b]` 進行數據切片
 		  ```rust
 		  fn main() {
 		    	let my_name = String::from("Kyle");
@@ -362,4 +362,15 @@
 		    	first_two_letters
 		  }
 		  ```
+	- ## String 的方法
+		- ```rust
+		  fn main() {
+		      let mut s = String::new();
+		      s.push_str("hello, world");
+		      s.push('!');
+		  
+		      assert_eq!(s, "hello, world!");
+		  }
+		  ```
+		-
 -
