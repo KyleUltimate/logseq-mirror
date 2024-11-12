@@ -383,11 +383,11 @@
 		  `s.push_str` ：向最後新增一個切片
 		  `s.push()` ：向最後新增一個 `char`
 		- `String::new()` 新增一個空的 `String`
-		- ### parse()
+		- ### .parse() 將 String 轉為數字
 		  ```rust
 		  fn main() {
 		    	let string = String::new("237.3");
-		      let value = string.parse::<f64>().expect("malformed input");
+		      let value = string.parse::<f64>().expect("malformed input"); // 需要 `.expect()` 成功
 		  }
 		  ```
 		- ### `format!` -- 與 `println!` 語法類似
