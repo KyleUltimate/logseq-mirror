@@ -372,7 +372,8 @@
 		      assert_eq!(s, "Kyle, hello, world!");
 		  }
 		  ```
-		  - `String::from("Kyle")`：透過 `&str` 宣告 String
-		  - `s.push_str` 向最後
+		  `String::from("Kyle")`：透過 `&str` 宣告 String
+		  `s.push_str` ：向最後新增一個切片
+		  `s.push()` ：向最後新增一個 `char`
 		-
 -
