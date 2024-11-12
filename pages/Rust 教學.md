@@ -225,4 +225,21 @@
 		  2. 在 **同一時間下** ，存在可變借用：不得存在其他不可變借用
 		- 基於此原因，有時，我們反而會**避免**使用可變借用，反而轉換成利用 **所有權轉移** 來實行操作
 		  ```rust
+		  fn main() {
+		      let s = String::from("hello");
+		      print_str(s);
+		      assert!(s == "hello hello");
+		      print_str(s);
+		      assert!(s == "hello hello hello");
+		      print_str(s);
+		      assert!(s == "hello hello hello hello");
+		      print_str(s);
+		      assert!(s == "hello hello hello hello hello");
+		  }
+		  
+		  fn print_str(s: String) {
+		      s.push_str(" hello");
+		      println!("{}", s);
+		  }
+		  
 		  ```
