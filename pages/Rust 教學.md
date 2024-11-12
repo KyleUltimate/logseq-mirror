@@ -385,6 +385,10 @@
 		- `String::new()` 新增一個空的 `String`
 		- ### parse()
 		  ```rust
+		  fn main() {
+		    	let string = String::new("237.3");
+		      let value = string.parse::<f64>().expect("malformed input");
+		  }
 		  ```
 		- ### `format!` -- 與 `println!` 語法類似
 		  ```rust
