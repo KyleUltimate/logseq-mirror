@@ -620,6 +620,7 @@
 			  }
 			  ```
 - # Vector
+	- 在 Rust 中，類型名為 `Vec<T>`，代表整個數組只能儲存同一種型別
 	- ## 宣告及使用
 	  ```rust
 	  let v = vec![1,2,3];
@@ -630,7 +631,13 @@
 	    	None => println!("Damn nothing exists.")
 	  }
 	  ```
-	-
+	- ## 遍歷元素
+	  ```rust
+	  let v = vec![1, 2, 3];
+	  for i in &v {
+	      println!("{i}");
+	  }
+	  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
