@@ -303,7 +303,7 @@
 		  
 		      s.clear();
 		  
-		      println!("the first word is: {}", word);
+		      println!("borrowed word is: {}", word);
 		  }
 		  fn borrow_word(s: &String) -> &str {
 		      &s
