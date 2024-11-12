@@ -493,7 +493,14 @@
 	  }
 	  
 	  ```
-	- ``
+	- ## `Option`
+		- 在 Rust，沒有 `null` 的概念，但可用 `Option` 來表示 **空值**
+		  ```rust
+		  enum Option<T> { // T 代表任意數據類型
+		      Some(T),
+		      None,
+		  }
+		  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
