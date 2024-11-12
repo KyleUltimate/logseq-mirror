@@ -329,6 +329,7 @@
 		  
 		  ```
 - # String
+  collapsed:: true
 	- 在 Rust 中，用 `""` 宣告的字串類別是 `&str` 而非 String
 	- ```rust
 	  fn main() {
@@ -377,6 +378,7 @@
 		  `s.push()` ：向最後新增一個 `char`
 		- `String::new()` 新增一個空的 `String`
 - # 元組
+  collapsed:: true
 	- 將多個不同類型**組合**成一個新的類型
 	- ## 語法`(type1, type2, type3)`
 	  ```rust
@@ -388,6 +390,20 @@
 	    	let c = tuple.2;
 	  }
 	  ```
-	- ## 常用於回傳值
+	- ## 常用於**回傳值**
 	  ```rust
+	  fn main() {
+	      let s1 = String::from("hello");
+	  
+	      let (s2, len) = calculate_length(s1);
+	    
+	    	// s2 的大小是 len
+	  }
+	  
+	  fn calculate_length(s: String) -> (String, usize) {
+	      let length = s.len(); // len() 返回字符串的长度
+	  
+	      (s, length)
+	  }
 	  ```
+-
