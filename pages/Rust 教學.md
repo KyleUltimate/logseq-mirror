@@ -620,9 +620,17 @@
 			  }
 			  ```
 - # Vector
-	- ```rust
+	- ## 宣告及使用
+	  ```rust
 	  let v = vec![1,2,3];
+	  let first_element = v[0];
+	  
+	  match v.get(2) {
+	    	Some(third) => println!("Third element exists! {}", x),
+	    	None => println!("Damn nothing exists.")
+	  }
 	  ```
+	-
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
 	- 輸入格式如下 `243 C F` 代表 `從 243 攝氏到華氏
