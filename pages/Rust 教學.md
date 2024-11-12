@@ -518,6 +518,7 @@
 		  在 ((67336fdf-8b40-4cdb-9338-bae17b0b63f3)) 會做介紹
 - # 模式配對
   id:: 67336fdf-8b40-4cdb-9338-bae17b0b63f3
+	-
 	- ## 語法
 	  ```rust
 	  match target {
@@ -530,6 +531,7 @@
 	      _ => 表達式3
 	  }
 	  ```
+	  `match` 的
 	- ## 用法（一）
 	  ```rust
 	  enum Coin {
@@ -671,7 +673,6 @@
 		- 將 input 用空格分開，並存到 `Vec` 裡面
 			- `let values: Vec<&str> = input.split(' ').collect()`
 	- ## 解答
-	  collapsed:: true
 		- ```rust
 		  pub enum TempatureUnit {
 		      Celcius,
