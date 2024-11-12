@@ -350,9 +350,9 @@
 		  }
 		  
 		  fn greet(name: String) -> &str {
-		    	println!("Hello, {}!", name[0..=1]);
-		    	&name[0..=1]
-		    	// Hello, Ky
+		    	let first_two_letters = &name[0..=1];
+		    	println!("Hello, {}!", first_two_letters);
+		    	first_two_letters
 		  }
 		  ```
 -
