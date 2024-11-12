@@ -668,6 +668,6 @@
 	  }
 	  ```
 	- ## 推薦使用的函式
-		- 將 input 用空格分開
-			- `let values = input.split(' ').collect::<Vec<&str>>()`
-			- `values` 是一個 `Vec`
+		- 將 input 用空格分開，並存到 `Vec` 裡面
+		  collapsed:: true
+			- `let values: Vec<&str> = input.split(' ').collect()`
