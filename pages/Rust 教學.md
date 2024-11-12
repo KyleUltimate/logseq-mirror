@@ -530,8 +530,29 @@
 	      _ => 表達式3
 	  }
 	  ```
-	- ## 用法
+	- ## 用法（一）
 	  ```rust
+	  enum Coin {
+	      Penny,
+	      Nickel,
+	      Dime,
+	      Quarter,
+	  }
+	  
+	  fn value(coin: Coin) -> u8 {
+	      match coin {
+	          Coin::Penny =>  {
+	              println!("You got a penny!");
+	              1
+	          },
+	          Coin::Nickel => 5,
+	          Coin::Dime => 10,
+	          Coin::Quarter => 25,
+	      }
+	  }
+	  ```
+	- ## 用法（二）
+	   ```rust
 	  ```
 - # 測試
 	- `input` 是使用者所輸入的第一行 `String`
