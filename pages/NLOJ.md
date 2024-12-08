@@ -1,5 +1,6 @@
 # 安裝
 	- `curl -sSL https://raw.githubusercontent.com/JustSimplyKyle/nloj/main/scripts/install.sh | DB_PASSWORD=nlhs bash -s`
+	-
 - # 啟用
 	- `sudo systemctl enable --now nginx`
 	- `sudo systemctl enable --now tioj-judge`
@@ -10,7 +11,7 @@
 		- `SELECT * FROM judge_servers;`
 	- ## 贖回資料庫
 		- `mysql -u root -p tioj_production < backup.sql`
-	- ## 將 `key` 更新為在步驟一所得到的 `key`
+	- 將 `/etc/tioj-judge.conf` 的 `tioj_key` 改成步驟一所得到的 `key`
 - # 更新
 	- 當你對任何 html 檔案，或是更改圖片時
 	- 需執行 `update.sh` 將變更上傳到伺服器上面
