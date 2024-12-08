@@ -1,8 +1,5 @@
 # 安裝
-	- `cd ~/`
-	- `git clone https://github.com/JustSimplyKyle/nloj`
-	- `cd tioj`
-	- `curl -sSL https://raw.githubusercontent.com/TIOJ-INFOR-Online-Judge/tioj/main/scripts/install.sh | DB_PASSWORD=nlhs bash -s`
+	- `curl -sSL https://raw.githubusercontent.com/JustSimplyKyle/nloj/main/scripts/install.sh | DB_PASSWORD=nlhs bash -s`
 - # 啟用
 	- `sudo systemctl enable --now nginx`
 	- `sudo systemctl enable --now tioj-judge`
