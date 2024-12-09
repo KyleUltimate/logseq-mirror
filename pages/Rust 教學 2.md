@@ -6,7 +6,6 @@
 	- 合法借用練習
 	  https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=509d395397ca3d70e70d04d74b30ad23
 - # 方法(method)
-  collapsed:: true
 	- 定義：能存取**結構體**的資料的函式
 	- ```rust
 	  enum Gender {
@@ -113,8 +112,8 @@
 		  ```
 - # 特徵與泛型(traits and generics)
 	- ## 泛型
-		-
+		- 定義：使得以函數接受**多種**型別。
+		- ((6756de66-b4b6-40c3-994b-48d4f8efc2c8))
 	- ## 特徵
 		- 定義：說明結構體具有**哪些函數**，但實現留給結構體。
-		- ((6756de66-b4b6-40c3-994b-48d4f8efc2c8))
-		-
+		- ((6756de66-e1e7-4c7e-aedc-db35dcdee79b))
