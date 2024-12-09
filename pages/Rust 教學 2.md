@@ -41,7 +41,6 @@
 	  }
 	  ```
 	- 利用方法，可以將 `print_person` 「寫在」 `Person` 結構體裡面
-	  collapsed:: true
 		- ```rust
 		  enum Gender {
 		   	Boy,
