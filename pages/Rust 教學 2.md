@@ -112,22 +112,9 @@
 		  }
 		  ```
 - # 特徵與泛型(traits and generics)
+	- ## 泛型
+		-
 	- ## 特徵
 		- 定義：說明結構體具有**哪些函數**，但實現留給結構體。
-		- ```rust
-		  trait Printable {
-		    	fn print();
-		  }
-		  
-		  struct Person {
-		    	age: u8,
-		    	name: String,
-		  }
-		  
-		  struct Cat {
-		    	age: u8,
-		    	owner: String,
-		  }
-		  
-		  // 
-		  ```
+		- ((6756de66-b4b6-40c3-994b-48d4f8efc2c8))
+		-
