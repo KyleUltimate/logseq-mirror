@@ -268,6 +268,7 @@
 		- `ranges::all_of`：確認**所有**的元素皆符合 `func` 所設置的條件
 		- `ranges::any_of`：確認**任意**元素有符合 `func` 所設置的條件
 	- ## `std::ranges::fold_left(range, value, func)`
+	  id:: 670fc066-2565-495b-a33b-1292f3fc4d29
 		- 可以視為，有著「記憶」的 for loop
 		- 結果：把所有 elements 給 「折起來」"fold" 成一個數值
 		- ![image.png](../assets/image_1729603264016_0.png){:height 391, :width 995}
