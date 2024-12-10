@@ -119,4 +119,38 @@
 - # 習題練習
 	- ((67336fdf-8b40-4cdb-9338-bae17b0b63f3)) 練習
 		- ```rust
+		  #[derive(PartialEq)]
+		  enum Message {
+		      Quit,
+		      Move { x: i32, y: i32 },
+		      Write(String),
+		      ChangeColor(i32, i32, i32),
+		  }
+		  
+		  fn main() {
+		      let msgs = [
+		          Message::Quit,
+		          Message::Move { x: 1, y: 3 },
+		          Message::ChangeColor(255,255,0)
+		      ];
+		  
+		      for msg in msgs {
+		          show_message(msg)
+		      }
+		  } 
+		  
+		  fn show_message(msg: Message) {
+		      match msg {
+		          __ => { // 匹配到 `Message::Move`
+		              assert_eq!(a, 1);
+		              assert_eq!(b, 3);
+		          },
+		          Message::ChangeColor(r, g, b) => {
+		            	assert_eq!(r, __)
+		              assert_eq!(g, __);
+		              assert_eq!(b, __);
+		          }
+		          x => assert_eq!(x, Message::Quit),
+		      }
+		  }
 		  ```
