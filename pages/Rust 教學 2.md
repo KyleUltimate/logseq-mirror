@@ -182,6 +182,7 @@
 - [[迭代器]]
 - # 習題練習
 	- ((67336fdf-8b40-4cdb-9338-bae17b0b63f3)) 練習
+	  collapsed:: true
 		- ```rust
 		  #[derive(PartialEq)]
 		  enum Message {
@@ -218,3 +219,4 @@
 		      }
 		  }
 		  ```
+	- ((6733604c-d3e1-4ea7-906c-ee9e7ac5e442))

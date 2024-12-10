@@ -667,6 +667,7 @@
 	  }
 	  ```
 - # 測試
+  id:: 6733604c-d3e1-4ea7-906c-ee9e7ac5e442
 	- 可利用 [Compiler Explorer (godbolt.org)](https://godbolt.org/z/EeaYf5fns) 或是 [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021) 進行撰寫
 	- ## 華氏攝氏轉換器
 		- `input` 是使用者所輸入的第一行 `String`
