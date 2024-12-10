@@ -128,29 +128,38 @@
 		- `Err(E)` 代表的是失敗的話，他的錯誤訊息
 	- ```rust
 	  use std::fs::File;
-	  
-	  fn main() {
-	    	let f = File::open("hello.txt"); // 透過文檔查詢可知回傳 `Result`
-	    	let f = match f {
-	      	Ok(file) => file,
-	        	Err(error) => {
-	          	panic!("Can't open file!");
-	        	}
-	    	};
-	  }
-	  ```
-	- ```rust
-	  use std::fs::File;
-	  use std::io;
-	  use std::io::Read;
+	  use std::io::{self, Read};
 	  
 	  fn read_username_from_file() -> Result<String, io::Error> {
-	      let mut f = File::open("hello.txt")?;
+	      let f = File::open("hello.txt");
+	  
+	      let mut f = match f {
+	          Ok(file) => file,
+	          Err(e) => return Err(e),
+	      };
+	  
 	      let mut s = String::new();
-	      f.read_to_string(&mut s)?;
-	      Ok(s)
+	  
+	      match f.read_to_string(&mut s) {
+	          Ok(_) => Ok(s),
+	          // 将错误向上传播
+	          Err(e) => Err(e),
+	      }
 	  }
 	  ```
+	- ## 超級好用的 `?`
+		- ```rust
+		  use std::fs::File;
+		  use std::io;
+		  use std::io::Read;
+		  
+		  fn read_username_from_file() -> Result<String, io::Error> {
+		      let mut f = File::open("hello.txt")?;
+		      let mut s = String::new();
+		      f.read_to_string(&mut s)?;
+		      Ok(s)
+		  }
+		  ```
 	- 高速
 - [[迭代器]]
 - # 習題練習
