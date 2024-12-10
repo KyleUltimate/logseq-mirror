@@ -127,6 +127,11 @@
 		- `Ok(T)` 代表的是成功運行的值
 		- `Err(E)` 代表的是失敗的話，他的錯誤訊息
 	- ```rust
+	  use std::fs::File;
+	  
+	  fn main() {
+	    	let f = File::open("hello.txt");
+	  }
 	  ```
 - [[迭代器]]
 - # 習題練習
