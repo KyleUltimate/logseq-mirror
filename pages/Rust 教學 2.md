@@ -161,7 +161,22 @@
 		      Ok(s)
 		  }
 		  ```
-	- ## 當具有多種
+	- ### 當具有多種錯誤型別是該怎麼辦？
+		- ```rust
+		  use std::fs::File;
+		  use std::io;
+		  use std::io::Read;
+		  
+		  fn read_username_from_file() -> Result<String, io::Error> {
+		      let mut f = File::open("hello.txt")?;
+		      let mut s = String::new();
+		      f.read_to_string(&mut s)?;
+		    	if s.contains("kyle") {
+		       	return Err("wow you contain kyle"); 
+		    	}
+		      Ok(s)
+		  }
+		  ```
 	- 高速
 - [[迭代器]]
 - # 習題練習
