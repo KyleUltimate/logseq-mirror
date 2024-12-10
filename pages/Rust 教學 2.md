@@ -130,9 +130,16 @@
 	  use std::fs::File;
 	  
 	  fn main() {
-	    	let f = File::open("hello.txt");
+	    	let f = File::open("hello.txt"); // 透過文檔查詢可知回傳 `Result`
+	    	let f = match f {
+	      	Ok(file) => file,
+	        	Err(error) => {
+	          	panic!("Can't open file!");
+	        	}
+	    	};
 	  }
 	  ```
+	- 高速
 - [[迭代器]]
 - # 習題練習
 	- ((67336fdf-8b40-4cdb-9338-bae17b0b63f3)) 練習
