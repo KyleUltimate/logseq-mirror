@@ -131,6 +131,7 @@
 	  use std::io::{self, Read};
 	  
 	  fn read_username_from_file() -> Result<String, io::Error> {
+	    	// 回傳 `Result<File, io::Error>`
 	      let f = File::open("hello.txt");
 	  
 	      let mut f = match f {
@@ -140,9 +141,9 @@
 	  
 	      let mut s = String::new();
 	  
+	    	// 回傳 `Result<(), io::Error>`
 	      match f.read_to_string(&mut s) {
 	          Ok(_) => Ok(s),
-	          // 将错误向上传播
 	          Err(e) => Err(e),
 	      }
 	  }
@@ -160,6 +161,7 @@
 		      Ok(s)
 		  }
 		  ```
+	- ## 當具有多種
 	- 高速
 - [[迭代器]]
 - # 習題練習
