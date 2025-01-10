@@ -6,12 +6,12 @@
 fn main() -> anyhow::Result<()>{
     something_that_returns_err()?;
     something_returning_different_err()?
-   Ok(())
+    Ok(())
 }
 ```
 由上述可知，要利用其它套件時，利用 `package::item` 來存取。
 - 另一個好用套件包是 `reqwest`
-  e.g. `cargo add reqewst`
+  e.g. `cargo add reqwest`
   功能：各種網路相關的方法。
   https://docs.rs/reqwest/latest/reqwest/
 - # 讓其他包存取你的函數、結構體
@@ -25,7 +25,7 @@ fn main() -> anyhow::Result<()>{
   pub fn create_user() -> User {}
   struct Private;`
   ```
-  2. 在另一個檔案：
+  2. 在 `main.rs`：
   ```rust
   mod user // 因為叫做 user.rs，所以先宣告這個包
   use user::User // 將 User "include" 進來
@@ -39,7 +39,7 @@ fn main() -> anyhow::Result<()>{
   ```
 - # 有用的工具
 	- ## 接受命令列參數
-	  利用此函數：`std::env::args()`（https://doc.rust-lang.org/beta/std/env/fn.args.html#examples）
+	  利用此函數：`std::env::args()`（`https://doc.rust-lang.org/beta/std/env/fn.args.html#examples`）
 	- ## 接受使用者輸入
 	  利用此函數：`std::io::stdin()` 獲取一個能操縱 `input` 的結構體
 	- ## 讀取檔案
