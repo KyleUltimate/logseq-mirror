@@ -5,35 +5,7 @@
 {:block/uuid #uuid "6781ffc8-c8b3-4141-9b1e-c41645872df1"}
 :block/parent 
 {:block/uuid #uuid "6781ffc8-c8b3-4141-9b1e-c41645872df1"}
-:block/uuid #uuid "6781ffd8-2826-4e4b-bc01-86f9b9a2668f"} 
-{:block/created-at 1736572893338
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 0
-:scale [1 1]
-:pageId "6781ffd8-2826-4e4b-bc01-86f9b9a2668f"
-:scaleLevel "xxl"
-:fill ""
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [328 122.46086400849954]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "e84024c0-cfdb-11ef-8dcd-3bd99d9f0df1"
-:noFill false
-:point [256 432]
-:parentId "6781ffc8-c8b3-4141-9b1e-c41645872df1"
-:collapsedHeight 0
-:nonce 1736572887420}}
-:block/updated-at 1736572893338})
+:block/uuid #uuid "6781ffd8-2826-4e4b-bc01-86f9b9a2668f"})
 :pages (
 {:block/uuid #uuid "6781ffc8-c8b3-4141-9b1e-c41645872df1"
 :block/properties 
@@ -45,8 +17,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("e84024c0-cfdb-11ef-8dcd-3bd99d9f0df1")}}
-:block/updated-at 1736572893338
+:shapes-index ()}}
+:block/updated-at 1736572936810
 :block/created-at 1736572872139
 :block/type "whiteboard"
 :block/name "6781ffc8-c8b3-4141-9b1e-c41645872df1"
